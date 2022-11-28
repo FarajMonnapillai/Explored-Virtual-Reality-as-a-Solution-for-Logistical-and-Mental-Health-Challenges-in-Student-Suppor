@@ -773,7 +773,7 @@ PlayerSettings:
   webGLPowerPreference: 2
   scriptingDefineSymbols:
     Android: NORMCORE
-    Standalone: NORMCORE
+    Standalone: NORMCORE;READY_PLAYER_ME
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
