@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  socialvr:
+    image: socialvr
+    build:
+      context: .
+      dockerfile: ./Dockerfile

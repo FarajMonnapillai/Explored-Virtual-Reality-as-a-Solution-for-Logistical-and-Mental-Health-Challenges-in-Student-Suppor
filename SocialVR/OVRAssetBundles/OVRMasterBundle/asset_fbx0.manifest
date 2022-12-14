@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 329629316
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b3a2479d4db6d9218a52cbacebbb5ee5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1d8e5ac56cf5020d37cd7710cd1cd343
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/Teleport/TeleportMarker.fbx
+Dependencies:
+- C:/Users/vr_admin/Documents/2465104m/Social-Vr/SocialVR/OVRAssetBundles/OVRMasterBundle/asset_shader0

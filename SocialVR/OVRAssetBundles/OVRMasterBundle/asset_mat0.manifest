@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 2474291532
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 37816ec9807ca8f5b84ed755dcc7cc0c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f9f3d136959ac0e7043e721e899342fb
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Material/New Material 1.mat
+- Assets/Prefabs/Teleport/URPTeleportPointVisible.mat
+- Assets/Material/New Material 2.mat
+- Assets/Material/New Material.mat
+- Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+Dependencies:
+- C:/Users/vr_admin/Documents/2465104m/Social-Vr/SocialVR/OVRAssetBundles/OVRMasterBundle/asset_psd0
+- C:/Users/vr_admin/Documents/2465104m/Social-Vr/SocialVR/OVRAssetBundles/OVRMasterBundle/asset_shader0
