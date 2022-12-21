@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "com.unity.adaptiveperformance": "4.0.1",
+    "com.unity.adaptiveperformance.samsung.android": "4.0.2",
     "com.unity.animation.rigging": "1.1.1",
     "com.unity.collab-proxy": "1.17.7",
     "com.unity.ide.rider": "3.0.16",
@@ -13,6 +15,8 @@
     "com.unity.visualscripting": "1.7.8",
     "com.unity.xr.interaction.toolkit": "2.0.4",
     "com.unity.xr.management": "4.2.1",
+    "com.unity.xr.oculus": "3.2.2",
+    "com.unity.xr.openxr": "1.5.3",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -45,14 +49,5 @@
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
   },
-  "scopedRegistries": [
-    {
-      "name": "Normal",
-      "url": "https://normcore-registry.normcore.io",
-      "scopes": [
-        "com.normalvr",
-        "io.normcore"
-      ]
-    }
-  ]
+  "scopedRegistries": []
 }
