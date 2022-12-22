@@ -20,6 +20,7 @@ public class TestConnect : MonoBehaviourPunCallbacks
         Debug.Log("Connected to server.", this);
         print(PhotonNetwork.LocalPlayer.NickName);
 
+        if (!PhotonNetwork.InLobby)
             PhotonNetwork.JoinLobby();
     }
 

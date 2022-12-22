@@ -12,10 +12,31 @@ public class PlayerListingsMenu : MonoBehaviourPunCallbacks
     private PlayerListing _playerListing;
 
     private List<PlayerListing> _listings = new List<PlayerListing>(); 
+    private RoomsCanvases _roomCanvases;
+    private bool _ready = false;
 
-    private void Awake()
+    public override void OnEnable()
     {
+        base.OnEnable();
+        SetReadyup(false);
         GetCurrentRoomPlayers();
+
+    }
+
+
+    public override void OnDisable()
+    {
+        base.OnDisable();
+        for (int i = 0; i < _listings.Count; i++)
+            Destroy(_listings[i].gameObject);
+
+        _listings.Clear();
+    }
+
+
+    public void FirstInitialize(RoomsCanvases canvases)
+    {
+        _roomCanvases = canvases;
     }
 
     private void GetCurrentRoomPlayers()
@@ -28,11 +49,20 @@ public class PlayerListingsMenu : MonoBehaviourPunCallbacks
 
     private void AddPlayerLisiting(Player player)
     {
-        PlayerListing listing = Instantiate(_playerListing, _content);
-        if (listing != null)
+        int index = _listings.FindIndex(x => x.Player == player);
+        if (index != -1)
         {
-            listing.SetPlayerInfo(player);
-            _listings.Add(listing);
+            _listings[index].SetPlayerInfo(player);
+        }
+
+        else
+        {
+            PlayerListing listing = Instantiate(_playerListing, _content);
+            if (listing != null)
+            {
+                listing.SetPlayerInfo(player);
+                _listings.Add(listing);
+            }
         }
     }
 

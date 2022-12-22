@@ -21,7 +21,9 @@ public class RoomListingsMenu : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
-        _roomsCanvases.CurrentRoomCanvas.Show(); 
+        _roomsCanvases.CurrentRoomCanvas.Show();
+        _content.DestroyChildren();
+        _listings.Clear();
     }
 
     public override void OnRoomListUpdate(List<RoomInfo> roomList)
@@ -40,11 +42,15 @@ public class RoomListingsMenu : MonoBehaviourPunCallbacks
 
             else
             {
-                RoomListing listing = Instantiate(_roomListing, _content);
-                if (listing != null)
+                int index = _listings.FindIndex(x => x.RoomInfo.Name == info.Name);
+                if (index == -1)
                 {
-                    listing.SetRoomInfo(info);
-                    _listings.Add(listing);
+                    RoomListing listing = Instantiate(_roomListing, _content);
+                    if (listing != null)
+                    {
+                        listing.SetRoomInfo(info);
+                        _listings.Add(listing);
+                    }
                 }
             }                
         }   
