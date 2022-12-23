@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: 'UNiversity Of Glasgow '
+  companyName: UofG
   productName: SocialVR
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -137,6 +137,7 @@ PlayerSettings:
   bundleVersion: 0.1.0
   preloadedAssets:
   - {fileID: 0}
+  - {fileID: 11400000, guid: 9af3bdcb4feba264392bafbb00bf8825, type: 2}
   - {fileID: -7610150854268455005, guid: abf1da6de282d4b4db9f5784141ef848, type: 2}
   - {fileID: 6340141937126769407, guid: af7108725d2957e4e9f2b8ba5f7dc2b8, type: 2}
   - {fileID: 11400000, guid: 339ba95779d0e2546a939ad6a823e5ac, type: 2}
@@ -809,7 +810,7 @@ PlayerSettings:
   allowUnsafeCode: 0
   useDeterministicCompilation: 1
   enableRoslynAnalyzers: 1
-  selectedPlatform: 2
+  selectedPlatform: 0
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
   gcIncremental: 0
