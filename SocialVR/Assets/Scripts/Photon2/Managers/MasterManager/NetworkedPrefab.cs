@@ -17,11 +17,12 @@ public class NetworkedPrefab
     private string ReturnPrefabPathModified(string path)
     {
         int extensionLength = System.IO.Path.GetExtension(path).Length;
+        int additionalLength = 10;
         int startIndex = path.ToLower().IndexOf("resources");
 
         if (startIndex == -1)
             return string.Empty;
         else
-            return path.Substring(startIndex, path.Length - (startIndex + extensionLength));
+            return path.Substring(startIndex + additionalLength, path.Length - (additionalLength + startIndex + extensionLength));
     }
 }
