@@ -473,7 +473,7 @@ GameObject:
   - component: {fileID: 5530826353968533671}
   - component: {fileID: -760563716235769732}
   m_Layer: 0
-  m_Name: Floor_Light_A810_Artek
+  m_Name: Large_Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

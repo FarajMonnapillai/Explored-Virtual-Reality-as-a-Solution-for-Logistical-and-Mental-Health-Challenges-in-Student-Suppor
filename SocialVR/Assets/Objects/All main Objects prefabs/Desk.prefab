@@ -276,7 +276,7 @@ GameObject:
   - component: {fileID: -8373634034284972641}
   - component: {fileID: -3546672420402537119}
   m_Layer: 0
-  m_Name: Table_97_Artek
+  m_Name: Desk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

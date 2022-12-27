@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: -5198948582120751129}
   - component: {fileID: 782175973697221479}
   m_Layer: 0
-  m_Name: Plant_Potted_Monstera_Deliciosa
+  m_Name: Large_Plant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

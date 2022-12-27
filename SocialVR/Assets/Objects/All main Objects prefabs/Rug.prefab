@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8700636336800859800}
   - component: {fileID: 438459281795935222}
   m_Layer: 0
-  m_Name: Rug_High_Pile_Grey
+  m_Name: Rug
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

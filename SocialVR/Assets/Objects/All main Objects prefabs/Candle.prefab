@@ -5091,7 +5091,7 @@ GameObject:
   - component: {fileID: -4203602120639819066}
   - component: {fileID: 7695527863622199565}
   m_Layer: 0
-  m_Name: Taper_Candle_Holders
+  m_Name: Candle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

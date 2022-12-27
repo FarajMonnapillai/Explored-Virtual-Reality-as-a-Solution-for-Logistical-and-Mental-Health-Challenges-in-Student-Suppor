@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: -1410091803666746716}
   - component: {fileID: 3253018168688517574}
   m_Layer: 0
-  m_Name: Succulent_Planter_Ceramic
+  m_Name: Small_Plant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
