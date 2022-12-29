@@ -2641,7 +2641,25 @@ extern void TouchController_OnInputFocusLost_m6317EA5E49BEFAB15C37741C92DE17CC00
 extern void TouchController_OnInputFocusAcquired_m4CE35E8F9CA5C7E611193F2859EF5D72E4C6A106 (void);
 // 0x00000535 System.Void OVRTouchSample.TouchController::.ctor()
 extern void TouchController__ctor_mFEC6542E29C9A706269D2381487265DC207D4B25 (void);
-static Il2CppMethodPointer s_methodPointers[1333] = 
+// 0x00000536 System.Void UnityTemplateProjects.SimpleCameraController::OnEnable()
+extern void SimpleCameraController_OnEnable_mD5E060BED4E0C5C0D40AA39C0DA7AE44CAAB217D (void);
+// 0x00000537 UnityEngine.Vector3 UnityTemplateProjects.SimpleCameraController::GetInputTranslationDirection()
+extern void SimpleCameraController_GetInputTranslationDirection_m62C42A7966EF22CB95BB847225D2BE2441A3CE0C (void);
+// 0x00000538 System.Void UnityTemplateProjects.SimpleCameraController::Update()
+extern void SimpleCameraController_Update_mDB9A4DA6CC1C82A704D3575DC196F44F17E5E0B5 (void);
+// 0x00000539 System.Void UnityTemplateProjects.SimpleCameraController::.ctor()
+extern void SimpleCameraController__ctor_m224B705F449A3DA440346B08A6237479A91D7136 (void);
+// 0x0000053A System.Void UnityTemplateProjects.SimpleCameraController/CameraState::SetFromTransform(UnityEngine.Transform)
+extern void CameraState_SetFromTransform_m3A7302F4586F37F7C78EDA2F0C476BAA22672360 (void);
+// 0x0000053B System.Void UnityTemplateProjects.SimpleCameraController/CameraState::Translate(UnityEngine.Vector3)
+extern void CameraState_Translate_m561F6D92E99F13444FBAC8D5B1A40762A26219F9 (void);
+// 0x0000053C System.Void UnityTemplateProjects.SimpleCameraController/CameraState::LerpTowards(UnityTemplateProjects.SimpleCameraController/CameraState,System.Single,System.Single)
+extern void CameraState_LerpTowards_mFDC0E1CA19B6791CDB6EE8AC262944DC1143FCF9 (void);
+// 0x0000053D System.Void UnityTemplateProjects.SimpleCameraController/CameraState::UpdateTransform(UnityEngine.Transform)
+extern void CameraState_UpdateTransform_m03320D760E52E809272776B58C7E741B2EE1D73E (void);
+// 0x0000053E System.Void UnityTemplateProjects.SimpleCameraController/CameraState::.ctor()
+extern void CameraState__ctor_m33568E59E39C953BDE6CD28D35A34BE52AE25504 (void);
+static Il2CppMethodPointer s_methodPointers[1342] = 
 {
 	DebugUIBuilder_Awake_m0BA3E2D1D9093B1F9AAEE4BE803B7AC4E590A655,
 	DebugUIBuilder_Show_mC497EDD3C65CD45F75CB8E5EBBF09FD2C114762B,
@@ -3976,8 +3994,17 @@ static Il2CppMethodPointer s_methodPointers[1333] =
 	TouchController_OnInputFocusLost_m6317EA5E49BEFAB15C37741C92DE17CC0056DE15,
 	TouchController_OnInputFocusAcquired_m4CE35E8F9CA5C7E611193F2859EF5D72E4C6A106,
 	TouchController__ctor_mFEC6542E29C9A706269D2381487265DC207D4B25,
+	SimpleCameraController_OnEnable_mD5E060BED4E0C5C0D40AA39C0DA7AE44CAAB217D,
+	SimpleCameraController_GetInputTranslationDirection_m62C42A7966EF22CB95BB847225D2BE2441A3CE0C,
+	SimpleCameraController_Update_mDB9A4DA6CC1C82A704D3575DC196F44F17E5E0B5,
+	SimpleCameraController__ctor_m224B705F449A3DA440346B08A6237479A91D7136,
+	CameraState_SetFromTransform_m3A7302F4586F37F7C78EDA2F0C476BAA22672360,
+	CameraState_Translate_m561F6D92E99F13444FBAC8D5B1A40762A26219F9,
+	CameraState_LerpTowards_mFDC0E1CA19B6791CDB6EE8AC262944DC1143FCF9,
+	CameraState_UpdateTransform_m03320D760E52E809272776B58C7E741B2EE1D73E,
+	CameraState__ctor_m33568E59E39C953BDE6CD28D35A34BE52AE25504,
 };
-static const int32_t s_InvokerIndices[1333] = 
+static const int32_t s_InvokerIndices[1342] = 
 {
 	10548,
 	10548,
@@ -5312,6 +5339,15 @@ static const int32_t s_InvokerIndices[1333] =
 	10548,
 	10548,
 	10548,
+	10548,
+	10538,
+	10548,
+	10548,
+	8380,
+	8538,
+	2557,
+	8380,
+	10548,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[9] = 
 {
@@ -5372,7 +5408,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	1333,
+	1342,
 	s_methodPointers,
 	0,
 	NULL,
