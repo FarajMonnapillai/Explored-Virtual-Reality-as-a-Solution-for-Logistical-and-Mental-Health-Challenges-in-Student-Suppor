@@ -9196,6 +9196,8 @@ GameObject:
   - component: {fileID: 5686929326389896372}
   - component: {fileID: 5686929326389896362}
   - component: {fileID: 5686929326389896365}
+  - component: {fileID: 1600066995302621936}
+  - component: {fileID: 81651903297469431}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -9453,6 +9455,34 @@ MonoBehaviour:
   m_DefaultActionMap: Menu
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!81 &1600066995302621936
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5686929326389896368}
+  m_Enabled: 1
+--- !u!114 &81651903297469431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5686929326389896368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 113e4aa2cd3db44d1ac0cb7e9794964b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalGainDb: 0
+  occlusionMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  stereoSpeakerModeEnabled: 0
+  recorderSeamless: 0
+  recorderSourceTag: Untagged
+  recorderFoldout: 0
 --- !u!1 &5686929326428395458
 GameObject:
   m_ObjectHideFlags: 0

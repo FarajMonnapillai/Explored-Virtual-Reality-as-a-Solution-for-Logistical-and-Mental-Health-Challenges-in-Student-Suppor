@@ -20760,6 +20760,13 @@ IL_0013:
 		return;
 	}
 }
+// System.Void System.Runtime.InteropServices.Marshal::DestroyStructure(System.IntPtr,System.Type)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Marshal_DestroyStructure_mF018860370A0B6267ED44F655211ECE8A2BB75F7 (intptr_t ___0_ptr, Type_t* ___1_structuretype, const RuntimeMethod* method) 
+{
+	typedef void (*Marshal_DestroyStructure_mF018860370A0B6267ED44F655211ECE8A2BB75F7_ftn) (intptr_t, Type_t*);
+	using namespace il2cpp::icalls;
+	((Marshal_DestroyStructure_mF018860370A0B6267ED44F655211ECE8A2BB75F7_ftn)mscorlib::System::Runtime::InteropServices::Marshal::DestroyStructure) (___0_ptr, ___1_structuretype);
+}
 // System.Void System.Runtime.InteropServices.Marshal::FreeBSTR(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Marshal_FreeBSTR_m1354DE1199BA085F35023BFE88981968F113AF58 (intptr_t ___0_ptr, const RuntimeMethod* method) 
 {
