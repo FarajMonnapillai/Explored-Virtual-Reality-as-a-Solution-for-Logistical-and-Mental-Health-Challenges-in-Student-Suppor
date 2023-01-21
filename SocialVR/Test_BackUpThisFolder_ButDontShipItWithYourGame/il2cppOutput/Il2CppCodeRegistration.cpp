@@ -27,8 +27,6 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Facebook_Wit_TTS_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Facebook_Wit_TTS_Samples_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_LitJson_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Mono_Security_CodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_NaughtyAttributes_Core_CodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_NaughtyAttributes_Test_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Newtonsoft_Json_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Oculus_AudioManager_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Oculus_Interaction_CodeGenModule;
@@ -119,7 +117,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_WebView_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g___Generated_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[100] = 
+const Il2CppCodeGenModule* g_CodeGenModules[98] = 
 {
 	(&g_AssemblyU2DCSharp_CodeGenModule),
 	(&g_AssistantCoreSDKRuntime_CodeGenModule),
@@ -130,8 +128,6 @@ const Il2CppCodeGenModule* g_CodeGenModules[100] =
 	(&g_Facebook_Wit_TTS_Samples_CodeGenModule),
 	(&g_LitJson_CodeGenModule),
 	(&g_Mono_Security_CodeGenModule),
-	(&g_NaughtyAttributes_Core_CodeGenModule),
-	(&g_NaughtyAttributes_Test_CodeGenModule),
 	(&g_Newtonsoft_Json_CodeGenModule),
 	(&g_Oculus_AudioManager_CodeGenModule),
 	(&g_Oculus_Interaction_CodeGenModule),
@@ -227,18 +223,18 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	15,
 	g_ReversePInvokeWrapperPointers,
-	77239,
+	77054,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	17597,
+	17577,
 	g_Il2CppInvokerPointers,
-	2872,
+	2864,
 	g_UnresolvedVirtualMethodPointers,
-	1203,
+	1198,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	100,
+	98,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;
