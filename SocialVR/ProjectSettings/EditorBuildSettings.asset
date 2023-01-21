@@ -9,14 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Wating Room Test.unity
     guid: 163ba3c13f7933949b964501b1da0d85
   - enabled: 0
-    path: Assets/Scenes/Wating Room.unity
-    guid: fa1632da112c5a54d867438763e2a8db
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/Game.unity
-    guid: 8c3162e91e10548ce9c8ab97463dc1d5
-  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/Scenes/Main.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Test.unity
+    guid: 3c74170b9f12545548ba1a95e735b75e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9af3bdcb4feba264392bafbb00bf8825,
       type: 2}

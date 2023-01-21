@@ -10657,6 +10657,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SortingLayer_GetLayerValueFromID_mEB8
 	int32_t icallRetVal = _il2cpp_icall_func(___0_id);
 	return icallRetVal;
 }
+// System.Int32 UnityEngine.SortingLayer::NameToID(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SortingLayer_NameToID_mB0C15E6C033DEF20C30A66FF8658E32C1F4A6D13 (String_t* ___0_name, const RuntimeMethod* method) 
+{
+	typedef int32_t (*SortingLayer_NameToID_mB0C15E6C033DEF20C30A66FF8658E32C1F4A6D13_ftn) (String_t*);
+	static SortingLayer_NameToID_mB0C15E6C033DEF20C30A66FF8658E32C1F4A6D13_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (SortingLayer_NameToID_mB0C15E6C033DEF20C30A66FF8658E32C1F4A6D13_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SortingLayer::NameToID(System.String)");
+	int32_t icallRetVal = _il2cpp_icall_func(___0_name);
+	return icallRetVal;
+}
 // System.String UnityEngine.SortingLayer::IDToName(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SortingLayer_IDToName_m33D2DB1FAF81A088A6EED260A1A68137625AE0B1 (int32_t ___0_id, const RuntimeMethod* method) 
 {
