@@ -213,6 +213,12 @@ UnityEngine.Animation::GetStateCount
 UnityEngine.Animation::Rewind
 UnityEngine.Animation::GetStateAtIndex
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+UnityEngine.AnimationClip::Internal_CreateAnimationClip
+UnityEngine.AnimationClip::SetCurve
+UnityEngine.AnimationClip::set_legacy
+>>>>>>> Stashed changes
 =======
 UnityEngine.AnimationClip::Internal_CreateAnimationClip
 UnityEngine.AnimationClip::SetCurve
@@ -257,6 +263,11 @@ UnityEngine.Animator::SetTriggerString
 UnityEngine.Animator::get_deltaPosition_Injected
 UnityEngine.Animator::set_applyRootMotion
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+UnityEngine.Animator::set_avatar
+UnityEngine.Animator::set_runtimeAnimatorController
+>>>>>>> Stashed changes
 =======
 UnityEngine.Animator::set_avatar
 UnityEngine.Animator::set_runtimeAnimatorController
@@ -269,6 +280,10 @@ UnityEngine.Application::get_runInBackground
 UnityEngine.Application::get_targetFrameRate
 UnityEngine.Application::get_companyName
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+UnityEngine.Application::get_dataPath
+>>>>>>> Stashed changes
 =======
 UnityEngine.Application::get_dataPath
 >>>>>>> Stashed changes
@@ -282,6 +297,10 @@ UnityEngine.Application::get_version
 UnityEngine.Application::OpenURL
 UnityEngine.Application::Quit
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+UnityEngine.Application::SetLogCallbackDefined
+>>>>>>> Stashed changes
 =======
 UnityEngine.Application::SetLogCallbackDefined
 >>>>>>> Stashed changes
@@ -304,7 +323,10 @@ UnityEngine.Audio.AudioMixerSnapshot::get_audioMixer
 UnityEngine.AudioClip::GetData
 UnityEngine.AudioClip::SetData
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 UnityEngine.AudioClip::get_ambisonic
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 UnityEngine.AudioClip::get_channels
@@ -323,7 +345,10 @@ UnityEngine.AudioSettings::GetConfiguration_Injected
 UnityEngine.AudioSettings::GetDSPBufferSize
 UnityEngine.AudioSource::GetAmbisonicDecoderFloat
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 UnityEngine.AudioSource::SetAmbisonicDecoderFloat
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 UnityEngine.AudioSource::SetSpatializerFloat
@@ -331,7 +356,10 @@ UnityEngine.AudioSource::get_isPlaying
 UnityEngine.AudioSource::get_loop
 UnityEngine.AudioSource::get_mute
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 UnityEngine.AudioSource::get_playOnAwake
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 UnityEngine.AudioSource::get_spatialize
@@ -407,7 +435,10 @@ UnityEngine.Camera::SetLayerCullDistances
 UnityEngine.Camera::SetStereoProjectionMatrix_Injected
 UnityEngine.Camera::SetStereoViewMatrix_Injected
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 UnityEngine.Camera::ViewportPointToRay_Injected
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 UnityEngine.Camera::WorldToScreenPoint_Injected
@@ -511,7 +542,10 @@ UnityEngine.CapsuleCollider::set_direction
 UnityEngine.CapsuleCollider::set_height
 UnityEngine.CapsuleCollider::set_radius
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 UnityEngine.CharacterController::SimpleMove_Injected
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 UnityEngine.CharacterController::get_isGrounded
@@ -715,9 +749,13 @@ UnityEngine.GameObject::CompareTag
 UnityEngine.GameObject::get_activeInHierarchy
 UnityEngine.GameObject::get_activeSelf
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 UnityEngine.GameObject::get_isStatic
 UnityEngine.GameObject::get_layer
 UnityEngine.GameObject::get_tag
+=======
+UnityEngine.GameObject::get_layer
+>>>>>>> Stashed changes
 =======
 UnityEngine.GameObject::get_layer
 >>>>>>> Stashed changes
@@ -897,6 +935,11 @@ UnityEngine.GUIUtility::set_mouseUsed
 UnityEngine.GUIUtility::set_systemCopyBuffer
 UnityEngine.Hash128::Hash128ToStringImpl_Injected
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+UnityEngine.Hash128::ComputeFromString
+UnityEngine.ImageConversion::LoadImage
+>>>>>>> Stashed changes
 =======
 UnityEngine.Hash128::ComputeFromString
 UnityEngine.ImageConversion::LoadImage
@@ -1005,6 +1048,11 @@ UnityEngine.LineRenderer::set_useWorldSpace
 UnityEngine.LineRenderer::set_widthMultiplier
 UnityEngine.LineRenderer::GetColorGradientCopy
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+UnityEngine.LODGroup::RecalculateBounds
+UnityEngine.LODGroup::SetLODs
+>>>>>>> Stashed changes
 =======
 UnityEngine.LODGroup::RecalculateBounds
 UnityEngine.LODGroup::SetLODs
@@ -1018,11 +1066,17 @@ UnityEngine.Material::ComputeCRC
 UnityEngine.Material::FindPass
 UnityEngine.Material::GetFirstPropertyNameIdByAttribute
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 UnityEngine.Material::GetFloatArrayCountImpl
 UnityEngine.Material::get_passCount
 UnityEngine.Material::get_rawRenderQueue
 UnityEngine.Material::GetFloatImpl
 UnityEngine.Material::GetFloatArrayImpl
+=======
+UnityEngine.Material::get_passCount
+UnityEngine.Material::get_rawRenderQueue
+UnityEngine.Material::GetFloatImpl
+>>>>>>> Stashed changes
 =======
 UnityEngine.Material::get_passCount
 UnityEngine.Material::get_rawRenderQueue
@@ -1041,7 +1095,10 @@ UnityEngine.Material::SetBufferImpl
 UnityEngine.Material::SetColorImpl_Injected
 UnityEngine.Material::SetConstantBufferImpl
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 UnityEngine.Material::SetFloatArrayImpl
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 UnityEngine.Material::SetFloatImpl
@@ -1093,6 +1150,12 @@ UnityEngine.Mesh::HasVertexAttribute
 UnityEngine.Mesh::get_canAccess
 UnityEngine.Mesh::get_isReadable
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+UnityEngine.Mesh::GetBlendShapeFrameCount
+UnityEngine.Mesh::GetBlendShapeIndex
+UnityEngine.Mesh::get_blendShapeCount
+>>>>>>> Stashed changes
 =======
 UnityEngine.Mesh::GetBlendShapeFrameCount
 UnityEngine.Mesh::GetBlendShapeIndex
@@ -1103,10 +1166,13 @@ UnityEngine.Mesh::get_vertexCount
 UnityEngine.Mesh::GetIndicesImpl
 UnityEngine.Mesh::GetTrianglesImpl
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 UnityEngine.Mesh::GetIndexCountImpl
 UnityEngine.Mesh::ClearImpl
 UnityEngine.Mesh::GetArrayFromChannelImpl
 =======
+=======
+>>>>>>> Stashed changes
 UnityEngine.Mesh::GetBlendShapeFrameWeight
 UnityEngine.Mesh::GetBlendShapeName
 UnityEngine.Mesh::GetIndexCountImpl
@@ -1114,6 +1180,9 @@ UnityEngine.Mesh::AddBlendShapeFrame
 UnityEngine.Mesh::ClearImpl
 UnityEngine.Mesh::GetArrayFromChannelImpl
 UnityEngine.Mesh::GetBlendShapeFrameVertices
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 UnityEngine.Mesh::GetIndicesNonAllocImpl
 UnityEngine.Mesh::GetSubMesh_Injected
@@ -1126,6 +1195,10 @@ UnityEngine.Mesh::PrintErrorCantAccessChannel
 UnityEngine.Mesh::RecalculateBoundsImpl
 UnityEngine.Mesh::RecalculateNormalsImpl
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+UnityEngine.Mesh::RecalculateTangentsImpl
+>>>>>>> Stashed changes
 =======
 UnityEngine.Mesh::RecalculateTangentsImpl
 >>>>>>> Stashed changes
@@ -1144,6 +1217,11 @@ UnityEngine.Mesh::set_bounds_Injected
 UnityEngine.Mesh::set_indexFormat
 UnityEngine.Mesh::set_subMeshCount
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+UnityEngine.Mesh::GetBoneWeightsImpl
+UnityEngine.Mesh::get_bindposes
+>>>>>>> Stashed changes
 =======
 UnityEngine.Mesh::GetBoneWeightsImpl
 UnityEngine.Mesh::get_bindposes
@@ -1187,6 +1265,12 @@ UnityEngine.Networking.DownloadHandlerAudioClip::get_audioClip
 UnityEngine.Networking.DownloadHandlerBuffer::Create
 UnityEngine.Networking.DownloadHandlerFile::Create
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+UnityEngine.Networking.DownloadHandlerFile::set_removeFileOnAbort
+UnityEngine.Networking.DownloadHandlerTexture::Create
+UnityEngine.Networking.DownloadHandlerTexture::InternalGetTextureNative
+>>>>>>> Stashed changes
 =======
 UnityEngine.Networking.DownloadHandlerFile::set_removeFileOnAbort
 UnityEngine.Networking.DownloadHandlerTexture::Create
@@ -1204,6 +1288,10 @@ UnityEngine.Networking.UnityWebRequest::GetResponseHeader
 UnityEngine.Networking.UnityWebRequest::GetWebErrorString
 UnityEngine.Networking.UnityWebRequest::GetResponseHeaderKeys
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+UnityEngine.Networking.UnityWebRequest::get_downloadedBytes
+>>>>>>> Stashed changes
 =======
 UnityEngine.Networking.UnityWebRequest::get_downloadedBytes
 >>>>>>> Stashed changes
@@ -1341,7 +1429,10 @@ UnityEngine.Random::GetRandomUnitCircle
 UnityEngine.Random::InitState
 UnityEngine.Random::get_insideUnitSphere_Injected
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 UnityEngine.Random::get_onUnitSphere_Injected
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 UnityEngine.Random::get_state_Injected
@@ -1479,6 +1570,10 @@ UnityEngine.Rendering.GraphicsSettings::set_useScriptableRenderPipelineBatching
 UnityEngine.Rendering.GraphicsSettings::GetSettingsForRenderPipeline
 UnityEngine.Rendering.GraphicsSettings::get_INTERNAL_currentRenderPipeline
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+UnityEngine.Rendering.GraphicsSettings::get_INTERNAL_defaultRenderPipeline
+>>>>>>> Stashed changes
 =======
 UnityEngine.Rendering.GraphicsSettings::get_INTERNAL_defaultRenderPipeline
 >>>>>>> Stashed changes
@@ -1622,7 +1717,10 @@ UnityEngine.Screen::get_currentResolution_Injected
 UnityEngine.Screen::get_safeArea_Injected
 UnityEngine.Screen::set_fullScreen
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 UnityEngine.Screen::set_sleepTimeout
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 UnityEngine.Screen::GetScreenOrientation
@@ -1647,6 +1745,11 @@ UnityEngine.SkinnedMeshRenderer::set_sharedMesh
 UnityEngine.SkinnedMeshRenderer::set_updateWhenOffscreen
 UnityEngine.SkinnedMeshRenderer::get_sharedMesh
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+UnityEngine.SkinnedMeshRenderer::get_rootBone
+UnityEngine.SkinnedMeshRenderer::get_bones
+>>>>>>> Stashed changes
 =======
 UnityEngine.SkinnedMeshRenderer::get_rootBone
 UnityEngine.SkinnedMeshRenderer::get_bones
@@ -1674,6 +1777,10 @@ UnityEngine.Sprite::get_texture
 UnityEngine.Sprite::get_uv
 UnityEngine.Sprite::get_vertices
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+UnityEngine.SpriteRenderer::set_sprite
+>>>>>>> Stashed changes
 =======
 UnityEngine.SpriteRenderer::set_sprite
 >>>>>>> Stashed changes
@@ -1809,6 +1916,10 @@ UnityEngine.Time::get_smoothDeltaTime
 UnityEngine.Time::get_time
 UnityEngine.Time::get_timeScale
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+UnityEngine.Time::get_timeSinceLevelLoad
+>>>>>>> Stashed changes
 =======
 UnityEngine.Time::get_timeSinceLevelLoad
 >>>>>>> Stashed changes

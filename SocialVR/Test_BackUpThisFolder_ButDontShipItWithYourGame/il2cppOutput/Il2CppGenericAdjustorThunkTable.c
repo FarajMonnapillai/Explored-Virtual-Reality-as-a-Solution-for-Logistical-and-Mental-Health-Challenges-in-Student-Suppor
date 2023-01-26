@@ -13070,7 +13070,11 @@ IL2CPP_EXTERN_C void ControlSchemeSyntax_WithOptionalDevice_TisRuntimeObject_m44
 IL2CPP_EXTERN_C void ControlSchemeSyntax_WithRequiredDevice_TisRuntimeObject_mBEFB5EF49817C78C1BA4145393A1F2642E6ABD9D_AdjustorThunk ();
 IL2CPP_EXTERN_C const Il2CppMethodPointer g_Il2CppGenericAdjustorThunks[];
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const Il2CppMethodPointer g_Il2CppGenericAdjustorThunks[12989] = 
+=======
+const Il2CppMethodPointer g_Il2CppGenericAdjustorThunks[13050] = 
+>>>>>>> Stashed changes
 =======
 const Il2CppMethodPointer g_Il2CppGenericAdjustorThunks[13050] = 
 >>>>>>> Stashed changes

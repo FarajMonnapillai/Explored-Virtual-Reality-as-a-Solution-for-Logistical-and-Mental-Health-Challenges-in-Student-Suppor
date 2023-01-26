@@ -757,6 +757,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[5] =
 static const int32_t s_InvokerIndices[244] = 
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	8570,
 	8570,
 	8570,
@@ -997,6 +998,8 @@ static const int32_t s_InvokerIndices[244] =
 	16578,
 	16578,
 =======
+=======
+>>>>>>> Stashed changes
 	8612,
 	8612,
 	8612,
@@ -1236,6 +1239,9 @@ static const int32_t s_InvokerIndices[244] =
 	16113,
 	16636,
 	16636,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	0,
 	0,

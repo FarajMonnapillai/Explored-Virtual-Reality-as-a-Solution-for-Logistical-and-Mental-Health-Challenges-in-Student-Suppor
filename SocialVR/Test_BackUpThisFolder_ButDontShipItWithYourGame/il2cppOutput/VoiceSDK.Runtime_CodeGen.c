@@ -291,6 +291,7 @@ static Il2CppMethodPointer s_methodPointers[92] =
 static const int32_t s_InvokerIndices[92] = 
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	17461,
 	17555,
 	10566,
@@ -426,6 +427,50 @@ static const int32_t s_InvokerIndices[92] =
 	0,
 	0,
 	0,
+=======
+	17524,
+	17618,
+	10616,
+	17562,
+	17618,
+	10443,
+	8435,
+	10306,
+	8435,
+	8435,
+	10306,
+	10306,
+	10443,
+	8435,
+	10306,
+	10306,
+	10306,
+	10306,
+	10306,
+	8296,
+	4823,
+	8435,
+	8435,
+	10616,
+	10616,
+	10616,
+	10616,
+	10616,
+	10616,
+	10616,
+	8296,
+	8435,
+	10616,
+	4823,
+	10616,
+	10616,
+	10616,
+	10616,
+	10616,
+	0,
+	0,
+	0,
+>>>>>>> Stashed changes
 	8435,
 	10306,
 	10306,
@@ -476,6 +521,9 @@ static const int32_t s_InvokerIndices[92] =
 	8435,
 	8435,
 	4823,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_VoiceSDK_Runtime_CodeGenModule;

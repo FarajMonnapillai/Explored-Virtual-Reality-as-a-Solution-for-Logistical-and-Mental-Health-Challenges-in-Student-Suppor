@@ -1084,6 +1084,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[20] =
 static const int32_t s_InvokerIndices[341] = 
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	12639,
 	17552,
 	16607,
@@ -1428,6 +1429,8 @@ static const int32_t s_InvokerIndices[341] =
 	10556,
 	10468,
 =======
+=======
+>>>>>>> Stashed changes
 	12691,
 	17615,
 	16666,
@@ -1769,6 +1772,9 @@ static const int32_t s_InvokerIndices[341] =
 	10606,
 	10606,
 	10518,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_PhysicsModule_CodeGenModule;

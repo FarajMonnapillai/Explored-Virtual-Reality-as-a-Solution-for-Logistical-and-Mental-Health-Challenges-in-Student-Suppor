@@ -232,6 +232,7 @@ static Il2CppMethodPointer s_methodPointers[82] =
 static const int32_t s_InvokerIndices[82] = 
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	10394,
 	10394,
 	0,
@@ -267,6 +268,9 @@ static const int32_t s_InvokerIndices[82] =
 =======
 	10443,
 	10443,
+=======
+	10443,
+	10443,
 	0,
 	10616,
 	0,
@@ -299,8 +303,70 @@ static const int32_t s_InvokerIndices[82] =
 	16649,
 >>>>>>> Stashed changes
 	0,
+	10616,
 	0,
 	0,
+	0,
+<<<<<<< Updated upstream
+	16118,
+	16237,
+	10443,
+	8435,
+	10443,
+	8435,
+	10443,
+=======
+	16651,
+	15902,
+	16240,
+	17618,
+>>>>>>> Stashed changes
+	0,
+	10616,
+	0,
+	0,
+<<<<<<< Updated upstream
+=======
+	16237,
+	16649,
+	15902,
+	17618,
+	17618,
+	14870,
+	17618,
+	17618,
+>>>>>>> Stashed changes
+	0,
+	16651,
+	8435,
+	10616,
+	10616,
+	10616,
+	10306,
+	10306,
+	10306,
+	10616,
+	0,
+	0,
+<<<<<<< Updated upstream
+	0,
+	16649,
+>>>>>>> Stashed changes
+	0,
+	0,
+	0,
+=======
+	10616,
+	0,
+	10616,
+	0,
+	0,
+	0,
+	16651,
+	14870,
+	17618,
+	16651,
+>>>>>>> Stashed changes
 	0,
 <<<<<<< Updated upstream
 	16592,
@@ -309,6 +375,7 @@ static const int32_t s_InvokerIndices[82] =
 	17555,
 	0,
 	0,
+<<<<<<< Updated upstream
 	0,
 	16181,
 	16590,
@@ -392,10 +459,26 @@ static const int32_t s_InvokerIndices[82] =
 	0,
 	10616,
 	0,
+=======
+	17618,
+	10443,
+	0,
+	10443,
+	10616,
+	10616,
+	0,
+	10616,
+	0,
+	10616,
+	0,
+>>>>>>> Stashed changes
 	10306,
 	8296,
 	10443,
 	10616,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 };
 static const Il2CppTokenRangePair s_rgctxIndices[10] = 

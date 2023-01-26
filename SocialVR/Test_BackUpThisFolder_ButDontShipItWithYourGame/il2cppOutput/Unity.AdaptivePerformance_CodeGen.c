@@ -2431,6 +2431,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[84] =
 static const int32_t s_InvokerIndices[766] = 
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	11123,
 	17555,
 	17555,
@@ -2602,6 +2603,8 @@ static const int32_t s_InvokerIndices[766] =
 	10566,
 	1861,
 =======
+=======
+>>>>>>> Stashed changes
 	11175,
 	17618,
 	17618,
@@ -2772,6 +2775,9 @@ static const int32_t s_InvokerIndices[766] =
 	8510,
 	10616,
 	1870,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	0,
 	0,
@@ -2782,8 +2788,13 @@ static const int32_t s_InvokerIndices[766] =
 	0,
 	0,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	17499,
 	16592,
+=======
+	17562,
+	16651,
+>>>>>>> Stashed changes
 =======
 	17562,
 	16651,
@@ -2805,6 +2816,7 @@ static const int32_t s_InvokerIndices[766] =
 	0,
 	0,
 	0,
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	10566,
 	10349,
@@ -2935,6 +2947,8 @@ static const int32_t s_InvokerIndices[766] =
 	2249,
 	8394,
 =======
+=======
+>>>>>>> Stashed changes
 	10616,
 	10398,
 	10518,
@@ -3063,6 +3077,7 @@ static const int32_t s_InvokerIndices[766] =
 	8444,
 	2261,
 	8435,
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 	0,
 	0,
@@ -3148,6 +3163,16 @@ static const int32_t s_InvokerIndices[766] =
 	0,
 	10566,
 =======
+=======
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+>>>>>>> Stashed changes
 	10398,
 	8390,
 	10398,
@@ -3222,12 +3247,16 @@ static const int32_t s_InvokerIndices[766] =
 	0,
 	0,
 	10616,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	0,
 	0,
 	0,
 	0,
 	0,
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	10257,
 	10566,
@@ -3557,6 +3586,8 @@ static const int32_t s_InvokerIndices[766] =
 	10259,
 	8258,
 =======
+=======
+>>>>>>> Stashed changes
 	10306,
 	10616,
 	10306,
@@ -3884,6 +3915,9 @@ static const int32_t s_InvokerIndices[766] =
 	8296,
 	10308,
 	8299,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	0,
 	0,
@@ -3893,9 +3927,15 @@ static const int32_t s_InvokerIndices[766] =
 	0,
 	0,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	10566,
 	10349,
 	8349,
+=======
+	10616,
+	10398,
+	8390,
+>>>>>>> Stashed changes
 =======
 	10616,
 	10398,
@@ -3905,6 +3945,7 @@ static const int32_t s_InvokerIndices[766] =
 	0,
 	0,
 	0,
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	10394,
 	10257,
@@ -3920,6 +3961,8 @@ static const int32_t s_InvokerIndices[766] =
 	10394,
 	8394,
 =======
+=======
+>>>>>>> Stashed changes
 	10443,
 	10306,
 	10306,
@@ -3933,6 +3976,9 @@ static const int32_t s_InvokerIndices[766] =
 	8435,
 	10443,
 	8435,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 };
 static const Il2CppTokenRangePair s_rgctxIndices[6] = 

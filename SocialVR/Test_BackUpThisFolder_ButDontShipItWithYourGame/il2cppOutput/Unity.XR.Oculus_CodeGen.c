@@ -855,6 +855,7 @@ static Il2CppMethodPointer s_methodPointers[279] =
 static const int32_t s_InvokerIndices[279] = 
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	14947,
 	17490,
 	15846,
@@ -1135,6 +1136,8 @@ static const int32_t s_InvokerIndices[279] =
 	10566,
 	10566,
 =======
+=======
+>>>>>>> Stashed changes
 	14999,
 	17553,
 	15899,
@@ -1414,6 +1417,9 @@ static const int32_t s_InvokerIndices[279] =
 	8435,
 	10616,
 	10616,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_Oculus_CodeGenModule;

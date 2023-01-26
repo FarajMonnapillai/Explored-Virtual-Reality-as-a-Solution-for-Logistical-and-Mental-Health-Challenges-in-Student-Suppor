@@ -787,7 +787,11 @@ static Il2CppMethodPointer s_methodPointers[267] =
 static const int32_t s_InvokerIndices[267] = 
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	17499,
+=======
+	17562,
+>>>>>>> Stashed changes
 =======
 	17562,
 >>>>>>> Stashed changes
@@ -795,6 +799,7 @@ static const int32_t s_InvokerIndices[267] =
 	0,
 	0,
 	0,
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	10394,
 	10394,
@@ -966,6 +971,8 @@ static const int32_t s_InvokerIndices[267] =
 	10566,
 	8394,
 =======
+=======
+>>>>>>> Stashed changes
 	10443,
 	10443,
 	10616,
@@ -1135,6 +1142,9 @@ static const int32_t s_InvokerIndices[267] =
 	8435,
 	10616,
 	8435,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	0,
 	0,
@@ -1164,6 +1174,7 @@ static const int32_t s_InvokerIndices[267] =
 	0,
 	0,
 	0,
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	10394,
 	10394,
@@ -1231,6 +1242,8 @@ static const int32_t s_InvokerIndices[267] =
 	10566,
 	10566,
 =======
+=======
+>>>>>>> Stashed changes
 	10443,
 	10443,
 	10443,
@@ -1296,6 +1309,9 @@ static const int32_t s_InvokerIndices[267] =
 	10616,
 	10616,
 	10616,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Facebook_Wit_TTS_CodeGenModule;

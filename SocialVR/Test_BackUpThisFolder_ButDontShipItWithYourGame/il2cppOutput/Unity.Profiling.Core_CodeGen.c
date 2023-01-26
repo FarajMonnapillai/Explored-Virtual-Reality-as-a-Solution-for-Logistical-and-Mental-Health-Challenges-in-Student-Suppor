@@ -109,8 +109,13 @@ static Il2CppMethodPointer s_methodPointers[41] =
 static const int32_t s_InvokerIndices[41] = 
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	10566,
 	10566,
+=======
+	10616,
+	10616,
+>>>>>>> Stashed changes
 =======
 	10616,
 	10616,
@@ -147,6 +152,7 @@ static const int32_t s_InvokerIndices[41] =
 	0,
 	0,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	14915,
 	14919,
 	14916,
@@ -155,6 +161,8 @@ static const int32_t s_InvokerIndices[41] =
 	14914,
 	14917,
 =======
+=======
+>>>>>>> Stashed changes
 	14967,
 	14971,
 	14968,
@@ -162,6 +170,9 @@ static const int32_t s_InvokerIndices[41] =
 	14970,
 	14966,
 	14969,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	0,
 };

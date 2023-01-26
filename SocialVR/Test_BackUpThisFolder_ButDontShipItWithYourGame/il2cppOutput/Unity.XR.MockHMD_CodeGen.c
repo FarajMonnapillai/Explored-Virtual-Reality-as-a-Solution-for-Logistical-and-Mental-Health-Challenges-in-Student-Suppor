@@ -54,6 +54,7 @@ static Il2CppMethodPointer s_methodPointers[12] =
 static const int32_t s_InvokerIndices[12] = 
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	15846,
 	13974,
 	15857,
@@ -67,6 +68,8 @@ static const int32_t s_InvokerIndices[12] =
 	10566,
 	17555,
 =======
+=======
+>>>>>>> Stashed changes
 	15899,
 	14025,
 	15910,
@@ -79,6 +82,9 @@ static const int32_t s_InvokerIndices[12] =
 	10306,
 	10616,
 	17618,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_MockHMD_CodeGenModule;

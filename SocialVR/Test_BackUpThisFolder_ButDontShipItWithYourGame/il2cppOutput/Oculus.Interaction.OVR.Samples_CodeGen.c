@@ -728,6 +728,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[13] =
 static const int32_t s_InvokerIndices[227] = 
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	10566,
 	10566,
 	10566,
@@ -956,6 +957,8 @@ static const int32_t s_InvokerIndices[227] =
 	10566,
 	10566,
 =======
+=======
+>>>>>>> Stashed changes
 	10616,
 	10616,
 	10616,
@@ -1183,6 +1186,9 @@ static const int32_t s_InvokerIndices[227] =
 	10616,
 	10616,
 	10616,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Oculus_Interaction_OVR_Samples_CodeGenModule;

@@ -598,6 +598,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[10] =
 static const int32_t s_InvokerIndices[188] = 
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	10349,
 	10257,
 	10394,
@@ -798,6 +799,80 @@ static const int32_t s_InvokerIndices[188] =
 	10616,
 	10616,
 	76,
+=======
+	10398,
+	10306,
+	10443,
+	10518,
+	8435,
+	10306,
+	1946,
+	10616,
+	8435,
+	7525,
+	2554,
+	8435,
+	8390,
+	8296,
+	8296,
+	10616,
+	10616,
+	17618,
+	10616,
+	10616,
+	10616,
+	3880,
+	10616,
+	4426,
+	8390,
+	8435,
+	10616,
+	4390,
+	4390,
+	10306,
+	10306,
+	10398,
+	10398,
+	10398,
+	10458,
+	8453,
+	8390,
+	17618,
+	10443,
+	8435,
+	10306,
+	8296,
+	10616,
+	10616,
+	10616,
+	10616,
+	8296,
+	10443,
+	10616,
+	10616,
+	10443,
+	871,
+	8390,
+	8435,
+	8435,
+	10616,
+	17618,
+	10616,
+	10306,
+	8296,
+	17574,
+	10443,
+	10616,
+	10616,
+	10616,
+	10616,
+	8296,
+	10616,
+	10443,
+	10616,
+	10616,
+	76,
+>>>>>>> Stashed changes
 	8390,
 	8435,
 	8435,
@@ -853,6 +928,9 @@ static const int32_t s_InvokerIndices[188] =
 	10616,
 	10616,
 	6387,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	0,
 	0,
@@ -861,6 +939,7 @@ static const int32_t s_InvokerIndices[188] =
 	0,
 	0,
 	0,
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	10394,
 	10394,
@@ -917,6 +996,8 @@ static const int32_t s_InvokerIndices[188] =
 	8394,
 	10566,
 =======
+=======
+>>>>>>> Stashed changes
 	10443,
 	10443,
 	10443,
@@ -971,6 +1052,9 @@ static const int32_t s_InvokerIndices[188] =
 	8435,
 	8435,
 	10616,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Oculus_Interaction_OVR_CodeGenModule;

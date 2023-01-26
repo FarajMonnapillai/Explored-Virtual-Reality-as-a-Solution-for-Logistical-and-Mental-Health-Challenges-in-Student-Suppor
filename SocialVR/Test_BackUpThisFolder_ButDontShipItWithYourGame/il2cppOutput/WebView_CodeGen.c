@@ -307,6 +307,7 @@ static Il2CppMethodPointer s_methodPointers[106] =
 static const int32_t s_InvokerIndices[106] = 
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	8394,
 	8349,
 	8255,
@@ -348,6 +349,8 @@ static const int32_t s_InvokerIndices[106] =
 	10566,
 	10566,
 =======
+=======
+>>>>>>> Stashed changes
 	8435,
 	8390,
 	8296,
@@ -390,6 +393,9 @@ static const int32_t s_InvokerIndices[106] =
 	10616,
 	10616,
 	0,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	0,
 	0,
@@ -420,6 +426,7 @@ static const int32_t s_InvokerIndices[106] =
 	0,
 	0,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	8394,
 	8394,
 	8394,
@@ -439,6 +446,8 @@ static const int32_t s_InvokerIndices[106] =
 	10566,
 	10566,
 =======
+=======
+>>>>>>> Stashed changes
 	8435,
 	8435,
 	8435,
@@ -475,6 +484,9 @@ static const int32_t s_InvokerIndices[106] =
 	10616,
 	10616,
 	8435,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_WebView_CodeGenModule;

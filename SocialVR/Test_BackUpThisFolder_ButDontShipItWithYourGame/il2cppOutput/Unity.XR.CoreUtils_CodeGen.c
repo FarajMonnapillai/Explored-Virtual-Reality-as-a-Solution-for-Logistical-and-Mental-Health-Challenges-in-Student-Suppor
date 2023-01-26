@@ -869,6 +869,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[14] =
 static const int32_t s_InvokerIndices[290] = 
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	10394,
 	10394,
 	4809,
@@ -903,6 +904,26 @@ static const int32_t s_InvokerIndices[290] =
 	15886,
 	15886,
 	15886,
+=======
+	10443,
+	10443,
+	4823,
+	5903,
+	6055,
+	10398,
+	13967,
+	13967,
+	10616,
+	10443,
+	8435,
+	15886,
+	15886,
+	15886,
+	15886,
+	0,
+	15886,
+	17618,
+>>>>>>> Stashed changes
 	0,
 	15886,
 	17618,
@@ -924,6 +945,7 @@ static const int32_t s_InvokerIndices[290] =
 	0,
 	0,
 	0,
+<<<<<<< Updated upstream
 	0,
 <<<<<<< Updated upstream
 	13928,
@@ -1002,6 +1024,8 @@ static const int32_t s_InvokerIndices[290] =
 	14394,
 	14894,
 =======
+=======
+>>>>>>> Stashed changes
 	13979,
 	14548,
 	16359,
@@ -1077,6 +1101,9 @@ static const int32_t s_InvokerIndices[290] =
 	12482,
 	14446,
 	14946,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	0,
 	0,
@@ -1085,6 +1112,7 @@ static const int32_t s_InvokerIndices[290] =
 	0,
 	0,
 	0,
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	14894,
 	14394,
@@ -1143,6 +1171,8 @@ static const int32_t s_InvokerIndices[290] =
 	16007,
 	17555,
 =======
+=======
+>>>>>>> Stashed changes
 	14946,
 	14446,
 	17618,
@@ -1199,6 +1229,7 @@ static const int32_t s_InvokerIndices[290] =
 	15899,
 	16061,
 	17618,
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 	0,
 	0,
@@ -1233,6 +1264,13 @@ static const int32_t s_InvokerIndices[290] =
 	10566,
 	17555,
 =======
+=======
+	0,
+	0,
+	0,
+	0,
+	0,
+>>>>>>> Stashed changes
 	10443,
 	8435,
 	10616,
@@ -1259,6 +1297,7 @@ static const int32_t s_InvokerIndices[290] =
 	14055,
 	10616,
 	17618,
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 	0,
 	0,
@@ -1347,6 +1386,12 @@ static const int32_t s_InvokerIndices[290] =
 	8394,
 	10566,
 =======
+=======
+	0,
+	0,
+	0,
+	0,
+>>>>>>> Stashed changes
 	17596,
 	10368,
 	4936,
@@ -1428,6 +1473,9 @@ static const int32_t s_InvokerIndices[290] =
 	10443,
 	8435,
 	10616,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 };
 static const Il2CppTokenRangePair s_rgctxIndices[31] = 

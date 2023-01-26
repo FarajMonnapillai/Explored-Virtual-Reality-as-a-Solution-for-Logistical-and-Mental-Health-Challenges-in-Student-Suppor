@@ -22,17 +22,23 @@
     "attribute_marked_count_dynamic_dependency": 108,
     "attribute_swept_count_dynamic_dependency": -108,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "assembly_counts_total_in": 139,
     "assembly_counts_link": 43,
     "assembly_counts_copy": 54,
     "assembly_counts_delete": 42,
     "assembly_counts_total_out": 97,
 =======
+=======
+>>>>>>> Stashed changes
     "assembly_counts_total_in": 141,
     "assembly_counts_link": 44,
     "assembly_counts_copy": 56,
     "assembly_counts_delete": 41,
     "assembly_counts_total_out": 100,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "unresolved_stubbing_total_count": 0,
     "unresolved_stubbing_missing_interface_method_count": 0,

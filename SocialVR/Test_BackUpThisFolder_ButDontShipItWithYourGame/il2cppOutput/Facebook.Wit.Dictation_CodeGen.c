@@ -245,6 +245,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] =
 static const int32_t s_InvokerIndices[82] = 
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	10394,
 	17555,
 	10566,
@@ -252,28 +253,39 @@ static const int32_t s_InvokerIndices[82] =
 	10394,
 	10566,
 =======
+=======
+>>>>>>> Stashed changes
 	10443,
 	17618,
 	10616,
 	6055,
 	10443,
 	10616,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	0,
 	0,
 	0,
 	0,
 	0,
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	10394,
 	8394,
 	10394,
 	10394,
 =======
+=======
+>>>>>>> Stashed changes
 	10443,
 	8435,
 	10443,
 	10443,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	0,
 	0,
@@ -283,15 +295,21 @@ static const int32_t s_InvokerIndices[82] =
 	0,
 	0,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	10566,
 	10566,
 	10566,
 	10566,
 =======
+=======
+>>>>>>> Stashed changes
 	10616,
 	10616,
 	10616,
 	10616,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	0,
 	0,
@@ -305,6 +323,7 @@ static const int32_t s_InvokerIndices[82] =
 	0,
 	0,
 	0,
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	10566,
 	10566,
@@ -351,6 +370,8 @@ static const int32_t s_InvokerIndices[82] =
 	10566,
 	10566,
 =======
+=======
+>>>>>>> Stashed changes
 	10616,
 	10616,
 	10616,
@@ -395,6 +416,9 @@ static const int32_t s_InvokerIndices[82] =
 	10616,
 	10616,
 	10616,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Facebook_Wit_Dictation_CodeGenModule;

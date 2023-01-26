@@ -371,6 +371,7 @@ static Il2CppMethodPointer s_methodPointers[120] =
 static const int32_t s_InvokerIndices[120] = 
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	10394,
 	8394,
 	10468,
@@ -480,6 +481,8 @@ static const int32_t s_InvokerIndices[120] =
 	10349,
 	6028,
 =======
+=======
+>>>>>>> Stashed changes
 	10443,
 	8435,
 	10518,
@@ -588,6 +591,9 @@ static const int32_t s_InvokerIndices[120] =
 	6055,
 	10398,
 	6055,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	0,
 	0,
@@ -596,6 +602,7 @@ static const int32_t s_InvokerIndices[120] =
 	0,
 	0,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	4809,
 	6028,
 	7488,
@@ -603,12 +610,17 @@ static const int32_t s_InvokerIndices[120] =
 	7488,
 	10566,
 =======
+=======
+>>>>>>> Stashed changes
 	4823,
 	6055,
 	7525,
 	6055,
 	7525,
 	10616,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Facebook_Wit_Conduit_CodeGenModule;

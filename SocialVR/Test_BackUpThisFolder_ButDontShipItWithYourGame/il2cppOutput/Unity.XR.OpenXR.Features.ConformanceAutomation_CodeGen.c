@@ -72,6 +72,7 @@ static Il2CppMethodPointer s_methodPointers[18] =
 static const int32_t s_InvokerIndices[18] = 
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	6168,
 	8541,
 	8541,
@@ -91,6 +92,8 @@ static const int32_t s_InvokerIndices[18] =
 	11066,
 	10566,
 =======
+=======
+>>>>>>> Stashed changes
 	6195,
 	8583,
 	8583,
@@ -109,6 +112,9 @@ static const int32_t s_InvokerIndices[18] =
 	11461,
 	11117,
 	10616,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_ConformanceAutomation_CodeGenModule;

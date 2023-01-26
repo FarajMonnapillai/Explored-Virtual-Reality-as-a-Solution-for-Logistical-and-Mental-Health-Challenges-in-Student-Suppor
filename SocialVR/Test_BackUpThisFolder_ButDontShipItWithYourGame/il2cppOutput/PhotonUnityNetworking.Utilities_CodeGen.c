@@ -835,6 +835,7 @@ static Il2CppMethodPointer s_methodPointers[274] =
 static const int32_t s_InvokerIndices[274] = 
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	10349,
 	8349,
 	10394,
@@ -1063,6 +1064,8 @@ static const int32_t s_InvokerIndices[274] =
 	8394,
 	10566,
 =======
+=======
+>>>>>>> Stashed changes
 	10398,
 	8390,
 	10443,
@@ -1290,12 +1293,16 @@ static const int32_t s_InvokerIndices[274] =
 	8435,
 	8435,
 	10616,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	0,
 	0,
 	0,
 	0,
 	0,
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	13583,
 	16012,
@@ -1340,6 +1347,8 @@ static const int32_t s_InvokerIndices[274] =
 	8394,
 	10566,
 =======
+=======
+>>>>>>> Stashed changes
 	13634,
 	16066,
 	16066,
@@ -1382,6 +1391,9 @@ static const int32_t s_InvokerIndices[274] =
 	8435,
 	8435,
 	10616,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_PhotonUnityNetworking_Utilities_CodeGenModule;
