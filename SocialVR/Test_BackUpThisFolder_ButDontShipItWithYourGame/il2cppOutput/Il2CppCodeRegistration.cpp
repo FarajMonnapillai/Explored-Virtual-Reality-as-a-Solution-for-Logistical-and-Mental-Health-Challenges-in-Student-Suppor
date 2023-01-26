@@ -122,7 +122,11 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const Il2CppCodeGenModule* g_CodeGenModules[98] = 
+=======
+const Il2CppCodeGenModule* g_CodeGenModules[101] = 
+>>>>>>> Stashed changes
 =======
 const Il2CppCodeGenModule* g_CodeGenModules[101] = 
 >>>>>>> Stashed changes
@@ -239,6 +243,7 @@ const Il2CppCodeRegistration g_CodeRegistration =
 	g_ReversePInvokeWrapperPointers,
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	77054,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
@@ -251,6 +256,20 @@ const Il2CppCodeRegistration g_CodeRegistration =
 	0,
 	NULL,
 	98,
+=======
+	77660,
+	g_Il2CppGenericMethodPointers,
+	g_Il2CppGenericAdjustorThunks,
+	17641,
+	g_Il2CppInvokerPointers,
+	2883,
+	g_UnresolvedVirtualMethodPointers,
+	1202,
+	g_Il2CppInteropData,
+	0,
+	NULL,
+	101,
+>>>>>>> Stashed changes
 =======
 	77660,
 	g_Il2CppGenericMethodPointers,

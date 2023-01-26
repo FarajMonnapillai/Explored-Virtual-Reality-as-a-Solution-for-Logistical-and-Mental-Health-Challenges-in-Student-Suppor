@@ -3934,7 +3934,11 @@ IL2CPP_EXTERN_C_CONST RuntimeType unitytls_x509verify_explicit_ca_t_t1B3D98BF01F
 IL2CPP_EXTERN_C Il2CppInteropData g_Il2CppInteropData[];
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Il2CppInteropData g_Il2CppInteropData[1198] = 
+=======
+Il2CppInteropData g_Il2CppInteropData[1202] = 
+>>>>>>> Stashed changes
 =======
 Il2CppInteropData g_Il2CppInteropData[1202] = 
 >>>>>>> Stashed changes

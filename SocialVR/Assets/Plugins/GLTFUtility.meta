@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream:SocialVR/Assets/Plugins/GLTFUtility.meta
 guid: fb4a1b5976f9b498286ca269cc34bd57
+=======
+guid: 4395574d6b90a42c79cb7392e554060a
+>>>>>>> Stashed changes:SocialVR/Assets/Avatars/63cc4dc11718944c37d24597.meta
+=======
+guid: fb4a1b5976f9b498286ca269cc34bd57
+>>>>>>> Stashed changes
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -148,6 +148,7 @@ static const int32_t s_InvokerIndices[42] =
 {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	16592,
 	16592,
 	17499,
@@ -193,6 +194,8 @@ static const int32_t s_InvokerIndices[42] =
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 	16651,
 	16651,
 	17562,
@@ -236,6 +239,9 @@ static const int32_t s_InvokerIndices[42] =
 	1546,
 	8435,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

@@ -246,6 +246,7 @@ static const int32_t s_InvokerIndices[82] =
 {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	10394,
 	17555,
 	10566,
@@ -255,6 +256,8 @@ static const int32_t s_InvokerIndices[82] =
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 	10443,
 	17618,
 	10616,
@@ -262,6 +265,9 @@ static const int32_t s_InvokerIndices[82] =
 	10443,
 	10616,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -270,6 +276,7 @@ static const int32_t s_InvokerIndices[82] =
 	0,
 	0,
 	0,
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	10394,
@@ -279,11 +286,16 @@ static const int32_t s_InvokerIndices[82] =
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 	10443,
 	8435,
 	10443,
 	10443,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -296,11 +308,14 @@ static const int32_t s_InvokerIndices[82] =
 	0,
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	10566,
 	10566,
 	10566,
 	10566,
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 	10616,
@@ -308,6 +323,9 @@ static const int32_t s_InvokerIndices[82] =
 	10616,
 	10616,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -323,6 +341,7 @@ static const int32_t s_InvokerIndices[82] =
 	0,
 	0,
 	0,
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	10566,
@@ -372,6 +391,8 @@ static const int32_t s_InvokerIndices[82] =
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 	10616,
 	10616,
 	10616,
@@ -417,6 +438,9 @@ static const int32_t s_InvokerIndices[82] =
 	10616,
 	10616,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
