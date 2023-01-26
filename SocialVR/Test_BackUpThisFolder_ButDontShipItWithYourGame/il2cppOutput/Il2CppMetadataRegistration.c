@@ -25,6 +25,7 @@ const Il2CppMetadataRegistration g_MetadataRegistration =
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	10878,
 	g_Il2CppGenericTypes,
 	7317,
@@ -38,6 +39,21 @@ const Il2CppMetadataRegistration g_MetadataRegistration =
 	13841,
 	g_FieldOffsetTable,
 	13841,
+=======
+	11069,
+	g_Il2CppGenericTypes,
+	7477,
+	g_Il2CppGenericInstTable,
+	77905,
+	g_Il2CppGenericMethodFunctions,
+	40524,
+	g_Il2CppTypeTable,
+	97157,
+	g_Il2CppMethodSpecTable,
+	14055,
+	g_FieldOffsetTable,
+	14055,
+>>>>>>> Stashed changes
 =======
 	11069,
 	g_Il2CppGenericTypes,

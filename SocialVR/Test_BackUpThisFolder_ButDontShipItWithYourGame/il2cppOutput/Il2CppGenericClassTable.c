@@ -4859,6 +4859,10 @@ extern Il2CppGenericClass List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918_Gener
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+extern Il2CppGenericClass List_1_t0CA48CEFC539B4745969780424B9DAFC7FCB1B96_GenericClass;
+>>>>>>> Stashed changes
 =======
 extern Il2CppGenericClass List_1_t0CA48CEFC539B4745969780424B9DAFC7FCB1B96_GenericClass;
 >>>>>>> Stashed changes
@@ -8324,7 +8328,11 @@ IL2CPP_EXTERN_C Il2CppGenericClass* const g_Il2CppGenericTypes[];
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Il2CppGenericClass* const g_Il2CppGenericTypes[10878] = 
+=======
+Il2CppGenericClass* const g_Il2CppGenericTypes[11069] = 
+>>>>>>> Stashed changes
 =======
 Il2CppGenericClass* const g_Il2CppGenericTypes[11069] = 
 >>>>>>> Stashed changes
@@ -14192,6 +14200,11 @@ Il2CppGenericClass* const g_Il2CppGenericTypes[11069] =
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+&List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918_GenericClass,
+&List_1_t0CA48CEFC539B4745969780424B9DAFC7FCB1B96_GenericClass,
+>>>>>>> Stashed changes
 =======
 &List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918_GenericClass,
 &List_1_t0CA48CEFC539B4745969780424B9DAFC7FCB1B96_GenericClass,

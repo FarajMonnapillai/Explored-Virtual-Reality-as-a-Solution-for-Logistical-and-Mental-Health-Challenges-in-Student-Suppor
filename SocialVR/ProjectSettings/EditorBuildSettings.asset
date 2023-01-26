@@ -4,7 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_Scenes: []
+=======
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/Wating Room Test.unity
+    guid: 163ba3c13f7933949b964501b1da0d85
+  - enabled: 0
+    path: Assets/Scenes/Main.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/Scenes/Test.unity
+    guid: 3c74170b9f12545548ba1a95e735b75e
+>>>>>>> Stashed changes
   m_configObjects:
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: af7108725d2957e4e9f2b8ba5f7dc2b8,
       type: 2}

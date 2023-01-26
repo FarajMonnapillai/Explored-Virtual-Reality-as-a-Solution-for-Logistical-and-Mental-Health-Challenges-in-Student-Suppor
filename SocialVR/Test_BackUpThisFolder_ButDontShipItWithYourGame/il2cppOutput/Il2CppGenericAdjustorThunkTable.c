@@ -13072,7 +13072,11 @@ IL2CPP_EXTERN_C const Il2CppMethodPointer g_Il2CppGenericAdjustorThunks[];
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const Il2CppMethodPointer g_Il2CppGenericAdjustorThunks[12989] = 
+=======
+const Il2CppMethodPointer g_Il2CppGenericAdjustorThunks[13050] = 
+>>>>>>> Stashed changes
 =======
 const Il2CppMethodPointer g_Il2CppGenericAdjustorThunks[13050] = 
 >>>>>>> Stashed changes
