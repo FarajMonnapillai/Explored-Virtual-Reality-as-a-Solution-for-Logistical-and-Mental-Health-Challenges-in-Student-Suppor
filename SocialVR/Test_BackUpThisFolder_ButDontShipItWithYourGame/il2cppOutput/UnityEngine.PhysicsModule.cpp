@@ -1283,8 +1283,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider_Internal_ClosestPointOnBounds_I
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
 // System.Void UnityEngine.Collider::Internal_ClosestPointOnBounds(UnityEngine.Vector3,UnityEngine.Vector3&,System.Single&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider_Internal_ClosestPointOnBounds_m87BD13A92D4239E7BA08C0417197DFC8D4E5DB7E (Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_point, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_outPos, float* ___2_distance, const RuntimeMethod* method) ;
-// System.Boolean UnityEngine.CharacterController::SimpleMove_Injected(UnityEngine.Vector3&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CharacterController_SimpleMove_Injected_m0E3E4E6152A40139CE3B8B2FA65FF941FD976656 (CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_speed, const RuntimeMethod* method) ;
 // UnityEngine.CollisionFlags UnityEngine.CharacterController::Move_Injected(UnityEngine.Vector3&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CharacterController_Move_Injected_m7F25C33CF948858A8D5822EF73FAE7A16AE65C86 (CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_motion, const RuntimeMethod* method) ;
 // System.Void UnityEngine.CharacterController::get_center_Injected(UnityEngine.Vector3&)
@@ -4237,15 +4235,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider_Internal_ClosestPointOnBounds_I
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Boolean UnityEngine.CharacterController::SimpleMove(UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CharacterController_SimpleMove_mE32A48D439878B3241E8456F8EBFAAE264BD705C (CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_speed, const RuntimeMethod* method) 
-{
-	{
-		bool L_0;
-		L_0 = CharacterController_SimpleMove_Injected_m0E3E4E6152A40139CE3B8B2FA65FF941FD976656(__this, (&___0_speed), NULL);
-		return L_0;
-	}
-}
 // UnityEngine.CollisionFlags UnityEngine.CharacterController::Move(UnityEngine.Vector3)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CharacterController_Move_mE3F7AC1B4A2D6955980811C088B68ED3A31D2DA4 (CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_motion, const RuntimeMethod* method) 
 {
@@ -4331,16 +4320,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CharacterController_get_skinWidth_mF22F
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (CharacterController_get_skinWidth_mF22F34BB1F1824D67171FCF5F187F5585749A5DA_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CharacterController::get_skinWidth()");
 	float icallRetVal = _il2cpp_icall_func(__this);
-	return icallRetVal;
-}
-// System.Boolean UnityEngine.CharacterController::SimpleMove_Injected(UnityEngine.Vector3&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CharacterController_SimpleMove_Injected_m0E3E4E6152A40139CE3B8B2FA65FF941FD976656 (CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_speed, const RuntimeMethod* method) 
-{
-	typedef bool (*CharacterController_SimpleMove_Injected_m0E3E4E6152A40139CE3B8B2FA65FF941FD976656_ftn) (CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*);
-	static CharacterController_SimpleMove_Injected_m0E3E4E6152A40139CE3B8B2FA65FF941FD976656_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (CharacterController_SimpleMove_Injected_m0E3E4E6152A40139CE3B8B2FA65FF941FD976656_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CharacterController::SimpleMove_Injected(UnityEngine.Vector3&)");
-	bool icallRetVal = _il2cpp_icall_func(__this, ___0_speed);
 	return icallRetVal;
 }
 // UnityEngine.CollisionFlags UnityEngine.CharacterController::Move_Injected(UnityEngine.Vector3&)

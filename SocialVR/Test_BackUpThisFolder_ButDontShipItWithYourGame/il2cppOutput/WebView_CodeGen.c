@@ -58,105 +58,144 @@ extern void AndroidWebViewWindow_LoadURL_mE655B2BFF08D8A8B81AD9EF252D8B9DEEA4623
 extern void AndroidWebViewWindow_LoadHTML_mA85F76C01402B712934D044A78109C21AC8BDAE3 (void);
 // 0x00000017 System.Void AndroidWebViewWindow::EvaluateJS(System.String)
 extern void AndroidWebViewWindow_EvaluateJS_mABAD9F6BE689264B30B6DCBDB363CA4474D6F92E (void);
-// 0x00000018 System.Int32 AndroidWebViewWindow::get_Progress()
+// 0x00000018 System.Boolean AndroidWebViewWindow::IsWebViewAvailable()
+extern void AndroidWebViewWindow_IsWebViewAvailable_m5D713F9E7C3251A915FFA8FF1907E854DDAD6273 (void);
+// 0x00000019 System.Int32 AndroidWebViewWindow::get_Progress()
 extern void AndroidWebViewWindow_get_Progress_m9F2F73A876C149CF1E2CC662B9AFEA866DF49AA7 (void);
-// 0x00000019 System.Boolean AndroidWebViewWindow::CanGoBack()
+// 0x0000001A System.Boolean AndroidWebViewWindow::CanGoBack()
 extern void AndroidWebViewWindow_CanGoBack_m37F856C028B3BEB5F77419D3E389533593D3CADE (void);
-// 0x0000001A System.Boolean AndroidWebViewWindow::CanGoForward()
+// 0x0000001B System.Boolean AndroidWebViewWindow::CanGoForward()
 extern void AndroidWebViewWindow_CanGoForward_m3E47A452376B686E100C4F7BE4F204DFFCC5D827 (void);
-// 0x0000001B System.Void AndroidWebViewWindow::GoBack()
+// 0x0000001C System.Void AndroidWebViewWindow::GoBack()
 extern void AndroidWebViewWindow_GoBack_m76E0349DAD32D90391BA5C001E70ECE0500DF383 (void);
-// 0x0000001C System.Void AndroidWebViewWindow::GoForward()
+// 0x0000001D System.Void AndroidWebViewWindow::GoForward()
 extern void AndroidWebViewWindow_GoForward_m090EF67F36AB3D4266738C92143F78236F6C152E (void);
-// 0x0000001D System.Void AndroidWebViewWindow::Reload()
+// 0x0000001E System.Void AndroidWebViewWindow::Reload()
 extern void AndroidWebViewWindow_Reload_m8B18D8CBD9F800F1D7D36E4EAB2FDEE39604ACBD (void);
-// 0x0000001E System.Void AndroidWebViewWindow::AddCustomHeader(System.String,System.String)
+// 0x0000001F System.Void AndroidWebViewWindow::AddCustomHeader(System.String,System.String)
 extern void AndroidWebViewWindow_AddCustomHeader_m859CE58806F535CDC61AD9997D194524F707F7F2 (void);
-// 0x0000001F System.String AndroidWebViewWindow::GetCustomHeaderValue(System.String)
+// 0x00000020 System.String AndroidWebViewWindow::GetCustomHeaderValue(System.String)
 extern void AndroidWebViewWindow_GetCustomHeaderValue_m099EBB0BD3272959CAD4FA0D61D793AE4AF75419 (void);
-// 0x00000020 System.Void AndroidWebViewWindow::RemoveCustomHeader(System.String)
+// 0x00000021 System.Void AndroidWebViewWindow::RemoveCustomHeader(System.String)
 extern void AndroidWebViewWindow_RemoveCustomHeader_m6F89DFB7FC47B814CE42DA800D93E9C1F4A581CC (void);
-// 0x00000021 System.Void AndroidWebViewWindow::ClearCustomHeader()
+// 0x00000022 System.Void AndroidWebViewWindow::ClearCustomHeader()
 extern void AndroidWebViewWindow_ClearCustomHeader_m0BB76FF5F46DF2A955885739B388E9CFDE876E25 (void);
-// 0x00000022 System.Void AndroidWebViewWindow::ClearCookies()
+// 0x00000023 System.Void AndroidWebViewWindow::ClearCookies()
 extern void AndroidWebViewWindow_ClearCookies_m78698A37F2C3A17C511080BD834C76B58DA22A0A (void);
-// 0x00000023 System.Void AndroidWebViewWindow::SaveCookies()
+// 0x00000024 System.Void AndroidWebViewWindow::SaveCookies()
 extern void AndroidWebViewWindow_SaveCookies_m501DF343A526C19AAAB419A41DFAFEA9681CE446 (void);
-// 0x00000024 System.String AndroidWebViewWindow::GetCookies(System.String)
+// 0x00000025 System.String AndroidWebViewWindow::GetCookies(System.String)
 extern void AndroidWebViewWindow_GetCookies_m589F3106593B20F9C0C1DF11C539C31465346105 (void);
-// 0x00000025 System.Void AndroidWebViewWindow::SetBasicAuthInfo(System.String,System.String)
+// 0x00000026 System.Void AndroidWebViewWindow::SetBasicAuthInfo(System.String,System.String)
 extern void AndroidWebViewWindow_SetBasicAuthInfo_m8B12280644402761B5AB3BA990E84121C1A583C9 (void);
-// 0x00000026 System.Void AndroidWebViewWindow::ClearCache(System.Boolean)
+// 0x00000027 System.Void AndroidWebViewWindow::ClearCache(System.Boolean)
 extern void AndroidWebViewWindow_ClearCache_m09DBB1F5DB3DBBB819FADB61EE5ECD9F5D66E1B6 (void);
-// 0x00000027 System.Void AndroidWebViewWindow::OnDestroy()
+// 0x00000028 System.Void AndroidWebViewWindow::OnDestroy()
 extern void AndroidWebViewWindow_OnDestroy_m7BDF9EE09E5A2EAD8B1419A2514999C49C7B14E8 (void);
-// 0x00000028 System.Void AndroidWebViewWindow::.ctor()
+// 0x00000029 System.Void AndroidWebViewWindow::.ctor()
 extern void AndroidWebViewWindow__ctor_m9559DEFA908A75677E3531C5A003F553E650C314 (void);
-// 0x00000029 System.Boolean WebViewWindowBase::get_IsVisible()
-// 0x0000002A System.Void WebViewWindowBase::set_IsVisible(System.Boolean)
-// 0x0000002B System.Boolean WebViewWindowBase::get_IsKeyboardVisible()
-// 0x0000002C System.Void WebViewWindowBase::set_IsKeyboardVisible(System.Boolean)
-// 0x0000002D System.Boolean WebViewWindowBase::get_AlertDialogEnabled()
-// 0x0000002E System.Void WebViewWindowBase::set_AlertDialogEnabled(System.Boolean)
-// 0x0000002F System.Boolean WebViewWindowBase::get_ScrollBounceEnabled()
-// 0x00000030 System.Void WebViewWindowBase::set_ScrollBounceEnabled(System.Boolean)
-// 0x00000031 System.Void WebViewWindowBase::Init(WebViewOptions)
-// 0x00000032 System.Void WebViewWindowBase::SetMargins(System.Int32,System.Int32,System.Int32,System.Int32)
-// 0x00000033 System.Void WebViewWindowBase::LoadURL(System.String)
-// 0x00000034 System.Void WebViewWindowBase::LoadHTML(System.String,System.String)
-// 0x00000035 System.Void WebViewWindowBase::EvaluateJS(System.String)
-// 0x00000036 System.Int32 WebViewWindowBase::get_Progress()
-// 0x00000037 System.Boolean WebViewWindowBase::CanGoBack()
-// 0x00000038 System.Boolean WebViewWindowBase::CanGoForward()
-// 0x00000039 System.Void WebViewWindowBase::GoBack()
-// 0x0000003A System.Void WebViewWindowBase::GoForward()
-// 0x0000003B System.Void WebViewWindowBase::Reload()
-// 0x0000003C System.Void WebViewWindowBase::AddCustomHeader(System.String,System.String)
-// 0x0000003D System.String WebViewWindowBase::GetCustomHeaderValue(System.String)
-// 0x0000003E System.Void WebViewWindowBase::RemoveCustomHeader(System.String)
-// 0x0000003F System.Void WebViewWindowBase::ClearCustomHeader()
-// 0x00000040 System.Void WebViewWindowBase::ClearCookies()
-// 0x00000041 System.Void WebViewWindowBase::SaveCookies()
-// 0x00000042 System.String WebViewWindowBase::GetCookies(System.String)
-// 0x00000043 System.Void WebViewWindowBase::SetBasicAuthInfo(System.String,System.String)
-// 0x00000044 System.Void WebViewWindowBase::ClearCache(System.Boolean)
-// 0x00000045 System.Void WebViewWindowBase::CallFromJS(System.String)
+// 0x0000002A System.Boolean WebViewWindowBase::get_IsVisible()
+// 0x0000002B System.Void WebViewWindowBase::set_IsVisible(System.Boolean)
+// 0x0000002C System.Boolean WebViewWindowBase::get_IsKeyboardVisible()
+// 0x0000002D System.Void WebViewWindowBase::set_IsKeyboardVisible(System.Boolean)
+// 0x0000002E System.Boolean WebViewWindowBase::get_AlertDialogEnabled()
+// 0x0000002F System.Void WebViewWindowBase::set_AlertDialogEnabled(System.Boolean)
+// 0x00000030 System.Boolean WebViewWindowBase::get_ScrollBounceEnabled()
+// 0x00000031 System.Void WebViewWindowBase::set_ScrollBounceEnabled(System.Boolean)
+// 0x00000032 System.Void WebViewWindowBase::Init(WebViewOptions)
+// 0x00000033 System.Void WebViewWindowBase::SetMargins(System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000034 System.Void WebViewWindowBase::LoadURL(System.String)
+// 0x00000035 System.Void WebViewWindowBase::LoadHTML(System.String,System.String)
+// 0x00000036 System.Void WebViewWindowBase::EvaluateJS(System.String)
+// 0x00000037 System.Boolean WebViewWindowBase::IsWebViewAvailable()
+// 0x00000038 System.Int32 WebViewWindowBase::get_Progress()
+// 0x00000039 System.Boolean WebViewWindowBase::CanGoBack()
+// 0x0000003A System.Boolean WebViewWindowBase::CanGoForward()
+// 0x0000003B System.Void WebViewWindowBase::GoBack()
+// 0x0000003C System.Void WebViewWindowBase::GoForward()
+// 0x0000003D System.Void WebViewWindowBase::Reload()
+// 0x0000003E System.Void WebViewWindowBase::AddCustomHeader(System.String,System.String)
+// 0x0000003F System.String WebViewWindowBase::GetCustomHeaderValue(System.String)
+// 0x00000040 System.Void WebViewWindowBase::RemoveCustomHeader(System.String)
+// 0x00000041 System.Void WebViewWindowBase::ClearCustomHeader()
+// 0x00000042 System.Void WebViewWindowBase::ClearCookies()
+// 0x00000043 System.Void WebViewWindowBase::SaveCookies()
+// 0x00000044 System.String WebViewWindowBase::GetCookies(System.String)
+// 0x00000045 System.Void WebViewWindowBase::SetBasicAuthInfo(System.String,System.String)
+// 0x00000046 System.Void WebViewWindowBase::ClearCache(System.Boolean)
+// 0x00000047 System.Void WebViewWindowBase::CallFromJS(System.String)
 extern void WebViewWindowBase_CallFromJS_m2564CF43EB560B6C419FEB67A995D6A7B8D9C7BB (void);
-// 0x00000046 System.Void WebViewWindowBase::CallOnHooked(System.String)
+// 0x00000048 System.Void WebViewWindowBase::CallOnHooked(System.String)
 extern void WebViewWindowBase_CallOnHooked_m517ACC5F9AF2A4F7D7BA0B5EC88E5A9ED9F15C2D (void);
-// 0x00000047 System.Void WebViewWindowBase::CallOnLoaded(System.String)
+// 0x00000049 System.Void WebViewWindowBase::CallOnLoaded(System.String)
 extern void WebViewWindowBase_CallOnLoaded_m6B44E30960E88B45CDAF399C6F7121C328D9DFA9 (void);
-// 0x00000048 System.Void WebViewWindowBase::CallOnStarted(System.String)
+// 0x0000004A System.Void WebViewWindowBase::CallOnStarted(System.String)
 extern void WebViewWindowBase_CallOnStarted_m90A466C0CC14AF190BAC5E5F1D5C6D1B176176C9 (void);
-// 0x00000049 System.Void WebViewWindowBase::CallOnError(System.String)
+// 0x0000004B System.Void WebViewWindowBase::CallOnError(System.String)
 extern void WebViewWindowBase_CallOnError_mB2A5449099F05F44D69C6C407F781106D9286064 (void);
-// 0x0000004A System.Void WebViewWindowBase::CallOnHttpError(System.String)
+// 0x0000004C System.Void WebViewWindowBase::CallOnHttpError(System.String)
 extern void WebViewWindowBase_CallOnHttpError_m2A46D8497E81FE82066C55D8861FB82AFF4D13B9 (void);
-// 0x0000004B System.Void WebViewWindowBase::.ctor()
+// 0x0000004D System.Void WebViewWindowBase::.ctor()
 extern void WebViewWindowBase__ctor_mD63AC53F1DAFF3535CE4E709D2EB383E7105A167 (void);
-// 0x0000004C System.Boolean ReadyPlayerMe.WebView::get_Loaded()
+// 0x0000004E System.Void ReadyPlayerMe.UserAgent::.ctor(System.String)
+extern void UserAgent__ctor_m7DD1B3243220A1162EB08DBF0B9014D8D486436B (void);
+// 0x0000004F System.Boolean ReadyPlayerMe.UserAgent::IsWebViewUpToDate()
+extern void UserAgent_IsWebViewUpToDate_mFC0A5176E205BF97B1B9BE5BF9EE8FD5458C0B05 (void);
+// 0x00000050 System.String ReadyPlayerMe.UserAgent::ToString()
+extern void UserAgent_ToString_mD5D12575607DFC98018C0D39C8DCEC71604B7C06 (void);
+// 0x00000051 System.Void ReadyPlayerMe.UserAgent/<>c::.cctor()
+extern void U3CU3Ec__cctor_m8ACB88F4DA425CCCE055D8E2CF0E5C94FE5C364B (void);
+// 0x00000052 System.Void ReadyPlayerMe.UserAgent/<>c::.ctor()
+extern void U3CU3Ec__ctor_m1D4773DA67B2C45B32BD2F86E58EA34865B34519 (void);
+// 0x00000053 System.Boolean ReadyPlayerMe.UserAgent/<>c::<.ctor>b__10_0(System.String)
+extern void U3CU3Ec_U3C_ctorU3Eb__10_0_m984773D4ABD7A2929F97D7588CC18D665D1A5666 (void);
+// 0x00000054 System.Boolean ReadyPlayerMe.WebView::get_Loaded()
 extern void WebView_get_Loaded_m9D66F98834611C0D93D3F10FAA983D16923FA8DD (void);
-// 0x0000004D System.Void ReadyPlayerMe.WebView::set_Loaded(System.Boolean)
+// 0x00000055 System.Void ReadyPlayerMe.WebView::set_Loaded(System.Boolean)
 extern void WebView_set_Loaded_m3EA400C7F90CE6EF03BECF188C452F7CE326339B (void);
-// 0x0000004E System.Boolean ReadyPlayerMe.WebView::get_KeepSessionAlive()
+// 0x00000056 System.Boolean ReadyPlayerMe.WebView::get_KeepSessionAlive()
 extern void WebView_get_KeepSessionAlive_m0D5F81CE966E0DAE9A46B0DDE3DA2369422151E0 (void);
-// 0x0000004F System.Void ReadyPlayerMe.WebView::set_KeepSessionAlive(System.Boolean)
+// 0x00000057 System.Void ReadyPlayerMe.WebView::set_KeepSessionAlive(System.Boolean)
 extern void WebView_set_KeepSessionAlive_m3E6AF74776C2FF8CE7CA6ADDBAE28A8E83D60462 (void);
-// 0x00000050 System.Void ReadyPlayerMe.WebView::CreateWebView()
+// 0x00000058 System.Void ReadyPlayerMe.WebView::CreateWebView()
 extern void WebView_CreateWebView_m65C954FBC8F0A1D86F56EC2C13D734659698988B (void);
-// 0x00000051 System.Void ReadyPlayerMe.WebView::SetScreenPadding(System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000059 System.Threading.Tasks.Task`1<ReadyPlayerMe.UserAgent> ReadyPlayerMe.WebView::GetUserAgent()
+extern void WebView_GetUserAgent_m16609369BF78993EE4B6AD4E9B59B73C3D27B5BC (void);
+// 0x0000005A System.Threading.Tasks.Task`1<System.Boolean> ReadyPlayerMe.WebView::IsWebViewUpToDate()
+extern void WebView_IsWebViewUpToDate_mC4534AFD6CFFDA4C96FAA4BCD347B644C04C78E9 (void);
+// 0x0000005B System.Void ReadyPlayerMe.WebView::SetScreenPadding(System.Int32,System.Int32,System.Int32,System.Int32)
 extern void WebView_SetScreenPadding_m93D72BC37904D7B895D5F1F821F4762D6B4E8889 (void);
-// 0x00000052 System.Void ReadyPlayerMe.WebView::SetVisible(System.Boolean)
+// 0x0000005C System.Void ReadyPlayerMe.WebView::SetVisible(System.Boolean)
 extern void WebView_SetVisible_mCF4E616A802C9497356249B2CA17ECA8C3E8A317 (void);
-// 0x00000053 System.Void ReadyPlayerMe.WebView::OnWebMessageReceived(System.String)
+// 0x0000005D System.Void ReadyPlayerMe.WebView::OnWebMessageReceived(System.String)
 extern void WebView_OnWebMessageReceived_m6FC11A41380374BA8A7EE4F2158845D19802B443 (void);
-// 0x00000054 System.Void ReadyPlayerMe.WebView::OnLoaded(System.String)
+// 0x0000005E System.Void ReadyPlayerMe.WebView::OnLoaded(System.String)
 extern void WebView_OnLoaded_m0A42376379536881D430FF85CDDF8CFA9316ACCE (void);
-// 0x00000055 System.Void ReadyPlayerMe.WebView::OnDrawGizmos()
+// 0x0000005F System.Void ReadyPlayerMe.WebView::AskForCameraPermission()
+extern void WebView_AskForCameraPermission_m78B29D51D404B711E087D2C9A985A313E2BE9BC9 (void);
+// 0x00000060 System.Void ReadyPlayerMe.WebView::OnDrawGizmos()
 extern void WebView_OnDrawGizmos_m00D108174E1C7B25ABB8AE64C4A37A74D12DC512 (void);
-// 0x00000056 System.Void ReadyPlayerMe.WebView::.ctor()
+// 0x00000061 System.Void ReadyPlayerMe.WebView::.ctor()
 extern void WebView__ctor_m58F59F0606314AF6E32F83B05FE93A1738467752 (void);
-static Il2CppMethodPointer s_methodPointers[86] = 
+// 0x00000062 System.Void ReadyPlayerMe.WebView/<>c__DisplayClass19_0::.ctor()
+extern void U3CU3Ec__DisplayClass19_0__ctor_mF05DE61594BFD725B971C551A1B73CB8D89D4869 (void);
+// 0x00000063 System.Void ReadyPlayerMe.WebView/<>c__DisplayClass19_0::<GetUserAgent>b__0(System.String)
+extern void U3CU3Ec__DisplayClass19_0_U3CGetUserAgentU3Eb__0_m4FA2EA25C290424D5633CB6FA082DDF044022D02 (void);
+// 0x00000064 System.Void ReadyPlayerMe.WebView/<>c__DisplayClass19_0::<GetUserAgent>b__1(System.String)
+extern void U3CU3Ec__DisplayClass19_0_U3CGetUserAgentU3Eb__1_m7368066A8A9DA406E5C0C1339C46113765B2266E (void);
+// 0x00000065 System.Void ReadyPlayerMe.WebView/<GetUserAgent>d__19::.ctor()
+extern void U3CGetUserAgentU3Ed__19__ctor_m2F9E1E1B2A6294BAF28973E92062EBF262DB7B3F (void);
+// 0x00000066 System.Void ReadyPlayerMe.WebView/<GetUserAgent>d__19::MoveNext()
+extern void U3CGetUserAgentU3Ed__19_MoveNext_mF6957B79F2C6E79CE761D4D96B86B499EBAA7683 (void);
+// 0x00000067 System.Void ReadyPlayerMe.WebView/<GetUserAgent>d__19::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CGetUserAgentU3Ed__19_SetStateMachine_m5AF8FBB2793C260FDB50B73AD4B17ED241AF4ECF (void);
+// 0x00000068 System.Void ReadyPlayerMe.WebView/<IsWebViewUpToDate>d__20::.ctor()
+extern void U3CIsWebViewUpToDateU3Ed__20__ctor_mACFD3E677B524F8F871A9DCFE3BA276048B5F36C (void);
+// 0x00000069 System.Void ReadyPlayerMe.WebView/<IsWebViewUpToDate>d__20::MoveNext()
+extern void U3CIsWebViewUpToDateU3Ed__20_MoveNext_m6F805BF80B0B8934E71D3C19B26A4BD9E9AC4A67 (void);
+// 0x0000006A System.Void ReadyPlayerMe.WebView/<IsWebViewUpToDate>d__20::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CIsWebViewUpToDateU3Ed__20_SetStateMachine_m9767FB046EE5D416F610FC5FC0373B5AA57362F0 (void);
+static Il2CppMethodPointer s_methodPointers[106] = 
 {
 	MessagePanel_SetMessage_m438BC5E4A8607E007964B433F1C7F3094748FD4C,
 	MessagePanel_SetMessage_m7061AA8FC0A36A305003AF2D15C87CEF481A33AA,
@@ -181,6 +220,7 @@ static Il2CppMethodPointer s_methodPointers[86] =
 	AndroidWebViewWindow_LoadURL_mE655B2BFF08D8A8B81AD9EF252D8B9DEEA46234F,
 	AndroidWebViewWindow_LoadHTML_mA85F76C01402B712934D044A78109C21AC8BDAE3,
 	AndroidWebViewWindow_EvaluateJS_mABAD9F6BE689264B30B6DCBDB363CA4474D6F92E,
+	AndroidWebViewWindow_IsWebViewAvailable_m5D713F9E7C3251A915FFA8FF1907E854DDAD6273,
 	AndroidWebViewWindow_get_Progress_m9F2F73A876C149CF1E2CC662B9AFEA866DF49AA7,
 	AndroidWebViewWindow_CanGoBack_m37F856C028B3BEB5F77419D3E389533593D3CADE,
 	AndroidWebViewWindow_CanGoForward_m3E47A452376B686E100C4F7BE4F204DFFCC5D827,
@@ -226,6 +266,7 @@ static Il2CppMethodPointer s_methodPointers[86] =
 	NULL,
 	NULL,
 	NULL,
+	NULL,
 	WebViewWindowBase_CallFromJS_m2564CF43EB560B6C419FEB67A995D6A7B8D9C7BB,
 	WebViewWindowBase_CallOnHooked_m517ACC5F9AF2A4F7D7BA0B5EC88E5A9ED9F15C2D,
 	WebViewWindowBase_CallOnLoaded_m6B44E30960E88B45CDAF399C6F7121C328D9DFA9,
@@ -233,20 +274,39 @@ static Il2CppMethodPointer s_methodPointers[86] =
 	WebViewWindowBase_CallOnError_mB2A5449099F05F44D69C6C407F781106D9286064,
 	WebViewWindowBase_CallOnHttpError_m2A46D8497E81FE82066C55D8861FB82AFF4D13B9,
 	WebViewWindowBase__ctor_mD63AC53F1DAFF3535CE4E709D2EB383E7105A167,
+	UserAgent__ctor_m7DD1B3243220A1162EB08DBF0B9014D8D486436B,
+	UserAgent_IsWebViewUpToDate_mFC0A5176E205BF97B1B9BE5BF9EE8FD5458C0B05,
+	UserAgent_ToString_mD5D12575607DFC98018C0D39C8DCEC71604B7C06,
+	U3CU3Ec__cctor_m8ACB88F4DA425CCCE055D8E2CF0E5C94FE5C364B,
+	U3CU3Ec__ctor_m1D4773DA67B2C45B32BD2F86E58EA34865B34519,
+	U3CU3Ec_U3C_ctorU3Eb__10_0_m984773D4ABD7A2929F97D7588CC18D665D1A5666,
 	WebView_get_Loaded_m9D66F98834611C0D93D3F10FAA983D16923FA8DD,
 	WebView_set_Loaded_m3EA400C7F90CE6EF03BECF188C452F7CE326339B,
 	WebView_get_KeepSessionAlive_m0D5F81CE966E0DAE9A46B0DDE3DA2369422151E0,
 	WebView_set_KeepSessionAlive_m3E6AF74776C2FF8CE7CA6ADDBAE28A8E83D60462,
 	WebView_CreateWebView_m65C954FBC8F0A1D86F56EC2C13D734659698988B,
+	WebView_GetUserAgent_m16609369BF78993EE4B6AD4E9B59B73C3D27B5BC,
+	WebView_IsWebViewUpToDate_mC4534AFD6CFFDA4C96FAA4BCD347B644C04C78E9,
 	WebView_SetScreenPadding_m93D72BC37904D7B895D5F1F821F4762D6B4E8889,
 	WebView_SetVisible_mCF4E616A802C9497356249B2CA17ECA8C3E8A317,
 	WebView_OnWebMessageReceived_m6FC11A41380374BA8A7EE4F2158845D19802B443,
 	WebView_OnLoaded_m0A42376379536881D430FF85CDDF8CFA9316ACCE,
+	WebView_AskForCameraPermission_m78B29D51D404B711E087D2C9A985A313E2BE9BC9,
 	WebView_OnDrawGizmos_m00D108174E1C7B25ABB8AE64C4A37A74D12DC512,
 	WebView__ctor_m58F59F0606314AF6E32F83B05FE93A1738467752,
+	U3CU3Ec__DisplayClass19_0__ctor_mF05DE61594BFD725B971C551A1B73CB8D89D4869,
+	U3CU3Ec__DisplayClass19_0_U3CGetUserAgentU3Eb__0_m4FA2EA25C290424D5633CB6FA082DDF044022D02,
+	U3CU3Ec__DisplayClass19_0_U3CGetUserAgentU3Eb__1_m7368066A8A9DA406E5C0C1339C46113765B2266E,
+	U3CGetUserAgentU3Ed__19__ctor_m2F9E1E1B2A6294BAF28973E92062EBF262DB7B3F,
+	U3CGetUserAgentU3Ed__19_MoveNext_mF6957B79F2C6E79CE761D4D96B86B499EBAA7683,
+	U3CGetUserAgentU3Ed__19_SetStateMachine_m5AF8FBB2793C260FDB50B73AD4B17ED241AF4ECF,
+	U3CIsWebViewUpToDateU3Ed__20__ctor_mACFD3E677B524F8F871A9DCFE3BA276048B5F36C,
+	U3CIsWebViewUpToDateU3Ed__20_MoveNext_m6F805BF80B0B8934E71D3C19B26A4BD9E9AC4A67,
+	U3CIsWebViewUpToDateU3Ed__20_SetStateMachine_m9767FB046EE5D416F610FC5FC0373B5AA57362F0,
 };
-static const int32_t s_InvokerIndices[86] = 
+static const int32_t s_InvokerIndices[106] = 
 {
+<<<<<<< Updated upstream
 	8394,
 	8349,
 	8255,
@@ -287,6 +347,50 @@ static const int32_t s_InvokerIndices[86] =
 	8255,
 	10566,
 	10566,
+=======
+	8435,
+	8390,
+	8296,
+	1706,
+	10616,
+	7500,
+	10443,
+	10616,
+	10616,
+	8435,
+	1706,
+	7021,
+	10306,
+	8296,
+	10306,
+	8296,
+	10306,
+	8296,
+	10306,
+	8296,
+	8435,
+	4823,
+	8435,
+	10306,
+	10398,
+	10306,
+	10306,
+	10616,
+	10616,
+	10616,
+	4823,
+	7525,
+	8435,
+	10616,
+	10616,
+	10616,
+	7525,
+	4823,
+	8296,
+	10616,
+	10616,
+	0,
+>>>>>>> Stashed changes
 	0,
 	0,
 	0,
@@ -315,6 +419,7 @@ static const int32_t s_InvokerIndices[86] =
 	0,
 	0,
 	0,
+<<<<<<< Updated upstream
 	8394,
 	8394,
 	8394,
@@ -333,12 +438,50 @@ static const int32_t s_InvokerIndices[86] =
 	8394,
 	10566,
 	10566,
+=======
+	8435,
+	8435,
+	8435,
+	8435,
+	8435,
+	8435,
+	10616,
+	8435,
+	10306,
+	10443,
+	17618,
+	10616,
+	6055,
+	10306,
+	8296,
+	10306,
+	8296,
+	10616,
+	10443,
+	10443,
+	1706,
+	8296,
+	8435,
+	8435,
+	10616,
+	10616,
+	10616,
+	10616,
+	8435,
+	8435,
+	10616,
+	10616,
+	8435,
+	10616,
+	10616,
+	8435,
+>>>>>>> Stashed changes
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_WebView_CodeGenModule;
 const Il2CppCodeGenModule g_WebView_CodeGenModule = 
 {
 	"WebView.dll",
-	86,
+	106,
 	s_methodPointers,
 	0,
 	NULL,

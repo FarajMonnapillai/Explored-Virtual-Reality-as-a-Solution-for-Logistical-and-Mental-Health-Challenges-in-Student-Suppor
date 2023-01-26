@@ -146,6 +146,7 @@ static Il2CppMethodPointer s_methodPointers[42] =
 };
 static const int32_t s_InvokerIndices[42] = 
 {
+<<<<<<< Updated upstream
 	16592,
 	16592,
 	17499,
@@ -188,6 +189,50 @@ static const int32_t s_InvokerIndices[42] =
 	4801,
 	1543,
 	8394,
+=======
+	16651,
+	16651,
+	17562,
+	14859,
+	16066,
+	14939,
+	13655,
+	14946,
+	14946,
+	16240,
+	16240,
+	17618,
+	17618,
+	8583,
+	16118,
+	16637,
+	11878,
+	14853,
+	12615,
+	12706,
+	16066,
+	14023,
+	17553,
+	17618,
+	17618,
+	14860,
+	14819,
+	14851,
+	14946,
+	10616,
+	4818,
+	4528,
+	1521,
+	8435,
+	4818,
+	7057,
+	2251,
+	7057,
+	4818,
+	4815,
+	1546,
+	8435,
+>>>>>>> Stashed changes
 };
 static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[3] = 
 {

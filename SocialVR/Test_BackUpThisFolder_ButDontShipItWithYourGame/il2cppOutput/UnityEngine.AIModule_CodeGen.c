@@ -62,6 +62,7 @@ static Il2CppMethodPointer s_methodPointers[15] =
 };
 static const int32_t s_InvokerIndices[15] = 
 {
+<<<<<<< Updated upstream
 	10566,
 	10566,
 	17492,
@@ -77,6 +78,23 @@ static const int32_t s_InvokerIndices[15] =
 	11998,
 	4804,
 	10566,
+=======
+	10616,
+	10616,
+	17555,
+	16649,
+	10616,
+	10616,
+	10398,
+	10518,
+	10398,
+	17618,
+	12123,
+	12123,
+	12050,
+	4818,
+	10616,
+>>>>>>> Stashed changes
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_AIModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_AIModule_CodeGenModule = 

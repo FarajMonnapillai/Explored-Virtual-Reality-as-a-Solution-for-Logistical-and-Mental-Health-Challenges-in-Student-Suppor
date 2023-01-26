@@ -3586,12 +3586,14 @@ struct AppContextSwitches_t542F10E9BE2333B7BE24C8858C8A24EFA6C06D38_StaticFields
 {
 	// System.Boolean System.AppContextSwitches::SetActorAsReferenceWhenCopyingClaimsIdentity
 	bool ___SetActorAsReferenceWhenCopyingClaimsIdentity_0;
+	// System.Boolean System.AppContextSwitches::NoAsyncCurrentCulture
+	bool ___NoAsyncCurrentCulture_1;
 	// System.Boolean System.AppContextSwitches::EnforceJapaneseEraYearRanges
-	bool ___EnforceJapaneseEraYearRanges_1;
+	bool ___EnforceJapaneseEraYearRanges_2;
 	// System.Boolean System.AppContextSwitches::FormatJapaneseFirstYearAsANumber
-	bool ___FormatJapaneseFirstYearAsANumber_2;
+	bool ___FormatJapaneseFirstYearAsANumber_3;
 	// System.Boolean System.AppContextSwitches::EnforceLegacyJapaneseDateParsing
-	bool ___EnforceLegacyJapaneseDateParsing_3;
+	bool ___EnforceLegacyJapaneseDateParsing_4;
 };
 
 // System.AppContextSwitches

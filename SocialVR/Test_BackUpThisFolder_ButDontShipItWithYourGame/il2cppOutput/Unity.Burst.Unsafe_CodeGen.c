@@ -111,6 +111,7 @@ static const int32_t s_InvokerIndices[37] =
 	0,
 	0,
 	0,
+<<<<<<< Updated upstream
 	13441,
 	13441,
 	13441,
@@ -119,6 +120,16 @@ static const int32_t s_InvokerIndices[37] =
 	13446,
 	13446,
 	13446,
+=======
+	13492,
+	13492,
+	13492,
+	13492,
+	13497,
+	13497,
+	13497,
+	13497,
+>>>>>>> Stashed changes
 	0,
 	0,
 	0,
@@ -136,8 +147,13 @@ static const int32_t s_InvokerIndices[37] =
 	0,
 	0,
 	0,
+<<<<<<< Updated upstream
 	10566,
 	10566,
+=======
+	10616,
+	10616,
+>>>>>>> Stashed changes
 };
 static const Il2CppTokenRangePair s_rgctxIndices[8] = 
 {

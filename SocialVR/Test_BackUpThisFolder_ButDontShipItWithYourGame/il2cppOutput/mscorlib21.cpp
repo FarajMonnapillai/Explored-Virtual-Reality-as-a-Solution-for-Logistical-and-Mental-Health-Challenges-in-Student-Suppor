@@ -1970,12 +1970,14 @@ struct AppContextSwitches_t542F10E9BE2333B7BE24C8858C8A24EFA6C06D38_StaticFields
 {
 	// System.Boolean System.AppContextSwitches::SetActorAsReferenceWhenCopyingClaimsIdentity
 	bool ___SetActorAsReferenceWhenCopyingClaimsIdentity_0;
+	// System.Boolean System.AppContextSwitches::NoAsyncCurrentCulture
+	bool ___NoAsyncCurrentCulture_1;
 	// System.Boolean System.AppContextSwitches::EnforceJapaneseEraYearRanges
-	bool ___EnforceJapaneseEraYearRanges_1;
+	bool ___EnforceJapaneseEraYearRanges_2;
 	// System.Boolean System.AppContextSwitches::FormatJapaneseFirstYearAsANumber
-	bool ___FormatJapaneseFirstYearAsANumber_2;
+	bool ___FormatJapaneseFirstYearAsANumber_3;
 	// System.Boolean System.AppContextSwitches::EnforceLegacyJapaneseDateParsing
-	bool ___EnforceLegacyJapaneseDateParsing_3;
+	bool ___EnforceLegacyJapaneseDateParsing_4;
 };
 
 // System.AppContextSwitches
@@ -8181,7 +8183,7 @@ IL_004c:
 		DateTimeFormatInfo_InsertHash_mE2AB3B8946823ABEB401AA3F03C825A605328F7B(__this, L_16, _stringLiteralAE8B250714571DDED88423CC318BEF084C1CD05D, ((int32_t)3072), 0, NULL);
 		TokenHashValueU5BU5D_t3F8794937D04BA380989A813F33418CED58E80B9* L_17 = ___0_temp;
 		DateTimeFormatInfo_InsertHash_mE2AB3B8946823ABEB401AA3F03C825A605328F7B(__this, L_17, _stringLiteral2B86D66477376A42A49B3CD3983CF53BEF4E55A0, ((int32_t)3328), 0, NULL);
-		bool L_18 = ((AppContextSwitches_t542F10E9BE2333B7BE24C8858C8A24EFA6C06D38_StaticFields*)il2cpp_codegen_static_fields_for(AppContextSwitches_t542F10E9BE2333B7BE24C8858C8A24EFA6C06D38_il2cpp_TypeInfo_var))->___EnforceLegacyJapaneseDateParsing_3;
+		bool L_18 = ((AppContextSwitches_t542F10E9BE2333B7BE24C8858C8A24EFA6C06D38_StaticFields*)il2cpp_codegen_static_fields_for(AppContextSwitches_t542F10E9BE2333B7BE24C8858C8A24EFA6C06D38_il2cpp_TypeInfo_var))->___EnforceLegacyJapaneseDateParsing_4;
 		if (L_18)
 		{
 			goto IL_0141;
@@ -8834,7 +8836,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DateTimeFormatInfo_IsAllowedJapaneseToke
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		bool L_0 = ((AppContextSwitches_t542F10E9BE2333B7BE24C8858C8A24EFA6C06D38_StaticFields*)il2cpp_codegen_static_fields_for(AppContextSwitches_t542F10E9BE2333B7BE24C8858C8A24EFA6C06D38_il2cpp_TypeInfo_var))->___EnforceLegacyJapaneseDateParsing_3;
+		bool L_0 = ((AppContextSwitches_t542F10E9BE2333B7BE24C8858C8A24EFA6C06D38_StaticFields*)il2cpp_codegen_static_fields_for(AppContextSwitches_t542F10E9BE2333B7BE24C8858C8A24EFA6C06D38_il2cpp_TypeInfo_var))->___EnforceLegacyJapaneseDateParsing_4;
 		if (L_0)
 		{
 			goto IL_0040;
@@ -25101,7 +25103,7 @@ IL_0030:
 
 IL_0071:
 	{
-		bool L_29 = ((AppContextSwitches_t542F10E9BE2333B7BE24C8858C8A24EFA6C06D38_StaticFields*)il2cpp_codegen_static_fields_for(AppContextSwitches_t542F10E9BE2333B7BE24C8858C8A24EFA6C06D38_il2cpp_TypeInfo_var))->___EnforceJapaneseEraYearRanges_1;
+		bool L_29 = ((AppContextSwitches_t542F10E9BE2333B7BE24C8858C8A24EFA6C06D38_StaticFields*)il2cpp_codegen_static_fields_for(AppContextSwitches_t542F10E9BE2333B7BE24C8858C8A24EFA6C06D38_il2cpp_TypeInfo_var))->___EnforceJapaneseEraYearRanges_2;
 		if (L_29)
 		{
 			goto IL_00c4;
@@ -26505,7 +26507,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool DateTimeFormatInfo_IsAllowed
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		bool L_0 = ((AppContextSwitches_t542F10E9BE2333B7BE24C8858C8A24EFA6C06D38_StaticFields*)il2cpp_codegen_static_fields_for(AppContextSwitches_t542F10E9BE2333B7BE24C8858C8A24EFA6C06D38_il2cpp_TypeInfo_var))->___EnforceLegacyJapaneseDateParsing_3;
+		bool L_0 = ((AppContextSwitches_t542F10E9BE2333B7BE24C8858C8A24EFA6C06D38_StaticFields*)il2cpp_codegen_static_fields_for(AppContextSwitches_t542F10E9BE2333B7BE24C8858C8A24EFA6C06D38_il2cpp_TypeInfo_var))->___EnforceLegacyJapaneseDateParsing_4;
 		if (L_0)
 		{
 			goto IL_0040;

@@ -43,6 +43,8 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_PhotonRealtime_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_PhotonUnityNetworking_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_PhotonUnityNetworking_Demos_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_PhotonUnityNetworking_Utilities_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_ReadyPlayerMe_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Siccity_GLTFUtility_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Configuration_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Core_CodeGenModule;
@@ -83,6 +85,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UI_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityAnalyticsModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityWebRequestAudioModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityWebRequestModule_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityWebRequestTextureModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_VRModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_VideoModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_XRModule_CodeGenModule;
@@ -117,7 +120,11 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_WebView_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g___Generated_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
+<<<<<<< Updated upstream
 const Il2CppCodeGenModule* g_CodeGenModules[98] = 
+=======
+const Il2CppCodeGenModule* g_CodeGenModules[101] = 
+>>>>>>> Stashed changes
 {
 	(&g_AssemblyU2DCSharp_CodeGenModule),
 	(&g_AssistantCoreSDKRuntime_CodeGenModule),
@@ -144,6 +151,8 @@ const Il2CppCodeGenModule* g_CodeGenModules[98] =
 	(&g_PhotonUnityNetworking_CodeGenModule),
 	(&g_PhotonUnityNetworking_Demos_CodeGenModule),
 	(&g_PhotonUnityNetworking_Utilities_CodeGenModule),
+	(&g_ReadyPlayerMe_CodeGenModule),
+	(&g_Siccity_GLTFUtility_CodeGenModule),
 	(&g_System_CodeGenModule),
 	(&g_System_Configuration_CodeGenModule),
 	(&g_System_Core_CodeGenModule),
@@ -184,6 +193,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[98] =
 	(&g_UnityEngine_UnityAnalyticsModule_CodeGenModule),
 	(&g_UnityEngine_UnityWebRequestAudioModule_CodeGenModule),
 	(&g_UnityEngine_UnityWebRequestModule_CodeGenModule),
+	(&g_UnityEngine_UnityWebRequestTextureModule_CodeGenModule),
 	(&g_UnityEngine_VRModule_CodeGenModule),
 	(&g_UnityEngine_VideoModule_CodeGenModule),
 	(&g_UnityEngine_XRModule_CodeGenModule),
@@ -223,6 +233,7 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	15,
 	g_ReversePInvokeWrapperPointers,
+<<<<<<< Updated upstream
 	77054,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
@@ -235,6 +246,20 @@ const Il2CppCodeRegistration g_CodeRegistration =
 	0,
 	NULL,
 	98,
+=======
+	77660,
+	g_Il2CppGenericMethodPointers,
+	g_Il2CppGenericAdjustorThunks,
+	17641,
+	g_Il2CppInvokerPointers,
+	2883,
+	g_UnresolvedVirtualMethodPointers,
+	1202,
+	g_Il2CppInteropData,
+	0,
+	NULL,
+	101,
+>>>>>>> Stashed changes
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;
