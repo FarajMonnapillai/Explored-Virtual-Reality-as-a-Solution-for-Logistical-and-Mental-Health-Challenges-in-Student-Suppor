@@ -53,51 +53,18 @@ static Il2CppMethodPointer s_methodPointers[12] =
 };
 static const int32_t s_InvokerIndices[12] = 
 {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-	15846,
-	13974,
-	15857,
-	17499,
-	10566,
-	10566,
-	10257,
-	10257,
-	10257,
-	10257,
-	10566,
-	17555,
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-	15899,
-	14025,
-	15910,
-	17562,
-	10616,
-	10616,
-	10306,
-	10306,
-	10306,
-	10306,
-	10616,
-	17618,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+	14947,
+	13153,
+	14958,
+	16476,
+	9873,
+	9873,
+	9576,
+	9576,
+	9576,
+	9576,
+	9873,
+	16532,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_MockHMD_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_XR_MockHMD_CodeGenModule = 

@@ -114,87 +114,36 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] =
 };
 static const int32_t s_InvokerIndices[30] = 
 {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-	8394,
-	10394,
-	10566,
-	10566,
-	10566,
-	10566,
-	10257,
-	10285,
-	8289,
-	8468,
-	8255,
-	10285,
-	16592,
-	14888,
-	16592,
-	16592,
-	16592,
-	14894,
-	16592,
-	14882,
-	4804,
-	8394,
-	4804,
-	4809,
-	4804,
-	4802,
-	4804,
-	4795,
-	10405,
-	6184,
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-	8435,
-	10443,
-	10616,
-	10616,
-	10616,
-	10616,
-	10306,
-	10334,
-	8330,
-	8510,
-	8296,
-	10334,
-	16651,
-	14940,
-	16651,
-	16651,
-	16651,
-	14946,
-	16651,
-	14934,
-	4818,
-	8435,
-	4818,
-	4823,
-	4818,
-	4816,
-	4818,
-	4809,
-	10454,
-	6211,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+	7845,
+	9714,
+	9873,
+	9873,
+	9873,
+	9873,
+	9576,
+	9603,
+	7738,
+	7918,
+	7705,
+	9603,
+	15579,
+	14019,
+	15579,
+	15579,
+	15579,
+	14025,
+	15579,
+	14013,
+	4503,
+	7845,
+	4503,
+	4508,
+	4503,
+	4501,
+	4503,
+	4493,
+	9725,
+	5800,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_VideoModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_VideoModule_CodeGenModule = 

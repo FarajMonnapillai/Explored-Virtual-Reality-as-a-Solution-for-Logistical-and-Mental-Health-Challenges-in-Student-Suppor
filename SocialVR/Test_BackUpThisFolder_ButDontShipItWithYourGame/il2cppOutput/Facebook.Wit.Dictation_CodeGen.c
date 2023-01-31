@@ -244,73 +244,21 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] =
 };
 static const int32_t s_InvokerIndices[82] = 
 {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-	10394,
-	17555,
-	10566,
-	6028,
-	10394,
-	10566,
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-	10443,
-	17618,
-	10616,
-	6055,
-	10443,
-	10616,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+	9714,
+	16532,
+	9873,
+	5658,
+	9714,
+	9873,
 	0,
 	0,
 	0,
 	0,
 	0,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-	10394,
-	8394,
-	10394,
-	10394,
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-	10443,
-	8435,
-	10443,
-	10443,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+	9714,
+	7845,
+	9714,
+	9714,
 	0,
 	0,
 	0,
@@ -318,35 +266,10 @@ static const int32_t s_InvokerIndices[82] =
 	0,
 	0,
 	0,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-	10566,
-	10566,
-	10566,
-	10566,
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-	10616,
-	10616,
-	10616,
-	10616,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+	9873,
+	9873,
+	9873,
+	9873,
 	0,
 	0,
 	0,
@@ -359,115 +282,50 @@ static const int32_t s_InvokerIndices[82] =
 	0,
 	0,
 	0,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-	10566,
-	10566,
-	10566,
-	10566,
-	8394,
-	8394,
-	10566,
-	10566,
-	10566,
-	10394,
-	8394,
-	10257,
-	10257,
-	10394,
-	8394,
-	10257,
-	10257,
-	10394,
-	2239,
-	10566,
-	8394,
-	10566,
-	8394,
-	10566,
-	10566,
-	10566,
-	10566,
-	10566,
-	8394,
-	8394,
-	10566,
-	10566,
-	8468,
-	4809,
-	8394,
-	10566,
-	10394,
-	10394,
-	10394,
-	10394,
-	10394,
-	10566,
-	10566,
-	10566,
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-	10616,
-	10616,
-	10616,
-	10616,
-	8435,
-	8435,
-	10616,
-	10616,
-	10616,
-	10443,
-	8435,
-	10306,
-	10306,
-	10443,
-	8435,
-	10306,
-	10306,
-	10443,
-	2251,
-	10616,
-	8435,
-	10616,
-	8435,
-	10616,
-	10616,
-	10616,
-	10616,
-	10616,
-	8435,
-	8435,
-	10616,
-	10616,
-	8510,
-	4823,
-	8435,
-	10616,
-	10443,
-	10443,
-	10443,
-	10443,
-	10443,
-	10616,
-	10616,
-	10616,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+	9873,
+	9873,
+	9873,
+	9873,
+	7845,
+	7845,
+	9873,
+	9873,
+	9873,
+	9714,
+	7845,
+	9576,
+	9576,
+	9714,
+	7845,
+	9576,
+	9576,
+	9714,
+	2089,
+	9873,
+	7845,
+	9873,
+	7845,
+	9873,
+	9873,
+	9873,
+	9873,
+	9873,
+	7845,
+	7845,
+	9873,
+	9873,
+	7918,
+	4508,
+	7845,
+	9873,
+	9714,
+	9714,
+	9714,
+	9714,
+	9714,
+	9873,
+	9873,
+	9873,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Facebook_Wit_Dictation_CodeGenModule;
 const Il2CppCodeGenModule g_Facebook_Wit_Dictation_CodeGenModule = 

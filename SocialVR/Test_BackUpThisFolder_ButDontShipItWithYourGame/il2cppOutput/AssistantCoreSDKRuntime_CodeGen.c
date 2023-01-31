@@ -191,35 +191,10 @@ static Il2CppMethodPointer s_methodPointers[64] =
 };
 static const int32_t s_InvokerIndices[64] = 
 {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-	4809,
-	17469,
-	17491,
-	10566,
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-	4823,
-	17532,
-	17554,
-	10616,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+	4508,
+	16447,
+	16468,
+	9873,
 	0,
 	0,
 	0,
@@ -234,136 +209,52 @@ static const int32_t s_InvokerIndices[64] =
 	0,
 	0,
 	0,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-	10257,
-	10394,
-	4809,
-	8394,
-	10566,
-	10394,
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-	10306,
-	10443,
-	4823,
-	8435,
-	10616,
-	10443,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+	9576,
+	9714,
+	4508,
+	7845,
+	9873,
+	9714,
 	0,
 	0,
 	0,
 	0,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-	8394,
-	10566,
-	10257,
-	8255,
-	10394,
-	8394,
-	10257,
-	8255,
-	4809,
-	10566,
-	8394,
-	8394,
-	4809,
-	10566,
-	17555,
-	8394,
-	10566,
-	4809,
-	8394,
-	4809,
-	4809,
-	4809,
-	10257,
-	8255,
-	10394,
-	8394,
-	10257,
-	8255,
-	10566,
-	8394,
-	10566,
-	4809,
-	10566,
-	8394,
-	8394,
-	4809,
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-	8435,
-	10616,
-	10306,
-	8296,
-	10443,
-	8435,
-	10306,
-	8296,
-	4823,
-	10616,
-	8435,
-	8435,
-	4823,
-	10616,
-	17618,
-	8435,
-	10616,
-	4823,
-	8435,
-	4823,
-	4823,
-	4823,
-	10306,
-	8296,
-	10443,
-	8435,
-	10306,
-	8296,
-	10616,
-	8435,
-	10616,
-	4823,
-	10616,
-	8435,
-	8435,
-	4823,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+	7845,
+	9873,
+	9576,
+	7705,
+	9714,
+	7845,
+	9576,
+	7705,
+	4508,
+	9873,
+	7845,
+	7845,
+	4508,
+	9873,
+	16532,
+	7845,
+	9873,
+	4508,
+	7845,
+	4508,
+	4508,
+	4508,
+	9576,
+	7705,
+	9714,
+	7845,
+	9576,
+	7705,
+	9873,
+	7845,
+	9873,
+	4508,
+	9873,
+	7845,
+	7845,
+	4508,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {

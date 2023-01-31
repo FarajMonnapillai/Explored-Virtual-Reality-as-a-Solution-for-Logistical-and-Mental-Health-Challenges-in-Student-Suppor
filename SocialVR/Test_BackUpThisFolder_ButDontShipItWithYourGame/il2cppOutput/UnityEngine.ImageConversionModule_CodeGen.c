@@ -18,55 +18,23 @@ extern void ImageConversion_EncodeToPNG_m0804AD31B83C653AEBB234F6CC31A02D4FA7C94
 extern void ImageConversion_EncodeToJPG_mD0307B5DFF32A3FF39488E97B467F11AFE501F6F (void);
 // 0x00000003 System.Byte[] UnityEngine.ImageConversion::EncodeToJPG(UnityEngine.Texture2D)
 extern void ImageConversion_EncodeToJPG_mD3B358B8645CF85EBAD979554FFDE05A54A99804 (void);
-// 0x00000004 System.Boolean UnityEngine.ImageConversion::LoadImage(UnityEngine.Texture2D,System.Byte[],System.Boolean)
-extern void ImageConversion_LoadImage_m292ADCEED268A0A0AAD532BAB8D1710CF0FC8AEF (void);
-// 0x00000005 System.Boolean UnityEngine.ImageConversion::LoadImage(UnityEngine.Texture2D,System.Byte[])
-extern void ImageConversion_LoadImage_m1797365F78319B68638DE8BB02836F8D60760041 (void);
-static Il2CppMethodPointer s_methodPointers[5] = 
+static Il2CppMethodPointer s_methodPointers[3] = 
 {
 	ImageConversion_EncodeToPNG_m0804AD31B83C653AEBB234F6CC31A02D4FA7C945,
 	ImageConversion_EncodeToJPG_mD0307B5DFF32A3FF39488E97B467F11AFE501F6F,
 	ImageConversion_EncodeToJPG_mD3B358B8645CF85EBAD979554FFDE05A54A99804,
-	ImageConversion_LoadImage_m292ADCEED268A0A0AAD532BAB8D1710CF0FC8AEF,
-	ImageConversion_LoadImage_m1797365F78319B68638DE8BB02836F8D60760041,
 };
-static const int32_t s_InvokerIndices[5] = 
+static const int32_t s_InvokerIndices[3] = 
 {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-	16184,
-	14388,
-	16184,
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-	16240,
-	14440,
-	16240,
-	12938,
-	14064,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+	15248,
+	13542,
+	15248,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_ImageConversionModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_ImageConversionModule_CodeGenModule = 
 {
 	"UnityEngine.ImageConversionModule.dll",
-	5,
+	3,
 	s_methodPointers,
 	0,
 	NULL,
