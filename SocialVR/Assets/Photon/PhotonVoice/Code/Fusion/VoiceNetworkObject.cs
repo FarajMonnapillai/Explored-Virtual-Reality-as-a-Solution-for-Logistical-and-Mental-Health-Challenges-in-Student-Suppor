@@ -4,7 +4,6 @@ namespace Photon.Voice.Fusion
     using global::Fusion;
     using Unity;
     using UnityEngine;
-    using ExitGames.Client.Photon;
 
     [AddComponentMenu("Photon Voice/Fusion/Voice Network Object")]
     public class VoiceNetworkObject : NetworkBehaviour
@@ -36,6 +35,8 @@ namespace Photon.Voice.Fusion
         /// <summary> If true, this VoiceNetworkObject has a Recorder that is currently transmitting audio stream from local audio source </summary>
         public bool IsRecording => this.RecorderInUse != null && this.RecorderInUse.IsCurrentlyTransmitting;
 
+
+        public bool IsLocal => Runner.Topology == SimulationConfig.Topologies.Shared ? this.Object.HasStateAuthority : this.Object.HasInputAuthority;
 #endregion
 
 #region Private Methods
@@ -112,7 +113,7 @@ namespace Photon.Voice.Fusion
 
             this.voiceConnection = this.Runner.GetComponent<VoiceConnection>();
 
-            if (this.Object.HasInputAuthority)
+            if (this.IsLocal)
             {
                 this.SetupRecorder();
                 if (this.RecorderInUse == null)

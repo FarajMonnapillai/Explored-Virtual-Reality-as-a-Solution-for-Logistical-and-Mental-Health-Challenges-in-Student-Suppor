@@ -237,7 +237,6 @@ namespace Photon.Voice.Unity
         {
             get
             {
-                this.GetThresholdFromDetector();
                 return this.voiceDetectionThreshold;
             }
             set
@@ -658,7 +657,7 @@ namespace Photon.Voice.Unity
                 }
                 this.voiceAudio.VoiceDetectorCalibrate(durationMs, newThreshold =>
                 {
-                    this.GetThresholdFromDetector();
+                    this.voiceDetectionThreshold = this.VoiceDetector.Threshold;
                     if (detectionEndedCallback != null)
                     {
                         detectionEndedCallback(this.voiceDetectionThreshold);
@@ -710,7 +709,6 @@ namespace Photon.Voice.Unity
         private void StopRecording()
         {
             this.Logger.LogInfo("Stopping recording");
-            this.GetThresholdFromDetector();
             if (this.voice != LocalVoiceAudioDummy.Dummy)
             {
                 this.interestGroup = this.voice.InterestGroup;
@@ -815,6 +813,13 @@ namespace Photon.Voice.Unity
 
         private LocalVoice CreateLocalVoiceAudioAndSource()
         {
+            if (Application.platform == RuntimePlatform.WebGLPlayer)
+            {
+#if !UNITY_2021_2_OR_NEWER // opus lib requires Emscripten 2.0.19
+                this.Logger.LogError("Recorder Opus encoder requies Unity 2021.2 or newer for WebGL");
+                return new LocalVoiceAudioDummy();
+#endif
+            }
             int samplingRateInt = (int)this.samplingRate;
             switch (this.SourceType)
             {
@@ -891,8 +896,16 @@ namespace Photon.Voice.Unity
                                     otherParams = androidNativeMicrophoneSettings.BuildAndroidAudioInParameters();
                                     this.Logger.LogInfo("Setting recorder's source to UnityAndroidAudioInAEC");
                                     break;
+                                case RuntimePlatform.WebGLPlayer:
+#if UNITY_2021_2_OR_NEWER // requires ES6
+                                    this.Logger.LogInfo("Setting recorder's source to Unity.WebAudioMicIn");
+                                    break;
+#else
+                                    this.Logger.LogError("Microphone cature requies Unity 2021.2 or newer for WebGL");
+                                    goto default;
+#endif
                                 default:
-                                    this.Logger.LogError("Photon microphone type is not supported for the current platform {0}.", Application.platform);
+                                    this.Logger.LogError("Photon microphone type is not supported for the current platform {0}", Application.platform);
                                     break;
                             }
                             this.inputSource = Platform.CreateDefaultAudioSource(this.Logger, micDev, samplingRateInt, 1, otherParams);
@@ -1035,22 +1048,6 @@ namespace Photon.Voice.Unity
             }
         }
 
-        private void GetThresholdFromDetector()
-        {
-            if (this.RecordingEnabled && this.VoiceDetector != null && !this.voiceDetectionThreshold.Equals(this.VoiceDetector.Threshold))
-            {
-                if (this.VoiceDetector.Threshold <= 1f && this.VoiceDetector.Threshold >= 0f)
-                {
-                    this.Logger.LogDebug("VoiceDetectionThreshold automatically changed from {0} to {1}", this.voiceDetectionThreshold, this.VoiceDetector.Threshold);
-                    this.voiceDetectionThreshold = this.VoiceDetector.Threshold;
-                }
-                else
-                {
-                    this.Logger.LogWarning("VoiceDetector.Threshold has unexpected value {0}", this.VoiceDetector.Threshold);
-                }
-            }
-        }
-
         private void OnApplicationPause(bool paused)
         {
             if (this.voiceConnection == null)
@@ -1107,7 +1104,7 @@ namespace Photon.Voice.Unity
             }
         }
 
-        #endregion
+#endregion
 
         public enum InputSourceType
         {

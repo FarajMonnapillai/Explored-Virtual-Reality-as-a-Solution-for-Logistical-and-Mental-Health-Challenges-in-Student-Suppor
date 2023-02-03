@@ -165,6 +165,7 @@ namespace Photon.Voice
         internal int channelId;
         internal byte evNumber = 0; // sequence used by receivers to detect loss. will overflow.
         protected VoiceClient voiceClient;
+        protected bool threadingEnabled;
         protected ArraySegment<byte> configFrame;
 
         volatile protected bool disposed;
@@ -178,6 +179,7 @@ namespace Photon.Voice
             this.info = voiceInfo;
             this.channelId = channelId;
             this.voiceClient = voiceClient;
+            this.threadingEnabled = voiceClient.ThreadingEnabled;
             this.id = id;
             if (encoder == null)
             {
@@ -379,6 +381,7 @@ namespace Photon.Voice
         internal int DelayFrames { get; set; }
         private int playerId;
         private byte voiceId;
+        protected bool threadingEnabled;
         volatile private bool disposed;
         object disposeLock = new object();
 
@@ -387,6 +390,7 @@ namespace Photon.Voice
             this.options = options;
             this.LogPrefix = options.logPrefix;
             this.voiceClient = client;
+            this.threadingEnabled = voiceClient.ThreadingEnabled;
             this.channelId = channelId;
             this.playerId = playerId;
             this.voiceId = voiceId;
@@ -401,22 +405,26 @@ namespace Photon.Voice
                 return;
             }
 
-#if PHOTON_VOICE_THREADING_DISABLE
-            voiceClient.logger.LogInfo(LogPrefix + ": Starting decode singlethreaded");
-            options.Decoder.Open(Info);
-#else
-#if NETFX_CORE
-            Windows.System.Threading.ThreadPool.RunAsync((x) =>
+            if (!threadingEnabled)
             {
-                decodeThread();
-            });
+                voiceClient.logger.LogInfo(LogPrefix + ": Starting decode singlethreaded");
+                options.Decoder.Open(Info);
+            }
+            else
+            {
+#if NETFX_CORE
+                Windows.System.Threading.ThreadPool.RunAsync((x) =>
+                {
+                    decodeThread();
+                });
 #else
-            var t = new Thread(() => decodeThread());
-            Util.SetThreadName(t, "[PV] Dec" + shortName);
-            t.Start();
+                var t = new Thread(() => decodeThread());
+                Util.SetThreadName(t, "[PV] Dec" + shortName);
+                t.Start();
 #endif
-#endif
+            }
         }
+
         private string shortName { get { return "v#" + voiceId + "ch#" + voiceClient.channelStr(channelId) + "p#" + playerId; } }
         public string LogPrefix { get; private set; }
 
@@ -480,29 +488,32 @@ namespace Photon.Voice
 
         void receiveFrame(ref FrameBuffer frame)
         {
-#if PHOTON_VOICE_THREADING_DISABLE
-            if (disposed) return;
-
-            options.Decoder.Input(ref frame);
-            // frame.Release() is not required in single-threaded variant because VoiceClient.onFrame() caller always calls Release() for the frame
-#else
-            lock (disposeLock) // sync with Dispose and decodeThread 'finally'
+            if (!threadingEnabled)
             {
                 if (disposed) return;
 
-                receiveSpacingProfile.Update(false, (frame.Flags & FrameFlags.EndOfStream) != 0);
-                lock (frameQueue)
-                {
-                    frameQueue.Enqueue(frame);
-                    frame.Retain();
-                    if ((frame.Flags & FrameFlags.EndOfStream) != 0)
-                    {
-                        flushingFramePosInQueue = frameQueue.Count - 1;
-                    }
-                }
-                frameQueueReady.Set();
+                options.Decoder.Input(ref frame);
+                // frame.Release() is not required in single-threaded variant because VoiceClient.onFrame() caller always calls Release() for the frame
             }
-#endif
+            else
+            {
+                lock (disposeLock) // sync with Dispose and decodeThread 'finally'
+                {
+                    if (disposed) return;
+
+                    receiveSpacingProfile.Update(false, (frame.Flags & FrameFlags.EndOfStream) != 0);
+                    lock (frameQueue)
+                    {
+                        frameQueue.Enqueue(frame);
+                        frame.Retain();
+                        if ((frame.Flags & FrameFlags.EndOfStream) != 0)
+                        {
+                            flushingFramePosInQueue = frameQueue.Count - 1;
+                        }
+                    }
+                    frameQueueReady.Set();
+                }
+            }
         }
 
         void receiveNullFrames(int count)
@@ -643,22 +654,25 @@ namespace Photon.Voice
 
         public void Dispose()
         {
-#if PHOTON_VOICE_THREADING_DISABLE
-            if (options.Decoder != null)
+            if (!threadingEnabled)
             {
-                disposed = true;
-                options.Decoder.Dispose();
-            }
-#else
-            lock (disposeLock) // sync with receiveFrame/receiveNullFrames
-            {
-                if (!disposed)
+                if (options.Decoder != null)
                 {
                     disposed = true;
-                    frameQueueReady.Set(); // let decodeThread dispose resporces and exit
+                    options.Decoder.Dispose();
                 }
             }
-#endif
+            else
+            {
+                lock (disposeLock) // sync with receiveFrame/receiveNullFrames
+                {
+                    if (!disposed)
+                    {
+                        disposed = true;
+                        frameQueueReady.Set(); // let decodeThread dispose resporces and exit
+                    }
+                }
+            }
         }
     }
 }

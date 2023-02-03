@@ -6305,8 +6305,8 @@ struct SpatialAnchorLoader_tE20E78856F636F96399ECC433BD59674D149D01F  : public M
 // SpawnObject
 struct SpawnObject_tFA316A4796D54E7B4AA8F864CF81C88603D82CCF  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// UnityEngine.GameObject SpawnObject::MycubrPrefab
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___MycubrPrefab_4;
+	// UnityEngine.GameObject SpawnObject::MycubePrefab
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___MycubePrefab_4;
 };
 
 // StartMenu

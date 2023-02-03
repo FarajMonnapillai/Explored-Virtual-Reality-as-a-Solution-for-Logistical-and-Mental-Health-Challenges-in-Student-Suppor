@@ -31509,8 +31509,8 @@ struct SpatialAnchorLoader_tE20E78856F636F96399ECC433BD59674D149D01F  : public M
 // SpawnObject
 struct SpawnObject_tFA316A4796D54E7B4AA8F864CF81C88603D82CCF  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// UnityEngine.GameObject SpawnObject::MycubrPrefab
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___MycubrPrefab_4;
+	// UnityEngine.GameObject SpawnObject::MycubePrefab
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___MycubePrefab_4;
 };
 
 // StartMenu
@@ -49592,7 +49592,7 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9968[1] =
 	static_cast<int32_t>(offsetof(XRGrabNetworkInteractable_tB5C662F0489DEA54258E48D2C1D101B3B5AE88EA, ___photonView_98)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9969[1] = 
 {
-	static_cast<int32_t>(offsetof(SpawnObject_tFA316A4796D54E7B4AA8F864CF81C88603D82CCF, ___MycubrPrefab_4)),};
+	static_cast<int32_t>(offsetof(SpawnObject_tFA316A4796D54E7B4AA8F864CF81C88603D82CCF, ___MycubePrefab_4)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9970[4] = 
 {
 	static_cast<int32_t>(offsetof(TeleportController_t3F53979D37A509BCE3FEAC1AF60FFE2C525A223E, ___xrRayInteractor_4)),static_cast<int32_t>(offsetof(TeleportController_t3F53979D37A509BCE3FEAC1AF60FFE2C525A223E, ___actionbasedController_5)),static_cast<int32_t>(offsetof(TeleportController_t3F53979D37A509BCE3FEAC1AF60FFE2C525A223E, ___xrDirectInteractor_6)),static_cast<int32_t>(offsetof(TeleportController_t3F53979D37A509BCE3FEAC1AF60FFE2C525A223E, ___teleportActionRef_7)),};

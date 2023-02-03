@@ -36,7 +36,7 @@ namespace Photon.Voice
             frameData.Buffer[1] = voiceId;
             frameData.Buffer[2] = evNumber;
             frameData.Buffer[3] = (byte)flags;
-            Buffer.BlockCopy(data.Array, 0, frameData.Buffer, DATA_OFFSET, data.Count);
+            Buffer.BlockCopy(data.Array, data.Offset, frameData.Buffer, DATA_OFFSET, data.Count);
             frameData.Count = data.Count + DATA_OFFSET; // need to set the count, as we manipulated the buffer directly
 
             SendOptions sendOpt = new SendOptions() { Reliability = reliable, Channel = this.photonChannelForCodec(localVoice.Info.Codec), Encrypt = localVoice.Encrypt };

@@ -125,6 +125,8 @@ namespace Photon.Voice.Unity
 #else
             this.client = new LoadBalancingTransport(this.Logger);
 #endif
+            this.client.VoiceClient.ThreadingEnabled = Application.platform != RuntimePlatform.WebGLPlayer;
+
             this.client.ClientType = ClientAppType.Voice;
             this.client.VoiceClient.OnRemoteVoiceInfoAction += this.OnRemoteVoiceInfo;
             this.client.StateChanged += this.OnVoiceStateChanged;
@@ -133,7 +135,7 @@ namespace Photon.Voice.Unity
             this.StartFallbackSendAckThread();
         }
 
-        #region Public Fields
+#region Public Fields
 
         /// <summary> Settings to be used by this Voice Client</summary>
         public AppSettings Settings;
@@ -155,9 +157,9 @@ namespace Photon.Voice.Unity
         public int PlayStationUserID = 0; // set from your games code
 #endif
 
-        #endregion
+#endregion
 
-        #region Properties
+#region Properties
 
         protected Voice.ILogger Logger => voiceComponentImpl.Logger;
         // to set logging level from code
@@ -226,9 +228,9 @@ namespace Photon.Voice.Unity
             }
         }
 
-        #endregion
+#endregion
 
-        #region Public Methods
+#region Public Methods
 
         /// <summary>
         /// Connect to Photon server using <see cref="Settings"/>
@@ -290,9 +292,9 @@ namespace Photon.Voice.Unity
             return false;
         }
 
-        #endregion
+#endregion
 
-        #region Private Methods
+#region Private Methods
 
         protected override void Awake()
         {
@@ -418,6 +420,13 @@ namespace Photon.Voice.Unity
             }
 
             RemoteVoiceLink remoteVoice = new RemoteVoiceLink(voiceInfo, playerId, voiceId, channelId, ref options);
+            if (Application.platform == RuntimePlatform.WebGLPlayer)
+            {
+#if !UNITY_2021_2_OR_NEWER // opus lib requires Emscripten 2.0.19
+                this.Logger.LogError("Remote voice Opus decoder requies Unity 2021.2 or newer for WebGL");
+                options.Decoder = null; // null Opus decoder set by RemoteVoiceLink
+#endif
+            }
 
             this.Logger.LogInfo("OnRemoteVoiceInfo:  {0}", remoteVoice);
             this.cachedRemoteVoices.Add(remoteVoice);
@@ -573,6 +582,6 @@ namespace Photon.Voice.Unity
             }
         }
 
-        #endregion
+#endregion
     }
 }

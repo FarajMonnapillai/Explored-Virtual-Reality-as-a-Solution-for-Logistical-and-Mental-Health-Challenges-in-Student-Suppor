@@ -241,11 +241,13 @@ namespace Photon.Voice
         {
             if (disposed) return;
 
-#if PHOTON_VOICE_THREADING_DISABLE
-            PushData(buf);
-            this.bufferFactory.Free(buf, buf.Length);
-            return;
-#endif
+            if (!threadingEnabled)
+            {
+                PushData(buf);
+                this.bufferFactory.Free(buf, buf.Length);
+
+                return;
+            }
 
             if (!dataEncodeThreadStarted)
             {

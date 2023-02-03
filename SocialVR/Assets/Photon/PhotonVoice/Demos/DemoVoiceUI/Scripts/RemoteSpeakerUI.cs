@@ -20,8 +20,11 @@
         private InputField playDelayInputField;
         [SerializeField]
         private Text bufferLagText;
+        [SerializeField]
+        private Slider volumeSlider;
 #pragma warning restore 649
         protected Speaker speaker;
+        private AudioSource audioSource;
 
         protected Player Actor { get { return this.loadBalancingClient.CurrentRoom != null ? this.loadBalancingClient.CurrentRoom.GetPlayer(this.speaker.RemoteVoice.PlayerId) : null; } }
 
@@ -31,10 +34,22 @@
         protected virtual void Start()
         {
             this.speaker = this.GetComponent<Speaker>();
+            this.audioSource = this.GetComponent<AudioSource>();
             this.playDelayInputField.text = this.speaker.PlayDelay.ToString();
             this.playDelayInputField.SetSingleOnEndEditCallback(this.OnPlayDelayChanged);
             this.SetNickname();
             this.SetMutedState();
+
+            this.volumeSlider.minValue = 0f;
+            this.volumeSlider.maxValue = 1f;
+            this.volumeSlider.SetSingleOnValueChangedCallback(this.OnVolumeChanged);
+            this.volumeSlider.value = 1;
+            this.OnVolumeChanged(1);
+
+        }
+        private void OnVolumeChanged(float newValue)
+        {
+            this.audioSource.volume = newValue;
         }
 
         private void OnPlayDelayChanged(string str)

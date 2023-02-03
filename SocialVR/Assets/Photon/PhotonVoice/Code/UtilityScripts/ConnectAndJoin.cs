@@ -28,9 +28,6 @@ namespace Photon.Voice.Unity.UtilityScripts
         private bool autoConnect = true;
 
         [SerializeField]
-        private bool autoTransmit = true;
-
-        [SerializeField]
         private bool publishUserId = false;
 
         public string RoomName;
@@ -85,10 +82,6 @@ namespace Photon.Voice.Unity.UtilityScripts
 
         public void OnJoinedRoom()
         {
-            if (this.voiceConnection.PrimaryRecorder != null)
-            {
-                this.voiceConnection.PrimaryRecorder.TransmitEnabled = this.autoTransmit;
-            }
         }
 
         public void OnJoinRandomFailed(short returnCode, string message)

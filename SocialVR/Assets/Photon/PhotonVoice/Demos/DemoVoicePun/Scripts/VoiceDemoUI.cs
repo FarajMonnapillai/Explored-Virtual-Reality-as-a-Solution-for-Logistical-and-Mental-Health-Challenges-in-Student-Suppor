@@ -25,13 +25,13 @@ namespace ExitGames.Demos.DemoPunVoice
 
 #if !UNITY_EDITOR && UNITY_PS4
     using Sony.NP;
-#elif !UNITY_EDITOR && UNITY_SHARLIN
+#elif !UNITY_EDITOR && UNITY_PS5
     using System.Runtime.InteropServices;
 #endif
 
     public class VoiceDemoUI : MonoBehaviour
     {
-#if !UNITY_EDITOR && UNITY_SHARLIN
+#if !UNITY_EDITOR && UNITY_PS5
     [DllImport("PhotonVoiceLocalUserIDPlugin")]
     private static extern int egpvgetLocalUserID(); // returns the user ID of the user at index 0 in the list of local users
 #endif
@@ -299,7 +299,7 @@ namespace ExitGames.Demos.DemoPunVoice
             int userID = localUsers.LocalUsersIds[0].UserId.Id;
 
             punVoiceClient.PlayStationUserID = userID;
-#elif !UNITY_EDITOR && UNITY_SHARLIN
+#elif !UNITY_EDITOR && UNITY_PS5
             punVoiceClient.PlayStationUserID = egpvgetLocalUserID();
 #endif
         }
@@ -427,8 +427,8 @@ namespace ExitGames.Demos.DemoPunVoice
 
         protected void OnApplicationQuit()
         {
-            this.punVoiceClient.Client.Disconnect();
-            this.punVoiceClient.Client.LoadBalancingPeer.StopThread();
+            this.punVoiceClient.Client.StateChanged -= this.VoiceClientStateChanged;
+            PhotonNetwork.NetworkingClient.StateChanged -= this.PunClientStateChanged;
         }
     }
 }

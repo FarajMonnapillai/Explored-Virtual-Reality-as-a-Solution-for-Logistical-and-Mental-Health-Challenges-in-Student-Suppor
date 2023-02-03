@@ -75,7 +75,7 @@ namespace Photon.Voice
             return new UWP.AudioInPusher(logger, samplingRate, channels, dev.IsDefault ? "" : dev.IDString);
 #elif UNITY_SWITCH && !UNITY_EDITOR
             return new Switch.AudioInPusher(logger);
-#elif UNITY_5_3_OR_NEWER // #if UNITY
+#elif UNITY_5_3_OR_NEWER && !UNITY_WEBGL // #if UNITY except WebGL which does not support microphone
             return new Unity.MicWrapper(dev.IDString, samplingRate, logger);
 #else
             throw new UnsupportedPlatformException("Platform.CreateDefaultAudioSource");

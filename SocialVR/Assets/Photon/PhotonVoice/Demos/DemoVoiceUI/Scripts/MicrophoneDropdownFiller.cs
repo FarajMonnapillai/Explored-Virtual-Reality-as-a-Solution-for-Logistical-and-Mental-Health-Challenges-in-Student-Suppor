@@ -37,10 +37,6 @@
         [FormerlySerializedAs("RefreshButton")]
         private GameObject refreshButton;
 
-        // TODO: remove, mic type switches by selecting an item in the menu
-        [SerializeField]
-        [FormerlySerializedAs("ToggleButton")]
-        private GameObject toggleButton;
 #pragma warning restore 649
 
         private IDeviceEnumerator unityMicEnum;
@@ -49,10 +45,10 @@
         protected override void Awake()
         {
             base.Awake();
-            this.toggleButton.SetActive(false);
             unityMicEnum = new AudioInEnumerator(this.Logger);
             photonMicEnum = Platform.CreateAudioInEnumerator(this.Logger);
             this.RefreshMicrophones();
+            this.refreshButton.GetComponentInChildren<Button>().onClick.AddListener(RefreshMicrophones);
         }
 
         private void OnEnable()

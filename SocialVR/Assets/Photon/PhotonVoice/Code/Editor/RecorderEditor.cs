@@ -239,6 +239,7 @@
             if (Application.isPlaying)
             {
                 // Update Recorder in play mode. The values not having immediate effect (are not read repeatedly and do not redstart Recorder) are commented out.
+                this.recorder.VoiceDetection = this.voiceDetectionSp.boolValue;
                 this.recorder.VoiceDetectionThreshold = this.voiceDetectionThresholdSp.floatValue;
                 this.recorder.VoiceDetectionDelayMs = this.voiceDetectionDelayMsSp.intValue;
                 this.recorder.InterestGroup = (byte)this.interestGroupSp.intValue;

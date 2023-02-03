@@ -1,6 +1,25 @@
 Photon Voice 2 Change Log
 
-v2.50 (October 2022)
+v2.51 (February 02, 2022)
+   PUN2: v2.41 (PUN2.41) 
+   RT/lib:4.1.6.18f2
+   PhotonVoiceApi: revision 6697
+   Unity: 2019.4.39 or higher
+WebGL:
+   ADDED: WebGL support via WebAudio API (Unity 2021.2 or higher required)
+   NOTE: Safari is not supported
+   NOTE: WebGL audio output implementation bypasses Unity audio system and uses WebAudio API context destination directly
+   NOTE: Speaker applies AudioSource's volume and spatial blend, object position and AudioListener transform to WebGL audio output instance
+   NOTE: WebGL audio output uses optimized audio graph if initialized with spatial blend = 1 or 0. To allow dynamic spatial blend, set AudioSource.spatialBlend to the value between 0 and 1 in Editor or call Speaker.RestartRecording() after changing it in runtime
+   NOTE: AudioClipWrapper fails in WebGL after about 40 seconds with "memory access out of bounds" error in Unity AudioClip.GetData()
+Recorder:
+   FIXED: Recorder ignored voiceDetectionThreshold set in Editor
+Android:
+   CHANGED: native audio library: switching between audio devices improved, device selection order: bluetooth, usb, wired, speaker
+PS4/PS5:
+   FIXED: the "Mute Game Voice Chat" option in the PlayStation settings is now handled correctly
+
+v2.50 (October 18, 2022)
    PUN2: v2.41 (PUN2.41) 
    RT/lib:4.1.6.18f2
    PhotonVoiceApi: revision 6358

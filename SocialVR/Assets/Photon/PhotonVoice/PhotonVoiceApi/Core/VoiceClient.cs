@@ -43,6 +43,8 @@ namespace Photon.Voice
         internal IVoiceTransport transport;
         internal ILogger logger;
 
+        public bool ThreadingEnabled { get; set; } = true;
+
         /// <summary>Lost frames counter.</summary>
         public int FramesLost { get; internal set; }
 

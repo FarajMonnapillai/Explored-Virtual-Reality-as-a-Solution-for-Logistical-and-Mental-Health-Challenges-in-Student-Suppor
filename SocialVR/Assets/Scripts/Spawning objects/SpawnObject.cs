@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class SpawnObject : MonoBehaviour
 {
-    public GameObject MycubrPrefab;
+    public GameObject MycubePrefab;
 
     public void InstantiateCaller(GameObject prefab)
     {

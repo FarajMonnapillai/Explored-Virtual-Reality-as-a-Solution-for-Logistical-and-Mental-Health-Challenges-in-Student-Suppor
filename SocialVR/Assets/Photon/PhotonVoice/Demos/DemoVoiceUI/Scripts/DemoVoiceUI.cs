@@ -96,12 +96,6 @@ namespace Photon.Voice.Unity.Demos.DemoVoiceUI
         private bool defaultTransmitEnabled = false;
 
         [SerializeField]
-        private int screenWidth = 800;
-
-        [SerializeField]
-        private int screenHeight = 600;
-
-        [SerializeField]
         private bool fullScreen;
 
         [SerializeField]
@@ -140,7 +134,6 @@ namespace Photon.Voice.Unity.Demos.DemoVoiceUI
 
         private void Awake()
         {
-            Screen.SetResolution(this.screenWidth, this.screenHeight, this.fullScreen);
             this.connectAndJoin = this.GetComponent<ConnectAndJoin>();
             this.voiceConnection = this.GetComponent<UnityVoiceClient>();
             this.voiceAudioPreprocessor = this.voiceConnection.PrimaryRecorder.GetComponent<WebRtcAudioDsp>();
@@ -153,7 +146,7 @@ namespace Photon.Voice.Unity.Demos.DemoVoiceUI
             this.InitUiCallbacks();
             this.InitUiValues();
             this.GetSavedNickname();
-            this.voiceConnection.PrimaryRecorder.InputFactory = () => new AudioUtil.ToneAudioReader<float>();
+            this.voiceConnection.PrimaryRecorder.InputFactory = () => new AudioUtil.ToneAudioReader<float>(null, 440, 48000, 2);
         }
 
         protected virtual void SetDefaults()
@@ -338,12 +331,6 @@ namespace Photon.Voice.Unity.Demos.DemoVoiceUI
         private void UpdateSyncedNickname(string nickname)
         {
             nickname = nickname.Trim();
-            if (string.IsNullOrEmpty(nickname))
-            {
-                return;
-            }
-
-            //Debug.LogFormat("UpdateSyncedNickname() name: {0}", nickname);
             this.voiceConnection.Client.LocalPlayer.NickName = nickname;
             PlayerPrefs.SetString("vNick", nickname);
         }
@@ -438,25 +425,23 @@ namespace Photon.Voice.Unity.Demos.DemoVoiceUI
         {
             this.muteToggle.SetSingleOnValueChangedCallback(this.ToggleMute);
             this.debugEchoToggle.SetSingleOnValueChangedCallback(this.ToggleDebugEcho);
+            this.reliableTransmissionToggle.SetSingleOnValueChangedCallback(this.ToggleReliable);
+            this.encryptionToggle.SetSingleOnValueChangedCallback(this.ToggleEncryption);
+            this.streamAudioClipToggle.SetSingleOnValueChangedCallback(this.ToggleAudioClipStreaming);
+            this.audioToneToggle.SetSingleOnValueChangedCallback(this.ToggleAudioToneFactory);
+            this.photonVadToggle.SetSingleOnValueChangedCallback(this.TogglePhotonVAD);
+
             this.vadToggle.SetSingleOnValueChangedCallback(this.ToggleVAD);
             this.aecToggle.SetSingleOnValueChangedCallback(this.ToggleAEC);
             this.agcToggle.SetSingleOnValueChangedCallback(this.ToggleAGC);
-            this.debugEchoToggle.SetSingleOnValueChangedCallback(this.ToggleDebugEcho);
             this.dspToggle.SetSingleOnValueChangedCallback(this.ToggleDsp);
             this.highPassToggle.SetSingleOnValueChangedCallback(this.ToggleHighPass);
-            this.encryptionToggle.SetSingleOnValueChangedCallback(this.ToggleEncryption);
-            this.reliableTransmissionToggle.SetSingleOnValueChangedCallback(this.ToggleReliable);
-            this.streamAudioClipToggle.SetSingleOnValueChangedCallback(this.ToggleAudioClipStreaming);
-            this.photonVadToggle.SetSingleOnValueChangedCallback(this.TogglePhotonVAD);
             this.aecHighPassToggle.SetSingleOnValueChangedCallback(this.ToggleAecHighPass);
             this.noiseSuppressionToggle.SetSingleOnValueChangedCallback(this.ToggleNoiseSuppression);
-            this.audioToneToggle.SetSingleOnValueChangedCallback(this.ToggleAudioToneFactory);
-
             this.agcCompressionGainSlider.SetSingleOnValueChangedCallback(this.OnAgcCompressionGainChanged);
             this.agcTargetLevelSlider.SetSingleOnValueChangedCallback(this.OnAgcTargetLevelChanged);
 
             this.localNicknameText.SetSingleOnEndEditCallback(this.UpdateSyncedNickname);
-
             this.roomNameInputField.SetSingleOnEndEditCallback(this.JoinOrCreateRoom);
 
             this.reverseStreamDelayInputField.SetSingleOnEndEditCallback(this.OnReverseStreamDelayChanged);
@@ -468,10 +453,12 @@ namespace Photon.Voice.Unity.Demos.DemoVoiceUI
             this.debugEchoToggle.SetValue(this.voiceConnection.PrimaryRecorder.DebugEchoMode);
             this.reliableTransmissionToggle.SetValue(this.voiceConnection.PrimaryRecorder.ReliableMode);
             this.encryptionToggle.SetValue(this.voiceConnection.PrimaryRecorder.Encrypt);
-            this.streamAudioClipToggle.SetValue(this.voiceConnection.PrimaryRecorder.SourceType ==
-                                                Recorder.InputSourceType.AudioClip);
+            this.streamAudioClipToggle.SetValue(this.voiceConnection.PrimaryRecorder.SourceType == Recorder.InputSourceType.AudioClip);
             this.audioToneToggle.SetValue(this.voiceConnection.PrimaryRecorder.SourceType == Recorder.InputSourceType.Factory);
+            this.photonVadToggle.SetValue(this.voiceConnection.PrimaryRecorder.VoiceDetection);
+
             this.microphoneSetupGameObject.SetActive(!this.streamAudioClipToggle.isOn && !this.audioToneToggle.isOn);
+
             if (this.webRtcDspGameObject != null)
             {
                 this.dspToggle.gameObject.SetActive(true);
@@ -530,8 +517,7 @@ namespace Photon.Voice.Unity.Demos.DemoVoiceUI
 
         protected void OnApplicationQuit()
         {
-            this.voiceConnection.Client.Disconnect();
-            this.voiceConnection.Client.LoadBalancingPeer.StopThread();
+            this.voiceConnection.Client.RemoveCallbackTarget(this);
         }
 
         #region IInRoomCallbacks
