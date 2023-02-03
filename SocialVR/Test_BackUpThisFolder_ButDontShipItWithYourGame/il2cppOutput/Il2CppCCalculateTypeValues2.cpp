@@ -16977,14 +16977,12 @@ struct ConnectAndJoin_t8F33D9AB6F7ABEC44BF1341A5A40FAF83A6E061E  : public MonoBe
 	bool ___RandomRoom_5;
 	// System.Boolean Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::autoConnect
 	bool ___autoConnect_6;
-	// System.Boolean Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::autoTransmit
-	bool ___autoTransmit_7;
 	// System.Boolean Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::publishUserId
-	bool ___publishUserId_8;
+	bool ___publishUserId_7;
 	// System.String Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::RoomName
-	String_t* ___RoomName_9;
+	String_t* ___RoomName_8;
 	// Photon.Realtime.EnterRoomParams Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::enterRoomParams
-	EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* ___enterRoomParams_10;
+	EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* ___enterRoomParams_9;
 };
 
 // Photon.Realtime.ConnectionHandler

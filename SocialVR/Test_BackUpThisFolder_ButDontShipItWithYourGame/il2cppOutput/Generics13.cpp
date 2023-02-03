@@ -727,6 +727,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral5BBAC59E9A03A1A302AA6203E28671C0F5BDC937
 IL2CPP_EXTERN_C String_t* _stringLiteral69520730213CDED741A5919BB83F6E4B8610EDBA;
 IL2CPP_EXTERN_C String_t* _stringLiteral69E86056B798F998F53D81428E4E2B02660B7F7D;
 IL2CPP_EXTERN_C String_t* _stringLiteral73281EEC82D37C63F7B37551C86CE8D602A926A0;
+IL2CPP_EXTERN_C String_t* _stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D;
 IL2CPP_EXTERN_C String_t* _stringLiteral8E3E292F86AACF17B735D4B90BCC2F77DC92C7ED;
 IL2CPP_EXTERN_C String_t* _stringLiteralBF84EA2F6EDEC20B3F5DD012353A8DCE5F2B3DE6;
 IL2CPP_EXTERN_C String_t* _stringLiteralC0E02A0440A6BB4475B7E59901C37A6A25E773C8;
@@ -774,7 +775,6 @@ struct DictionaryEntryU5BU5D_t410156653E754D17B5E1161CC6CF565103B63533;
 struct Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB;
 struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
-struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
 
 IL2CPP_EXTERN_C_BEGIN
 IL2CPP_EXTERN_C_END
@@ -847,8 +847,6 @@ struct Decoder_1_tF28C86FB8F4AC1D53E4A26D0FCA830665E5D22A8  : public RuntimeObje
 	String_t* ___U3CErrorU3Ek__BackingField_2;
 	// System.Action`1<Photon.Voice.FrameOut`1<T>> Photon.Voice.OpusCodec/Decoder`1::output
 	Action_1_t1535FA1EEC0208AC94BB6B3D53AE56A52908CF9F* ___output_3;
-	// Photon.Voice.FrameOut`1<T> Photon.Voice.OpusCodec/Decoder`1::frameOut
-	FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15* ___frameOut_4;
 };
 
 // Photon.Voice.RawCodec/Decoder`1<System.Int16>
@@ -875,8 +873,6 @@ struct Decoder_1_t82A9D174F8157B858E2389B368EE89BC1F54D3A7  : public RuntimeObje
 	String_t* ___U3CErrorU3Ek__BackingField_2;
 	// System.Action`1<Photon.Voice.FrameOut`1<T>> Photon.Voice.OpusCodec/Decoder`1::output
 	Action_1_t35D6769C0B85612B2982BB93D5F95E3DB0A73A67* ___output_3;
-	// Photon.Voice.FrameOut`1<T> Photon.Voice.OpusCodec/Decoder`1::frameOut
-	FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81* ___frameOut_4;
 };
 
 // Photon.Voice.RawCodec/Decoder`1<System.Object>
@@ -903,8 +899,6 @@ struct Decoder_1_tEDF610481F98E5A591A6BDFE642E9192E9594084  : public RuntimeObje
 	String_t* ___U3CErrorU3Ek__BackingField_2;
 	// System.Action`1<Photon.Voice.FrameOut`1<T>> Photon.Voice.OpusCodec/Decoder`1::output
 	Action_1_t4B5244A7D75171D94BEAE3074BB3625987C5AE84* ___output_3;
-	// Photon.Voice.FrameOut`1<T> Photon.Voice.OpusCodec/Decoder`1::frameOut
-	FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D* ___frameOut_4;
 };
 
 // System.Collections.Generic.LowLevelDictionary`2/DefaultComparer`1<System.Int32,System.Object,System.Int32>
@@ -1230,15 +1224,6 @@ struct FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81  : public RuntimeObj
 {
 	// T[] Photon.Voice.FrameOut`1::<Buf>k__BackingField
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___U3CBufU3Ek__BackingField_0;
-	// System.Boolean Photon.Voice.FrameOut`1::<EndOfStream>k__BackingField
-	bool ___U3CEndOfStreamU3Ek__BackingField_1;
-};
-
-// Photon.Voice.FrameOut`1<System.Single>
-struct FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D  : public RuntimeObject
-{
-	// T[] Photon.Voice.FrameOut`1::<Buf>k__BackingField
-	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___U3CBufU3Ek__BackingField_0;
 	// System.Boolean Photon.Voice.FrameOut`1::<EndOfStream>k__BackingField
 	bool ___U3CEndOfStreamU3Ek__BackingField_1;
 };
@@ -1947,15 +1932,6 @@ struct NativeSlice_1_t66375568C4FF313931F4D2F646D64FE6A406BAD2
 	int32_t ___m_Stride_1;
 	// System.Int32 Unity.Collections.NativeSlice`1::m_Length
 	int32_t ___m_Length_2;
-};
-
-// System.Nullable`1<POpusCodec.Enums.Bandwidth>
-struct Nullable_1_t347CBA368C42E1B1DD31951C7B0497EFE1FD46F5 
-{
-	// System.Boolean System.Nullable`1::hasValue
-	bool ___hasValue_0;
-	// T System.Nullable`1::value
-	int32_t ___value_1;
 };
 
 // System.Nullable`1<System.Int32>
@@ -2803,6 +2779,75 @@ struct KeyValuePair_2_t2A9D1B7DEBB99A68011F37B017FDD44CFE5AEC14
 	RuntimeObject* ___value_1;
 };
 
+// POpusCodec.OpusDecoder`1<System.Int16>
+struct OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC  : public RuntimeObject
+{
+	// System.Action`1<Photon.Voice.FrameOut`1<T>> POpusCodec.OpusDecoder`1::output
+	Action_1_t1535FA1EEC0208AC94BB6B3D53AE56A52908CF9F* ___output_1;
+	// System.Boolean POpusCodec.OpusDecoder`1::TisFloat
+	bool ___TisFloat_2;
+	// System.Int32 POpusCodec.OpusDecoder`1::sizeofT
+	int32_t ___sizeofT_3;
+	// Photon.Voice.FrameOut`1<T> POpusCodec.OpusDecoder`1::frameOut
+	FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15* ___frameOut_4;
+	// System.IntPtr POpusCodec.OpusDecoder`1::handle
+	intptr_t ___handle_5;
+	// System.Int32 POpusCodec.OpusDecoder`1::channels
+	int32_t ___channels_6;
+	// System.Int32 POpusCodec.OpusDecoder`1::frameSamples
+	int32_t ___frameSamples_7;
+	// T[] POpusCodec.OpusDecoder`1::buffer
+	Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* ___buffer_9;
+	// System.Boolean POpusCodec.OpusDecoder`1::prevPacketInvalid
+	bool ___prevPacketInvalid_10;
+};
+
+// POpusCodec.OpusDecoder`1<System.Object>
+struct OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5  : public RuntimeObject
+{
+	// System.Action`1<Photon.Voice.FrameOut`1<T>> POpusCodec.OpusDecoder`1::output
+	Action_1_t35D6769C0B85612B2982BB93D5F95E3DB0A73A67* ___output_1;
+	// System.Boolean POpusCodec.OpusDecoder`1::TisFloat
+	bool ___TisFloat_2;
+	// System.Int32 POpusCodec.OpusDecoder`1::sizeofT
+	int32_t ___sizeofT_3;
+	// Photon.Voice.FrameOut`1<T> POpusCodec.OpusDecoder`1::frameOut
+	FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81* ___frameOut_4;
+	// System.IntPtr POpusCodec.OpusDecoder`1::handle
+	intptr_t ___handle_5;
+	// System.Int32 POpusCodec.OpusDecoder`1::channels
+	int32_t ___channels_6;
+	// System.Int32 POpusCodec.OpusDecoder`1::frameSamples
+	int32_t ___frameSamples_7;
+	// T[] POpusCodec.OpusDecoder`1::buffer
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___buffer_9;
+	// System.Boolean POpusCodec.OpusDecoder`1::prevPacketInvalid
+	bool ___prevPacketInvalid_10;
+};
+
+// POpusCodec.OpusDecoder`1<System.Single>
+struct OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3  : public RuntimeObject
+{
+	// System.Action`1<Photon.Voice.FrameOut`1<T>> POpusCodec.OpusDecoder`1::output
+	Action_1_t4B5244A7D75171D94BEAE3074BB3625987C5AE84* ___output_1;
+	// System.Boolean POpusCodec.OpusDecoder`1::TisFloat
+	bool ___TisFloat_2;
+	// System.Int32 POpusCodec.OpusDecoder`1::sizeofT
+	int32_t ___sizeofT_3;
+	// Photon.Voice.FrameOut`1<T> POpusCodec.OpusDecoder`1::frameOut
+	FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D* ___frameOut_4;
+	// System.IntPtr POpusCodec.OpusDecoder`1::handle
+	intptr_t ___handle_5;
+	// System.Int32 POpusCodec.OpusDecoder`1::channels
+	int32_t ___channels_6;
+	// System.Int32 POpusCodec.OpusDecoder`1::frameSamples
+	int32_t ___frameSamples_7;
+	// T[] POpusCodec.OpusDecoder`1::buffer
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___buffer_9;
+	// System.Boolean POpusCodec.OpusDecoder`1::prevPacketInvalid
+	bool ___prevPacketInvalid_10;
+};
+
 // System.Threading.Tasks.Task`1<System.Nullable`1<System.Int32>>
 struct Task_1_t75694119DBB4B68675BB4BAB3E446BA4EE5C91C7  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
 {
@@ -3419,69 +3464,6 @@ struct LessOrEqual_tB9CB1D3C60EDF1D92A4F0F43C8DD1D567B2ED344  : public Multicast
 {
 };
 
-// POpusCodec.OpusDecoder`1<System.Int16>
-struct OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC  : public RuntimeObject
-{
-	// System.Boolean POpusCodec.OpusDecoder`1::TisFloat
-	bool ___TisFloat_1;
-	// System.Int32 POpusCodec.OpusDecoder`1::sizeofT
-	int32_t ___sizeofT_2;
-	// System.IntPtr POpusCodec.OpusDecoder`1::_handle
-	intptr_t ____handle_3;
-	// System.Int32 POpusCodec.OpusDecoder`1::_channelCount
-	int32_t ____channelCount_5;
-	// System.Nullable`1<POpusCodec.Enums.Bandwidth> POpusCodec.OpusDecoder`1::_previousPacketBandwidth
-	Nullable_1_t347CBA368C42E1B1DD31951C7B0497EFE1FD46F5 ____previousPacketBandwidth_7;
-	// T[] POpusCodec.OpusDecoder`1::buffer
-	Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* ___buffer_8;
-	// Photon.Voice.FrameBuffer POpusCodec.OpusDecoder`1::prevPacketData
-	FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986 ___prevPacketData_9;
-	// System.Boolean POpusCodec.OpusDecoder`1::prevPacketInvalid
-	bool ___prevPacketInvalid_10;
-};
-
-// POpusCodec.OpusDecoder`1<System.Object>
-struct OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5  : public RuntimeObject
-{
-	// System.Boolean POpusCodec.OpusDecoder`1::TisFloat
-	bool ___TisFloat_1;
-	// System.Int32 POpusCodec.OpusDecoder`1::sizeofT
-	int32_t ___sizeofT_2;
-	// System.IntPtr POpusCodec.OpusDecoder`1::_handle
-	intptr_t ____handle_3;
-	// System.Int32 POpusCodec.OpusDecoder`1::_channelCount
-	int32_t ____channelCount_5;
-	// System.Nullable`1<POpusCodec.Enums.Bandwidth> POpusCodec.OpusDecoder`1::_previousPacketBandwidth
-	Nullable_1_t347CBA368C42E1B1DD31951C7B0497EFE1FD46F5 ____previousPacketBandwidth_7;
-	// T[] POpusCodec.OpusDecoder`1::buffer
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___buffer_8;
-	// Photon.Voice.FrameBuffer POpusCodec.OpusDecoder`1::prevPacketData
-	FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986 ___prevPacketData_9;
-	// System.Boolean POpusCodec.OpusDecoder`1::prevPacketInvalid
-	bool ___prevPacketInvalid_10;
-};
-
-// POpusCodec.OpusDecoder`1<System.Single>
-struct OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3  : public RuntimeObject
-{
-	// System.Boolean POpusCodec.OpusDecoder`1::TisFloat
-	bool ___TisFloat_1;
-	// System.Int32 POpusCodec.OpusDecoder`1::sizeofT
-	int32_t ___sizeofT_2;
-	// System.IntPtr POpusCodec.OpusDecoder`1::_handle
-	intptr_t ____handle_3;
-	// System.Int32 POpusCodec.OpusDecoder`1::_channelCount
-	int32_t ____channelCount_5;
-	// System.Nullable`1<POpusCodec.Enums.Bandwidth> POpusCodec.OpusDecoder`1::_previousPacketBandwidth
-	Nullable_1_t347CBA368C42E1B1DD31951C7B0497EFE1FD46F5 ____previousPacketBandwidth_7;
-	// T[] POpusCodec.OpusDecoder`1::buffer
-	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___buffer_8;
-	// Photon.Voice.FrameBuffer POpusCodec.OpusDecoder`1::prevPacketData
-	FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986 ___prevPacketData_9;
-	// System.Boolean POpusCodec.OpusDecoder`1::prevPacketInvalid
-	bool ___prevPacketInvalid_10;
-};
-
 // UnityEngine.Events.UnityAction`1<System.Collections.Generic.Dictionary`2<System.Object,System.Object>>
 struct UnityAction_1_t6BA70F1D673FF2670B22FEACE31E79D0793C3019  : public MulticastDelegate_t
 {
@@ -3845,10 +3827,6 @@ struct EqualityComparer_1_t92563A67F1C1ECDC3FE387C46498E2E56B59F3C2_StaticFields
 
 // Photon.Voice.FrameOut`1<System.Object>
 
-// Photon.Voice.FrameOut`1<System.Single>
-
-// Photon.Voice.FrameOut`1<System.Single>
-
 // System.Collections.Generic.HashSet`1<System.Collections.Generic.Dictionary`2<System.Object,System.Object>>
 
 // System.Collections.Generic.HashSet`1<System.Collections.Generic.Dictionary`2<System.Object,System.Object>>
@@ -4163,10 +4141,6 @@ struct TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E_StaticFields
 // Unity.Collections.NativeSlice`1<UnityEngine.UIElements.Vertex>
 
 // Unity.Collections.NativeSlice`1<UnityEngine.UIElements.Vertex>
-
-// System.Nullable`1<POpusCodec.Enums.Bandwidth>
-
-// System.Nullable`1<POpusCodec.Enums.Bandwidth>
 
 // System.Nullable`1<System.Int32>
 
@@ -4497,6 +4471,33 @@ struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
 
 // System.Collections.Generic.KeyValuePair`2<System.ValueTuple`2<System.Object,System.Object>,System.Object>
 
+// POpusCodec.OpusDecoder`1<System.Int16>
+struct OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC_StaticFields
+{
+	// T[] POpusCodec.OpusDecoder`1::EmptyBuffer
+	Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* ___EmptyBuffer_8;
+};
+
+// POpusCodec.OpusDecoder`1<System.Int16>
+
+// POpusCodec.OpusDecoder`1<System.Object>
+struct OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5_StaticFields
+{
+	// T[] POpusCodec.OpusDecoder`1::EmptyBuffer
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___EmptyBuffer_8;
+};
+
+// POpusCodec.OpusDecoder`1<System.Object>
+
+// POpusCodec.OpusDecoder`1<System.Single>
+struct OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3_StaticFields
+{
+	// T[] POpusCodec.OpusDecoder`1::EmptyBuffer
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___EmptyBuffer_8;
+};
+
+// POpusCodec.OpusDecoder`1<System.Single>
+
 // System.Threading.Tasks.Task`1<System.Nullable`1<System.Int32>>
 struct Task_1_t75694119DBB4B68675BB4BAB3E446BA4EE5C91C7_StaticFields
 {
@@ -4784,33 +4785,6 @@ struct Type_t_StaticFields
 
 // UnityEngine.Rendering.Universal.LibTessDotNet.Dict`1/LessOrEqual<System.Object>
 
-// POpusCodec.OpusDecoder`1<System.Int16>
-struct OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC_StaticFields
-{
-	// T[] POpusCodec.OpusDecoder`1::EmptyBuffer
-	Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* ___EmptyBuffer_6;
-};
-
-// POpusCodec.OpusDecoder`1<System.Int16>
-
-// POpusCodec.OpusDecoder`1<System.Object>
-struct OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5_StaticFields
-{
-	// T[] POpusCodec.OpusDecoder`1::EmptyBuffer
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___EmptyBuffer_6;
-};
-
-// POpusCodec.OpusDecoder`1<System.Object>
-
-// POpusCodec.OpusDecoder`1<System.Single>
-struct OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3_StaticFields
-{
-	// T[] POpusCodec.OpusDecoder`1::EmptyBuffer
-	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___EmptyBuffer_6;
-};
-
-// POpusCodec.OpusDecoder`1<System.Single>
-
 // UnityEngine.Events.UnityAction`1<System.Collections.Generic.Dictionary`2<System.Object,System.Object>>
 
 // UnityEngine.Events.UnityAction`1<System.Collections.Generic.Dictionary`2<System.Object,System.Object>>
@@ -4946,39 +4920,6 @@ struct KeyValuePair_2U5BU5D_t105762EC2DE353037ECAD13437FC19081314CE67  : public 
 		#endif
 	}
 };
-// System.Int16[]
-struct Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB  : public RuntimeArray
-{
-	ALIGN_FIELD (8) int16_t m_Items[1];
-
-	inline int16_t GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline int16_t* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, int16_t value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline int16_t GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline int16_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, int16_t value)
-	{
-		m_Items[index] = value;
-	}
-};
 // System.Object[]
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
 {
@@ -5014,6 +4955,39 @@ struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeA
 		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
 	}
 };
+// System.Int16[]
+struct Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB  : public RuntimeArray
+{
+	ALIGN_FIELD (8) int16_t m_Items[1];
+
+	inline int16_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int16_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int16_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int16_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int16_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int16_t value)
+	{
+		m_Items[index] = value;
+	}
+};
 // System.Byte[]
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
 {
@@ -5043,39 +5017,6 @@ struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArr
 		return m_Items + index;
 	}
 	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
-	{
-		m_Items[index] = value;
-	}
-};
-// System.Single[]
-struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C  : public RuntimeArray
-{
-	ALIGN_FIELD (8) float m_Items[1];
-
-	inline float GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline float* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, float value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline float GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline float* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, float value)
 	{
 		m_Items[index] = value;
 	}
@@ -5908,8 +5849,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A4
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t VoiceInfo_get_SamplingRate_mB35BF119B634916F78FF136465AD6E3FDFE834C8_inline (VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404* __this, const RuntimeMethod* method) ;
 // System.Int32 Photon.Voice.VoiceInfo::get_Channels()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t VoiceInfo_get_Channels_m9834209C53A08D0EF5F2F6AD8967DD364EFDB5F0_inline (VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404* __this, const RuntimeMethod* method) ;
+// System.Int32 Photon.Voice.VoiceInfo::get_FrameDurationSamples()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VoiceInfo_get_FrameDurationSamples_mA8983E72285C7175D0B7621C8371B0E9627479A6 (VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404* __this, const RuntimeMethod* method) ;
 // System.String Photon.Voice.OpusCodec::get_Version()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OpusCodec_get_Version_m008921D2C85E418116F03DC7B31495021D0A549B (const RuntimeMethod* method) ;
+// System.String Photon.Voice.VoiceInfo::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VoiceInfo_ToString_m31F4E929FD426EC3DFDB94C4FE45D3ECEB904FFF (VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404* __this, const RuntimeMethod* method) ;
 // T[] System.Array::Empty<System.Object>()
 inline ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline (const RuntimeMethod* method)
 {
@@ -11769,22 +11714,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugDictionary_2__ctor_m52F01D12C3034D8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Decoder_1__ctor_mA4D002F6D05DED4109C0619422C6B30C11209B5E_gshared (Decoder_1_tF28C86FB8F4AC1D53E4A26D0FCA830665E5D22A8* __this, Action_1_t1535FA1EEC0208AC94BB6B3D53AE56A52908CF9F* ___0_output, RuntimeObject* ___1_logger, const RuntimeMethod* method) 
 {
 	{
-		// FrameOut<T> frameOut = new FrameOut<T>(null, false);
-		FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15* L_0 = (FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 0));
-		NullCheck(L_0);
-		((  void (*) (FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15*, Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB*, bool, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(L_0, (Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB*)NULL, (bool)0, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
-		__this->___frameOut_4 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___frameOut_4), (void*)L_0);
 		// public Decoder(Action<FrameOut<T>> output, ILogger logger)
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
 		// this.output = output;
-		Action_1_t1535FA1EEC0208AC94BB6B3D53AE56A52908CF9F* L_1 = ___0_output;
-		__this->___output_3 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___output_3), (void*)L_1);
+		Action_1_t1535FA1EEC0208AC94BB6B3D53AE56A52908CF9F* L_0 = ___0_output;
+		__this->___output_3 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___output_3), (void*)L_0);
 		// this.logger = logger;
-		RuntimeObject* L_2 = ___1_logger;
-		__this->___logger_1 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___logger_1), (void*)L_2);
+		RuntimeObject* L_1 = ___1_logger;
+		__this->___logger_1 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___logger_1), (void*)L_1);
 		// }
 		return;
 	}
@@ -11798,91 +11737,111 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Decoder_1_Open_mA3D4D2CA5D10B45E4D86825F
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2D3509AE5D0779DB71B8B773D3B0B21C0CF814C6);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D);
 		s_Il2CppMethodInitialized = true;
 	}
-	Exception_t* V_0 = NULL;
-	bool V_1 = false;
+	bool V_0 = false;
+	VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Exception_t* V_2 = NULL;
+	bool V_3 = false;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 	}
 	try
 	{// begin try (depth: 1)
-		// decoder = new OpusDecoder<T>((SamplingRate)i.SamplingRate, (Channels)i.Channels);
-		int32_t L_0;
-		L_0 = VoiceInfo_get_SamplingRate_mB35BF119B634916F78FF136465AD6E3FDFE834C8_inline((&___0_i), NULL);
-		int32_t L_1;
-		L_1 = VoiceInfo_get_Channels_m9834209C53A08D0EF5F2F6AD8967DD364EFDB5F0_inline((&___0_i), NULL);
-		OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC* L_2 = (OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 2));
-		NullCheck(L_2);
-		((  void (*) (OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC*, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_2, (int32_t)L_0, (int32_t)L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-		__this->___decoder_0 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___decoder_0), (void*)L_2);
-		// logger.LogInfo("[PV] OpusCodec.Decoder created. Opus version " + Version);
-		RuntimeObject* L_3 = (RuntimeObject*)__this->___logger_1;
-		String_t* L_4;
-		L_4 = OpusCodec_get_Version_m008921D2C85E418116F03DC7B31495021D0A549B(NULL);
-		String_t* L_5;
-		L_5 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral2D3509AE5D0779DB71B8B773D3B0B21C0CF814C6, L_4, NULL);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6;
-		L_6 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
-		NullCheck(L_3);
-		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_3, L_5, L_6);
-		goto IL_008c;
+		{
+			// if (Wrapper.AsyncAPI)
+			V_0 = (bool)0;
+			goto IL_0006_1;
+		}
+
+IL_0006_1:
+		{
+			// decoder = new OpusDecoder<T>(output, (SamplingRate)i.SamplingRate, (Channels)i.Channels, i.FrameDurationSamples);
+			Action_1_t1535FA1EEC0208AC94BB6B3D53AE56A52908CF9F* L_0 = (Action_1_t1535FA1EEC0208AC94BB6B3D53AE56A52908CF9F*)__this->___output_3;
+			int32_t L_1;
+			L_1 = VoiceInfo_get_SamplingRate_mB35BF119B634916F78FF136465AD6E3FDFE834C8_inline((&___0_i), NULL);
+			int32_t L_2;
+			L_2 = VoiceInfo_get_Channels_m9834209C53A08D0EF5F2F6AD8967DD364EFDB5F0_inline((&___0_i), NULL);
+			int32_t L_3;
+			L_3 = VoiceInfo_get_FrameDurationSamples_mA8983E72285C7175D0B7621C8371B0E9627479A6((&___0_i), NULL);
+			OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC* L_4 = (OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 0));
+			NullCheck(L_4);
+			((  void (*) (OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC*, Action_1_t1535FA1EEC0208AC94BB6B3D53AE56A52908CF9F*, int32_t, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(L_4, L_0, (int32_t)L_1, (int32_t)L_2, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
+			__this->___decoder_0 = L_4;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___decoder_0), (void*)L_4);
+			// logger.LogInfo("[PV] OpusCodec.Decoder created. Opus version " + Version + ", " + i);
+			RuntimeObject* L_5 = (RuntimeObject*)__this->___logger_1;
+			String_t* L_6;
+			L_6 = OpusCodec_get_Version_m008921D2C85E418116F03DC7B31495021D0A549B(NULL);
+			VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_7 = ___0_i;
+			V_1 = L_7;
+			String_t* L_8;
+			L_8 = VoiceInfo_ToString_m31F4E929FD426EC3DFDB94C4FE45D3ECEB904FFF((&V_1), NULL);
+			String_t* L_9;
+			L_9 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral2D3509AE5D0779DB71B8B773D3B0B21C0CF814C6, L_6, _stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D, L_8, NULL);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_10;
+			L_10 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+			NullCheck(L_5);
+			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_5, L_9, L_10);
+			goto IL_00b3;
+		}
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_003e;
+			goto CATCH_0065;
 		}
 		throw e;
 	}
 
-CATCH_003e:
+CATCH_0065:
 	{// begin catch(System.Exception)
 		{
 			// catch (Exception e)
-			V_0 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
+			V_2 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
 			// Error = e.ToString();
-			Exception_t* L_7 = V_0;
-			NullCheck((RuntimeObject*)L_7);
-			String_t* L_8;
-			L_8 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, (RuntimeObject*)L_7);
-			((  void (*) (Decoder_1_tF28C86FB8F4AC1D53E4A26D0FCA830665E5D22A8*, String_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))(__this, L_8, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+			Exception_t* L_11 = V_2;
+			NullCheck((RuntimeObject*)L_11);
+			String_t* L_12;
+			L_12 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, (RuntimeObject*)L_11);
+			((  void (*) (Decoder_1_tF28C86FB8F4AC1D53E4A26D0FCA830665E5D22A8*, String_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(__this, L_12, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 			// if (Error == null) // should never happen but since Error used as validity flag, make sure that it's not null
-			String_t* L_9;
-			L_9 = ((  String_t* (*) (Decoder_1_tF28C86FB8F4AC1D53E4A26D0FCA830665E5D22A8*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
-			V_1 = (bool)((((RuntimeObject*)(String_t*)L_9) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-			bool L_10 = V_1;
-			if (!L_10)
+			String_t* L_13;
+			L_13 = ((  String_t* (*) (Decoder_1_tF28C86FB8F4AC1D53E4A26D0FCA830665E5D22A8*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+			V_3 = (bool)((((RuntimeObject*)(String_t*)L_13) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+			bool L_14 = V_3;
+			if (!L_14)
 			{
-				goto IL_0068;
+				goto IL_008f;
 			}
 		}
 		{
 			// Error = "Exception in OpusCodec.Decoder constructor";
-			((  void (*) (Decoder_1_tF28C86FB8F4AC1D53E4A26D0FCA830665E5D22A8*, String_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral0E395A69142D40261F1CCCDB6FA07C74DA944B37)), il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+			((  void (*) (Decoder_1_tF28C86FB8F4AC1D53E4A26D0FCA830665E5D22A8*, String_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral0E395A69142D40261F1CCCDB6FA07C74DA944B37)), il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		}
 
-IL_0068:
+IL_008f:
 		{
 			// logger.LogError("[PV] OpusCodec.Decoder: " + Error);
-			RuntimeObject* L_11 = (RuntimeObject*)__this->___logger_1;
-			String_t* L_12;
-			L_12 = ((  String_t* (*) (Decoder_1_tF28C86FB8F4AC1D53E4A26D0FCA830665E5D22A8*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
-			String_t* L_13;
-			L_13 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralBF84EA2F6EDEC20B3F5DD012353A8DCE5F2B3DE6)), L_12, NULL);
-			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14;
-			L_14 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var)));
-			NullCheck(L_11);
-			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var)), L_11, L_13, L_14);
+			RuntimeObject* L_15 = (RuntimeObject*)__this->___logger_1;
+			String_t* L_16;
+			L_16 = ((  String_t* (*) (Decoder_1_tF28C86FB8F4AC1D53E4A26D0FCA830665E5D22A8*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+			String_t* L_17;
+			L_17 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralBF84EA2F6EDEC20B3F5DD012353A8DCE5F2B3DE6)), L_16, NULL);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_18;
+			L_18 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var)));
+			NullCheck(L_15);
+			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var)), L_15, L_17, L_18);
 			IL2CPP_POP_ACTIVE_EXCEPTION();
-			goto IL_008c;
+			goto IL_00b3;
 		}
 	}// end catch (depth: 1)
 
-IL_008c:
+IL_00b3:
 	{
 		// }
 		return;
@@ -11926,7 +11885,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Decoder_1_Dispose_m61F19B15B42163EB93853
 		// decoder.Dispose();
 		OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC* L_2 = (OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC*)__this->___decoder_0;
 		NullCheck(L_2);
-		((  void (*) (OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 6)))(L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
+		VirtualActionInvoker0::Invoke(5 /* System.Void POpusCodec.OpusDecoder`1<System.Int16>::Dispose() */, L_2);
 	}
 
 IL_001c:
@@ -11940,26 +11899,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Decoder_1_Input_m059CB5F008732F47D77D987
 {
 	bool V_0 = false;
 	bool V_1 = false;
-	bool V_2 = false;
-	Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* V_3 = NULL;
-	Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* V_4 = NULL;
-	bool V_5 = false;
-	bool V_6 = false;
-	bool V_7 = false;
-	Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* V_8 = NULL;
-	bool V_9 = false;
-	int32_t G_B5_0 = 0;
-	int32_t G_B10_0 = 0;
-	int32_t G_B14_0 = 0;
 	{
 		// if (Error == null)
 		String_t* L_0;
-		L_0 = ((  String_t* (*) (Decoder_1_tF28C86FB8F4AC1D53E4A26D0FCA830665E5D22A8*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
+		L_0 = ((  String_t* (*) (Decoder_1_tF28C86FB8F4AC1D53E4A26D0FCA830665E5D22A8*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		V_0 = (bool)((((RuntimeObject*)(String_t*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_1 = V_0;
 		if (!L_1)
 		{
-			goto IL_00fd;
+			goto IL_002a;
 		}
 	}
 	{
@@ -11968,202 +11916,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Decoder_1_Input_m059CB5F008732F47D77D987
 		uint8_t L_3;
 		L_3 = FrameBuffer_get_Flags_mC466B9947228B6EC6A14AF461E2F35E14D8492D4_inline(L_2, NULL);
 		V_1 = (bool)((!(((uint32_t)((int32_t)((int32_t)L_3&8))) <= ((uint32_t)0)))? 1 : 0);
-		// if (endOfStream)
-		bool L_4 = V_1;
-		V_2 = L_4;
-		bool L_5 = V_2;
-		if (!L_5)
-		{
-			goto IL_00c4;
-		}
-	}
-	{
-		// T[] res1 = null;
-		V_3 = (Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB*)NULL;
-		// if (buf.Array == null && buf.Length > 0)
-		FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* L_6 = ___0_buf;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7;
-		L_7 = FrameBuffer_get_Array_m33555AC9413B61F9B142C0A9704D277ECBEBD1F5(L_6, NULL);
-		if (L_7)
-		{
-			goto IL_003c;
-		}
-	}
-	{
-		FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* L_8 = ___0_buf;
-		int32_t L_9;
-		L_9 = FrameBuffer_get_Length_m99F73FA338DDB97D9228FD206D131E3DB1349201(L_8, NULL);
-		G_B5_0 = ((((int32_t)L_9) > ((int32_t)0))? 1 : 0);
-		goto IL_003d;
+		// decoder.DecodePacket(ref buf, endOfStream);
+		OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC* L_4 = (OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC*)__this->___decoder_0;
+		FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* L_5 = ___0_buf;
+		bool L_6 = V_1;
+		NullCheck(L_4);
+		((  void (*) (OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC*, FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986*, bool, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(L_4, L_5, L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
 	}
 
-IL_003c:
-	{
-		G_B5_0 = 0;
-	}
-
-IL_003d:
-	{
-		V_5 = (bool)G_B5_0;
-		bool L_10 = V_5;
-		if (!L_10)
-		{
-			goto IL_0052;
-		}
-	}
-	{
-		// res1 = decoder.DecodePacket(ref buf);
-		OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC* L_11 = (OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC*)__this->___decoder_0;
-		FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* L_12 = ___0_buf;
-		NullCheck(L_11);
-		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_13;
-		L_13 = ((  Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* (*) (OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC*, FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 7)))(L_11, L_12, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
-		V_3 = L_13;
-	}
-
-IL_0052:
-	{
-		// res2 = decoder.DecodeEndOfStream();
-		OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC* L_14 = (OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC*)__this->___decoder_0;
-		NullCheck(L_14);
-		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_15;
-		L_15 = ((  Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* (*) (OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 8)))(L_14, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
-		V_4 = L_15;
-		// if (res1 != null && res1.Length == 0)
-		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_16 = V_3;
-		if (!L_16)
-		{
-			goto IL_0069;
-		}
-	}
-	{
-		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_17 = V_3;
-		NullCheck(L_17);
-		G_B10_0 = ((((int32_t)(((RuntimeArray*)L_17)->max_length)) == ((int32_t)0))? 1 : 0);
-		goto IL_006a;
-	}
-
-IL_0069:
-	{
-		G_B10_0 = 0;
-	}
-
-IL_006a:
-	{
-		V_6 = (bool)G_B10_0;
-		bool L_18 = V_6;
-		if (!L_18)
-		{
-			goto IL_00a7;
-		}
-	}
-	{
-		// if (res2 != null && res2.Length != 0)
-		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_19 = V_4;
-		if (!L_19)
-		{
-			goto IL_007d;
-		}
-	}
-	{
-		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_20 = V_4;
-		NullCheck(L_20);
-		G_B14_0 = ((!(((uint32_t)(((RuntimeArray*)L_20)->max_length)) <= ((uint32_t)0)))? 1 : 0);
-		goto IL_007e;
-	}
-
-IL_007d:
-	{
-		G_B14_0 = 0;
-	}
-
-IL_007e:
-	{
-		V_7 = (bool)G_B14_0;
-		bool L_21 = V_7;
-		if (!L_21)
-		{
-			goto IL_00a1;
-		}
-	}
-	{
-		// output(frameOut.Set(res1, false));
-		Action_1_t1535FA1EEC0208AC94BB6B3D53AE56A52908CF9F* L_22 = (Action_1_t1535FA1EEC0208AC94BB6B3D53AE56A52908CF9F*)__this->___output_3;
-		FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15* L_23 = (FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15*)__this->___frameOut_4;
-		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_24 = V_3;
-		NullCheck(L_23);
-		FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15* L_25;
-		L_25 = ((  FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15* (*) (FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15*, Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB*, bool, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(L_23, L_24, (bool)0, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		NullCheck(L_22);
-		((  void (*) (Action_1_t1535FA1EEC0208AC94BB6B3D53AE56A52908CF9F*, FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(L_22, L_25, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
-		goto IL_00a6;
-	}
-
-IL_00a1:
-	{
-		// res2 = res1;
-		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_26 = V_3;
-		V_4 = L_26;
-	}
-
-IL_00a6:
-	{
-	}
-
-IL_00a7:
-	{
-		// output(frameOut.Set(res2, true));
-		Action_1_t1535FA1EEC0208AC94BB6B3D53AE56A52908CF9F* L_27 = (Action_1_t1535FA1EEC0208AC94BB6B3D53AE56A52908CF9F*)__this->___output_3;
-		FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15* L_28 = (FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15*)__this->___frameOut_4;
-		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_29 = V_4;
-		NullCheck(L_28);
-		FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15* L_30;
-		L_30 = ((  FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15* (*) (FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15*, Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB*, bool, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(L_28, L_29, (bool)1, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		NullCheck(L_27);
-		((  void (*) (Action_1_t1535FA1EEC0208AC94BB6B3D53AE56A52908CF9F*, FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(L_27, L_30, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
-		goto IL_00fc;
-	}
-
-IL_00c4:
-	{
-		// res = decoder.DecodePacket(ref buf);
-		OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC* L_31 = (OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC*)__this->___decoder_0;
-		FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* L_32 = ___0_buf;
-		NullCheck(L_31);
-		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_33;
-		L_33 = ((  Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* (*) (OpusDecoder_1_tF0CBB1B98E0491BA5D3892D98DC56B348B45DFEC*, FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 7)))(L_31, L_32, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
-		V_8 = L_33;
-		// if (res.Length != 0)
-		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_34 = V_8;
-		NullCheck(L_34);
-		V_9 = (bool)((!(((uint32_t)(((RuntimeArray*)L_34)->max_length)) <= ((uint32_t)0)))? 1 : 0);
-		bool L_35 = V_9;
-		if (!L_35)
-		{
-			goto IL_00fb;
-		}
-	}
-	{
-		// output(frameOut.Set(res, false));
-		Action_1_t1535FA1EEC0208AC94BB6B3D53AE56A52908CF9F* L_36 = (Action_1_t1535FA1EEC0208AC94BB6B3D53AE56A52908CF9F*)__this->___output_3;
-		FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15* L_37 = (FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15*)__this->___frameOut_4;
-		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_38 = V_8;
-		NullCheck(L_37);
-		FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15* L_39;
-		L_39 = ((  FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15* (*) (FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15*, Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB*, bool, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(L_37, L_38, (bool)0, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		NullCheck(L_36);
-		((  void (*) (Action_1_t1535FA1EEC0208AC94BB6B3D53AE56A52908CF9F*, FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(L_36, L_39, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
-	}
-
-IL_00fb:
-	{
-	}
-
-IL_00fc:
-	{
-	}
-
-IL_00fd:
+IL_002a:
 	{
 		// }
 		return;
@@ -12356,22 +12117,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Decoder_1_Dispose_mD86E23118060070E78184
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Decoder_1__ctor_m5303DDBAFC9A0CD79FE61994C9DA4250B71D52AB_gshared (Decoder_1_t82A9D174F8157B858E2389B368EE89BC1F54D3A7* __this, Action_1_t35D6769C0B85612B2982BB93D5F95E3DB0A73A67* ___0_output, RuntimeObject* ___1_logger, const RuntimeMethod* method) 
 {
 	{
-		// FrameOut<T> frameOut = new FrameOut<T>(null, false);
-		FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81* L_0 = (FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 0));
-		NullCheck(L_0);
-		((  void (*) (FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, bool, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(L_0, (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)NULL, (bool)0, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
-		__this->___frameOut_4 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___frameOut_4), (void*)L_0);
 		// public Decoder(Action<FrameOut<T>> output, ILogger logger)
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
 		// this.output = output;
-		Action_1_t35D6769C0B85612B2982BB93D5F95E3DB0A73A67* L_1 = ___0_output;
-		__this->___output_3 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___output_3), (void*)L_1);
+		Action_1_t35D6769C0B85612B2982BB93D5F95E3DB0A73A67* L_0 = ___0_output;
+		__this->___output_3 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___output_3), (void*)L_0);
 		// this.logger = logger;
-		RuntimeObject* L_2 = ___1_logger;
-		__this->___logger_1 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___logger_1), (void*)L_2);
+		RuntimeObject* L_1 = ___1_logger;
+		__this->___logger_1 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___logger_1), (void*)L_1);
 		// }
 		return;
 	}
@@ -12385,91 +12140,111 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Decoder_1_Open_mA9E7D72D0E103DD92D47AB86
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2D3509AE5D0779DB71B8B773D3B0B21C0CF814C6);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D);
 		s_Il2CppMethodInitialized = true;
 	}
-	Exception_t* V_0 = NULL;
-	bool V_1 = false;
+	bool V_0 = false;
+	VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Exception_t* V_2 = NULL;
+	bool V_3 = false;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 	}
 	try
 	{// begin try (depth: 1)
-		// decoder = new OpusDecoder<T>((SamplingRate)i.SamplingRate, (Channels)i.Channels);
-		int32_t L_0;
-		L_0 = VoiceInfo_get_SamplingRate_mB35BF119B634916F78FF136465AD6E3FDFE834C8_inline((&___0_i), NULL);
-		int32_t L_1;
-		L_1 = VoiceInfo_get_Channels_m9834209C53A08D0EF5F2F6AD8967DD364EFDB5F0_inline((&___0_i), NULL);
-		OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5* L_2 = (OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 2));
-		NullCheck(L_2);
-		((  void (*) (OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5*, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_2, (int32_t)L_0, (int32_t)L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-		__this->___decoder_0 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___decoder_0), (void*)L_2);
-		// logger.LogInfo("[PV] OpusCodec.Decoder created. Opus version " + Version);
-		RuntimeObject* L_3 = (RuntimeObject*)__this->___logger_1;
-		String_t* L_4;
-		L_4 = OpusCodec_get_Version_m008921D2C85E418116F03DC7B31495021D0A549B(NULL);
-		String_t* L_5;
-		L_5 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral2D3509AE5D0779DB71B8B773D3B0B21C0CF814C6, L_4, NULL);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6;
-		L_6 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
-		NullCheck(L_3);
-		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_3, L_5, L_6);
-		goto IL_008c;
+		{
+			// if (Wrapper.AsyncAPI)
+			V_0 = (bool)0;
+			goto IL_0006_1;
+		}
+
+IL_0006_1:
+		{
+			// decoder = new OpusDecoder<T>(output, (SamplingRate)i.SamplingRate, (Channels)i.Channels, i.FrameDurationSamples);
+			Action_1_t35D6769C0B85612B2982BB93D5F95E3DB0A73A67* L_0 = (Action_1_t35D6769C0B85612B2982BB93D5F95E3DB0A73A67*)__this->___output_3;
+			int32_t L_1;
+			L_1 = VoiceInfo_get_SamplingRate_mB35BF119B634916F78FF136465AD6E3FDFE834C8_inline((&___0_i), NULL);
+			int32_t L_2;
+			L_2 = VoiceInfo_get_Channels_m9834209C53A08D0EF5F2F6AD8967DD364EFDB5F0_inline((&___0_i), NULL);
+			int32_t L_3;
+			L_3 = VoiceInfo_get_FrameDurationSamples_mA8983E72285C7175D0B7621C8371B0E9627479A6((&___0_i), NULL);
+			OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5* L_4 = (OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 0));
+			NullCheck(L_4);
+			((  void (*) (OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5*, Action_1_t35D6769C0B85612B2982BB93D5F95E3DB0A73A67*, int32_t, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(L_4, L_0, (int32_t)L_1, (int32_t)L_2, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
+			__this->___decoder_0 = L_4;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___decoder_0), (void*)L_4);
+			// logger.LogInfo("[PV] OpusCodec.Decoder created. Opus version " + Version + ", " + i);
+			RuntimeObject* L_5 = (RuntimeObject*)__this->___logger_1;
+			String_t* L_6;
+			L_6 = OpusCodec_get_Version_m008921D2C85E418116F03DC7B31495021D0A549B(NULL);
+			VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_7 = ___0_i;
+			V_1 = L_7;
+			String_t* L_8;
+			L_8 = VoiceInfo_ToString_m31F4E929FD426EC3DFDB94C4FE45D3ECEB904FFF((&V_1), NULL);
+			String_t* L_9;
+			L_9 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral2D3509AE5D0779DB71B8B773D3B0B21C0CF814C6, L_6, _stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D, L_8, NULL);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_10;
+			L_10 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+			NullCheck(L_5);
+			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_5, L_9, L_10);
+			goto IL_00b3;
+		}
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_003e;
+			goto CATCH_0065;
 		}
 		throw e;
 	}
 
-CATCH_003e:
+CATCH_0065:
 	{// begin catch(System.Exception)
 		{
 			// catch (Exception e)
-			V_0 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
+			V_2 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
 			// Error = e.ToString();
-			Exception_t* L_7 = V_0;
-			NullCheck((RuntimeObject*)L_7);
-			String_t* L_8;
-			L_8 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, (RuntimeObject*)L_7);
-			((  void (*) (Decoder_1_t82A9D174F8157B858E2389B368EE89BC1F54D3A7*, String_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))(__this, L_8, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+			Exception_t* L_11 = V_2;
+			NullCheck((RuntimeObject*)L_11);
+			String_t* L_12;
+			L_12 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, (RuntimeObject*)L_11);
+			((  void (*) (Decoder_1_t82A9D174F8157B858E2389B368EE89BC1F54D3A7*, String_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(__this, L_12, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 			// if (Error == null) // should never happen but since Error used as validity flag, make sure that it's not null
-			String_t* L_9;
-			L_9 = ((  String_t* (*) (Decoder_1_t82A9D174F8157B858E2389B368EE89BC1F54D3A7*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
-			V_1 = (bool)((((RuntimeObject*)(String_t*)L_9) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-			bool L_10 = V_1;
-			if (!L_10)
+			String_t* L_13;
+			L_13 = ((  String_t* (*) (Decoder_1_t82A9D174F8157B858E2389B368EE89BC1F54D3A7*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+			V_3 = (bool)((((RuntimeObject*)(String_t*)L_13) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+			bool L_14 = V_3;
+			if (!L_14)
 			{
-				goto IL_0068;
+				goto IL_008f;
 			}
 		}
 		{
 			// Error = "Exception in OpusCodec.Decoder constructor";
-			((  void (*) (Decoder_1_t82A9D174F8157B858E2389B368EE89BC1F54D3A7*, String_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral0E395A69142D40261F1CCCDB6FA07C74DA944B37)), il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+			((  void (*) (Decoder_1_t82A9D174F8157B858E2389B368EE89BC1F54D3A7*, String_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral0E395A69142D40261F1CCCDB6FA07C74DA944B37)), il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		}
 
-IL_0068:
+IL_008f:
 		{
 			// logger.LogError("[PV] OpusCodec.Decoder: " + Error);
-			RuntimeObject* L_11 = (RuntimeObject*)__this->___logger_1;
-			String_t* L_12;
-			L_12 = ((  String_t* (*) (Decoder_1_t82A9D174F8157B858E2389B368EE89BC1F54D3A7*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
-			String_t* L_13;
-			L_13 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralBF84EA2F6EDEC20B3F5DD012353A8DCE5F2B3DE6)), L_12, NULL);
-			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14;
-			L_14 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var)));
-			NullCheck(L_11);
-			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var)), L_11, L_13, L_14);
+			RuntimeObject* L_15 = (RuntimeObject*)__this->___logger_1;
+			String_t* L_16;
+			L_16 = ((  String_t* (*) (Decoder_1_t82A9D174F8157B858E2389B368EE89BC1F54D3A7*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+			String_t* L_17;
+			L_17 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralBF84EA2F6EDEC20B3F5DD012353A8DCE5F2B3DE6)), L_16, NULL);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_18;
+			L_18 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var)));
+			NullCheck(L_15);
+			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var)), L_15, L_17, L_18);
 			IL2CPP_POP_ACTIVE_EXCEPTION();
-			goto IL_008c;
+			goto IL_00b3;
 		}
 	}// end catch (depth: 1)
 
-IL_008c:
+IL_00b3:
 	{
 		// }
 		return;
@@ -12513,7 +12288,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Decoder_1_Dispose_m04FB68325A3664CF79FF9
 		// decoder.Dispose();
 		OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5* L_2 = (OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5*)__this->___decoder_0;
 		NullCheck(L_2);
-		((  void (*) (OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 6)))(L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
+		VirtualActionInvoker0::Invoke(5 /* System.Void POpusCodec.OpusDecoder`1<System.Object>::Dispose() */, L_2);
 	}
 
 IL_001c:
@@ -12527,26 +12302,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Decoder_1_Input_mF4EF1169821FE04677D7DD2
 {
 	bool V_0 = false;
 	bool V_1 = false;
-	bool V_2 = false;
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_3 = NULL;
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_4 = NULL;
-	bool V_5 = false;
-	bool V_6 = false;
-	bool V_7 = false;
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_8 = NULL;
-	bool V_9 = false;
-	int32_t G_B5_0 = 0;
-	int32_t G_B10_0 = 0;
-	int32_t G_B14_0 = 0;
 	{
 		// if (Error == null)
 		String_t* L_0;
-		L_0 = ((  String_t* (*) (Decoder_1_t82A9D174F8157B858E2389B368EE89BC1F54D3A7*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
+		L_0 = ((  String_t* (*) (Decoder_1_t82A9D174F8157B858E2389B368EE89BC1F54D3A7*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		V_0 = (bool)((((RuntimeObject*)(String_t*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_1 = V_0;
 		if (!L_1)
 		{
-			goto IL_00fd;
+			goto IL_002a;
 		}
 	}
 	{
@@ -12555,202 +12319,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Decoder_1_Input_mF4EF1169821FE04677D7DD2
 		uint8_t L_3;
 		L_3 = FrameBuffer_get_Flags_mC466B9947228B6EC6A14AF461E2F35E14D8492D4_inline(L_2, NULL);
 		V_1 = (bool)((!(((uint32_t)((int32_t)((int32_t)L_3&8))) <= ((uint32_t)0)))? 1 : 0);
-		// if (endOfStream)
-		bool L_4 = V_1;
-		V_2 = L_4;
-		bool L_5 = V_2;
-		if (!L_5)
-		{
-			goto IL_00c4;
-		}
-	}
-	{
-		// T[] res1 = null;
-		V_3 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)NULL;
-		// if (buf.Array == null && buf.Length > 0)
-		FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* L_6 = ___0_buf;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7;
-		L_7 = FrameBuffer_get_Array_m33555AC9413B61F9B142C0A9704D277ECBEBD1F5(L_6, NULL);
-		if (L_7)
-		{
-			goto IL_003c;
-		}
-	}
-	{
-		FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* L_8 = ___0_buf;
-		int32_t L_9;
-		L_9 = FrameBuffer_get_Length_m99F73FA338DDB97D9228FD206D131E3DB1349201(L_8, NULL);
-		G_B5_0 = ((((int32_t)L_9) > ((int32_t)0))? 1 : 0);
-		goto IL_003d;
+		// decoder.DecodePacket(ref buf, endOfStream);
+		OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5* L_4 = (OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5*)__this->___decoder_0;
+		FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* L_5 = ___0_buf;
+		bool L_6 = V_1;
+		NullCheck(L_4);
+		((  void (*) (OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5*, FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986*, bool, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(L_4, L_5, L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
 	}
 
-IL_003c:
-	{
-		G_B5_0 = 0;
-	}
-
-IL_003d:
-	{
-		V_5 = (bool)G_B5_0;
-		bool L_10 = V_5;
-		if (!L_10)
-		{
-			goto IL_0052;
-		}
-	}
-	{
-		// res1 = decoder.DecodePacket(ref buf);
-		OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5* L_11 = (OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5*)__this->___decoder_0;
-		FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* L_12 = ___0_buf;
-		NullCheck(L_11);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_13;
-		L_13 = ((  ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* (*) (OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5*, FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 7)))(L_11, L_12, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
-		V_3 = L_13;
-	}
-
-IL_0052:
-	{
-		// res2 = decoder.DecodeEndOfStream();
-		OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5* L_14 = (OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5*)__this->___decoder_0;
-		NullCheck(L_14);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_15;
-		L_15 = ((  ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* (*) (OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 8)))(L_14, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
-		V_4 = L_15;
-		// if (res1 != null && res1.Length == 0)
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_16 = V_3;
-		if (!L_16)
-		{
-			goto IL_0069;
-		}
-	}
-	{
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_17 = V_3;
-		NullCheck(L_17);
-		G_B10_0 = ((((int32_t)(((RuntimeArray*)L_17)->max_length)) == ((int32_t)0))? 1 : 0);
-		goto IL_006a;
-	}
-
-IL_0069:
-	{
-		G_B10_0 = 0;
-	}
-
-IL_006a:
-	{
-		V_6 = (bool)G_B10_0;
-		bool L_18 = V_6;
-		if (!L_18)
-		{
-			goto IL_00a7;
-		}
-	}
-	{
-		// if (res2 != null && res2.Length != 0)
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_19 = V_4;
-		if (!L_19)
-		{
-			goto IL_007d;
-		}
-	}
-	{
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_20 = V_4;
-		NullCheck(L_20);
-		G_B14_0 = ((!(((uint32_t)(((RuntimeArray*)L_20)->max_length)) <= ((uint32_t)0)))? 1 : 0);
-		goto IL_007e;
-	}
-
-IL_007d:
-	{
-		G_B14_0 = 0;
-	}
-
-IL_007e:
-	{
-		V_7 = (bool)G_B14_0;
-		bool L_21 = V_7;
-		if (!L_21)
-		{
-			goto IL_00a1;
-		}
-	}
-	{
-		// output(frameOut.Set(res1, false));
-		Action_1_t35D6769C0B85612B2982BB93D5F95E3DB0A73A67* L_22 = (Action_1_t35D6769C0B85612B2982BB93D5F95E3DB0A73A67*)__this->___output_3;
-		FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81* L_23 = (FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81*)__this->___frameOut_4;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_24 = V_3;
-		NullCheck(L_23);
-		FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81* L_25;
-		L_25 = ((  FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81* (*) (FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, bool, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(L_23, L_24, (bool)0, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		NullCheck(L_22);
-		((  void (*) (Action_1_t35D6769C0B85612B2982BB93D5F95E3DB0A73A67*, FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(L_22, L_25, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
-		goto IL_00a6;
-	}
-
-IL_00a1:
-	{
-		// res2 = res1;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_26 = V_3;
-		V_4 = L_26;
-	}
-
-IL_00a6:
-	{
-	}
-
-IL_00a7:
-	{
-		// output(frameOut.Set(res2, true));
-		Action_1_t35D6769C0B85612B2982BB93D5F95E3DB0A73A67* L_27 = (Action_1_t35D6769C0B85612B2982BB93D5F95E3DB0A73A67*)__this->___output_3;
-		FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81* L_28 = (FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81*)__this->___frameOut_4;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_29 = V_4;
-		NullCheck(L_28);
-		FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81* L_30;
-		L_30 = ((  FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81* (*) (FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, bool, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(L_28, L_29, (bool)1, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		NullCheck(L_27);
-		((  void (*) (Action_1_t35D6769C0B85612B2982BB93D5F95E3DB0A73A67*, FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(L_27, L_30, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
-		goto IL_00fc;
-	}
-
-IL_00c4:
-	{
-		// res = decoder.DecodePacket(ref buf);
-		OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5* L_31 = (OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5*)__this->___decoder_0;
-		FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* L_32 = ___0_buf;
-		NullCheck(L_31);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_33;
-		L_33 = ((  ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* (*) (OpusDecoder_1_t6917C7E89AC3A2A3EA8D7477490EE414B15FA1F5*, FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 7)))(L_31, L_32, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
-		V_8 = L_33;
-		// if (res.Length != 0)
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_34 = V_8;
-		NullCheck(L_34);
-		V_9 = (bool)((!(((uint32_t)(((RuntimeArray*)L_34)->max_length)) <= ((uint32_t)0)))? 1 : 0);
-		bool L_35 = V_9;
-		if (!L_35)
-		{
-			goto IL_00fb;
-		}
-	}
-	{
-		// output(frameOut.Set(res, false));
-		Action_1_t35D6769C0B85612B2982BB93D5F95E3DB0A73A67* L_36 = (Action_1_t35D6769C0B85612B2982BB93D5F95E3DB0A73A67*)__this->___output_3;
-		FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81* L_37 = (FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81*)__this->___frameOut_4;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_38 = V_8;
-		NullCheck(L_37);
-		FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81* L_39;
-		L_39 = ((  FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81* (*) (FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, bool, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(L_37, L_38, (bool)0, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		NullCheck(L_36);
-		((  void (*) (Action_1_t35D6769C0B85612B2982BB93D5F95E3DB0A73A67*, FrameOut_1_tC72B1236B551ADB4AAD9894532C01C392C1BDA81*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(L_36, L_39, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
-	}
-
-IL_00fb:
-	{
-	}
-
-IL_00fc:
-	{
-	}
-
-IL_00fd:
+IL_002a:
 	{
 		// }
 		return;
@@ -12943,22 +12520,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Decoder_1_Dispose_mD4D212F59F90E6F4DEF71
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Decoder_1__ctor_m5EC6B377A685D8D25F9956E772DFAD5B00CA3775_gshared (Decoder_1_tEDF610481F98E5A591A6BDFE642E9192E9594084* __this, Action_1_t4B5244A7D75171D94BEAE3074BB3625987C5AE84* ___0_output, RuntimeObject* ___1_logger, const RuntimeMethod* method) 
 {
 	{
-		// FrameOut<T> frameOut = new FrameOut<T>(null, false);
-		FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D* L_0 = (FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 0));
-		NullCheck(L_0);
-		((  void (*) (FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D*, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*, bool, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(L_0, (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)NULL, (bool)0, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
-		__this->___frameOut_4 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___frameOut_4), (void*)L_0);
 		// public Decoder(Action<FrameOut<T>> output, ILogger logger)
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
 		// this.output = output;
-		Action_1_t4B5244A7D75171D94BEAE3074BB3625987C5AE84* L_1 = ___0_output;
-		__this->___output_3 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___output_3), (void*)L_1);
+		Action_1_t4B5244A7D75171D94BEAE3074BB3625987C5AE84* L_0 = ___0_output;
+		__this->___output_3 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___output_3), (void*)L_0);
 		// this.logger = logger;
-		RuntimeObject* L_2 = ___1_logger;
-		__this->___logger_1 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___logger_1), (void*)L_2);
+		RuntimeObject* L_1 = ___1_logger;
+		__this->___logger_1 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___logger_1), (void*)L_1);
 		// }
 		return;
 	}
@@ -12972,91 +12543,111 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Decoder_1_Open_m3E3CD5B17969D01E6881D82B
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2D3509AE5D0779DB71B8B773D3B0B21C0CF814C6);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D);
 		s_Il2CppMethodInitialized = true;
 	}
-	Exception_t* V_0 = NULL;
-	bool V_1 = false;
+	bool V_0 = false;
+	VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Exception_t* V_2 = NULL;
+	bool V_3 = false;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 	}
 	try
 	{// begin try (depth: 1)
-		// decoder = new OpusDecoder<T>((SamplingRate)i.SamplingRate, (Channels)i.Channels);
-		int32_t L_0;
-		L_0 = VoiceInfo_get_SamplingRate_mB35BF119B634916F78FF136465AD6E3FDFE834C8_inline((&___0_i), NULL);
-		int32_t L_1;
-		L_1 = VoiceInfo_get_Channels_m9834209C53A08D0EF5F2F6AD8967DD364EFDB5F0_inline((&___0_i), NULL);
-		OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3* L_2 = (OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 2));
-		NullCheck(L_2);
-		((  void (*) (OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3*, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_2, (int32_t)L_0, (int32_t)L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-		__this->___decoder_0 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___decoder_0), (void*)L_2);
-		// logger.LogInfo("[PV] OpusCodec.Decoder created. Opus version " + Version);
-		RuntimeObject* L_3 = (RuntimeObject*)__this->___logger_1;
-		String_t* L_4;
-		L_4 = OpusCodec_get_Version_m008921D2C85E418116F03DC7B31495021D0A549B(NULL);
-		String_t* L_5;
-		L_5 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral2D3509AE5D0779DB71B8B773D3B0B21C0CF814C6, L_4, NULL);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6;
-		L_6 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
-		NullCheck(L_3);
-		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_3, L_5, L_6);
-		goto IL_008c;
+		{
+			// if (Wrapper.AsyncAPI)
+			V_0 = (bool)0;
+			goto IL_0006_1;
+		}
+
+IL_0006_1:
+		{
+			// decoder = new OpusDecoder<T>(output, (SamplingRate)i.SamplingRate, (Channels)i.Channels, i.FrameDurationSamples);
+			Action_1_t4B5244A7D75171D94BEAE3074BB3625987C5AE84* L_0 = (Action_1_t4B5244A7D75171D94BEAE3074BB3625987C5AE84*)__this->___output_3;
+			int32_t L_1;
+			L_1 = VoiceInfo_get_SamplingRate_mB35BF119B634916F78FF136465AD6E3FDFE834C8_inline((&___0_i), NULL);
+			int32_t L_2;
+			L_2 = VoiceInfo_get_Channels_m9834209C53A08D0EF5F2F6AD8967DD364EFDB5F0_inline((&___0_i), NULL);
+			int32_t L_3;
+			L_3 = VoiceInfo_get_FrameDurationSamples_mA8983E72285C7175D0B7621C8371B0E9627479A6((&___0_i), NULL);
+			OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3* L_4 = (OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 0));
+			NullCheck(L_4);
+			((  void (*) (OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3*, Action_1_t4B5244A7D75171D94BEAE3074BB3625987C5AE84*, int32_t, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(L_4, L_0, (int32_t)L_1, (int32_t)L_2, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
+			__this->___decoder_0 = L_4;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___decoder_0), (void*)L_4);
+			// logger.LogInfo("[PV] OpusCodec.Decoder created. Opus version " + Version + ", " + i);
+			RuntimeObject* L_5 = (RuntimeObject*)__this->___logger_1;
+			String_t* L_6;
+			L_6 = OpusCodec_get_Version_m008921D2C85E418116F03DC7B31495021D0A549B(NULL);
+			VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_7 = ___0_i;
+			V_1 = L_7;
+			String_t* L_8;
+			L_8 = VoiceInfo_ToString_m31F4E929FD426EC3DFDB94C4FE45D3ECEB904FFF((&V_1), NULL);
+			String_t* L_9;
+			L_9 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral2D3509AE5D0779DB71B8B773D3B0B21C0CF814C6, L_6, _stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D, L_8, NULL);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_10;
+			L_10 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+			NullCheck(L_5);
+			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_5, L_9, L_10);
+			goto IL_00b3;
+		}
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_003e;
+			goto CATCH_0065;
 		}
 		throw e;
 	}
 
-CATCH_003e:
+CATCH_0065:
 	{// begin catch(System.Exception)
 		{
 			// catch (Exception e)
-			V_0 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
+			V_2 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
 			// Error = e.ToString();
-			Exception_t* L_7 = V_0;
-			NullCheck((RuntimeObject*)L_7);
-			String_t* L_8;
-			L_8 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, (RuntimeObject*)L_7);
-			((  void (*) (Decoder_1_tEDF610481F98E5A591A6BDFE642E9192E9594084*, String_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))(__this, L_8, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+			Exception_t* L_11 = V_2;
+			NullCheck((RuntimeObject*)L_11);
+			String_t* L_12;
+			L_12 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, (RuntimeObject*)L_11);
+			((  void (*) (Decoder_1_tEDF610481F98E5A591A6BDFE642E9192E9594084*, String_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(__this, L_12, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 			// if (Error == null) // should never happen but since Error used as validity flag, make sure that it's not null
-			String_t* L_9;
-			L_9 = ((  String_t* (*) (Decoder_1_tEDF610481F98E5A591A6BDFE642E9192E9594084*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
-			V_1 = (bool)((((RuntimeObject*)(String_t*)L_9) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-			bool L_10 = V_1;
-			if (!L_10)
+			String_t* L_13;
+			L_13 = ((  String_t* (*) (Decoder_1_tEDF610481F98E5A591A6BDFE642E9192E9594084*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+			V_3 = (bool)((((RuntimeObject*)(String_t*)L_13) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+			bool L_14 = V_3;
+			if (!L_14)
 			{
-				goto IL_0068;
+				goto IL_008f;
 			}
 		}
 		{
 			// Error = "Exception in OpusCodec.Decoder constructor";
-			((  void (*) (Decoder_1_tEDF610481F98E5A591A6BDFE642E9192E9594084*, String_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral0E395A69142D40261F1CCCDB6FA07C74DA944B37)), il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+			((  void (*) (Decoder_1_tEDF610481F98E5A591A6BDFE642E9192E9594084*, String_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral0E395A69142D40261F1CCCDB6FA07C74DA944B37)), il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		}
 
-IL_0068:
+IL_008f:
 		{
 			// logger.LogError("[PV] OpusCodec.Decoder: " + Error);
-			RuntimeObject* L_11 = (RuntimeObject*)__this->___logger_1;
-			String_t* L_12;
-			L_12 = ((  String_t* (*) (Decoder_1_tEDF610481F98E5A591A6BDFE642E9192E9594084*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
-			String_t* L_13;
-			L_13 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralBF84EA2F6EDEC20B3F5DD012353A8DCE5F2B3DE6)), L_12, NULL);
-			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14;
-			L_14 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var)));
-			NullCheck(L_11);
-			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var)), L_11, L_13, L_14);
+			RuntimeObject* L_15 = (RuntimeObject*)__this->___logger_1;
+			String_t* L_16;
+			L_16 = ((  String_t* (*) (Decoder_1_tEDF610481F98E5A591A6BDFE642E9192E9594084*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+			String_t* L_17;
+			L_17 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralBF84EA2F6EDEC20B3F5DD012353A8DCE5F2B3DE6)), L_16, NULL);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_18;
+			L_18 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var)));
+			NullCheck(L_15);
+			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var)), L_15, L_17, L_18);
 			IL2CPP_POP_ACTIVE_EXCEPTION();
-			goto IL_008c;
+			goto IL_00b3;
 		}
 	}// end catch (depth: 1)
 
-IL_008c:
+IL_00b3:
 	{
 		// }
 		return;
@@ -13100,7 +12691,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Decoder_1_Dispose_mCF1B57E4E9371EA67DC33
 		// decoder.Dispose();
 		OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3* L_2 = (OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3*)__this->___decoder_0;
 		NullCheck(L_2);
-		((  void (*) (OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 6)))(L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
+		VirtualActionInvoker0::Invoke(5 /* System.Void POpusCodec.OpusDecoder`1<System.Single>::Dispose() */, L_2);
 	}
 
 IL_001c:
@@ -13114,26 +12705,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Decoder_1_Input_m5E049D0843EC5E980A3E442
 {
 	bool V_0 = false;
 	bool V_1 = false;
-	bool V_2 = false;
-	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_3 = NULL;
-	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_4 = NULL;
-	bool V_5 = false;
-	bool V_6 = false;
-	bool V_7 = false;
-	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_8 = NULL;
-	bool V_9 = false;
-	int32_t G_B5_0 = 0;
-	int32_t G_B10_0 = 0;
-	int32_t G_B14_0 = 0;
 	{
 		// if (Error == null)
 		String_t* L_0;
-		L_0 = ((  String_t* (*) (Decoder_1_tEDF610481F98E5A591A6BDFE642E9192E9594084*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
+		L_0 = ((  String_t* (*) (Decoder_1_tEDF610481F98E5A591A6BDFE642E9192E9594084*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		V_0 = (bool)((((RuntimeObject*)(String_t*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_1 = V_0;
 		if (!L_1)
 		{
-			goto IL_00fd;
+			goto IL_002a;
 		}
 	}
 	{
@@ -13142,202 +12722,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Decoder_1_Input_m5E049D0843EC5E980A3E442
 		uint8_t L_3;
 		L_3 = FrameBuffer_get_Flags_mC466B9947228B6EC6A14AF461E2F35E14D8492D4_inline(L_2, NULL);
 		V_1 = (bool)((!(((uint32_t)((int32_t)((int32_t)L_3&8))) <= ((uint32_t)0)))? 1 : 0);
-		// if (endOfStream)
-		bool L_4 = V_1;
-		V_2 = L_4;
-		bool L_5 = V_2;
-		if (!L_5)
-		{
-			goto IL_00c4;
-		}
-	}
-	{
-		// T[] res1 = null;
-		V_3 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)NULL;
-		// if (buf.Array == null && buf.Length > 0)
-		FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* L_6 = ___0_buf;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7;
-		L_7 = FrameBuffer_get_Array_m33555AC9413B61F9B142C0A9704D277ECBEBD1F5(L_6, NULL);
-		if (L_7)
-		{
-			goto IL_003c;
-		}
-	}
-	{
-		FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* L_8 = ___0_buf;
-		int32_t L_9;
-		L_9 = FrameBuffer_get_Length_m99F73FA338DDB97D9228FD206D131E3DB1349201(L_8, NULL);
-		G_B5_0 = ((((int32_t)L_9) > ((int32_t)0))? 1 : 0);
-		goto IL_003d;
+		// decoder.DecodePacket(ref buf, endOfStream);
+		OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3* L_4 = (OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3*)__this->___decoder_0;
+		FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* L_5 = ___0_buf;
+		bool L_6 = V_1;
+		NullCheck(L_4);
+		((  void (*) (OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3*, FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986*, bool, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(L_4, L_5, L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
 	}
 
-IL_003c:
-	{
-		G_B5_0 = 0;
-	}
-
-IL_003d:
-	{
-		V_5 = (bool)G_B5_0;
-		bool L_10 = V_5;
-		if (!L_10)
-		{
-			goto IL_0052;
-		}
-	}
-	{
-		// res1 = decoder.DecodePacket(ref buf);
-		OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3* L_11 = (OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3*)__this->___decoder_0;
-		FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* L_12 = ___0_buf;
-		NullCheck(L_11);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_13;
-		L_13 = ((  SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* (*) (OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3*, FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 7)))(L_11, L_12, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
-		V_3 = L_13;
-	}
-
-IL_0052:
-	{
-		// res2 = decoder.DecodeEndOfStream();
-		OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3* L_14 = (OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3*)__this->___decoder_0;
-		NullCheck(L_14);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_15;
-		L_15 = ((  SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* (*) (OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 8)))(L_14, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
-		V_4 = L_15;
-		// if (res1 != null && res1.Length == 0)
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_16 = V_3;
-		if (!L_16)
-		{
-			goto IL_0069;
-		}
-	}
-	{
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_17 = V_3;
-		NullCheck(L_17);
-		G_B10_0 = ((((int32_t)(((RuntimeArray*)L_17)->max_length)) == ((int32_t)0))? 1 : 0);
-		goto IL_006a;
-	}
-
-IL_0069:
-	{
-		G_B10_0 = 0;
-	}
-
-IL_006a:
-	{
-		V_6 = (bool)G_B10_0;
-		bool L_18 = V_6;
-		if (!L_18)
-		{
-			goto IL_00a7;
-		}
-	}
-	{
-		// if (res2 != null && res2.Length != 0)
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_19 = V_4;
-		if (!L_19)
-		{
-			goto IL_007d;
-		}
-	}
-	{
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_20 = V_4;
-		NullCheck(L_20);
-		G_B14_0 = ((!(((uint32_t)(((RuntimeArray*)L_20)->max_length)) <= ((uint32_t)0)))? 1 : 0);
-		goto IL_007e;
-	}
-
-IL_007d:
-	{
-		G_B14_0 = 0;
-	}
-
-IL_007e:
-	{
-		V_7 = (bool)G_B14_0;
-		bool L_21 = V_7;
-		if (!L_21)
-		{
-			goto IL_00a1;
-		}
-	}
-	{
-		// output(frameOut.Set(res1, false));
-		Action_1_t4B5244A7D75171D94BEAE3074BB3625987C5AE84* L_22 = (Action_1_t4B5244A7D75171D94BEAE3074BB3625987C5AE84*)__this->___output_3;
-		FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D* L_23 = (FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D*)__this->___frameOut_4;
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_24 = V_3;
-		NullCheck(L_23);
-		FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D* L_25;
-		L_25 = ((  FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D* (*) (FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D*, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*, bool, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(L_23, L_24, (bool)0, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		NullCheck(L_22);
-		((  void (*) (Action_1_t4B5244A7D75171D94BEAE3074BB3625987C5AE84*, FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(L_22, L_25, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
-		goto IL_00a6;
-	}
-
-IL_00a1:
-	{
-		// res2 = res1;
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_26 = V_3;
-		V_4 = L_26;
-	}
-
-IL_00a6:
-	{
-	}
-
-IL_00a7:
-	{
-		// output(frameOut.Set(res2, true));
-		Action_1_t4B5244A7D75171D94BEAE3074BB3625987C5AE84* L_27 = (Action_1_t4B5244A7D75171D94BEAE3074BB3625987C5AE84*)__this->___output_3;
-		FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D* L_28 = (FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D*)__this->___frameOut_4;
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_29 = V_4;
-		NullCheck(L_28);
-		FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D* L_30;
-		L_30 = ((  FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D* (*) (FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D*, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*, bool, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(L_28, L_29, (bool)1, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		NullCheck(L_27);
-		((  void (*) (Action_1_t4B5244A7D75171D94BEAE3074BB3625987C5AE84*, FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(L_27, L_30, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
-		goto IL_00fc;
-	}
-
-IL_00c4:
-	{
-		// res = decoder.DecodePacket(ref buf);
-		OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3* L_31 = (OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3*)__this->___decoder_0;
-		FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* L_32 = ___0_buf;
-		NullCheck(L_31);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_33;
-		L_33 = ((  SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* (*) (OpusDecoder_1_tD0BF9B9E1087909E5C9236620C8282E60555CBC3*, FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 7)))(L_31, L_32, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
-		V_8 = L_33;
-		// if (res.Length != 0)
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_34 = V_8;
-		NullCheck(L_34);
-		V_9 = (bool)((!(((uint32_t)(((RuntimeArray*)L_34)->max_length)) <= ((uint32_t)0)))? 1 : 0);
-		bool L_35 = V_9;
-		if (!L_35)
-		{
-			goto IL_00fb;
-		}
-	}
-	{
-		// output(frameOut.Set(res, false));
-		Action_1_t4B5244A7D75171D94BEAE3074BB3625987C5AE84* L_36 = (Action_1_t4B5244A7D75171D94BEAE3074BB3625987C5AE84*)__this->___output_3;
-		FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D* L_37 = (FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D*)__this->___frameOut_4;
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_38 = V_8;
-		NullCheck(L_37);
-		FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D* L_39;
-		L_39 = ((  FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D* (*) (FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D*, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*, bool, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(L_37, L_38, (bool)0, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		NullCheck(L_36);
-		((  void (*) (Action_1_t4B5244A7D75171D94BEAE3074BB3625987C5AE84*, FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(L_36, L_39, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
-	}
-
-IL_00fb:
-	{
-	}
-
-IL_00fc:
-	{
-	}
-
-IL_00fd:
+IL_002a:
 	{
 		// }
 		return;

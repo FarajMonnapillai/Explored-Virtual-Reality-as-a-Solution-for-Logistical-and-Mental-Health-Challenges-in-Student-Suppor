@@ -4452,18 +4452,20 @@ struct LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5  : public RuntimeObj
 	uint8_t ___evNumber_13;
 	// Photon.Voice.VoiceClient Photon.Voice.LocalVoice::voiceClient
 	VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* ___voiceClient_14;
+	// System.Boolean Photon.Voice.LocalVoice::threadingEnabled
+	bool ___threadingEnabled_15;
 	// System.ArraySegment`1<System.Byte> Photon.Voice.LocalVoice::configFrame
-	ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 ___configFrame_15;
+	ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 ___configFrame_16;
 	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) Photon.Voice.LocalVoice::disposed
-	bool ___disposed_16;
+	bool ___disposed_17;
 	// System.Object Photon.Voice.LocalVoice::disposeLock
-	RuntimeObject* ___disposeLock_17;
+	RuntimeObject* ___disposeLock_18;
 	// System.Int32 Photon.Voice.LocalVoice::lastTransmitTime
-	int32_t ___lastTransmitTime_19;
+	int32_t ___lastTransmitTime_20;
 	// System.Collections.Generic.Dictionary`2<System.Byte,System.Int32> Photon.Voice.LocalVoice::eventTimestamps
-	Dictionary_2_tC5EFC8C0218B7680694715DA3F5E01A6F20D84A5* ___eventTimestamps_20;
+	Dictionary_2_tC5EFC8C0218B7680694715DA3F5E01A6F20D84A5* ___eventTimestamps_21;
 	// Photon.Voice.SpacingProfile Photon.Voice.LocalVoice::sendSpacingProfile
-	SpacingProfile_t0483DDC2A366FC7433811227ED441A9A9A7DDB8F* ___sendSpacingProfile_21;
+	SpacingProfile_t0483DDC2A366FC7433811227ED441A9A9A7DDB8F* ___sendSpacingProfile_22;
 };
 
 // Oculus.Interaction.MaterialPropertyColor
@@ -5046,7 +5048,7 @@ struct HandSkeletonJoint_t3120B3D1CBB219AF904F1E0C239D0F4E3699DF50
 struct LocalVoiceFramedBase_tC699DAAA29C0169332C1044A51E5F3DC3FC934CD  : public LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5
 {
 	// System.Int32 Photon.Voice.LocalVoiceFramedBase::<FrameSize>k__BackingField
-	int32_t ___U3CFrameSizeU3Ek__BackingField_22;
+	int32_t ___U3CFrameSizeU3Ek__BackingField_23;
 };
 
 // System.MulticastDelegate
@@ -5339,81 +5341,81 @@ struct KeyValuePair_2_tF857B1C753163D05D6CE5351B5146D32C33F0B0C
 struct LocalVoiceFramed_1_tFA780290F30CCA1685CC3DD270208285A1BDE685  : public LocalVoiceFramedBase_tC699DAAA29C0169332C1044A51E5F3DC3FC934CD
 {
 	// Photon.Voice.Framer`1<T> Photon.Voice.LocalVoiceFramed`1::framer
-	Framer_1_t2248AB183633142E9ECB9AF3887CD0BCFBC53E49* ___framer_23;
+	Framer_1_t2248AB183633142E9ECB9AF3887CD0BCFBC53E49* ___framer_24;
 	// System.Int32 Photon.Voice.LocalVoiceFramed`1::preProcessorsCnt
-	int32_t ___preProcessorsCnt_24;
+	int32_t ___preProcessorsCnt_25;
 	// System.Collections.Generic.List`1<Photon.Voice.IProcessor`1<T>> Photon.Voice.LocalVoiceFramed`1::processors
-	List_1_t56C399170B8C69EBC036B77887F390023096B41E* ___processors_25;
+	List_1_t56C399170B8C69EBC036B77887F390023096B41E* ___processors_26;
 	// System.Boolean Photon.Voice.LocalVoiceFramed`1::dataEncodeThreadStarted
-	bool ___dataEncodeThreadStarted_26;
+	bool ___dataEncodeThreadStarted_27;
 	// System.Collections.Generic.Queue`1<T[]> Photon.Voice.LocalVoiceFramed`1::pushDataQueue
-	Queue_1_t14EF0606E13D5B3F00CC8BB3D1A884D4EBC902F1* ___pushDataQueue_27;
+	Queue_1_t14EF0606E13D5B3F00CC8BB3D1A884D4EBC902F1* ___pushDataQueue_28;
 	// System.Threading.AutoResetEvent Photon.Voice.LocalVoiceFramed`1::pushDataQueueReady
-	AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* ___pushDataQueueReady_28;
+	AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* ___pushDataQueueReady_29;
 	// Photon.Voice.FactoryPrimitiveArrayPool`1<T> Photon.Voice.LocalVoiceFramed`1::bufferFactory
-	FactoryPrimitiveArrayPool_1_tB055A6ACC068A4C7F8EFC1044FC41318895C11DC* ___bufferFactory_29;
+	FactoryPrimitiveArrayPool_1_tB055A6ACC068A4C7F8EFC1044FC41318895C11DC* ___bufferFactory_30;
 	// System.Int32 Photon.Voice.LocalVoiceFramed`1::framesSkippedNextLog
-	int32_t ___framesSkippedNextLog_30;
+	int32_t ___framesSkippedNextLog_31;
 	// System.Int32 Photon.Voice.LocalVoiceFramed`1::framesSkipped
-	int32_t ___framesSkipped_31;
+	int32_t ___framesSkipped_32;
 	// System.Boolean Photon.Voice.LocalVoiceFramed`1::exitThread
-	bool ___exitThread_32;
+	bool ___exitThread_33;
 	// System.Int32 Photon.Voice.LocalVoiceFramed`1::processNullFramesCnt
-	int32_t ___processNullFramesCnt_33;
+	int32_t ___processNullFramesCnt_34;
 };
 
 // Photon.Voice.LocalVoiceFramed`1<System.Object>
 struct LocalVoiceFramed_1_t21DADC8C3248CDE14C3DF660AC0CC689D5CAABF9  : public LocalVoiceFramedBase_tC699DAAA29C0169332C1044A51E5F3DC3FC934CD
 {
 	// Photon.Voice.Framer`1<T> Photon.Voice.LocalVoiceFramed`1::framer
-	Framer_1_tAEE454F324B66F92067906017D46B5217F363B6C* ___framer_23;
+	Framer_1_tAEE454F324B66F92067906017D46B5217F363B6C* ___framer_24;
 	// System.Int32 Photon.Voice.LocalVoiceFramed`1::preProcessorsCnt
-	int32_t ___preProcessorsCnt_24;
+	int32_t ___preProcessorsCnt_25;
 	// System.Collections.Generic.List`1<Photon.Voice.IProcessor`1<T>> Photon.Voice.LocalVoiceFramed`1::processors
-	List_1_tA781798CD5F51DFFC0158FF6EAD1B72D0D77E6B6* ___processors_25;
+	List_1_tA781798CD5F51DFFC0158FF6EAD1B72D0D77E6B6* ___processors_26;
 	// System.Boolean Photon.Voice.LocalVoiceFramed`1::dataEncodeThreadStarted
-	bool ___dataEncodeThreadStarted_26;
+	bool ___dataEncodeThreadStarted_27;
 	// System.Collections.Generic.Queue`1<T[]> Photon.Voice.LocalVoiceFramed`1::pushDataQueue
-	Queue_1_t63151ABE83115FA4760EE1D959AAE3D855FD18F0* ___pushDataQueue_27;
+	Queue_1_t63151ABE83115FA4760EE1D959AAE3D855FD18F0* ___pushDataQueue_28;
 	// System.Threading.AutoResetEvent Photon.Voice.LocalVoiceFramed`1::pushDataQueueReady
-	AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* ___pushDataQueueReady_28;
+	AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* ___pushDataQueueReady_29;
 	// Photon.Voice.FactoryPrimitiveArrayPool`1<T> Photon.Voice.LocalVoiceFramed`1::bufferFactory
-	FactoryPrimitiveArrayPool_1_tBA96E4D81636F01E0D94A0CD0C1DAA4F084DC151* ___bufferFactory_29;
+	FactoryPrimitiveArrayPool_1_tBA96E4D81636F01E0D94A0CD0C1DAA4F084DC151* ___bufferFactory_30;
 	// System.Int32 Photon.Voice.LocalVoiceFramed`1::framesSkippedNextLog
-	int32_t ___framesSkippedNextLog_30;
+	int32_t ___framesSkippedNextLog_31;
 	// System.Int32 Photon.Voice.LocalVoiceFramed`1::framesSkipped
-	int32_t ___framesSkipped_31;
+	int32_t ___framesSkipped_32;
 	// System.Boolean Photon.Voice.LocalVoiceFramed`1::exitThread
-	bool ___exitThread_32;
+	bool ___exitThread_33;
 	// System.Int32 Photon.Voice.LocalVoiceFramed`1::processNullFramesCnt
-	int32_t ___processNullFramesCnt_33;
+	int32_t ___processNullFramesCnt_34;
 };
 
 // Photon.Voice.LocalVoiceFramed`1<System.Single>
 struct LocalVoiceFramed_1_t413190758F8F973F0B050AB3B41D39DB9D3EA903  : public LocalVoiceFramedBase_tC699DAAA29C0169332C1044A51E5F3DC3FC934CD
 {
 	// Photon.Voice.Framer`1<T> Photon.Voice.LocalVoiceFramed`1::framer
-	Framer_1_t16E279F64AC5E7960C414BC32A949C3201DE3D3F* ___framer_23;
+	Framer_1_t16E279F64AC5E7960C414BC32A949C3201DE3D3F* ___framer_24;
 	// System.Int32 Photon.Voice.LocalVoiceFramed`1::preProcessorsCnt
-	int32_t ___preProcessorsCnt_24;
+	int32_t ___preProcessorsCnt_25;
 	// System.Collections.Generic.List`1<Photon.Voice.IProcessor`1<T>> Photon.Voice.LocalVoiceFramed`1::processors
-	List_1_t5D8363CA3072E22D576E4A89AE3FBA73294733CB* ___processors_25;
+	List_1_t5D8363CA3072E22D576E4A89AE3FBA73294733CB* ___processors_26;
 	// System.Boolean Photon.Voice.LocalVoiceFramed`1::dataEncodeThreadStarted
-	bool ___dataEncodeThreadStarted_26;
+	bool ___dataEncodeThreadStarted_27;
 	// System.Collections.Generic.Queue`1<T[]> Photon.Voice.LocalVoiceFramed`1::pushDataQueue
-	Queue_1_t9F32AD4F084E1C073F589733BD477395C0E3BDF2* ___pushDataQueue_27;
+	Queue_1_t9F32AD4F084E1C073F589733BD477395C0E3BDF2* ___pushDataQueue_28;
 	// System.Threading.AutoResetEvent Photon.Voice.LocalVoiceFramed`1::pushDataQueueReady
-	AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* ___pushDataQueueReady_28;
+	AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* ___pushDataQueueReady_29;
 	// Photon.Voice.FactoryPrimitiveArrayPool`1<T> Photon.Voice.LocalVoiceFramed`1::bufferFactory
-	FactoryPrimitiveArrayPool_1_tA8D0BF61C8C68AE9A7CB48A34477EE922C3DE819* ___bufferFactory_29;
+	FactoryPrimitiveArrayPool_1_tA8D0BF61C8C68AE9A7CB48A34477EE922C3DE819* ___bufferFactory_30;
 	// System.Int32 Photon.Voice.LocalVoiceFramed`1::framesSkippedNextLog
-	int32_t ___framesSkippedNextLog_30;
+	int32_t ___framesSkippedNextLog_31;
 	// System.Int32 Photon.Voice.LocalVoiceFramed`1::framesSkipped
-	int32_t ___framesSkipped_31;
+	int32_t ___framesSkipped_32;
 	// System.Boolean Photon.Voice.LocalVoiceFramed`1::exitThread
-	bool ___exitThread_32;
+	bool ___exitThread_33;
 	// System.Int32 Photon.Voice.LocalVoiceFramed`1::processNullFramesCnt
-	int32_t ___processNullFramesCnt_33;
+	int32_t ___processNullFramesCnt_34;
 };
 
 // UnityEngine.UIElements.PointerEventBase`1<System.Object>
@@ -34384,7 +34386,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LocalVoiceFramedBase_get_
 {
 	{
 		// public int FrameSize { get; private set; }
-		int32_t L_0 = __this->___U3CFrameSizeU3Ek__BackingField_22;
+		int32_t L_0 = __this->___U3CFrameSizeU3Ek__BackingField_23;
 		return L_0;
 	}
 }

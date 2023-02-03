@@ -42,6 +42,17 @@ struct InterfaceActionInvoker2
 		((Action)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
 	}
 };
+template <typename R>
+struct InterfaceFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
 
 // System.Action`1<System.Int16[]>
 struct Action_1_tC4532A6B52E5449E481006DE9BC9991A602DDE85;
@@ -63,6 +74,8 @@ struct IEnumerable_1_tF95C9E01A913DD50575531C8305932628663D9E9;
 struct IEnumerable_1_t349E66EC5F09B881A8E52EE40A1AB9EC60E08E44;
 // System.Collections.Generic.List`1<Photon.Voice.DeviceInfo>
 struct List_1_t77900A23BF65F1E318159DF69366A9281EA47E72;
+// Photon.Voice.ObjectFactory`2<System.Int16[],System.Int32>
+struct ObjectFactory_2_tDFFE8338D98145A7884353008CA75786B6FCC84D;
 // Photon.Voice.ObjectFactory`2<System.Single[],System.Int32>
 struct ObjectFactory_2_t9EEA813BF75BBD1954AB292E356F25756B84995D;
 // Photon.Voice.PrimitiveArrayPool`1<System.Single>
@@ -93,8 +106,16 @@ struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
 struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
 // System.String[]
 struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+// UnityEngine.jvalue[]
+struct jvalueU5BU5D_t2232DC04C2D2643358141038962889D92D3B5E6F;
+// Photon.Voice.Unity.AndroidAudioInAEC
+struct AndroidAudioInAEC_tA9C6AAB16461A3409AE1592814063BC07CFE687C;
+// Photon.Voice.Unity.AndroidAudioInParameters
+struct AndroidAudioInParameters_t7212C4A7649E84B331F6B2C50AB43A50F4B66D0A;
 // UnityEngine.AndroidJavaClass
 struct AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03;
+// UnityEngine.AndroidJavaObject
+struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0;
 // UnityEngine.AndroidJavaProxy
 struct AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D;
 // UnityEngine.AudioClip
@@ -175,6 +196,8 @@ struct PCMSetPositionCallback_t8D7135A2FB40647CAEC93F5254AD59E18DEB6072;
 struct U3CU3Ec__DisplayClass8_0_tE6FFC8F9391667E36B8D9130FBAD402640FDBFB2;
 
 IL2CPP_EXTERN_C RuntimeClass* Action_2_tC78B65C70619C5DA82BEEF8B33BCC3F4FAADB7DC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AudioSessionCategoryOptionU5BU5D_tDE452C63A96D619A3AE7D328A5E074AA02BC9867_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AudioSessionCategoryOption_tB65209ED5D05B821BF3DF03109C70597F97AAAF3_il2cpp_TypeInfo_var;
@@ -182,34 +205,55 @@ IL2CPP_EXTERN_C RuntimeClass* AudioSessionCategory_t1C36CB8E4F7F94A6DE2B1D509AD1
 IL2CPP_EXTERN_C RuntimeClass* AudioSessionMode_tF805910784023C190A8DD567B87F621B9EA11F7D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AudioSessionParametersPresets_t91321D2EF989E33F1A68DC904658D50072EA2A7E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AudioSpeakerMode_tD681BDF379A4FB499C5562BF3F97AB93B4E540ED_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DataCallback_t0CC480ABF91AF168334B55860E2AA7A61272DCCF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_t77900A23BF65F1E318159DF69366A9281EA47E72_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ObjectFactory_2_tDFFE8338D98145A7884353008CA75786B6FCC84D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass8_0_tE6FFC8F9391667E36B8D9130FBAD402640FDBFB2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* jvalueU5BU5D_t2232DC04C2D2643358141038962889D92D3B5E6F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral0C4FF3E68B5B32B251CA19A84A6C3D4A1684566A;
+IL2CPP_EXTERN_C String_t* _stringLiteral0D48B26096982E0F62B51B3B88BC4EEF664BC5AE;
+IL2CPP_EXTERN_C String_t* _stringLiteral11DD1BE7A82C9B30BA819E6E7381C73F842B88A5;
 IL2CPP_EXTERN_C String_t* _stringLiteral175F7FD2E0BD13E3AF68E27BD6EEBE1EEFA075E7;
+IL2CPP_EXTERN_C String_t* _stringLiteral1C6484CF6483B370C609778CBBE5DC1BA67E2B4C;
 IL2CPP_EXTERN_C String_t* _stringLiteral1CDB2BD802BFF2548A9061A0B20B8141CABAA378;
 IL2CPP_EXTERN_C String_t* _stringLiteral1EFF3ADE7B5E826A48CBED840D8212B5F1F6F3A1;
 IL2CPP_EXTERN_C String_t* _stringLiteral2137F35346273546BF343CD31EECDE30D6B95445;
 IL2CPP_EXTERN_C String_t* _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745;
 IL2CPP_EXTERN_C String_t* _stringLiteral33D1772B9847C9508608BC755A82F5F59C9281F0;
+IL2CPP_EXTERN_C String_t* _stringLiteral3887E80F11517474458DD0044E4C8C71283E061D;
 IL2CPP_EXTERN_C String_t* _stringLiteral3F46971B5311FD16102267C2FDB2B36CA9EA9400;
+IL2CPP_EXTERN_C String_t* _stringLiteral3FFA7EC73933D62D2D642F9AD18ED9069BADC649;
 IL2CPP_EXTERN_C String_t* _stringLiteral40F292A16DA132991C0207EB7B8C4862B8360C2B;
 IL2CPP_EXTERN_C String_t* _stringLiteral4A3779FBC0B24D21010D5B514CD477AA4F1D0E04;
 IL2CPP_EXTERN_C String_t* _stringLiteral4BDCBDE4D1A8B159C5907D29215769FD82D38828;
+IL2CPP_EXTERN_C String_t* _stringLiteral4D613657609485AE586A3379BA0E3FC13C1E1078;
 IL2CPP_EXTERN_C String_t* _stringLiteral70A56338E98C34BF727898C08E587D08A6C2481F;
+IL2CPP_EXTERN_C String_t* _stringLiteral73DF4190C2AA55F9FDF61826A6D31E307EB74FDC;
 IL2CPP_EXTERN_C String_t* _stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D;
+IL2CPP_EXTERN_C String_t* _stringLiteral800C762D9EF92B399EC87C776239043ACEEC0717;
 IL2CPP_EXTERN_C String_t* _stringLiteral81A15F84E86AC6DDCC6E8947479799DF53E1105C;
+IL2CPP_EXTERN_C String_t* _stringLiteral8243A16D425F93AF62CAAB2BFAE01A2D6246A5FE;
 IL2CPP_EXTERN_C String_t* _stringLiteral8460AECBE820085F2A6606F461369091075CC52F;
 IL2CPP_EXTERN_C String_t* _stringLiteral87F4DA30A27DAEA39994E3CC62ED9FC748D0E320;
+IL2CPP_EXTERN_C String_t* _stringLiteral8A4BFCAD3975EE7B5DA7E4FA8C7A8834393DE6CB;
+IL2CPP_EXTERN_C String_t* _stringLiteral8D403BCCE22CC75D60C52DE38DF4629A1BCB7241;
+IL2CPP_EXTERN_C String_t* _stringLiteral8F111C2354BF114B682B53470DBBA11F4F2C3020;
 IL2CPP_EXTERN_C String_t* _stringLiteral9D30BC984868A4ADDCE6687099EF855CC936C334;
 IL2CPP_EXTERN_C String_t* _stringLiteralA12A5890EB243359E97EB2D1526E2F3116ED4181;
+IL2CPP_EXTERN_C String_t* _stringLiteralA3615893572D5538C1C4888735BDE5208EE3B4EC;
+IL2CPP_EXTERN_C String_t* _stringLiteralA74ACAA1F61DE0EB348EC03946685B0B6270CB36;
+IL2CPP_EXTERN_C String_t* _stringLiteralAA98E47793C6AEE7A0C5AA0E30BF0100F8E660FC;
 IL2CPP_EXTERN_C String_t* _stringLiteralB03A5CB10FA89CC11049C9485B319623EFD4A9E7;
+IL2CPP_EXTERN_C String_t* _stringLiteralB6AB26C43AF5F4355828DFB4C4EF228430E314D8;
 IL2CPP_EXTERN_C String_t* _stringLiteralC4A894CEE2759BC697BDA8AD0447513A31663D89;
 IL2CPP_EXTERN_C String_t* _stringLiteralD23EBB0DA12C46F6E599DC7EFC6DC178F5127161;
 IL2CPP_EXTERN_C String_t* _stringLiteralD3615568FD8353F4C8420F44F56770A629DB122B;
@@ -218,6 +262,11 @@ IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709
 IL2CPP_EXTERN_C String_t* _stringLiteralE166C9564FBDE461738077E3B1B506525EB6ACCC;
 IL2CPP_EXTERN_C String_t* _stringLiteralE97938541FC7045D10830521A1E210468A0BA3AB;
 IL2CPP_EXTERN_C String_t* _stringLiteralEF0C51E13C7F33B49DBEACBCC6479D039582C287;
+IL2CPP_EXTERN_C String_t* _stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9;
+IL2CPP_EXTERN_C String_t* _stringLiteralFEA58C59CE78CA554E44DB3E2243C187F37EAB4C;
+IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AudioOutDelayControl_1_Stop_mAC8756D3B2993D7155924C9E9DD692160D111229_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AudioOutDelayControl_1__ctor_m445CD773403C6E60856067FD1809DA03773243F0_RuntimeMethod_var;
@@ -238,6 +287,7 @@ struct Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
 struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct jvalueU5BU5D_t2232DC04C2D2643358141038962889D92D3B5E6F;
 
 IL2CPP_EXTERN_C_BEGIN
 IL2CPP_EXTERN_C_END
@@ -264,6 +314,26 @@ struct List_1_t77900A23BF65F1E318159DF69366A9281EA47E72  : public RuntimeObject
 	int32_t ____version_3;
 	// System.Object System.Collections.Generic.List`1::_syncRoot
 	RuntimeObject* ____syncRoot_4;
+};
+
+// Photon.Voice.Unity.AndroidAudioInParameters
+struct AndroidAudioInParameters_t7212C4A7649E84B331F6B2C50AB43A50F4B66D0A  : public RuntimeObject
+{
+	// System.Boolean Photon.Voice.Unity.AndroidAudioInParameters::EnableAEC
+	bool ___EnableAEC_0;
+	// System.Boolean Photon.Voice.Unity.AndroidAudioInParameters::EnableAGC
+	bool ___EnableAGC_1;
+	// System.Boolean Photon.Voice.Unity.AndroidAudioInParameters::EnableNS
+	bool ___EnableNS_2;
+};
+
+// UnityEngine.AndroidJavaObject
+struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0  : public RuntimeObject
+{
+	// UnityEngine.GlobalJavaObjectRef UnityEngine.AndroidJavaObject::m_jobject
+	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___m_jobject_1;
+	// UnityEngine.GlobalJavaObjectRef UnityEngine.AndroidJavaObject::m_jclass
+	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___m_jclass_2;
 };
 
 // Photon.Voice.Unity.AudioClipWrapper
@@ -403,6 +473,11 @@ struct ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093
 	int32_t ____offset_2;
 	// System.Int32 System.ArraySegment`1::_count
 	int32_t ____count_3;
+};
+
+// UnityEngine.AndroidJavaClass
+struct AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03  : public AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0
+{
 };
 
 // Photon.Voice.Unity.AudioInEnumerator
@@ -688,6 +763,23 @@ struct U3CPrivateImplementationDetailsU3E_tEC72908065E42AF62CFBD51BC5355E78406A8
 {
 };
 
+// Photon.Voice.Unity.AndroidAudioInAEC
+struct AndroidAudioInAEC_tA9C6AAB16461A3409AE1592814063BC07CFE687C  : public RuntimeObject
+{
+	// UnityEngine.AndroidJavaObject Photon.Voice.Unity.AndroidAudioInAEC::audioIn
+	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___audioIn_0;
+	// System.IntPtr Photon.Voice.Unity.AndroidAudioInAEC::javaBuf
+	intptr_t ___javaBuf_1;
+	// Photon.Voice.ILogger Photon.Voice.Unity.AndroidAudioInAEC::logger
+	RuntimeObject* ___logger_2;
+	// System.Int32 Photon.Voice.Unity.AndroidAudioInAEC::audioInSampleRate
+	int32_t ___audioInSampleRate_3;
+	// Photon.Voice.Unity.AndroidAudioInAEC/DataCallback Photon.Voice.Unity.AndroidAudioInAEC::callback
+	DataCallback_t0CC480ABF91AF168334B55860E2AA7A61272DCCF* ___callback_4;
+	// System.String Photon.Voice.Unity.AndroidAudioInAEC::<Error>k__BackingField
+	String_t* ___U3CErrorU3Ek__BackingField_5;
+};
+
 // UnityEngine.AndroidJavaProxy
 struct AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D  : public RuntimeObject
 {
@@ -882,18 +974,20 @@ struct LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5  : public RuntimeObj
 	uint8_t ___evNumber_13;
 	// Photon.Voice.VoiceClient Photon.Voice.LocalVoice::voiceClient
 	VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* ___voiceClient_14;
+	// System.Boolean Photon.Voice.LocalVoice::threadingEnabled
+	bool ___threadingEnabled_15;
 	// System.ArraySegment`1<System.Byte> Photon.Voice.LocalVoice::configFrame
-	ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 ___configFrame_15;
+	ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 ___configFrame_16;
 	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) Photon.Voice.LocalVoice::disposed
-	bool ___disposed_16;
+	bool ___disposed_17;
 	// System.Object Photon.Voice.LocalVoice::disposeLock
-	RuntimeObject* ___disposeLock_17;
+	RuntimeObject* ___disposeLock_18;
 	// System.Int32 Photon.Voice.LocalVoice::lastTransmitTime
-	int32_t ___lastTransmitTime_19;
+	int32_t ___lastTransmitTime_20;
 	// System.Collections.Generic.Dictionary`2<System.Byte,System.Int32> Photon.Voice.LocalVoice::eventTimestamps
-	Dictionary_2_tC5EFC8C0218B7680694715DA3F5E01A6F20D84A5* ___eventTimestamps_20;
+	Dictionary_2_tC5EFC8C0218B7680694715DA3F5E01A6F20D84A5* ___eventTimestamps_21;
 	// Photon.Voice.SpacingProfile Photon.Voice.LocalVoice::sendSpacingProfile
-	SpacingProfile_t0483DDC2A366FC7433811227ED441A9A9A7DDB8F* ___sendSpacingProfile_21;
+	SpacingProfile_t0483DDC2A366FC7433811227ED441A9A9A7DDB8F* ___sendSpacingProfile_22;
 };
 
 // UnityEngine.Object
@@ -911,6 +1005,307 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
 {
 	intptr_t ___m_CachedPtr_0;
+};
+
+// UnityEngine.jvalue
+struct jvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Boolean UnityEngine.jvalue::z
+			bool ___z_0;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			bool ___z_0_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.SByte UnityEngine.jvalue::b
+			int8_t ___b_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int8_t ___b_1_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Char UnityEngine.jvalue::c
+			Il2CppChar ___c_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			Il2CppChar ___c_2_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Int16 UnityEngine.jvalue::s
+			int16_t ___s_3;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int16_t ___s_3_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Int32 UnityEngine.jvalue::i
+			int32_t ___i_4;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___i_4_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Int64 UnityEngine.jvalue::j
+			int64_t ___j_5;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int64_t ___j_5_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Single UnityEngine.jvalue::f
+			float ___f_6;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			float ___f_6_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Double UnityEngine.jvalue::d
+			double ___d_7;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			double ___d_7_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.IntPtr UnityEngine.jvalue::l
+			intptr_t ___l_8;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			intptr_t ___l_8_forAlignmentOnly;
+		};
+	};
+};
+// Native definition for P/Invoke marshalling of UnityEngine.jvalue
+struct jvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225_marshaled_pinvoke
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int32_t ___z_0;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___z_0_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int8_t ___b_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int8_t ___b_1_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			uint8_t ___c_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___c_2_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int16_t ___s_3;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int16_t ___s_3_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int32_t ___i_4;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___i_4_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int64_t ___j_5;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int64_t ___j_5_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			float ___f_6;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			float ___f_6_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			double ___d_7;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			double ___d_7_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			intptr_t ___l_8;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			intptr_t ___l_8_forAlignmentOnly;
+		};
+	};
+};
+// Native definition for COM marshalling of UnityEngine.jvalue
+struct jvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225_marshaled_com
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int32_t ___z_0;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___z_0_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int8_t ___b_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int8_t ___b_1_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			uint8_t ___c_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___c_2_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int16_t ___s_3;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int16_t ___s_3_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int32_t ___i_4;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___i_4_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int64_t ___j_5;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int64_t ___j_5_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			float ___f_6;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			float ___f_6_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			double ___d_7;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			double ___d_7_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			intptr_t ___l_8;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			intptr_t ___l_8_forAlignmentOnly;
+		};
+	};
 };
 
 // UnityEngine.AudioClip
@@ -1055,6 +1450,19 @@ struct List_1_t77900A23BF65F1E318159DF69366A9281EA47E72_StaticFields
 
 // System.Collections.Generic.List`1<Photon.Voice.DeviceInfo>
 
+// Photon.Voice.Unity.AndroidAudioInParameters
+
+// Photon.Voice.Unity.AndroidAudioInParameters
+
+// UnityEngine.AndroidJavaObject
+struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_StaticFields
+{
+	// System.Boolean UnityEngine.AndroidJavaObject::enableDebugPrints
+	bool ___enableDebugPrints_0;
+};
+
+// UnityEngine.AndroidJavaObject
+
 // Photon.Voice.Unity.AudioClipWrapper
 
 // Photon.Voice.Unity.AudioClipWrapper
@@ -1121,6 +1529,10 @@ struct ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_StaticFields
 };
 
 // System.ArraySegment`1<System.Byte>
+
+// UnityEngine.AndroidJavaClass
+
+// UnityEngine.AndroidJavaClass
 
 // Photon.Voice.Unity.AudioInEnumerator
 
@@ -1218,6 +1630,10 @@ struct U3CPrivateImplementationDetailsU3E_tEC72908065E42AF62CFBD51BC5355E78406A8
 
 // <PrivateImplementationDetails>
 
+// Photon.Voice.Unity.AndroidAudioInAEC
+
+// Photon.Voice.Unity.AndroidAudioInAEC
+
 // UnityEngine.AndroidJavaProxy
 struct AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_StaticFields
 {
@@ -1269,6 +1685,10 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 };
 
 // UnityEngine.Object
+
+// UnityEngine.jvalue
+
+// UnityEngine.jvalue
 
 // UnityEngine.AudioClip
 
@@ -1344,6 +1764,74 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+// System.Object[]
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+// UnityEngine.jvalue[]
+struct jvalueU5BU5D_t2232DC04C2D2643358141038962889D92D3B5E6F  : public RuntimeArray
+{
+	ALIGN_FIELD (8) jvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225 m_Items[1];
+
+	inline jvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline jvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, jvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline jvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline jvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, jvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225 value)
+	{
+		m_Items[index] = value;
+	}
+};
 // System.Int16[]
 struct Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB  : public RuntimeArray
 {
@@ -1445,41 +1933,6 @@ struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeA
 		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
 	}
 };
-// System.Object[]
-struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
-{
-	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
-
-	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
-	}
-	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
-	}
-};
 // Photon.Voice.IOS.AudioSessionCategoryOption[]
 struct AudioSessionCategoryOptionU5BU5D_tDE452C63A96D619A3AE7D328A5E074AA02BC9867  : public RuntimeArray
 {
@@ -1562,6 +2015,14 @@ struct DeviceInfoU5BU5D_t9EA4E8A11991CB7926B8467200A0CFB1D9689E78  : public Runt
 };
 
 
+// T[] System.Array::Empty<System.Object>()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) ;
+// ReturnType UnityEngine.AndroidJavaObject::Call<System.Int32>(System.String,System.Object[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
+// ReturnType UnityEngine.AndroidJavaObject::Call<System.Boolean>(System.String,System.Object[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
+// FieldType UnityEngine.AndroidJavaObject::GetStatic<System.Object>(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AndroidJavaObject_GetStatic_TisRuntimeObject_m4EF4E4761A0A6E99E0A298F653E8129B1494E4C9_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Object>::Invoke(T)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
 // System.Void System.Action`2<System.Object,System.Int32>::Invoke(T1,T2)
@@ -1570,8 +2031,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m88484A213EB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_mD0ADD3C9B4444CE1A68731119715485F47C95CD1_gshared (List_1_t77900A23BF65F1E318159DF69366A9281EA47E72* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<Photon.Voice.DeviceInfo>::Add(T)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m962A69382443F2CC6EE44F78E43F721AA6641BD6_gshared_inline (List_1_t77900A23BF65F1E318159DF69366A9281EA47E72* __this, DeviceInfo_tC91EF4D866BBBA8B68A503B620A00F15C60C2335 ___0_item, const RuntimeMethod* method) ;
-// T[] System.Array::Empty<System.Object>()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) ;
 // T UnityEngine.GameObject::AddComponent<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`2<System.Object,System.Int32>::.ctor(System.Object,System.IntPtr)
@@ -1583,6 +2042,58 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioOutDelayControl_1_Stop_mAC8756D3B29
 // System.Boolean System.Linq.Enumerable::Contains<System.Object>(System.Collections.Generic.IEnumerable`1<TSource>,TSource)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerable_Contains_TisRuntimeObject_mBCDB5870C52FC5BD2B6AE472A749FC03B9CF8958_gshared (RuntimeObject* ___0_source, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
 
+// System.Void System.Object::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.Void Photon.Voice.Unity.AndroidAudioInAEC/DataCallback::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataCallback__ctor_m69A883EB0EC3F9E4B08EA4B0952CDAB1A95FEE14 (DataCallback_t0CC480ABF91AF168334B55860E2AA7A61272DCCF* __this, const RuntimeMethod* method) ;
+// T[] System.Array::Empty<System.Object>()
+inline ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline (const RuntimeMethod* method)
+{
+	return ((  ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* (*) (const RuntimeMethod*))Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline)(method);
+}
+// System.Void UnityEngine.AndroidJavaObject::.ctor(System.String,System.Object[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__ctor_m5A65B5D325C2CEFAC4097A0D3813F8E158178DD7 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_className, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
+// System.Int32 Photon.Voice.Unity.AndroidAudioInAEC::get_Channels()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidAudioInAEC_get_Channels_mDF6B03321CFD52DB584EE619A36A9E33C36C22A7 (AndroidAudioInAEC_tA9C6AAB16461A3409AE1592814063BC07CFE687C* __this, const RuntimeMethod* method) ;
+// ReturnType UnityEngine.AndroidJavaObject::Call<System.Int32>(System.String,System.Object[])
+inline int32_t AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC_gshared)(__this, ___0_methodName, ___1_args, method);
+}
+// ReturnType UnityEngine.AndroidJavaObject::Call<System.Boolean>(System.String,System.Object[])
+inline bool AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method)
+{
+	return ((  bool (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_gshared)(__this, ___0_methodName, ___1_args, method);
+}
+// System.Void UnityEngine.AndroidJavaClass::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389 (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* __this, String_t* ___0_className, const RuntimeMethod* method) ;
+// FieldType UnityEngine.AndroidJavaObject::GetStatic<UnityEngine.AndroidJavaObject>(System.String)
+inline AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, const RuntimeMethod* method)
+{
+	return ((  AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, const RuntimeMethod*))AndroidJavaObject_GetStatic_TisRuntimeObject_m4EF4E4761A0A6E99E0A298F653E8129B1494E4C9_gshared)(__this, ___0_fieldName, method);
+}
+// System.Int32 Photon.Voice.Unity.AndroidAudioInAEC::get_SamplingRate()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidAudioInAEC_get_SamplingRate_m0E1A7AFAC3536CE5B6A9DBDF51F31B02A3053441 (AndroidAudioInAEC_tA9C6AAB16461A3409AE1592814063BC07CFE687C* __this, const RuntimeMethod* method) ;
+// System.Void Photon.Voice.Unity.AndroidAudioInAEC::set_Error(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AndroidAudioInAEC_set_Error_m40A288E504A1638FCC0FCB07E00181AAEF5B0831_inline (AndroidAudioInAEC_tA9C6AAB16461A3409AE1592814063BC07CFE687C* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+// System.String Photon.Voice.Unity.AndroidAudioInAEC::get_Error()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AndroidAudioInAEC_get_Error_m9D2E4CB43470DC011A568279390C5814EABD8C3E_inline (AndroidAudioInAEC_tA9C6AAB16461A3409AE1592814063BC07CFE687C* __this, const RuntimeMethod* method) ;
+// System.IntPtr UnityEngine.AndroidJNI::NewShortArray(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AndroidJNI_NewShortArray_m6CC9E93F24ED8BFC02A13D89DA95E6F17276BCA6 (int32_t ___0_size, const RuntimeMethod* method) ;
+// System.IntPtr UnityEngine.AndroidJNI::NewGlobalRef(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AndroidJNI_NewGlobalRef_m9A06F23234FB1ECF3F482AF3A6A6148A5916E9A7 (intptr_t ___0_obj, const RuntimeMethod* method) ;
+// System.Void Photon.Voice.Unity.AndroidAudioInAEC/DataCallback::SetCallback(System.Action`1<System.Int16[]>,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataCallback_SetCallback_mE2D0FF360E4F160402CC58F4112CDE4900AFDDAC (DataCallback_t0CC480ABF91AF168334B55860E2AA7A61272DCCF* __this, Action_1_tC4532A6B52E5449E481006DE9BC9991A602DDE85* ___0_callback, intptr_t ___1_javaBuf, const RuntimeMethod* method) ;
+// System.IntPtr UnityEngine.AndroidJavaObject::GetRawClass()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AndroidJavaObject_GetRawClass_mE4FB4DC4F856A52E10C6AAD0B65BEBF47B5071F5 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, const RuntimeMethod* method) ;
+// System.IntPtr UnityEngine.AndroidJNI::GetMethodID(System.IntPtr,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AndroidJNI_GetMethodID_mA7FF961764CA4D68C4789E5A17926CE5FF9B3549 (intptr_t ___0_clazz, String_t* ___1_name, String_t* ___2_sig, const RuntimeMethod* method) ;
+// System.IntPtr UnityEngine.AndroidJavaObject::GetRawObject()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AndroidJavaObject_GetRawObject_m536F043B5CE2C21369FF6173C9D2A9A62136BC48 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.AndroidJNI::CallBooleanMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidJNI_CallBooleanMethod_m78FC31B29854285F1164C75974AB463FE5716F84 (intptr_t ___0_obj, intptr_t ___1_methodID, jvalueU5BU5D_t2232DC04C2D2643358141038962889D92D3B5E6F* ___2_args, const RuntimeMethod* method) ;
+// System.Void UnityEngine.AndroidJavaObject::Call(System.String,System.Object[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJavaProxy::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaProxy__ctor_m2832886A0E1BBF6702653A7C6A4609F11FB712C7 (AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D* __this, String_t* ___0_javaInterface, const RuntimeMethod* method) ;
 // System.Int16[] UnityEngine.AndroidJNI::FromShortArray(System.IntPtr)
@@ -1594,8 +2105,6 @@ inline void Action_1_Invoke_m2F2471A2A9E63C68E4B7E920DAE908770C930247_inline (Ac
 }
 // System.Void UnityEngine.AndroidJNI::DeleteGlobalRef(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJNI_DeleteGlobalRef_mC50B6C056F32BB9F44B800949FA169C728D4C41D (intptr_t ___0_obj, const RuntimeMethod* method) ;
-// System.Void System.Object::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Time::get_time()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B (const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.AudioClip::get_frequency()
@@ -1651,11 +2160,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* MicWrapper_get_Error_m0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* UnityMicrophone_Start_m090FA09D48B01AD499E41C8DAAA0C291F27D2BE8 (String_t* ___0_deviceName, bool ___1_loop, int32_t ___2_lengthSec, int32_t ___3_frequency, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
-// T[] System.Array::Empty<System.Object>()
-inline ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline (const RuntimeMethod* method)
-{
-	return ((  ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* (*) (const RuntimeMethod*))Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline)(method);
-}
 // System.Void Photon.Voice.Unity.UnityMicrophone::End(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityMicrophone_End_m7ECA62ED3E3E43BA268CFEA21C862EF8532A36EB (String_t* ___0_deviceName, const RuntimeMethod* method) ;
 // System.Int32 Photon.Voice.Unity.UnityMicrophone::GetPosition(System.String)
@@ -1767,6 +2271,665 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioSessionParameters_CategoryOption
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, RuntimeObject* ___3_arg2, const RuntimeMethod* method) ;
 // System.String Photon.Voice.IOS.AudioSessionParameters::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AudioSessionParameters_ToString_mEB3B038EDA3373B3B35BB0DF7CB7D0D66EAFEDC7 (AudioSessionParameters_t1AF1732698B36F46E4914C11DE013498CD279C37* __this, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Photon.Voice.Unity.AndroidAudioInParameters::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAudioInParameters__ctor_mFB1C2EE5F3960A5AF19C04830408286555E1BEBA (AndroidAudioInParameters_t7212C4A7649E84B331F6B2C50AB43A50F4B66D0A* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool EnableAEC = false;
+		__this->___EnableAEC_0 = (bool)0;
+		// public bool EnableAGC = false;
+		__this->___EnableAGC_1 = (bool)0;
+		// public bool EnableNS = false;
+		__this->___EnableNS_2 = (bool)0;
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Photon.Voice.Unity.AndroidAudioInAEC::.ctor(Photon.Voice.ILogger,System.Boolean,System.Boolean,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAudioInAEC__ctor_mFBD66FAD0CBE64E246BEE31D96B08234A30335FB (AndroidAudioInAEC_tA9C6AAB16461A3409AE1592814063BC07CFE687C* __this, RuntimeObject* ___0_logger, bool ___1_enableAEC, bool ___2_enableAGC, bool ___3_enableNS, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DataCallback_t0CC480ABF91AF168334B55860E2AA7A61272DCCF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0D48B26096982E0F62B51B3B88BC4EEF664BC5AE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral11DD1BE7A82C9B30BA819E6E7381C73F842B88A5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3887E80F11517474458DD0044E4C8C71283E061D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3FFA7EC73933D62D2D642F9AD18ED9069BADC649);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4D613657609485AE586A3379BA0E3FC13C1E1078);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral73DF4190C2AA55F9FDF61826A6D31E307EB74FDC);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8243A16D425F93AF62CAAB2BFAE01A2D6246A5FE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8A4BFCAD3975EE7B5DA7E4FA8C7A8834393DE6CB);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8D403BCCE22CC75D60C52DE38DF4629A1BCB7241);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8F111C2354BF114B682B53470DBBA11F4F2C3020);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA3615893572D5538C1C4888735BDE5208EE3B4EC);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAA98E47793C6AEE7A0C5AA0E30BF0100F8E660FC);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* V_1 = NULL;
+	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* V_2 = NULL;
+	bool V_3 = false;
+	bool V_4 = false;
+	Exception_t* V_5 = NULL;
+	bool V_6 = false;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		// int audioInSampleRate = 0;
+		__this->___audioInSampleRate_3 = 0;
+		// public AndroidAudioInAEC(Voice.ILogger logger, bool enableAEC = false, bool enableAGC = false, bool enableNS = false)
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		// this.logger = logger;
+		RuntimeObject* L_0 = ___0_logger;
+		__this->___logger_2 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___logger_2), (void*)L_0);
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			// this.callback = new DataCallback();
+			DataCallback_t0CC480ABF91AF168334B55860E2AA7A61272DCCF* L_1 = (DataCallback_t0CC480ABF91AF168334B55860E2AA7A61272DCCF*)il2cpp_codegen_object_new(DataCallback_t0CC480ABF91AF168334B55860E2AA7A61272DCCF_il2cpp_TypeInfo_var);
+			NullCheck(L_1);
+			DataCallback__ctor_m69A883EB0EC3F9E4B08EA4B0952CDAB1A95FEE14(L_1, NULL);
+			__this->___callback_4 = L_1;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___callback_4), (void*)L_1);
+			// audioIn = new AndroidJavaObject("com.exitgames.photon.audioinaec.AudioInAEC");
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2;
+			L_2 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_3 = (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)il2cpp_codegen_object_new(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_il2cpp_TypeInfo_var);
+			NullCheck(L_3);
+			AndroidJavaObject__ctor_m5A65B5D325C2CEFAC4097A0D3813F8E158178DD7(L_3, _stringLiteral8F111C2354BF114B682B53470DBBA11F4F2C3020, L_2, NULL);
+			__this->___audioIn_0 = L_3;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___audioIn_0), (void*)L_3);
+			// int minBufSize = audioIn.Call<int>("GetMinBufferSize", SAMPLE_RATE_44100, Channels);
+			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_4 = __this->___audioIn_0;
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = L_5;
+			int32_t L_7 = ((int32_t)44100);
+			RuntimeObject* L_8 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_7);
+			NullCheck(L_6);
+			ArrayElementTypeCheck (L_6, L_8);
+			(L_6)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_8);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_6;
+			int32_t L_10;
+			L_10 = AndroidAudioInAEC_get_Channels_mDF6B03321CFD52DB584EE619A36A9E33C36C22A7(__this, NULL);
+			int32_t L_11 = L_10;
+			RuntimeObject* L_12 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_11);
+			NullCheck(L_9);
+			ArrayElementTypeCheck (L_9, L_12);
+			(L_9)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_12);
+			NullCheck(L_4);
+			int32_t L_13;
+			L_13 = AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC(L_4, _stringLiteral73DF4190C2AA55F9FDF61826A6D31E307EB74FDC, L_9, AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC_RuntimeMethod_var);
+			V_0 = L_13;
+			// logger.LogInfo("[PV] AndroidAudioInAEC: AndroidJavaObject created: aec: {0}/{1}, agc: {2}/{3}, ns: {4}/{5} minBufSize: {6}",
+			//     enableAEC, audioIn.Call<bool>("AECIsAvailable"),
+			//     enableAGC, audioIn.Call<bool>("AGCIsAvailable"),
+			//     enableNS, audioIn.Call<bool>("NSIsAvailable"),
+			//     minBufSize);
+			RuntimeObject* L_14 = ___0_logger;
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_15 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)7);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_16 = L_15;
+			bool L_17 = ___1_enableAEC;
+			bool L_18 = L_17;
+			RuntimeObject* L_19 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_18);
+			NullCheck(L_16);
+			ArrayElementTypeCheck (L_16, L_19);
+			(L_16)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_19);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_20 = L_16;
+			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_21 = __this->___audioIn_0;
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_22;
+			L_22 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+			NullCheck(L_21);
+			bool L_23;
+			L_23 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_21, _stringLiteral8D403BCCE22CC75D60C52DE38DF4629A1BCB7241, L_22, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
+			bool L_24 = L_23;
+			RuntimeObject* L_25 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_24);
+			NullCheck(L_20);
+			ArrayElementTypeCheck (L_20, L_25);
+			(L_20)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_25);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_26 = L_20;
+			bool L_27 = ___2_enableAGC;
+			bool L_28 = L_27;
+			RuntimeObject* L_29 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_28);
+			NullCheck(L_26);
+			ArrayElementTypeCheck (L_26, L_29);
+			(L_26)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_29);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_30 = L_26;
+			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_31 = __this->___audioIn_0;
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_32;
+			L_32 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+			NullCheck(L_31);
+			bool L_33;
+			L_33 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_31, _stringLiteral0D48B26096982E0F62B51B3B88BC4EEF664BC5AE, L_32, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
+			bool L_34 = L_33;
+			RuntimeObject* L_35 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_34);
+			NullCheck(L_30);
+			ArrayElementTypeCheck (L_30, L_35);
+			(L_30)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_35);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_36 = L_30;
+			bool L_37 = ___3_enableNS;
+			bool L_38 = L_37;
+			RuntimeObject* L_39 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_38);
+			NullCheck(L_36);
+			ArrayElementTypeCheck (L_36, L_39);
+			(L_36)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject*)L_39);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_40 = L_36;
+			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_41 = __this->___audioIn_0;
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_42;
+			L_42 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+			NullCheck(L_41);
+			bool L_43;
+			L_43 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_41, _stringLiteral3887E80F11517474458DD0044E4C8C71283E061D, L_42, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
+			bool L_44 = L_43;
+			RuntimeObject* L_45 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_44);
+			NullCheck(L_40);
+			ArrayElementTypeCheck (L_40, L_45);
+			(L_40)->SetAt(static_cast<il2cpp_array_size_t>(5), (RuntimeObject*)L_45);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_46 = L_40;
+			int32_t L_47 = V_0;
+			int32_t L_48 = L_47;
+			RuntimeObject* L_49 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_48);
+			NullCheck(L_46);
+			ArrayElementTypeCheck (L_46, L_49);
+			(L_46)->SetAt(static_cast<il2cpp_array_size_t>(6), (RuntimeObject*)L_49);
+			NullCheck(L_14);
+			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_14, _stringLiteral3FFA7EC73933D62D2D642F9AD18ED9069BADC649, L_46);
+			// AndroidJavaClass app = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+			AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_50 = (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03*)il2cpp_codegen_object_new(AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
+			NullCheck(L_50);
+			AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389(L_50, _stringLiteral4D613657609485AE586A3379BA0E3FC13C1E1078, NULL);
+			V_1 = L_50;
+			// AndroidJavaObject activity = app.GetStatic<AndroidJavaObject>("currentActivity");
+			AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_51 = V_1;
+			NullCheck(L_51);
+			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_52;
+			L_52 = AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD(L_51, _stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9, AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var);
+			V_2 = L_52;
+			// var ok = audioIn.Call<bool>("Start", activity, this.callback, SAMPLE_RATE_REQUEST, Channels, minBufSize * 4, enableAEC, enableAGC, enableNS);
+			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_53 = __this->___audioIn_0;
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_54 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)8);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_55 = L_54;
+			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_56 = V_2;
+			NullCheck(L_55);
+			ArrayElementTypeCheck (L_55, L_56);
+			(L_55)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_56);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_57 = L_55;
+			DataCallback_t0CC480ABF91AF168334B55860E2AA7A61272DCCF* L_58 = __this->___callback_4;
+			NullCheck(L_57);
+			ArrayElementTypeCheck (L_57, L_58);
+			(L_57)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_58);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_59 = L_57;
+			int32_t L_60 = ((int32_t)44100);
+			RuntimeObject* L_61 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_60);
+			NullCheck(L_59);
+			ArrayElementTypeCheck (L_59, L_61);
+			(L_59)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_61);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_62 = L_59;
+			int32_t L_63;
+			L_63 = AndroidAudioInAEC_get_Channels_mDF6B03321CFD52DB584EE619A36A9E33C36C22A7(__this, NULL);
+			int32_t L_64 = L_63;
+			RuntimeObject* L_65 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_64);
+			NullCheck(L_62);
+			ArrayElementTypeCheck (L_62, L_65);
+			(L_62)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_65);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_66 = L_62;
+			int32_t L_67 = V_0;
+			int32_t L_68 = ((int32_t)il2cpp_codegen_multiply(L_67, 4));
+			RuntimeObject* L_69 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_68);
+			NullCheck(L_66);
+			ArrayElementTypeCheck (L_66, L_69);
+			(L_66)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject*)L_69);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_70 = L_66;
+			bool L_71 = ___1_enableAEC;
+			bool L_72 = L_71;
+			RuntimeObject* L_73 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_72);
+			NullCheck(L_70);
+			ArrayElementTypeCheck (L_70, L_73);
+			(L_70)->SetAt(static_cast<il2cpp_array_size_t>(5), (RuntimeObject*)L_73);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_74 = L_70;
+			bool L_75 = ___2_enableAGC;
+			bool L_76 = L_75;
+			RuntimeObject* L_77 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_76);
+			NullCheck(L_74);
+			ArrayElementTypeCheck (L_74, L_77);
+			(L_74)->SetAt(static_cast<il2cpp_array_size_t>(6), (RuntimeObject*)L_77);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_78 = L_74;
+			bool L_79 = ___3_enableNS;
+			bool L_80 = L_79;
+			RuntimeObject* L_81 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_80);
+			NullCheck(L_78);
+			ArrayElementTypeCheck (L_78, L_81);
+			(L_78)->SetAt(static_cast<il2cpp_array_size_t>(7), (RuntimeObject*)L_81);
+			NullCheck(L_53);
+			bool L_82;
+			L_82 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_53, _stringLiteral8243A16D425F93AF62CAAB2BFAE01A2D6246A5FE, L_78, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
+			V_3 = L_82;
+			// if (ok)
+			bool L_83 = V_3;
+			V_4 = L_83;
+			bool L_84 = V_4;
+			if (!L_84)
+			{
+				goto IL_01dc_1;
+			}
+		}
+		{
+			// audioInSampleRate = audioIn.Call<int>("GetSampleRate");
+			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_85 = __this->___audioIn_0;
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_86;
+			L_86 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+			NullCheck(L_85);
+			int32_t L_87;
+			L_87 = AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC(L_85, _stringLiteralA3615893572D5538C1C4888735BDE5208EE3B4EC, L_86, AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC_RuntimeMethod_var);
+			__this->___audioInSampleRate_3 = L_87;
+			// logger.LogInfo("[PV] AndroidAudioInAEC: AndroidJavaObject started: {0}, sampling rate: {1}, channels: {2}, record buffer size: {3}", ok, SamplingRate, Channels, minBufSize * 4);
+			RuntimeObject* L_88 = ___0_logger;
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_89 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_90 = L_89;
+			bool L_91 = V_3;
+			bool L_92 = L_91;
+			RuntimeObject* L_93 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_92);
+			NullCheck(L_90);
+			ArrayElementTypeCheck (L_90, L_93);
+			(L_90)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_93);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_94 = L_90;
+			int32_t L_95;
+			L_95 = AndroidAudioInAEC_get_SamplingRate_m0E1A7AFAC3536CE5B6A9DBDF51F31B02A3053441(__this, NULL);
+			int32_t L_96 = L_95;
+			RuntimeObject* L_97 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_96);
+			NullCheck(L_94);
+			ArrayElementTypeCheck (L_94, L_97);
+			(L_94)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_97);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_98 = L_94;
+			int32_t L_99;
+			L_99 = AndroidAudioInAEC_get_Channels_mDF6B03321CFD52DB584EE619A36A9E33C36C22A7(__this, NULL);
+			int32_t L_100 = L_99;
+			RuntimeObject* L_101 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_100);
+			NullCheck(L_98);
+			ArrayElementTypeCheck (L_98, L_101);
+			(L_98)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_101);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_102 = L_98;
+			int32_t L_103 = V_0;
+			int32_t L_104 = ((int32_t)il2cpp_codegen_multiply(L_103, 4));
+			RuntimeObject* L_105 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_104);
+			NullCheck(L_102);
+			ArrayElementTypeCheck (L_102, L_105);
+			(L_102)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_105);
+			NullCheck(L_88);
+			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_88, _stringLiteral11DD1BE7A82C9B30BA819E6E7381C73F842B88A5, L_102);
+			goto IL_0205_1;
+		}
+
+IL_01dc_1:
+		{
+			// Error = "[PV] AndroidAudioInAEC constructor: calling Start java method failure";
+			AndroidAudioInAEC_set_Error_m40A288E504A1638FCC0FCB07E00181AAEF5B0831_inline(__this, _stringLiteral8A4BFCAD3975EE7B5DA7E4FA8C7A8834393DE6CB, NULL);
+			// logger.LogError("[PV] AndroidAudioInAEC: {0}", Error);
+			RuntimeObject* L_106 = ___0_logger;
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_107 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_108 = L_107;
+			String_t* L_109;
+			L_109 = AndroidAudioInAEC_get_Error_m9D2E4CB43470DC011A568279390C5814EABD8C3E_inline(__this, NULL);
+			NullCheck(L_108);
+			ArrayElementTypeCheck (L_108, L_109);
+			(L_108)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_109);
+			NullCheck(L_106);
+			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_106, _stringLiteralAA98E47793C6AEE7A0C5AA0E30BF0100F8E660FC, L_108);
+		}
+
+IL_0205_1:
+		{
+			goto IL_0254;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0208;
+		}
+		throw e;
+	}
+
+CATCH_0208:
+	{// begin catch(System.Exception)
+		{
+			// catch (Exception e)
+			V_5 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
+			// Error = e.ToString();
+			Exception_t* L_110 = V_5;
+			NullCheck(L_110);
+			String_t* L_111;
+			L_111 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_110);
+			AndroidAudioInAEC_set_Error_m40A288E504A1638FCC0FCB07E00181AAEF5B0831_inline(__this, L_111, NULL);
+			// if (Error == null) // should never happen but since Error used as validity flag, make sure that it's not null
+			String_t* L_112;
+			L_112 = AndroidAudioInAEC_get_Error_m9D2E4CB43470DC011A568279390C5814EABD8C3E_inline(__this, NULL);
+			V_6 = (bool)((((RuntimeObject*)(String_t*)L_112) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+			bool L_113 = V_6;
+			if (!L_113)
+			{
+				goto IL_0236;
+			}
+		}
+		{
+			// Error = "Exception in AndroidAudioInAEC constructor";
+			AndroidAudioInAEC_set_Error_m40A288E504A1638FCC0FCB07E00181AAEF5B0831_inline(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralFEA58C59CE78CA554E44DB3E2243C187F37EAB4C)), NULL);
+		}
+
+IL_0236:
+		{
+			// logger.LogError("[PV] AndroidAudioInAEC: {0}", Error);
+			RuntimeObject* L_114 = ___0_logger;
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_115 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var)), (uint32_t)1);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_116 = L_115;
+			String_t* L_117;
+			L_117 = AndroidAudioInAEC_get_Error_m9D2E4CB43470DC011A568279390C5814EABD8C3E_inline(__this, NULL);
+			NullCheck(L_116);
+			ArrayElementTypeCheck (L_116, L_117);
+			(L_116)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_117);
+			NullCheck(L_114);
+			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var)), L_114, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralAA98E47793C6AEE7A0C5AA0E30BF0100F8E660FC)), L_116);
+			IL2CPP_POP_ACTIVE_EXCEPTION();
+			goto IL_0254;
+		}
+	}// end catch (depth: 1)
+
+IL_0254:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Photon.Voice.Unity.AndroidAudioInAEC::SetCallback(System.Action`1<System.Int16[]>,Photon.Voice.ObjectFactory`2<System.Int16[],System.Int32>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAudioInAEC_SetCallback_mF7DBCEC92A457C7D57CC18E3749C206B5F0E82EF (AndroidAudioInAEC_tA9C6AAB16461A3409AE1592814063BC07CFE687C* __this, Action_1_tC4532A6B52E5449E481006DE9BC9991A602DDE85* ___0_callback, RuntimeObject* ___1_bufferFactory, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectFactory_2_tDFFE8338D98145A7884353008CA75786B6FCC84D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0C4FF3E68B5B32B251CA19A84A6C3D4A1684566A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1C6484CF6483B370C609778CBBE5DC1BA67E2B4C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAA98E47793C6AEE7A0C5AA0E30BF0100F8E660FC);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB6AB26C43AF5F4355828DFB4C4EF228430E314D8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&jvalueU5BU5D_t2232DC04C2D2643358141038962889D92D3B5E6F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	intptr_t V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	jvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	bool V_5 = false;
+	bool V_6 = false;
+	{
+		// if (Error == null)
+		String_t* L_0;
+		L_0 = AndroidAudioInAEC_get_Error_m9D2E4CB43470DC011A568279390C5814EABD8C3E_inline(__this, NULL);
+		V_0 = (bool)((((RuntimeObject*)(String_t*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_00a7;
+		}
+	}
+	{
+		// var voiceFrameSize = bufferFactory.Info;
+		RuntimeObject* L_2 = ___1_bufferFactory;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* TInfo Photon.Voice.ObjectFactory`2<System.Int16[],System.Int32>::get_Info() */, ObjectFactory_2_tDFFE8338D98145A7884353008CA75786B6FCC84D_il2cpp_TypeInfo_var, L_2);
+		V_1 = L_3;
+		// javaBuf = AndroidJNI.NewGlobalRef(AndroidJNI.NewShortArray(voiceFrameSize));
+		int32_t L_4 = V_1;
+		intptr_t L_5;
+		L_5 = AndroidJNI_NewShortArray_m6CC9E93F24ED8BFC02A13D89DA95E6F17276BCA6(L_4, NULL);
+		intptr_t L_6;
+		L_6 = AndroidJNI_NewGlobalRef_m9A06F23234FB1ECF3F482AF3A6A6148A5916E9A7(L_5, NULL);
+		__this->___javaBuf_1 = L_6;
+		// this.callback.SetCallback(callback, javaBuf);
+		DataCallback_t0CC480ABF91AF168334B55860E2AA7A61272DCCF* L_7 = __this->___callback_4;
+		Action_1_tC4532A6B52E5449E481006DE9BC9991A602DDE85* L_8 = ___0_callback;
+		intptr_t L_9 = __this->___javaBuf_1;
+		NullCheck(L_7);
+		DataCallback_SetCallback_mE2D0FF360E4F160402CC58F4112CDE4900AFDDAC(L_7, L_8, L_9, NULL);
+		// var meth = AndroidJNI.GetMethodID(audioIn.GetRawClass(), "SetBuffer", "([S)Z");
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_10 = __this->___audioIn_0;
+		NullCheck(L_10);
+		intptr_t L_11;
+		L_11 = AndroidJavaObject_GetRawClass_mE4FB4DC4F856A52E10C6AAD0B65BEBF47B5071F5(L_10, NULL);
+		intptr_t L_12;
+		L_12 = AndroidJNI_GetMethodID_mA7FF961764CA4D68C4789E5A17926CE5FF9B3549(L_11, _stringLiteral1C6484CF6483B370C609778CBBE5DC1BA67E2B4C, _stringLiteral0C4FF3E68B5B32B251CA19A84A6C3D4A1684566A, NULL);
+		V_2 = L_12;
+		// bool ok = AndroidJNI.CallBooleanMethod(audioIn.GetRawObject(), meth, new jvalue[] { new jvalue() { l = javaBuf } });
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_13 = __this->___audioIn_0;
+		NullCheck(L_13);
+		intptr_t L_14;
+		L_14 = AndroidJavaObject_GetRawObject_m536F043B5CE2C21369FF6173C9D2A9A62136BC48(L_13, NULL);
+		intptr_t L_15 = V_2;
+		jvalueU5BU5D_t2232DC04C2D2643358141038962889D92D3B5E6F* L_16 = (jvalueU5BU5D_t2232DC04C2D2643358141038962889D92D3B5E6F*)(jvalueU5BU5D_t2232DC04C2D2643358141038962889D92D3B5E6F*)SZArrayNew(jvalueU5BU5D_t2232DC04C2D2643358141038962889D92D3B5E6F_il2cpp_TypeInfo_var, (uint32_t)1);
+		jvalueU5BU5D_t2232DC04C2D2643358141038962889D92D3B5E6F* L_17 = L_16;
+		il2cpp_codegen_initobj((&V_4), sizeof(jvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225));
+		intptr_t L_18 = __this->___javaBuf_1;
+		(&V_4)->___l_8 = L_18;
+		jvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225 L_19 = V_4;
+		NullCheck(L_17);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(0), (jvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225)L_19);
+		bool L_20;
+		L_20 = AndroidJNI_CallBooleanMethod_m78FC31B29854285F1164C75974AB463FE5716F84(L_14, L_15, L_17, NULL);
+		V_3 = L_20;
+		// if (!ok)
+		bool L_21 = V_3;
+		V_5 = (bool)((((int32_t)L_21) == ((int32_t)0))? 1 : 0);
+		bool L_22 = V_5;
+		if (!L_22)
+		{
+			goto IL_00a6;
+		}
+	}
+	{
+		// Error = "AndroidAudioInAEC.SetCallback(): calling SetBuffer java method failure";
+		AndroidAudioInAEC_set_Error_m40A288E504A1638FCC0FCB07E00181AAEF5B0831_inline(__this, _stringLiteralB6AB26C43AF5F4355828DFB4C4EF228430E314D8, NULL);
+	}
+
+IL_00a6:
+	{
+	}
+
+IL_00a7:
+	{
+		// if (Error != null)
+		String_t* L_23;
+		L_23 = AndroidAudioInAEC_get_Error_m9D2E4CB43470DC011A568279390C5814EABD8C3E_inline(__this, NULL);
+		V_6 = (bool)((!(((RuntimeObject*)(String_t*)L_23) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_24 = V_6;
+		if (!L_24)
+		{
+			goto IL_00d8;
+		}
+	}
+	{
+		// logger.LogError("[PV] AndroidAudioInAEC: {0}", Error);
+		RuntimeObject* L_25 = __this->___logger_2;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_26 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_27 = L_26;
+		String_t* L_28;
+		L_28 = AndroidAudioInAEC_get_Error_m9D2E4CB43470DC011A568279390C5814EABD8C3E_inline(__this, NULL);
+		NullCheck(L_27);
+		ArrayElementTypeCheck (L_27, L_28);
+		(L_27)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_28);
+		NullCheck(L_25);
+		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_25, _stringLiteralAA98E47793C6AEE7A0C5AA0E30BF0100F8E660FC, L_27);
+	}
+
+IL_00d8:
+	{
+		// }
+		return;
+	}
+}
+// System.Int32 Photon.Voice.Unity.AndroidAudioInAEC::get_Channels()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidAudioInAEC_get_Channels_mDF6B03321CFD52DB584EE619A36A9E33C36C22A7 (AndroidAudioInAEC_tA9C6AAB16461A3409AE1592814063BC07CFE687C* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		// public int Channels { get { return 1; } }
+		V_0 = 1;
+		goto IL_0005;
+	}
+
+IL_0005:
+	{
+		// public int Channels { get { return 1; } }
+		int32_t L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Int32 Photon.Voice.Unity.AndroidAudioInAEC::get_SamplingRate()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidAudioInAEC_get_SamplingRate_m0E1A7AFAC3536CE5B6A9DBDF51F31B02A3053441 (AndroidAudioInAEC_tA9C6AAB16461A3409AE1592814063BC07CFE687C* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		// public int SamplingRate { get { return audioInSampleRate; } }
+		int32_t L_0 = __this->___audioInSampleRate_3;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		// public int SamplingRate { get { return audioInSampleRate; } }
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+// System.String Photon.Voice.Unity.AndroidAudioInAEC::get_Error()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AndroidAudioInAEC_get_Error_m9D2E4CB43470DC011A568279390C5814EABD8C3E (AndroidAudioInAEC_tA9C6AAB16461A3409AE1592814063BC07CFE687C* __this, const RuntimeMethod* method) 
+{
+	{
+		// public string Error { get; private set; }
+		String_t* L_0 = __this->___U3CErrorU3Ek__BackingField_5;
+		return L_0;
+	}
+}
+// System.Void Photon.Voice.Unity.AndroidAudioInAEC::set_Error(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAudioInAEC_set_Error_m40A288E504A1638FCC0FCB07E00181AAEF5B0831 (AndroidAudioInAEC_tA9C6AAB16461A3409AE1592814063BC07CFE687C* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		// public string Error { get; private set; }
+		String_t* L_0 = ___0_value;
+		__this->___U3CErrorU3Ek__BackingField_5 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CErrorU3Ek__BackingField_5), (void*)L_0);
+		return;
+	}
+}
+// System.Void Photon.Voice.Unity.AndroidAudioInAEC::Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAudioInAEC_Reset_m417D52520850DD6B785E84E7581444D0A68DDF72 (AndroidAudioInAEC_tA9C6AAB16461A3409AE1592814063BC07CFE687C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA74ACAA1F61DE0EB348EC03946685B0B6270CB36);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		// if (audioIn != null)
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___audioIn_0;
+		V_0 = (bool)((!(((RuntimeObject*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		// audioIn.Call("Reset");
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = __this->___audioIn_0;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
+		L_3 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_2);
+		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_2, _stringLiteralA74ACAA1F61DE0EB348EC03946685B0B6270CB36, L_3, NULL);
+	}
+
+IL_0026:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Photon.Voice.Unity.AndroidAudioInAEC::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAudioInAEC_Dispose_m26843B90A3CA9CD9D2FEABEC272EBEBAAE2ED33E (AndroidAudioInAEC_tA9C6AAB16461A3409AE1592814063BC07CFE687C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral800C762D9EF92B399EC87C776239043ACEEC0717);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		// if (audioIn != null)
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___audioIn_0;
+		V_0 = (bool)((!(((RuntimeObject*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		// audioIn.Call<bool>("Stop");
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = __this->___audioIn_0;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
+		L_3 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_2);
+		bool L_4;
+		L_4 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_2, _stringLiteral800C762D9EF92B399EC87C776239043ACEEC0717, L_3, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
+	}
+
+IL_0026:
+	{
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -4851,6 +6014,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSessionParametersPresets__cctor_mBB
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AndroidAudioInAEC_set_Error_m40A288E504A1638FCC0FCB07E00181AAEF5B0831_inline (AndroidAudioInAEC_tA9C6AAB16461A3409AE1592814063BC07CFE687C* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		// public string Error { get; private set; }
+		String_t* L_0 = ___0_value;
+		__this->___U3CErrorU3Ek__BackingField_5 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CErrorU3Ek__BackingField_5), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AndroidAudioInAEC_get_Error_m9D2E4CB43470DC011A568279390C5814EABD8C3E_inline (AndroidAudioInAEC_tA9C6AAB16461A3409AE1592814063BC07CFE687C* __this, const RuntimeMethod* method) 
+{
+	{
+		// public string Error { get; private set; }
+		String_t* L_0 = __this->___U3CErrorU3Ek__BackingField_5;
+		return L_0;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool AudioClipWrapper_get_Loop_mC6FB111E1487AD4B36328074EC7A78D7F899ADE8_inline (AudioClipWrapper_t1AFF754E4801E45BA8E06008D50C5FAB52255B89* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4892,6 +6073,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* MicWrapperPusher_get_Er
 	{
 		// public string Error { get; private set; }
 		String_t* L_0 = __this->___U3CErrorU3Ek__BackingField_7;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) 
+{
+	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 0));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = ((EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 0)))->___Value_0;
 		return L_0;
 	}
 }
@@ -4940,13 +6129,5 @@ IL_0034:
 		DeviceInfo_tC91EF4D866BBBA8B68A503B620A00F15C60C2335 L_9 = ___0_item;
 		((  void (*) (List_1_t77900A23BF65F1E318159DF69366A9281EA47E72*, DeviceInfo_tC91EF4D866BBBA8B68A503B620A00F15C60C2335, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 		return;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) 
-{
-	{
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 0));
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = ((EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 0)))->___Value_0;
-		return L_0;
 	}
 }

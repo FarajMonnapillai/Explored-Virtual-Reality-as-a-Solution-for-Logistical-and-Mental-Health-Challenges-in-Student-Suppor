@@ -168,529 +168,527 @@ extern void Recorder_Update_m2292B992DE3E76536FD718EC646535C5523D9607 (void);
 extern void Recorder_OnDestroy_mEAB0C8777A0031CC5CDBFE31E887E0E728B8C7BB (void);
 // 0x0000004E System.Void Photon.Voice.Unity.Recorder::HandleDeviceChange()
 extern void Recorder_HandleDeviceChange_mCDC3E8FDE14EC0D397AF584C610CC17F46C15CD3 (void);
-// 0x0000004F System.Void Photon.Voice.Unity.Recorder::GetThresholdFromDetector()
-extern void Recorder_GetThresholdFromDetector_m9C5713684F5236D5DD24213D98C5AC17B9BFB0AB (void);
-// 0x00000050 System.Void Photon.Voice.Unity.Recorder::OnApplicationPause(System.Boolean)
+// 0x0000004F System.Void Photon.Voice.Unity.Recorder::OnApplicationPause(System.Boolean)
 extern void Recorder_OnApplicationPause_mAF04BC1BF50F4168D3D671016109696B2EC7109D (void);
-// 0x00000051 System.Void Photon.Voice.Unity.Recorder::OnApplicationFocus(System.Boolean)
+// 0x00000050 System.Void Photon.Voice.Unity.Recorder::OnApplicationFocus(System.Boolean)
 extern void Recorder_OnApplicationFocus_mA0659893C776982B9EBA471F6E23960624AF46AA (void);
-// 0x00000052 System.Void Photon.Voice.Unity.Recorder::HandleApplicationPause(System.Boolean)
+// 0x00000051 System.Void Photon.Voice.Unity.Recorder::HandleApplicationPause(System.Boolean)
 extern void Recorder_HandleApplicationPause_mF305F609099FB7F04E3DF74D6EC11D8C1493C680 (void);
-// 0x00000053 System.Void Photon.Voice.Unity.Recorder::.ctor()
+// 0x00000052 System.Void Photon.Voice.Unity.Recorder::.ctor()
 extern void Recorder__ctor_mC7A838B03218810060A6F4735803999425DCE7F1 (void);
-// 0x00000054 Photon.Voice.Unity.AndroidAudioInParameters Photon.Voice.Unity.Recorder/NativeAndroidMicrophoneSettings::BuildAndroidAudioInParameters()
+// 0x00000053 Photon.Voice.Unity.AndroidAudioInParameters Photon.Voice.Unity.Recorder/NativeAndroidMicrophoneSettings::BuildAndroidAudioInParameters()
 extern void NativeAndroidMicrophoneSettings_BuildAndroidAudioInParameters_m0E926DA2EBCF2FBB2D85C5827329C98AB2BF946C (void);
-// 0x00000055 System.Void Photon.Voice.Unity.Recorder/NativeAndroidMicrophoneSettings::.cctor()
+// 0x00000054 System.Void Photon.Voice.Unity.Recorder/NativeAndroidMicrophoneSettings::.cctor()
 extern void NativeAndroidMicrophoneSettings__cctor_m8D7A1E513F028E35A899F833194AF66E038604CD (void);
-// 0x00000056 System.Void Photon.Voice.Unity.Recorder/<>c__DisplayClass117_0::.ctor()
+// 0x00000055 System.Void Photon.Voice.Unity.Recorder/<>c__DisplayClass117_0::.ctor()
 extern void U3CU3Ec__DisplayClass117_0__ctor_m975F31B3575C68B03F657A5B0BB571440545DD12 (void);
-// 0x00000057 System.Void Photon.Voice.Unity.Recorder/<>c__DisplayClass117_0::<VoiceDetectorCalibrate>b__0(System.Single)
+// 0x00000056 System.Void Photon.Voice.Unity.Recorder/<>c__DisplayClass117_0::<VoiceDetectorCalibrate>b__0(System.Single)
 extern void U3CU3Ec__DisplayClass117_0_U3CVoiceDetectorCalibrateU3Eb__0_mEA2D82067BD1B69ABD4B84FF8A666A1A20F542F4 (void);
-// 0x00000058 System.Void Photon.Voice.Unity.Recorder/<>c::.cctor()
+// 0x00000057 System.Void Photon.Voice.Unity.Recorder/<>c::.cctor()
 extern void U3CU3Ec__cctor_m941D092E90ACE058E9B3FF54B8C77BAF7822D909 (void);
-// 0x00000059 System.Void Photon.Voice.Unity.Recorder/<>c::.ctor()
+// 0x00000058 System.Void Photon.Voice.Unity.Recorder/<>c::.ctor()
 extern void U3CU3Ec__ctor_m3A0F4FD587672116B21F6F241CF11ED6CB2527DB (void);
-// 0x0000005A Photon.Voice.IAudioDesc Photon.Voice.Unity.Recorder/<>c::<CreateLocalVoiceAudioAndSource>b__124_0()
+// 0x00000059 Photon.Voice.IAudioDesc Photon.Voice.Unity.Recorder/<>c::<CreateLocalVoiceAudioAndSource>b__124_0()
 extern void U3CU3Ec_U3CCreateLocalVoiceAudioAndSourceU3Eb__124_0_m55776258E1A4CBD2B108E12A3BC1C558740D3A3A (void);
-// 0x0000005B System.Void Photon.Voice.Unity.RecorderPreset::Awake()
+// 0x0000005A System.Void Photon.Voice.Unity.RecorderPreset::Awake()
 extern void RecorderPreset_Awake_m5B25E9B9B9EF14AED91F4570E310BC4F79E7A7C9 (void);
-// 0x0000005C System.Void Photon.Voice.Unity.RecorderPreset::Update()
+// 0x0000005B System.Void Photon.Voice.Unity.RecorderPreset::Update()
 extern void RecorderPreset_Update_m02FC7612586A2A3592279EB3EA9B8BD17602024F (void);
-// 0x0000005D System.Void Photon.Voice.Unity.RecorderPreset::.ctor()
+// 0x0000005C System.Void Photon.Voice.Unity.RecorderPreset::.ctor()
 extern void RecorderPreset__ctor_mC07902653C8262685128F587E307B1BB66CBF6F8 (void);
-// 0x0000005E System.Void Photon.Voice.Unity.RemoteVoiceLink::add_FloatFrameDecoded(System.Action`1<Photon.Voice.FrameOut`1<System.Single>>)
+// 0x0000005D System.Void Photon.Voice.Unity.RemoteVoiceLink::add_FloatFrameDecoded(System.Action`1<Photon.Voice.FrameOut`1<System.Single>>)
 extern void RemoteVoiceLink_add_FloatFrameDecoded_m19466075C1748E8B67D2A215B88788F04E8486C6 (void);
-// 0x0000005F System.Void Photon.Voice.Unity.RemoteVoiceLink::remove_FloatFrameDecoded(System.Action`1<Photon.Voice.FrameOut`1<System.Single>>)
+// 0x0000005E System.Void Photon.Voice.Unity.RemoteVoiceLink::remove_FloatFrameDecoded(System.Action`1<Photon.Voice.FrameOut`1<System.Single>>)
 extern void RemoteVoiceLink_remove_FloatFrameDecoded_m941B879ED148AE68D8B88C8209320D23234DD8B6 (void);
-// 0x00000060 System.Void Photon.Voice.Unity.RemoteVoiceLink::add_RemoteVoiceRemoved(System.Action)
+// 0x0000005F System.Void Photon.Voice.Unity.RemoteVoiceLink::add_RemoteVoiceRemoved(System.Action)
 extern void RemoteVoiceLink_add_RemoteVoiceRemoved_m185E928062DD66D6F6749C93932D7D8EAFAF0C76 (void);
-// 0x00000061 System.Void Photon.Voice.Unity.RemoteVoiceLink::remove_RemoteVoiceRemoved(System.Action)
+// 0x00000060 System.Void Photon.Voice.Unity.RemoteVoiceLink::remove_RemoteVoiceRemoved(System.Action)
 extern void RemoteVoiceLink_remove_RemoteVoiceRemoved_mA528803D50688B38518B237D498ED201281F403F (void);
-// 0x00000062 System.Void Photon.Voice.Unity.RemoteVoiceLink::.ctor(Photon.Voice.VoiceInfo,System.Int32,System.Byte,System.Int32,Photon.Voice.RemoteVoiceOptions&)
+// 0x00000061 System.Void Photon.Voice.Unity.RemoteVoiceLink::.ctor(Photon.Voice.VoiceInfo,System.Int32,System.Byte,System.Int32,Photon.Voice.RemoteVoiceOptions&)
 extern void RemoteVoiceLink__ctor_m7F29DCB0CBE6344802881B864CBACC6D62EB4A4C (void);
-// 0x00000063 System.Void Photon.Voice.Unity.RemoteVoiceLink::OnRemoteVoiceRemoveAction()
+// 0x00000062 System.Void Photon.Voice.Unity.RemoteVoiceLink::OnRemoteVoiceRemoveAction()
 extern void RemoteVoiceLink_OnRemoteVoiceRemoveAction_mC6745ED15966F061FCC15C37AF3EF072ECB680AD (void);
-// 0x00000064 System.Void Photon.Voice.Unity.RemoteVoiceLink::OnDecodedFrameFloatAction(Photon.Voice.FrameOut`1<System.Single>)
+// 0x00000063 System.Void Photon.Voice.Unity.RemoteVoiceLink::OnDecodedFrameFloatAction(Photon.Voice.FrameOut`1<System.Single>)
 extern void RemoteVoiceLink_OnDecodedFrameFloatAction_m0BABEA0CA9B0DB0CB048521E22371BB863727859 (void);
-// 0x00000065 System.String Photon.Voice.Unity.RemoteVoiceLink::ToString()
+// 0x00000064 System.String Photon.Voice.Unity.RemoteVoiceLink::ToString()
 extern void RemoteVoiceLink_ToString_mCE168D599CF5E8DBDE300F2715E34B00A36C76D1 (void);
-// 0x00000066 System.Boolean Photon.Voice.Unity.Speaker::get_IsPlaying()
+// 0x00000065 System.Boolean Photon.Voice.Unity.Speaker::get_IsPlaying()
 extern void Speaker_get_IsPlaying_m7F784C6E15456AD329779754D88D97E6C81BD842 (void);
-// 0x00000067 System.Int32 Photon.Voice.Unity.Speaker::get_Lag()
+// 0x00000066 System.Int32 Photon.Voice.Unity.Speaker::get_Lag()
 extern void Speaker_get_Lag_m9D4BEBE542D8B8FE7561E00937EEB3387DB78560 (void);
-// 0x00000068 System.Action`1<Photon.Voice.Unity.Speaker> Photon.Voice.Unity.Speaker::get_OnRemoteVoiceRemoveAction()
+// 0x00000067 System.Action`1<Photon.Voice.Unity.Speaker> Photon.Voice.Unity.Speaker::get_OnRemoteVoiceRemoveAction()
 extern void Speaker_get_OnRemoteVoiceRemoveAction_mB7683D32C6134268C624A1EE8CC31D8A43118C9B (void);
-// 0x00000069 System.Void Photon.Voice.Unity.Speaker::set_OnRemoteVoiceRemoveAction(System.Action`1<Photon.Voice.Unity.Speaker>)
+// 0x00000068 System.Void Photon.Voice.Unity.Speaker::set_OnRemoteVoiceRemoveAction(System.Action`1<Photon.Voice.Unity.Speaker>)
 extern void Speaker_set_OnRemoteVoiceRemoveAction_m2C650FE4EABE6B732B978A1F69DFE1BB5A1AB661 (void);
-// 0x0000006A Photon.Voice.Unity.RemoteVoiceLink Photon.Voice.Unity.Speaker::get_RemoteVoice()
+// 0x00000069 Photon.Voice.Unity.RemoteVoiceLink Photon.Voice.Unity.Speaker::get_RemoteVoice()
 extern void Speaker_get_RemoteVoice_m312D32186916EAD30FAF99BCDCEE4514767C9F5D (void);
-// 0x0000006B System.Void Photon.Voice.Unity.Speaker::set_RemoteVoice(Photon.Voice.Unity.RemoteVoiceLink)
+// 0x0000006A System.Void Photon.Voice.Unity.Speaker::set_RemoteVoice(Photon.Voice.Unity.RemoteVoiceLink)
 extern void Speaker_set_RemoteVoice_m77F1ACC7101CD592CE6946739C8B9B3E42879919 (void);
-// 0x0000006C System.Boolean Photon.Voice.Unity.Speaker::get_IsLinked()
+// 0x0000006B System.Boolean Photon.Voice.Unity.Speaker::get_IsLinked()
 extern void Speaker_get_IsLinked_mF2F75BD8170F70E4E151117F1CBB059A67B1426C (void);
-// 0x0000006D Photon.Voice.AudioOutDelayControl/PlayDelayConfig Photon.Voice.Unity.Speaker::get_PlayDelayConfig()
+// 0x0000006C Photon.Voice.AudioOutDelayControl/PlayDelayConfig Photon.Voice.Unity.Speaker::get_PlayDelayConfig()
 extern void Speaker_get_PlayDelayConfig_m5EB2FE1C71B94B4FFAFEB9C1F090380F73B1BA83 (void);
-// 0x0000006E System.Void Photon.Voice.Unity.Speaker::set_PlayDelayConfig(Photon.Voice.AudioOutDelayControl/PlayDelayConfig)
+// 0x0000006D System.Void Photon.Voice.Unity.Speaker::set_PlayDelayConfig(Photon.Voice.AudioOutDelayControl/PlayDelayConfig)
 extern void Speaker_set_PlayDelayConfig_mBFAD7F30B831F6BEAC33F3F5A30AAB9993687B61 (void);
-// 0x0000006F System.Int32 Photon.Voice.Unity.Speaker::get_PlayDelay()
+// 0x0000006E System.Int32 Photon.Voice.Unity.Speaker::get_PlayDelay()
 extern void Speaker_get_PlayDelay_m2354B812AC8B4E9270F815FFA0FD9737AACA6EB1 (void);
-// 0x00000070 System.Void Photon.Voice.Unity.Speaker::set_PlayDelay(System.Int32)
+// 0x0000006F System.Void Photon.Voice.Unity.Speaker::set_PlayDelay(System.Int32)
 extern void Speaker_set_PlayDelay_m377EFF13EF801CB6729EC928AD4C6AB5E5F4FD46 (void);
-// 0x00000071 System.Void Photon.Voice.Unity.Speaker::Awake()
+// 0x00000070 System.Void Photon.Voice.Unity.Speaker::Awake()
 extern void Speaker_Awake_mB7B4A7346DF93E021DDEFCE31E49EBC1A6C1EB81 (void);
-// 0x00000072 System.Void Photon.Voice.Unity.Speaker::AudioConfigurationChangeHandler(System.Boolean)
+// 0x00000071 System.Void Photon.Voice.Unity.Speaker::AudioConfigurationChangeHandler(System.Boolean)
 extern void Speaker_AudioConfigurationChangeHandler_m64442801E0E3384D439DAA9E08C6C17DC7D624D5 (void);
-// 0x00000073 System.Void Photon.Voice.Unity.Speaker::Initialize()
+// 0x00000072 System.Void Photon.Voice.Unity.Speaker::Initialize()
 extern void Speaker_Initialize_mDF3954D623D021AA68E5C4E0E8EFDAF58BF8806C (void);
-// 0x00000074 Photon.Voice.IAudioOut`1<System.Single> Photon.Voice.Unity.Speaker::CreateAudioOut()
+// 0x00000073 Photon.Voice.IAudioOut`1<System.Single> Photon.Voice.Unity.Speaker::CreateAudioOut()
 extern void Speaker_CreateAudioOut_mC6B1CBD7A1FCB885D1D04DE17FDEEBD71DE1722A (void);
-// 0x00000075 System.Boolean Photon.Voice.Unity.Speaker::Link(Photon.Voice.Unity.RemoteVoiceLink)
+// 0x00000074 System.Boolean Photon.Voice.Unity.Speaker::Link(Photon.Voice.Unity.RemoteVoiceLink)
 extern void Speaker_Link_m8EC66A568517A0B2A712AE9A4C0914F769F87F3D (void);
-// 0x00000076 System.Void Photon.Voice.Unity.Speaker::OnRemoteVoiceRemove()
+// 0x00000075 System.Void Photon.Voice.Unity.Speaker::OnRemoteVoiceRemove()
 extern void Speaker_OnRemoteVoiceRemove_m9EA046BFFDBEA41A9761BF8F33F18CCEE5604FCB (void);
-// 0x00000077 System.Void Photon.Voice.Unity.Speaker::OnAudioFrame(Photon.Voice.FrameOut`1<System.Single>)
+// 0x00000076 System.Void Photon.Voice.Unity.Speaker::OnAudioFrame(Photon.Voice.FrameOut`1<System.Single>)
 extern void Speaker_OnAudioFrame_m57A1C63BDDE31FA1A8A29D8A405358D39727D81C (void);
-// 0x00000078 System.Boolean Photon.Voice.Unity.Speaker::StartPlayback()
+// 0x00000077 System.Boolean Photon.Voice.Unity.Speaker::StartPlayback()
 extern void Speaker_StartPlayback_m411F66663BA621D713E2F6BEC19D3865AE54914A (void);
-// 0x00000079 System.Void Photon.Voice.Unity.Speaker::OnDestroy()
+// 0x00000078 System.Void Photon.Voice.Unity.Speaker::OnDestroy()
 extern void Speaker_OnDestroy_m0619F3589994B1F2E1707D57FA2852F040683C29 (void);
-// 0x0000007A System.Void Photon.Voice.Unity.Speaker::StopPlayback()
+// 0x00000079 System.Void Photon.Voice.Unity.Speaker::StopPlayback()
 extern void Speaker_StopPlayback_mE0A169BFCF107EC3A48B09288E29AFFE4D4E57FA (void);
-// 0x0000007B System.Void Photon.Voice.Unity.Speaker::Unlink()
+// 0x0000007A System.Void Photon.Voice.Unity.Speaker::Unlink()
 extern void Speaker_Unlink_mB4B872775FBDD964B32063CA9E4291546FE715EB (void);
-// 0x0000007C System.Void Photon.Voice.Unity.Speaker::Update()
+// 0x0000007B System.Void Photon.Voice.Unity.Speaker::Update()
 extern void Speaker_Update_m52E0A6D346DF5D23FF24C3D210297E59B97F8DA5 (void);
-// 0x0000007D System.Void Photon.Voice.Unity.Speaker::RestartPlayback()
+// 0x0000007C System.Void Photon.Voice.Unity.Speaker::RestartPlayback()
 extern void Speaker_RestartPlayback_mD772EAB57E4E7061E07C2385814E62A6B7F00561 (void);
-// 0x0000007E System.Boolean Photon.Voice.Unity.Speaker::get_RestartOnDeviceChange()
+// 0x0000007D System.Boolean Photon.Voice.Unity.Speaker::get_RestartOnDeviceChange()
 extern void Speaker_get_RestartOnDeviceChange_mC7E4BE04E2673069F88C579AFE5D963E87DA9E49 (void);
-// 0x0000007F System.Void Photon.Voice.Unity.Speaker::set_RestartOnDeviceChange(System.Boolean)
+// 0x0000007E System.Void Photon.Voice.Unity.Speaker::set_RestartOnDeviceChange(System.Boolean)
 extern void Speaker_set_RestartOnDeviceChange_mCF01C90F843183D6AF741E700C5C31F4AD1AA387 (void);
-// 0x00000080 System.Void Photon.Voice.Unity.Speaker::.ctor()
+// 0x0000007F System.Void Photon.Voice.Unity.Speaker::.ctor()
 extern void Speaker__ctor_m7EA276186548601E493430228551B6F8FAB26D8D (void);
-// 0x00000081 Photon.Voice.IAudioOut`1<System.Single> Photon.Voice.Unity.SpeakerAudioFilterRead::CreateAudioOut()
+// 0x00000080 Photon.Voice.IAudioOut`1<System.Single> Photon.Voice.Unity.SpeakerAudioFilterRead::CreateAudioOut()
 extern void SpeakerAudioFilterRead_CreateAudioOut_mE31449AC0B55484458126D6D536C835B334F39D8 (void);
-// 0x00000082 System.Void Photon.Voice.Unity.SpeakerAudioFilterRead::OnAudioFilterRead(System.Single[],System.Int32)
+// 0x00000081 System.Void Photon.Voice.Unity.SpeakerAudioFilterRead::OnAudioFilterRead(System.Single[],System.Int32)
 extern void SpeakerAudioFilterRead_OnAudioFilterRead_mBBBBB511A868CFD0EF57CB09F928B6AFDD0BBABC (void);
-// 0x00000083 System.Void Photon.Voice.Unity.SpeakerAudioFilterRead::.ctor()
+// 0x00000082 System.Void Photon.Voice.Unity.SpeakerAudioFilterRead::.ctor()
 extern void SpeakerAudioFilterRead__ctor_m512C27084EEEFC46E3CB89C4A3F70485FF4BEE0F (void);
-// 0x00000084 System.Boolean Photon.Voice.Unity.UnityVoiceClient::get_AlwaysUsePrimaryRecorder()
+// 0x00000083 System.Boolean Photon.Voice.Unity.UnityVoiceClient::get_AlwaysUsePrimaryRecorder()
 extern void UnityVoiceClient_get_AlwaysUsePrimaryRecorder_m85B415F0DA9D2134ED73E4BCC6C2DB54967D02A6 (void);
-// 0x00000085 System.Void Photon.Voice.Unity.UnityVoiceClient::Start()
+// 0x00000084 System.Void Photon.Voice.Unity.UnityVoiceClient::Start()
 extern void UnityVoiceClient_Start_mDE49BE92914FA9867D2DBDDB94558EE005A96D69 (void);
-// 0x00000086 System.Boolean Photon.Voice.Unity.UnityVoiceClient::ConnectUsingSettings(Photon.Realtime.AppSettings)
+// 0x00000085 System.Boolean Photon.Voice.Unity.UnityVoiceClient::ConnectUsingSettings(Photon.Realtime.AppSettings)
 extern void UnityVoiceClient_ConnectUsingSettings_m00AF4591C3E0FA192F79C38BDB325385A1D06A43 (void);
-// 0x00000087 Photon.Voice.Unity.Speaker Photon.Voice.Unity.UnityVoiceClient::InstantiateSpeakerForRemoteVoice(System.Int32,System.Byte,System.Object)
+// 0x00000086 Photon.Voice.Unity.Speaker Photon.Voice.Unity.UnityVoiceClient::InstantiateSpeakerForRemoteVoice(System.Int32,System.Byte,System.Object)
 extern void UnityVoiceClient_InstantiateSpeakerForRemoteVoice_m7387F8121D143DEF1F934F0CE35B55BE870789F9 (void);
-// 0x00000088 System.Void Photon.Voice.Unity.UnityVoiceClient::.ctor()
+// 0x00000087 System.Void Photon.Voice.Unity.UnityVoiceClient::.ctor()
 extern void UnityVoiceClient__ctor_m836321F625D0A2DD9B890BD7B92B5530B5F7CE27 (void);
-// 0x00000089 System.Boolean Photon.Voice.Unity.VoiceConnection::get_AlwaysUsePrimaryRecorder()
+// 0x00000088 System.Boolean Photon.Voice.Unity.VoiceConnection::get_AlwaysUsePrimaryRecorder()
 extern void VoiceConnection_get_AlwaysUsePrimaryRecorder_m5105A5A342CFAA9F9E32265270E81ACB62EBC01C (void);
-// 0x0000008A System.Void Photon.Voice.Unity.VoiceConnection::.ctor()
+// 0x00000089 System.Void Photon.Voice.Unity.VoiceConnection::.ctor()
 extern void VoiceConnection__ctor_mDD2B56D6410FC2EFB93CE951934278B858BD7D52 (void);
-// 0x0000008B System.Void Photon.Voice.Unity.VoiceConnection::add_SpeakerLinked(System.Action`1<Photon.Voice.Unity.Speaker>)
+// 0x0000008A System.Void Photon.Voice.Unity.VoiceConnection::add_SpeakerLinked(System.Action`1<Photon.Voice.Unity.Speaker>)
 extern void VoiceConnection_add_SpeakerLinked_m77B3E5CCAF4E798E02C8C40E7178AF1740E01588 (void);
-// 0x0000008C System.Void Photon.Voice.Unity.VoiceConnection::remove_SpeakerLinked(System.Action`1<Photon.Voice.Unity.Speaker>)
+// 0x0000008B System.Void Photon.Voice.Unity.VoiceConnection::remove_SpeakerLinked(System.Action`1<Photon.Voice.Unity.Speaker>)
 extern void VoiceConnection_remove_SpeakerLinked_m92F1AE6FFC2A3DDDBDB209A8E9EBA526FC1302FE (void);
-// 0x0000008D System.Void Photon.Voice.Unity.VoiceConnection::add_RemoteVoiceAdded(System.Action`1<Photon.Voice.Unity.RemoteVoiceLink>)
+// 0x0000008C System.Void Photon.Voice.Unity.VoiceConnection::add_RemoteVoiceAdded(System.Action`1<Photon.Voice.Unity.RemoteVoiceLink>)
 extern void VoiceConnection_add_RemoteVoiceAdded_mD443595196101F37DCA64BECD59E820CB96A687E (void);
-// 0x0000008E System.Void Photon.Voice.Unity.VoiceConnection::remove_RemoteVoiceAdded(System.Action`1<Photon.Voice.Unity.RemoteVoiceLink>)
+// 0x0000008D System.Void Photon.Voice.Unity.VoiceConnection::remove_RemoteVoiceAdded(System.Action`1<Photon.Voice.Unity.RemoteVoiceLink>)
 extern void VoiceConnection_remove_RemoteVoiceAdded_mFE42438A9C4E19E74A28C2AA6627F75A3AB6916A (void);
-// 0x0000008F Photon.Voice.ILogger Photon.Voice.Unity.VoiceConnection::get_Logger()
+// 0x0000008E Photon.Voice.ILogger Photon.Voice.Unity.VoiceConnection::get_Logger()
 extern void VoiceConnection_get_Logger_m7446F33A34958679EB2AD1DFDC07148CA79F29A8 (void);
-// 0x00000090 Photon.Voice.Unity.VoiceLogger Photon.Voice.Unity.VoiceConnection::get_VoiceLogger()
+// 0x0000008F Photon.Voice.Unity.VoiceLogger Photon.Voice.Unity.VoiceConnection::get_VoiceLogger()
 extern void VoiceConnection_get_VoiceLogger_mCDAC7A5036F714EA45BF8F626E26EF8B89FBB621 (void);
-// 0x00000091 Photon.Voice.LoadBalancingTransport Photon.Voice.Unity.VoiceConnection::get_Client()
+// 0x00000090 Photon.Voice.LoadBalancingTransport Photon.Voice.Unity.VoiceConnection::get_Client()
 extern void VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F (void);
-// 0x00000092 Photon.Voice.VoiceClient Photon.Voice.Unity.VoiceConnection::get_VoiceClient()
+// 0x00000091 Photon.Voice.VoiceClient Photon.Voice.Unity.VoiceConnection::get_VoiceClient()
 extern void VoiceConnection_get_VoiceClient_m3FE44015ADFE8EFED2FAB64D5878D7962D0628B6 (void);
-// 0x00000093 Photon.Realtime.ClientState Photon.Voice.Unity.VoiceConnection::get_ClientState()
+// 0x00000092 Photon.Realtime.ClientState Photon.Voice.Unity.VoiceConnection::get_ClientState()
 extern void VoiceConnection_get_ClientState_m9BCB9B181CD63F8375AF8A370DDCCBBF84BA8694 (void);
-// 0x00000094 System.Single Photon.Voice.Unity.VoiceConnection::get_FramesReceivedPerSecond()
+// 0x00000093 System.Single Photon.Voice.Unity.VoiceConnection::get_FramesReceivedPerSecond()
 extern void VoiceConnection_get_FramesReceivedPerSecond_mECC359139BD873D38F094E8AFFE809E0680A87B8 (void);
-// 0x00000095 System.Void Photon.Voice.Unity.VoiceConnection::set_FramesReceivedPerSecond(System.Single)
+// 0x00000094 System.Void Photon.Voice.Unity.VoiceConnection::set_FramesReceivedPerSecond(System.Single)
 extern void VoiceConnection_set_FramesReceivedPerSecond_mB18515299F66392AF926884137E2B96F741D2F03 (void);
-// 0x00000096 System.Single Photon.Voice.Unity.VoiceConnection::get_FramesLostPerSecond()
+// 0x00000095 System.Single Photon.Voice.Unity.VoiceConnection::get_FramesLostPerSecond()
 extern void VoiceConnection_get_FramesLostPerSecond_m33865CCF5C89832C20A8F87101080FD73621DB13 (void);
-// 0x00000097 System.Void Photon.Voice.Unity.VoiceConnection::set_FramesLostPerSecond(System.Single)
+// 0x00000096 System.Void Photon.Voice.Unity.VoiceConnection::set_FramesLostPerSecond(System.Single)
 extern void VoiceConnection_set_FramesLostPerSecond_m9A49C9C35DB892BCC9E3323BDB03F55F33A6F550 (void);
-// 0x00000098 System.Single Photon.Voice.Unity.VoiceConnection::get_FramesLostPercent()
+// 0x00000097 System.Single Photon.Voice.Unity.VoiceConnection::get_FramesLostPercent()
 extern void VoiceConnection_get_FramesLostPercent_m792583A111A2B9CEFDF6CCD5EB20CE60C7BB7197 (void);
-// 0x00000099 System.Void Photon.Voice.Unity.VoiceConnection::set_FramesLostPercent(System.Single)
+// 0x00000098 System.Void Photon.Voice.Unity.VoiceConnection::set_FramesLostPercent(System.Single)
 extern void VoiceConnection_set_FramesLostPercent_m736126C1D2D37495237E9CFEDA32A003234A0B51 (void);
-// 0x0000009A UnityEngine.GameObject Photon.Voice.Unity.VoiceConnection::get_SpeakerPrefab()
+// 0x00000099 UnityEngine.GameObject Photon.Voice.Unity.VoiceConnection::get_SpeakerPrefab()
 extern void VoiceConnection_get_SpeakerPrefab_m826BAD6BF3DBF46103C4E21FFB9A164D9BBCF997 (void);
-// 0x0000009B System.Void Photon.Voice.Unity.VoiceConnection::set_SpeakerPrefab(UnityEngine.GameObject)
+// 0x0000009A System.Void Photon.Voice.Unity.VoiceConnection::set_SpeakerPrefab(UnityEngine.GameObject)
 extern void VoiceConnection_set_SpeakerPrefab_mE439205BE3A87076C33FB28C847944033E7C292B (void);
-// 0x0000009C Photon.Voice.Unity.Recorder Photon.Voice.Unity.VoiceConnection::get_PrimaryRecorder()
+// 0x0000009B Photon.Voice.Unity.Recorder Photon.Voice.Unity.VoiceConnection::get_PrimaryRecorder()
 extern void VoiceConnection_get_PrimaryRecorder_m1DA6ED8BC914F3EAFBDC46288F5F0C70B904E5C7 (void);
-// 0x0000009D System.Void Photon.Voice.Unity.VoiceConnection::set_PrimaryRecorder(Photon.Voice.Unity.Recorder)
+// 0x0000009C System.Void Photon.Voice.Unity.VoiceConnection::set_PrimaryRecorder(Photon.Voice.Unity.Recorder)
 extern void VoiceConnection_set_PrimaryRecorder_m829F73718D1C633BDB32647B938AC4A12B39C39A (void);
-// 0x0000009E System.Boolean Photon.Voice.Unity.VoiceConnection::get_UsePrimaryRecorder()
+// 0x0000009D System.Boolean Photon.Voice.Unity.VoiceConnection::get_UsePrimaryRecorder()
 extern void VoiceConnection_get_UsePrimaryRecorder_m50587F8EEAE8AA3D379D8738E72F9128EE2B41C5 (void);
-// 0x0000009F System.String Photon.Voice.Unity.VoiceConnection::get_BestRegionSummaryInPreferences()
+// 0x0000009E System.String Photon.Voice.Unity.VoiceConnection::get_BestRegionSummaryInPreferences()
 extern void VoiceConnection_get_BestRegionSummaryInPreferences_m3D9B1F5C42F7A7B0046E096335A7B87F2EBD7406 (void);
-// 0x000000A0 System.Void Photon.Voice.Unity.VoiceConnection::set_BestRegionSummaryInPreferences(System.String)
+// 0x0000009F System.Void Photon.Voice.Unity.VoiceConnection::set_BestRegionSummaryInPreferences(System.String)
 extern void VoiceConnection_set_BestRegionSummaryInPreferences_m5407D9AF9C82B57CF4805736F2B9152A1FC3D1AA (void);
-// 0x000000A1 System.Boolean Photon.Voice.Unity.VoiceConnection::ConnectUsingSettings(Photon.Realtime.AppSettings)
+// 0x000000A0 System.Boolean Photon.Voice.Unity.VoiceConnection::ConnectUsingSettings(Photon.Realtime.AppSettings)
 extern void VoiceConnection_ConnectUsingSettings_mB5F396B3A7E1295F034869667504B899AD0BD9EC (void);
-// 0x000000A2 System.Boolean Photon.Voice.Unity.VoiceConnection::AddSpeaker(Photon.Voice.Unity.Speaker,System.Object)
+// 0x000000A1 System.Boolean Photon.Voice.Unity.VoiceConnection::AddSpeaker(Photon.Voice.Unity.Speaker,System.Object)
 extern void VoiceConnection_AddSpeaker_m255966C4FF57ACA47BA15C49CE3F65547ADEB02B (void);
-// 0x000000A3 System.Void Photon.Voice.Unity.VoiceConnection::Awake()
+// 0x000000A2 System.Void Photon.Voice.Unity.VoiceConnection::Awake()
 extern void VoiceConnection_Awake_mEAF8D90F6EDA8095630C882500D0A67A7C1B9226 (void);
-// 0x000000A4 System.Void Photon.Voice.Unity.VoiceConnection::Update()
+// 0x000000A3 System.Void Photon.Voice.Unity.VoiceConnection::Update()
 extern void VoiceConnection_Update_mABF3F14C6449B44B5B3876C3366C8A4985777DD9 (void);
-// 0x000000A5 System.Void Photon.Voice.Unity.VoiceConnection::FixedUpdate()
+// 0x000000A4 System.Void Photon.Voice.Unity.VoiceConnection::FixedUpdate()
 extern void VoiceConnection_FixedUpdate_m46976B93EF24678AEF1C412BC5501068E8859A06 (void);
-// 0x000000A6 System.Void Photon.Voice.Unity.VoiceConnection::LateUpdate()
+// 0x000000A5 System.Void Photon.Voice.Unity.VoiceConnection::LateUpdate()
 extern void VoiceConnection_LateUpdate_m088F95078C5E8A546DA13C8AB436934052B94F3A (void);
-// 0x000000A7 System.Void Photon.Voice.Unity.VoiceConnection::OnDestroy()
+// 0x000000A6 System.Void Photon.Voice.Unity.VoiceConnection::OnDestroy()
 extern void VoiceConnection_OnDestroy_mE728411AFE39DCE501501CD2317DE93E08BDCD68 (void);
-// 0x000000A8 Photon.Voice.Unity.Speaker Photon.Voice.Unity.VoiceConnection::InstantiateSpeakerForRemoteVoice(System.Int32,System.Byte,System.Object)
+// 0x000000A7 Photon.Voice.Unity.Speaker Photon.Voice.Unity.VoiceConnection::InstantiateSpeakerForRemoteVoice(System.Int32,System.Byte,System.Object)
 extern void VoiceConnection_InstantiateSpeakerForRemoteVoice_m6F20C225A9283F948ED189E11DA7A33ACEBB7281 (void);
-// 0x000000A9 Photon.Voice.Unity.Speaker Photon.Voice.Unity.VoiceConnection::InstantiateSpeakerPrefab(UnityEngine.GameObject,System.Boolean)
+// 0x000000A8 Photon.Voice.Unity.Speaker Photon.Voice.Unity.VoiceConnection::InstantiateSpeakerPrefab(UnityEngine.GameObject,System.Boolean)
 extern void VoiceConnection_InstantiateSpeakerPrefab_mDD60AB3AD1E77FD893A7FB8FD131E099CDAAB8A1 (void);
-// 0x000000AA System.Void Photon.Voice.Unity.VoiceConnection::OnRemoteVoiceInfo(System.Int32,System.Int32,System.Byte,Photon.Voice.VoiceInfo,Photon.Voice.RemoteVoiceOptions&)
+// 0x000000A9 System.Void Photon.Voice.Unity.VoiceConnection::OnRemoteVoiceInfo(System.Int32,System.Int32,System.Byte,Photon.Voice.VoiceInfo,Photon.Voice.RemoteVoiceOptions&)
 extern void VoiceConnection_OnRemoteVoiceInfo_mD51FA0730A133332D5F008614160534C194B0B1D (void);
-// 0x000000AB System.Void Photon.Voice.Unity.VoiceConnection::OnVoiceStateChanged(Photon.Realtime.ClientState,Photon.Realtime.ClientState)
+// 0x000000AA System.Void Photon.Voice.Unity.VoiceConnection::OnVoiceStateChanged(Photon.Realtime.ClientState,Photon.Realtime.ClientState)
 extern void VoiceConnection_OnVoiceStateChanged_mBD5AAABDDFD4D65AC0B7DD1FC54E55E931BB0D99 (void);
-// 0x000000AC System.Void Photon.Voice.Unity.VoiceConnection::CalcStatistics()
+// 0x000000AB System.Void Photon.Voice.Unity.VoiceConnection::CalcStatistics()
 extern void VoiceConnection_CalcStatistics_mDC6895974DB35F95B86697B51C79D9F1F992BC58 (void);
-// 0x000000AD System.Void Photon.Voice.Unity.VoiceConnection::LinkSpeaker(Photon.Voice.Unity.Speaker,Photon.Voice.Unity.RemoteVoiceLink)
+// 0x000000AC System.Void Photon.Voice.Unity.VoiceConnection::LinkSpeaker(Photon.Voice.Unity.Speaker,Photon.Voice.Unity.RemoteVoiceLink)
 extern void VoiceConnection_LinkSpeaker_mEBC940ADB92CD0D9D99219E759A4298DA9FE80EC (void);
-// 0x000000AE System.Boolean Photon.Voice.Unity.VoiceConnection::AddRecorder(Photon.Voice.Unity.Recorder)
+// 0x000000AD System.Boolean Photon.Voice.Unity.VoiceConnection::AddRecorder(Photon.Voice.Unity.Recorder)
 extern void VoiceConnection_AddRecorder_mB900C30435DC2504DD5B8D1AC09EFF869026FC34 (void);
-// 0x000000AF System.Void Photon.Voice.Unity.VoiceConnection::RemoveRecorder(Photon.Voice.Unity.Recorder)
+// 0x000000AE System.Void Photon.Voice.Unity.VoiceConnection::RemoveRecorder(Photon.Voice.Unity.Recorder)
 extern void VoiceConnection_RemoveRecorder_m12180A6A74203EF2997F2011FD15CD2E59A83E97 (void);
-// 0x000000B0 System.Void Photon.Voice.Unity.VoiceConnection::OnOperationResponseReceived(ExitGames.Client.Photon.OperationResponse)
+// 0x000000AF System.Void Photon.Voice.Unity.VoiceConnection::OnOperationResponseReceived(ExitGames.Client.Photon.OperationResponse)
 extern void VoiceConnection_OnOperationResponseReceived_m52692EDD32704591AF4FCCCB46887F0C1FDC4A38 (void);
-// 0x000000B1 System.Void Photon.Voice.Unity.VoiceConnection/<>c__DisplayClass67_0::.ctor()
+// 0x000000B0 System.Void Photon.Voice.Unity.VoiceConnection/<>c__DisplayClass67_0::.ctor()
 extern void U3CU3Ec__DisplayClass67_0__ctor_m6C1068C20472E60B9E857B4084222B3CF6C18A65 (void);
-// 0x000000B2 System.Void Photon.Voice.Unity.VoiceConnection/<>c__DisplayClass67_0::<InstantiateSpeakerPrefab>b__0(Photon.Voice.Unity.Speaker)
+// 0x000000B1 System.Void Photon.Voice.Unity.VoiceConnection/<>c__DisplayClass67_0::<InstantiateSpeakerPrefab>b__0(Photon.Voice.Unity.Speaker)
 extern void U3CU3Ec__DisplayClass67_0_U3CInstantiateSpeakerPrefabU3Eb__0_m0EF3CE447A212D3092333BAA02C28F5230D44585 (void);
-// 0x000000B3 System.Void Photon.Voice.Unity.VoiceConnection/<>c__DisplayClass68_0::.ctor()
+// 0x000000B2 System.Void Photon.Voice.Unity.VoiceConnection/<>c__DisplayClass68_0::.ctor()
 extern void U3CU3Ec__DisplayClass68_0__ctor_m5346CB2A459846060800CB5F7BC469EE4F188C46 (void);
-// 0x000000B4 System.Void Photon.Voice.Unity.VoiceConnection/<>c__DisplayClass68_0::<OnRemoteVoiceInfo>b__0()
+// 0x000000B3 System.Void Photon.Voice.Unity.VoiceConnection/<>c__DisplayClass68_0::<OnRemoteVoiceInfo>b__0()
 extern void U3CU3Ec__DisplayClass68_0_U3COnRemoteVoiceInfoU3Eb__0_m928087236D40E34E0420F47E900B8CF3AB9F47B2 (void);
-// 0x000000B5 System.Void Photon.Voice.Unity.VoiceConnection/<>c__DisplayClass71_0::.ctor()
+// 0x000000B4 System.Void Photon.Voice.Unity.VoiceConnection/<>c__DisplayClass71_0::.ctor()
 extern void U3CU3Ec__DisplayClass71_0__ctor_m71CA4872218A35A79F9DF9D1368B67225A108FD2 (void);
-// 0x000000B6 System.Void Photon.Voice.Unity.VoiceConnection/<>c__DisplayClass71_0::<LinkSpeaker>b__0()
+// 0x000000B5 System.Void Photon.Voice.Unity.VoiceConnection/<>c__DisplayClass71_0::<LinkSpeaker>b__0()
 extern void U3CU3Ec__DisplayClass71_0_U3CLinkSpeakerU3Eb__0_mF4D339E7123969A36013F71879BDEB70B6F983C0 (void);
-// 0x000000B7 System.Void Photon.Voice.Unity.VoiceComponent::Awake()
+// 0x000000B6 System.Void Photon.Voice.Unity.VoiceComponent::Awake()
 extern void VoiceComponent_Awake_m6AC34084B90505F4064B4CDE0671C36B3538DFF0 (void);
-// 0x000000B8 Photon.Voice.ILogger Photon.Voice.Unity.VoiceComponent::get_Logger()
+// 0x000000B7 Photon.Voice.ILogger Photon.Voice.Unity.VoiceComponent::get_Logger()
 extern void VoiceComponent_get_Logger_mC64FBDB8EB5AF8DA71142ECE8B6963BAC484FC40 (void);
-// 0x000000B9 Photon.Voice.Unity.VoiceLogger Photon.Voice.Unity.VoiceComponent::get_VoiceLogger()
+// 0x000000B8 Photon.Voice.Unity.VoiceLogger Photon.Voice.Unity.VoiceComponent::get_VoiceLogger()
 extern void VoiceComponent_get_VoiceLogger_mB2812CB4D7B7EDB9E84A24E59DCC8982E044F98D (void);
-// 0x000000BA System.Void Photon.Voice.Unity.VoiceComponent::set_Name(System.String)
+// 0x000000B9 System.Void Photon.Voice.Unity.VoiceComponent::set_Name(System.String)
 extern void VoiceComponent_set_Name_mC0C36F6F8CB8EC3B73004E0B528533F8452E92A7 (void);
-// 0x000000BB System.Void Photon.Voice.Unity.VoiceComponent::.ctor()
+// 0x000000BA System.Void Photon.Voice.Unity.VoiceComponent::.ctor()
 extern void VoiceComponent__ctor_mB6C412309DC148E0BC5729DEE8FAE7DDFBA5AC58 (void);
-// 0x000000BC Photon.Voice.ILogger Photon.Voice.Unity.VoiceComponentImpl::get_Logger()
+// 0x000000BB Photon.Voice.ILogger Photon.Voice.Unity.VoiceComponentImpl::get_Logger()
 extern void VoiceComponentImpl_get_Logger_m6E20399A6E734B3AC8EB490619C5493BB6270F00 (void);
-// 0x000000BD Photon.Voice.Unity.VoiceLogger Photon.Voice.Unity.VoiceComponentImpl::get_VoiceLogger()
+// 0x000000BC Photon.Voice.Unity.VoiceLogger Photon.Voice.Unity.VoiceComponentImpl::get_VoiceLogger()
 extern void VoiceComponentImpl_get_VoiceLogger_m68E547673757E3876B19470DCC87CB34E618E1E6 (void);
-// 0x000000BE System.Void Photon.Voice.Unity.VoiceComponentImpl::set_Name(System.String)
+// 0x000000BD System.Void Photon.Voice.Unity.VoiceComponentImpl::set_Name(System.String)
 extern void VoiceComponentImpl_set_Name_m9C603801539F9E00213372D9FD00A70F45931364 (void);
-// 0x000000BF System.Void Photon.Voice.Unity.VoiceComponentImpl::Awake(UnityEngine.MonoBehaviour)
+// 0x000000BE System.Void Photon.Voice.Unity.VoiceComponentImpl::Awake(UnityEngine.MonoBehaviour)
 extern void VoiceComponentImpl_Awake_m182804A770139122B8BEBD9C94545385BAE37D12 (void);
-// 0x000000C0 System.Void Photon.Voice.Unity.VoiceComponentImpl::.ctor()
+// 0x000000BF System.Void Photon.Voice.Unity.VoiceComponentImpl::.ctor()
 extern void VoiceComponentImpl__ctor_m1C339415DBAC499F34BE8A55F3D8CAA0314FD70E (void);
-// 0x000000C1 System.Void Photon.Voice.Unity.VoiceComponentImpl/LoggerImpl::SetVoiceLogger(Photon.Voice.Unity.VoiceLogger,UnityEngine.Object,System.String)
+// 0x000000C0 System.Void Photon.Voice.Unity.VoiceComponentImpl/LoggerImpl::SetVoiceLogger(Photon.Voice.Unity.VoiceLogger,UnityEngine.Object,System.String)
 extern void LoggerImpl_SetVoiceLogger_m1618D3F07755307280481D8BBC5EDDCA5CD399CB (void);
-// 0x000000C2 System.Void Photon.Voice.Unity.VoiceComponentImpl/LoggerImpl::SetObjName(System.String)
+// 0x000000C1 System.Void Photon.Voice.Unity.VoiceComponentImpl/LoggerImpl::SetObjName(System.String)
 extern void LoggerImpl_SetObjName_m29A1C72343F53107EB103E54756901F8CB41FD28 (void);
-// 0x000000C3 System.Void Photon.Voice.Unity.VoiceComponentImpl/LoggerImpl::Log(ExitGames.Client.Photon.DebugLevel,System.String,System.Object[])
+// 0x000000C2 System.Void Photon.Voice.Unity.VoiceComponentImpl/LoggerImpl::Log(ExitGames.Client.Photon.DebugLevel,System.String,System.Object[])
 extern void LoggerImpl_Log_mD624AF92588E23CE00E575D0CBDED80E2A0E373D (void);
-// 0x000000C4 System.Void Photon.Voice.Unity.VoiceComponentImpl/LoggerImpl::LogError(System.String,System.Object[])
+// 0x000000C3 System.Void Photon.Voice.Unity.VoiceComponentImpl/LoggerImpl::LogError(System.String,System.Object[])
 extern void LoggerImpl_LogError_mDEC095FD99301E03C3F978D83C1E4602F6A43B68 (void);
-// 0x000000C5 System.Void Photon.Voice.Unity.VoiceComponentImpl/LoggerImpl::LogWarning(System.String,System.Object[])
+// 0x000000C4 System.Void Photon.Voice.Unity.VoiceComponentImpl/LoggerImpl::LogWarning(System.String,System.Object[])
 extern void LoggerImpl_LogWarning_m3E144659AFFC11AA3D28CB886BA8948ABD68263D (void);
-// 0x000000C6 System.Void Photon.Voice.Unity.VoiceComponentImpl/LoggerImpl::LogInfo(System.String,System.Object[])
+// 0x000000C5 System.Void Photon.Voice.Unity.VoiceComponentImpl/LoggerImpl::LogInfo(System.String,System.Object[])
 extern void LoggerImpl_LogInfo_m41848D34467638395698C9F0F522CBFB61B14B03 (void);
-// 0x000000C7 System.Void Photon.Voice.Unity.VoiceComponentImpl/LoggerImpl::LogDebug(System.String,System.Object[])
+// 0x000000C6 System.Void Photon.Voice.Unity.VoiceComponentImpl/LoggerImpl::LogDebug(System.String,System.Object[])
 extern void LoggerImpl_LogDebug_mF95249B523F27FABFCB8A872883103BF01825800 (void);
-// 0x000000C8 System.Void Photon.Voice.Unity.VoiceComponentImpl/LoggerImpl::.ctor()
+// 0x000000C7 System.Void Photon.Voice.Unity.VoiceComponentImpl/LoggerImpl::.ctor()
 extern void LoggerImpl__ctor_mD13A4F98D8A96D747329A7A73355196B2E24770E (void);
-// 0x000000C9 System.Void Photon.Voice.Unity.VoiceLogger::Start()
+// 0x000000C8 System.Void Photon.Voice.Unity.VoiceLogger::Start()
 extern void VoiceLogger_Start_mFCFA733C1C6440D8FB9152F2AA5F872E3F315463 (void);
-// 0x000000CA Photon.Voice.Unity.VoiceLogger Photon.Voice.Unity.VoiceLogger::FindLogger(UnityEngine.GameObject)
+// 0x000000C9 Photon.Voice.Unity.VoiceLogger Photon.Voice.Unity.VoiceLogger::FindLogger(UnityEngine.GameObject)
 extern void VoiceLogger_FindLogger_m9D9D1806770C164F964587DBE9E60055AA50A3AB (void);
-// 0x000000CB Photon.Voice.Unity.VoiceLogger Photon.Voice.Unity.VoiceLogger::CreateRootLogger()
+// 0x000000CA Photon.Voice.Unity.VoiceLogger Photon.Voice.Unity.VoiceLogger::CreateRootLogger()
 extern void VoiceLogger_CreateRootLogger_m921D385BC0BEE54747D573E7E43911D82AAFB499 (void);
-// 0x000000CC System.Void Photon.Voice.Unity.VoiceLogger::.ctor()
+// 0x000000CB System.Void Photon.Voice.Unity.VoiceLogger::.ctor()
 extern void VoiceLogger__ctor_m2007A95235681920C1A303FC8344EE5C5A84C643 (void);
-// 0x000000CD System.Void Photon.Voice.Unity.UnityLogger::Log(ExitGames.Client.Photon.DebugLevel,UnityEngine.Object,System.String,System.String,System.String,System.Object[])
+// 0x000000CC System.Void Photon.Voice.Unity.UnityLogger::Log(ExitGames.Client.Photon.DebugLevel,UnityEngine.Object,System.String,System.String,System.String,System.Object[])
 extern void UnityLogger_Log_m4E952F8A6EB8C5394305B48C2A8798EC7507BF5B (void);
-// 0x000000CE System.String Photon.Voice.Unity.UnityLogger::GetFormatString(ExitGames.Client.Photon.DebugLevel,System.String,System.String,System.String)
+// 0x000000CD System.String Photon.Voice.Unity.UnityLogger::GetFormatString(ExitGames.Client.Photon.DebugLevel,System.String,System.String,System.String)
 extern void UnityLogger_GetFormatString_m4594F76D3493C655DE1953D2029C68EA831897CB (void);
-// 0x000000CF System.String Photon.Voice.Unity.UnityLogger::GetTimestamp()
+// 0x000000CE System.String Photon.Voice.Unity.UnityLogger::GetTimestamp()
 extern void UnityLogger_GetTimestamp_m3CF3B901B2A389E6DDB4F82C0D744E8993B6E92F (void);
-// 0x000000D0 System.Boolean Photon.Voice.Unity.WebRtcAudioDsp::get_AEC()
+// 0x000000CF System.Boolean Photon.Voice.Unity.WebRtcAudioDsp::get_AEC()
 extern void WebRtcAudioDsp_get_AEC_m35B8898CCA33E1294FBDEFAFAC93AEC8346AF252 (void);
-// 0x000000D1 System.Void Photon.Voice.Unity.WebRtcAudioDsp::set_AEC(System.Boolean)
+// 0x000000D0 System.Void Photon.Voice.Unity.WebRtcAudioDsp::set_AEC(System.Boolean)
 extern void WebRtcAudioDsp_set_AEC_m8D52A77C5C4F95B00732CE92057CB82505FDB4D8 (void);
-// 0x000000D2 System.Boolean Photon.Voice.Unity.WebRtcAudioDsp::get_AecHighPass()
+// 0x000000D1 System.Boolean Photon.Voice.Unity.WebRtcAudioDsp::get_AecHighPass()
 extern void WebRtcAudioDsp_get_AecHighPass_mE2F6685DED2A65C41D32485DDA686BC944400859 (void);
-// 0x000000D3 System.Void Photon.Voice.Unity.WebRtcAudioDsp::set_AecHighPass(System.Boolean)
+// 0x000000D2 System.Void Photon.Voice.Unity.WebRtcAudioDsp::set_AecHighPass(System.Boolean)
 extern void WebRtcAudioDsp_set_AecHighPass_m6D5BE8B92995FFB0B857AE24E2C6DB962B87A816 (void);
-// 0x000000D4 System.Int32 Photon.Voice.Unity.WebRtcAudioDsp::get_ReverseStreamDelayMs()
+// 0x000000D3 System.Int32 Photon.Voice.Unity.WebRtcAudioDsp::get_ReverseStreamDelayMs()
 extern void WebRtcAudioDsp_get_ReverseStreamDelayMs_m7C6E32B9C6E22B7A10F98964B9860C71626DBED1 (void);
-// 0x000000D5 System.Void Photon.Voice.Unity.WebRtcAudioDsp::set_ReverseStreamDelayMs(System.Int32)
+// 0x000000D4 System.Void Photon.Voice.Unity.WebRtcAudioDsp::set_ReverseStreamDelayMs(System.Int32)
 extern void WebRtcAudioDsp_set_ReverseStreamDelayMs_m02DC7472452DCFBF0DCD70A30E18B7A0D0D65DA7 (void);
-// 0x000000D6 System.Boolean Photon.Voice.Unity.WebRtcAudioDsp::get_NoiseSuppression()
+// 0x000000D5 System.Boolean Photon.Voice.Unity.WebRtcAudioDsp::get_NoiseSuppression()
 extern void WebRtcAudioDsp_get_NoiseSuppression_mBBC63FC5A1C324FA53E904DF3D9D2807581FEEAE (void);
-// 0x000000D7 System.Void Photon.Voice.Unity.WebRtcAudioDsp::set_NoiseSuppression(System.Boolean)
+// 0x000000D6 System.Void Photon.Voice.Unity.WebRtcAudioDsp::set_NoiseSuppression(System.Boolean)
 extern void WebRtcAudioDsp_set_NoiseSuppression_m0D87A19D8D4E78356EEA44C9892AAD41BB7778F0 (void);
-// 0x000000D8 System.Boolean Photon.Voice.Unity.WebRtcAudioDsp::get_HighPass()
+// 0x000000D7 System.Boolean Photon.Voice.Unity.WebRtcAudioDsp::get_HighPass()
 extern void WebRtcAudioDsp_get_HighPass_m3834598D2A371C7D73C5A4E166E837D203E0551D (void);
-// 0x000000D9 System.Void Photon.Voice.Unity.WebRtcAudioDsp::set_HighPass(System.Boolean)
+// 0x000000D8 System.Void Photon.Voice.Unity.WebRtcAudioDsp::set_HighPass(System.Boolean)
 extern void WebRtcAudioDsp_set_HighPass_m15569802703D25B9C47C3052BEBB355E3CC3B180 (void);
-// 0x000000DA System.Boolean Photon.Voice.Unity.WebRtcAudioDsp::get_Bypass()
+// 0x000000D9 System.Boolean Photon.Voice.Unity.WebRtcAudioDsp::get_Bypass()
 extern void WebRtcAudioDsp_get_Bypass_mD84CE16A5C3FFA7B808C853409FE331356DA9353 (void);
-// 0x000000DB System.Void Photon.Voice.Unity.WebRtcAudioDsp::set_Bypass(System.Boolean)
+// 0x000000DA System.Void Photon.Voice.Unity.WebRtcAudioDsp::set_Bypass(System.Boolean)
 extern void WebRtcAudioDsp_set_Bypass_m666F141556DA698B247E397D9FE02212478DFE68 (void);
-// 0x000000DC System.Boolean Photon.Voice.Unity.WebRtcAudioDsp::get_AGC()
+// 0x000000DB System.Boolean Photon.Voice.Unity.WebRtcAudioDsp::get_AGC()
 extern void WebRtcAudioDsp_get_AGC_m68894EE88EDE6512FA04A0ED0990016D135836F5 (void);
-// 0x000000DD System.Void Photon.Voice.Unity.WebRtcAudioDsp::set_AGC(System.Boolean)
+// 0x000000DC System.Void Photon.Voice.Unity.WebRtcAudioDsp::set_AGC(System.Boolean)
 extern void WebRtcAudioDsp_set_AGC_m486021502B364F9308E684AFF3B7D1436D102A83 (void);
-// 0x000000DE System.Int32 Photon.Voice.Unity.WebRtcAudioDsp::get_AgcCompressionGain()
+// 0x000000DD System.Int32 Photon.Voice.Unity.WebRtcAudioDsp::get_AgcCompressionGain()
 extern void WebRtcAudioDsp_get_AgcCompressionGain_mC8FF156AE8F5B719291FF5F8EB714BBADDA7D64C (void);
-// 0x000000DF System.Void Photon.Voice.Unity.WebRtcAudioDsp::set_AgcCompressionGain(System.Int32)
+// 0x000000DE System.Void Photon.Voice.Unity.WebRtcAudioDsp::set_AgcCompressionGain(System.Int32)
 extern void WebRtcAudioDsp_set_AgcCompressionGain_m9D9D73F389147BFB409D1F4F41AB0EB4AA35CAA4 (void);
-// 0x000000E0 System.Int32 Photon.Voice.Unity.WebRtcAudioDsp::get_AgcTargetLevel()
+// 0x000000DF System.Int32 Photon.Voice.Unity.WebRtcAudioDsp::get_AgcTargetLevel()
 extern void WebRtcAudioDsp_get_AgcTargetLevel_m3D1CB59B2D6ACE6615A31249E3ADF75C6E9A7C54 (void);
-// 0x000000E1 System.Void Photon.Voice.Unity.WebRtcAudioDsp::set_AgcTargetLevel(System.Int32)
+// 0x000000E0 System.Void Photon.Voice.Unity.WebRtcAudioDsp::set_AgcTargetLevel(System.Int32)
 extern void WebRtcAudioDsp_set_AgcTargetLevel_m455406FA4B36D7A834B3AF3084053F57BE237A13 (void);
-// 0x000000E2 System.Boolean Photon.Voice.Unity.WebRtcAudioDsp::get_VAD()
+// 0x000000E1 System.Boolean Photon.Voice.Unity.WebRtcAudioDsp::get_VAD()
 extern void WebRtcAudioDsp_get_VAD_m15AAD345F61E957E257B5B1EC96C4982185F0FD0 (void);
-// 0x000000E3 System.Void Photon.Voice.Unity.WebRtcAudioDsp::set_VAD(System.Boolean)
+// 0x000000E2 System.Void Photon.Voice.Unity.WebRtcAudioDsp::set_VAD(System.Boolean)
 extern void WebRtcAudioDsp_set_VAD_m84C1C6DD343C2CC6CF9B9CAB4B6039CBBFA490F3 (void);
-// 0x000000E4 System.Void Photon.Voice.Unity.WebRtcAudioDsp::Awake()
+// 0x000000E3 System.Void Photon.Voice.Unity.WebRtcAudioDsp::Awake()
 extern void WebRtcAudioDsp_Awake_m456592E02770FBA50244A50DD70007F893227D4D (void);
-// 0x000000E5 System.Void Photon.Voice.Unity.WebRtcAudioDsp::Start()
+// 0x000000E4 System.Void Photon.Voice.Unity.WebRtcAudioDsp::Start()
 extern void WebRtcAudioDsp_Start_m58A94D2DE7941A71EEC8563276538E36F3E30CFA (void);
-// 0x000000E6 System.Boolean Photon.Voice.Unity.WebRtcAudioDsp::get_IsSupported()
+// 0x000000E5 System.Boolean Photon.Voice.Unity.WebRtcAudioDsp::get_IsSupported()
 extern void WebRtcAudioDsp_get_IsSupported_mBD234C93D189D236F3CE469F6A764EEC57FE3767 (void);
-// 0x000000E7 System.Void Photon.Voice.Unity.WebRtcAudioDsp::AdjustVoiceInfo(Photon.Voice.VoiceInfo&,Photon.Voice.AudioSampleType&)
+// 0x000000E6 System.Void Photon.Voice.Unity.WebRtcAudioDsp::AdjustVoiceInfo(Photon.Voice.VoiceInfo&,Photon.Voice.AudioSampleType&)
 extern void WebRtcAudioDsp_AdjustVoiceInfo_mD89566A1AC0A44FA97F1C49FCB1D4EF92003F29E (void);
-// 0x000000E8 System.Void Photon.Voice.Unity.WebRtcAudioDsp::OnAudioConfigurationChanged(System.Boolean)
+// 0x000000E7 System.Void Photon.Voice.Unity.WebRtcAudioDsp::OnAudioConfigurationChanged(System.Boolean)
 extern void WebRtcAudioDsp_OnAudioConfigurationChanged_m904955030200D30CF519BD2E4C94493D73CB3428 (void);
-// 0x000000E9 System.Void Photon.Voice.Unity.WebRtcAudioDsp::OnAudioOutFrameFloat(System.Single[],System.Int32)
+// 0x000000E8 System.Void Photon.Voice.Unity.WebRtcAudioDsp::OnAudioOutFrameFloat(System.Single[],System.Int32)
 extern void WebRtcAudioDsp_OnAudioOutFrameFloat_m5DCB5176A524AE54AAE29CFB2AE05BBCE51952D6 (void);
-// 0x000000EA System.Void Photon.Voice.Unity.WebRtcAudioDsp::PhotonVoiceCreated(Photon.Voice.Unity.PhotonVoiceCreatedParams)
+// 0x000000E9 System.Void Photon.Voice.Unity.WebRtcAudioDsp::PhotonVoiceCreated(Photon.Voice.Unity.PhotonVoiceCreatedParams)
 extern void WebRtcAudioDsp_PhotonVoiceCreated_mD8DF2713BC93F4D0149C17D2E90D5DB1AE45E30A (void);
-// 0x000000EB System.Void Photon.Voice.Unity.WebRtcAudioDsp::PhotonVoiceRemoved()
+// 0x000000EA System.Void Photon.Voice.Unity.WebRtcAudioDsp::PhotonVoiceRemoved()
 extern void WebRtcAudioDsp_PhotonVoiceRemoved_m0DB638E82835714A7B92E7664824CE47371F7A68 (void);
-// 0x000000EC System.Void Photon.Voice.Unity.WebRtcAudioDsp::OnDestroy()
+// 0x000000EB System.Void Photon.Voice.Unity.WebRtcAudioDsp::OnDestroy()
 extern void WebRtcAudioDsp_OnDestroy_mB80B1F5619C9E449D9922AEBB171F46DD0E9DA51 (void);
-// 0x000000ED System.Void Photon.Voice.Unity.WebRtcAudioDsp::StartProc(Photon.Voice.LocalVoiceAudioShort)
+// 0x000000EC System.Void Photon.Voice.Unity.WebRtcAudioDsp::StartProc(Photon.Voice.LocalVoiceAudioShort)
 extern void WebRtcAudioDsp_StartProc_mBE5A04B004EEB66183E011F7740839E577246ECA (void);
-// 0x000000EE System.Void Photon.Voice.Unity.WebRtcAudioDsp::StopProc(Photon.Voice.LocalVoiceAudioShort)
+// 0x000000ED System.Void Photon.Voice.Unity.WebRtcAudioDsp::StopProc(Photon.Voice.LocalVoiceAudioShort)
 extern void WebRtcAudioDsp_StopProc_m451459FEDA6D0B588BCCE5D2DE7C8DDA686DD095 (void);
-// 0x000000EF System.Void Photon.Voice.Unity.WebRtcAudioDsp::Restart()
+// 0x000000EE System.Void Photon.Voice.Unity.WebRtcAudioDsp::Restart()
 extern void WebRtcAudioDsp_Restart_m44412CA73C86D80048463740B15415A5C3609536 (void);
-// 0x000000F0 System.Void Photon.Voice.Unity.WebRtcAudioDsp::setOutputListener(System.Boolean)
+// 0x000000EF System.Void Photon.Voice.Unity.WebRtcAudioDsp::setOutputListener(System.Boolean)
 extern void WebRtcAudioDsp_setOutputListener_m5D6BA23E6AC9AE3E777F727249F0233A2D13554E (void);
-// 0x000000F1 System.Void Photon.Voice.Unity.WebRtcAudioDsp::applyToProc()
+// 0x000000F0 System.Void Photon.Voice.Unity.WebRtcAudioDsp::applyToProc()
 extern void WebRtcAudioDsp_applyToProc_m2F942F783883BADC0A352D33CD349B54DED7307F (void);
-// 0x000000F2 System.Void Photon.Voice.Unity.WebRtcAudioDsp::.ctor()
+// 0x000000F1 System.Void Photon.Voice.Unity.WebRtcAudioDsp::.ctor()
 extern void WebRtcAudioDsp__ctor_mAD29BC9D77B1A5FACF28C43B953AA75DAA339D5C (void);
-// 0x000000F3 System.Void Photon.Voice.Unity.WebRtcAudioDsp::.cctor()
+// 0x000000F2 System.Void Photon.Voice.Unity.WebRtcAudioDsp::.cctor()
 extern void WebRtcAudioDsp__cctor_m3DE45573CB6AA294B8F5298611C8C6C6E4259FF1 (void);
-// 0x000000F4 System.Boolean Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::get_IsConnected()
+// 0x000000F3 System.Boolean Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::get_IsConnected()
 extern void ConnectAndJoin_get_IsConnected_mEB1E0E556616D65534B4A37AF1DAAC821CF6964B (void);
-// 0x000000F5 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::Awake()
+// 0x000000F4 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::Awake()
 extern void ConnectAndJoin_Awake_mDF2EB64B1C0FA5FC94F259F9A44C69BBF3A282E1 (void);
-// 0x000000F6 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnEnable()
+// 0x000000F5 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnEnable()
 extern void ConnectAndJoin_OnEnable_m85991A4AD5700569A5EE1A0DE48D9C5931EDE4FE (void);
-// 0x000000F7 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnDisable()
+// 0x000000F6 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnDisable()
 extern void ConnectAndJoin_OnDisable_m66F6DF35835E2C574646125559CC82DDA69CFED8 (void);
-// 0x000000F8 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::ConnectNow()
+// 0x000000F7 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::ConnectNow()
 extern void ConnectAndJoin_ConnectNow_mCE7D697B57F5FB5BD5BEACEEAD9452ABC759CA83 (void);
-// 0x000000F9 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnCreatedRoom()
+// 0x000000F8 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnCreatedRoom()
 extern void ConnectAndJoin_OnCreatedRoom_m3EF6E74CC40C60C675E274823DD58F4D0512BA14 (void);
-// 0x000000FA System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnCreateRoomFailed(System.Int16,System.String)
+// 0x000000F9 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnCreateRoomFailed(System.Int16,System.String)
 extern void ConnectAndJoin_OnCreateRoomFailed_mB9709FAC76A59F596187871355DFDCC6A9D03CF7 (void);
-// 0x000000FB System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnFriendListUpdate(System.Collections.Generic.List`1<Photon.Realtime.FriendInfo>)
+// 0x000000FA System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnFriendListUpdate(System.Collections.Generic.List`1<Photon.Realtime.FriendInfo>)
 extern void ConnectAndJoin_OnFriendListUpdate_m11537B5F13B6FA394367C83836D9199C8E53599A (void);
-// 0x000000FC System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnJoinedRoom()
+// 0x000000FB System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnJoinedRoom()
 extern void ConnectAndJoin_OnJoinedRoom_m151A581BBF0F8EB70A6BB3000497A7A6B72C7BF9 (void);
-// 0x000000FD System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnJoinRandomFailed(System.Int16,System.String)
+// 0x000000FC System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnJoinRandomFailed(System.Int16,System.String)
 extern void ConnectAndJoin_OnJoinRandomFailed_m8455F4A9B30CF6EF6673BD78BFB0EB4831681B59 (void);
-// 0x000000FE System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnJoinRoomFailed(System.Int16,System.String)
+// 0x000000FD System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnJoinRoomFailed(System.Int16,System.String)
 extern void ConnectAndJoin_OnJoinRoomFailed_mD584F6892F37CBF9C90C1BE1BF3CE4B9E9FF0D32 (void);
-// 0x000000FF System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnLeftRoom()
+// 0x000000FE System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnLeftRoom()
 extern void ConnectAndJoin_OnLeftRoom_m91069F7039E8D4417550D1ADE8DE39AF08CB0D82 (void);
-// 0x00000100 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnConnected()
+// 0x000000FF System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnConnected()
 extern void ConnectAndJoin_OnConnected_m6EDA58336E13930FE44D0D5BB640CA8E9F595380 (void);
-// 0x00000101 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnConnectedToMaster()
+// 0x00000100 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnConnectedToMaster()
 extern void ConnectAndJoin_OnConnectedToMaster_m63FBB9277EA021EFF34665C718E1BF40B2464B22 (void);
-// 0x00000102 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnDisconnected(Photon.Realtime.DisconnectCause)
+// 0x00000101 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnDisconnected(Photon.Realtime.DisconnectCause)
 extern void ConnectAndJoin_OnDisconnected_m2D194D1985FD901B149B2A57947770BCB0C1176F (void);
-// 0x00000103 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnRegionListReceived(Photon.Realtime.RegionHandler)
+// 0x00000102 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnRegionListReceived(Photon.Realtime.RegionHandler)
 extern void ConnectAndJoin_OnRegionListReceived_m9EFA671226DF977C4EB8F9580D88833FF2DF5EFF (void);
-// 0x00000104 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnCustomAuthenticationResponse(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+// 0x00000103 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnCustomAuthenticationResponse(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
 extern void ConnectAndJoin_OnCustomAuthenticationResponse_m3232F2AAFE364F3A3859BADFFA7072FE501EDC92 (void);
-// 0x00000105 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnCustomAuthenticationFailed(System.String)
+// 0x00000104 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::OnCustomAuthenticationFailed(System.String)
 extern void ConnectAndJoin_OnCustomAuthenticationFailed_m1F6592D01EB65331739E0946C525F8F70C559ADB (void);
-// 0x00000106 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::.ctor()
+// 0x00000105 System.Void Photon.Voice.Unity.UtilityScripts.ConnectAndJoin::.ctor()
 extern void ConnectAndJoin__ctor_m456D946341A6FC5F018CEB0E7310D0E974003419 (void);
-// 0x00000107 System.Single Photon.Voice.Unity.UtilityScripts.MicAmplifier::get_AmplificationFactor()
+// 0x00000106 System.Single Photon.Voice.Unity.UtilityScripts.MicAmplifier::get_AmplificationFactor()
 extern void MicAmplifier_get_AmplificationFactor_m3520F32D0B31EA9076100684D52DC6DBB87862D7 (void);
-// 0x00000108 System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifier::set_AmplificationFactor(System.Single)
+// 0x00000107 System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifier::set_AmplificationFactor(System.Single)
 extern void MicAmplifier_set_AmplificationFactor_mE80772FF7F6EAD812A7C072984BA3872F8BCC102 (void);
-// 0x00000109 System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifier::OnEnable()
+// 0x00000108 System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifier::OnEnable()
 extern void MicAmplifier_OnEnable_m5DA3BEAA180B81A538435D6841ACEF3B3941C24E (void);
-// 0x0000010A System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifier::OnDisable()
+// 0x00000109 System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifier::OnDisable()
 extern void MicAmplifier_OnDisable_m0ABD958A1E385106449C02FB9EB0A71253E6F288 (void);
-// 0x0000010B System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifier::PhotonVoiceCreated(Photon.Voice.Unity.PhotonVoiceCreatedParams)
+// 0x0000010A System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifier::PhotonVoiceCreated(Photon.Voice.Unity.PhotonVoiceCreatedParams)
 extern void MicAmplifier_PhotonVoiceCreated_m05B9A2B0DAB0B2541ADC6C324A4902B47B304493 (void);
-// 0x0000010C System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifier::.ctor()
+// 0x0000010B System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifier::.ctor()
 extern void MicAmplifier__ctor_mC2D5BF4AD3167396D1423CDF6016A4960DA1D40A (void);
-// 0x0000010D System.Single Photon.Voice.Unity.UtilityScripts.MicAmplifierFloat::get_AmplificationFactor()
+// 0x0000010C System.Single Photon.Voice.Unity.UtilityScripts.MicAmplifierFloat::get_AmplificationFactor()
 extern void MicAmplifierFloat_get_AmplificationFactor_mF6BF127490CC68103DC3E968949EFEEABD95C43E (void);
-// 0x0000010E System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifierFloat::set_AmplificationFactor(System.Single)
+// 0x0000010D System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifierFloat::set_AmplificationFactor(System.Single)
 extern void MicAmplifierFloat_set_AmplificationFactor_m6E6A78940B81BC9035FAAC9FF6FB8679D5CAE954 (void);
-// 0x0000010F System.Boolean Photon.Voice.Unity.UtilityScripts.MicAmplifierFloat::get_Disabled()
+// 0x0000010E System.Boolean Photon.Voice.Unity.UtilityScripts.MicAmplifierFloat::get_Disabled()
 extern void MicAmplifierFloat_get_Disabled_mA72105C0998AD667B0A948B5606624ECBE77A62A (void);
-// 0x00000110 System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifierFloat::set_Disabled(System.Boolean)
+// 0x0000010F System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifierFloat::set_Disabled(System.Boolean)
 extern void MicAmplifierFloat_set_Disabled_mD371D23851E63AF5A6C4BE6D5276219EE30989F5 (void);
-// 0x00000111 System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifierFloat::.ctor(System.Single)
+// 0x00000110 System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifierFloat::.ctor(System.Single)
 extern void MicAmplifierFloat__ctor_mE3519854E3CAD8D57E986A28922D74A052E180A3 (void);
-// 0x00000112 System.Single[] Photon.Voice.Unity.UtilityScripts.MicAmplifierFloat::Process(System.Single[])
+// 0x00000111 System.Single[] Photon.Voice.Unity.UtilityScripts.MicAmplifierFloat::Process(System.Single[])
 extern void MicAmplifierFloat_Process_m542862895B5655DD08163ACB5D59E14664CB7079 (void);
-// 0x00000113 System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifierFloat::Dispose()
+// 0x00000112 System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifierFloat::Dispose()
 extern void MicAmplifierFloat_Dispose_mEBAE541AE2F3899A63A19978279C00A7CB695DA0 (void);
-// 0x00000114 System.Single Photon.Voice.Unity.UtilityScripts.MicAmplifierShort::get_AmplificationFactor()
+// 0x00000113 System.Single Photon.Voice.Unity.UtilityScripts.MicAmplifierShort::get_AmplificationFactor()
 extern void MicAmplifierShort_get_AmplificationFactor_m69BBCA92F2DA62871037FE695259CA35A3495BBF (void);
-// 0x00000115 System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifierShort::set_AmplificationFactor(System.Single)
+// 0x00000114 System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifierShort::set_AmplificationFactor(System.Single)
 extern void MicAmplifierShort_set_AmplificationFactor_m4330AA3B22C6D400B08C6C7076980197E276190F (void);
-// 0x00000116 System.Boolean Photon.Voice.Unity.UtilityScripts.MicAmplifierShort::get_Disabled()
+// 0x00000115 System.Boolean Photon.Voice.Unity.UtilityScripts.MicAmplifierShort::get_Disabled()
 extern void MicAmplifierShort_get_Disabled_m6AA14222D1376C14B421CF20DA4932BAE60E61CA (void);
-// 0x00000117 System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifierShort::set_Disabled(System.Boolean)
+// 0x00000116 System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifierShort::set_Disabled(System.Boolean)
 extern void MicAmplifierShort_set_Disabled_m38CE61C359053B315F89566960FA1CEC0C421C95 (void);
-// 0x00000118 System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifierShort::.ctor(System.Single)
+// 0x00000117 System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifierShort::.ctor(System.Single)
 extern void MicAmplifierShort__ctor_m97C39B8B40262EA26A7BD5B0DEC164DA84089DFB (void);
-// 0x00000119 System.Int16[] Photon.Voice.Unity.UtilityScripts.MicAmplifierShort::Process(System.Int16[])
+// 0x00000118 System.Int16[] Photon.Voice.Unity.UtilityScripts.MicAmplifierShort::Process(System.Int16[])
 extern void MicAmplifierShort_Process_mD01739F7C92BD42C9A9F80AACD0947226D759A9F (void);
-// 0x0000011A System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifierShort::Dispose()
+// 0x00000119 System.Void Photon.Voice.Unity.UtilityScripts.MicAmplifierShort::Dispose()
 extern void MicAmplifierShort_Dispose_m04E28D35C0039CAB1FB2DD10ED493B6102120D9C (void);
-// 0x0000011B System.Void Photon.Voice.Unity.UtilityScripts.MicrophonePermission::add_MicrophonePermissionCallback(System.Action`1<System.Boolean>)
+// 0x0000011A System.Void Photon.Voice.Unity.UtilityScripts.MicrophonePermission::add_MicrophonePermissionCallback(System.Action`1<System.Boolean>)
 extern void MicrophonePermission_add_MicrophonePermissionCallback_m12FD86F9D17746063936FA6CC8C5F17DBA44C80A (void);
-// 0x0000011C System.Void Photon.Voice.Unity.UtilityScripts.MicrophonePermission::remove_MicrophonePermissionCallback(System.Action`1<System.Boolean>)
+// 0x0000011B System.Void Photon.Voice.Unity.UtilityScripts.MicrophonePermission::remove_MicrophonePermissionCallback(System.Action`1<System.Boolean>)
 extern void MicrophonePermission_remove_MicrophonePermissionCallback_mE2A9CFCCC413D24F983B21227DD6A642BF34EB4F (void);
-// 0x0000011D System.Boolean Photon.Voice.Unity.UtilityScripts.MicrophonePermission::get_HasPermission()
+// 0x0000011C System.Boolean Photon.Voice.Unity.UtilityScripts.MicrophonePermission::get_HasPermission()
 extern void MicrophonePermission_get_HasPermission_m773615381AC3967003443446C9CA2AABD514CE4D (void);
-// 0x0000011E System.Void Photon.Voice.Unity.UtilityScripts.MicrophonePermission::set_HasPermission(System.Boolean)
+// 0x0000011D System.Void Photon.Voice.Unity.UtilityScripts.MicrophonePermission::set_HasPermission(System.Boolean)
 extern void MicrophonePermission_set_HasPermission_mCB3681FA86940575D5532C7552A989C609D431FC (void);
-// 0x0000011F System.Void Photon.Voice.Unity.UtilityScripts.MicrophonePermission::Awake()
+// 0x0000011E System.Void Photon.Voice.Unity.UtilityScripts.MicrophonePermission::Awake()
 extern void MicrophonePermission_Awake_m575BE9C28AA5257A87876FED7345D6F6B3DC9B29 (void);
-// 0x00000120 System.Void Photon.Voice.Unity.UtilityScripts.MicrophonePermission::InitVoice()
+// 0x0000011F System.Void Photon.Voice.Unity.UtilityScripts.MicrophonePermission::InitVoice()
 extern void MicrophonePermission_InitVoice_mF9BDEADC69712528E75E82A767D26898DAD82EBA (void);
-// 0x00000121 System.Void Photon.Voice.Unity.UtilityScripts.MicrophonePermission::PermissionCallbacks_PermissionDeniedAndDontAskAgain(System.String)
+// 0x00000120 System.Void Photon.Voice.Unity.UtilityScripts.MicrophonePermission::PermissionCallbacks_PermissionDeniedAndDontAskAgain(System.String)
 extern void MicrophonePermission_PermissionCallbacks_PermissionDeniedAndDontAskAgain_m44394C1413A1AB6E5FD1C7973D9E1CFDB2E752CD (void);
-// 0x00000122 System.Void Photon.Voice.Unity.UtilityScripts.MicrophonePermission::PermissionCallbacks_PermissionGranted(System.String)
+// 0x00000121 System.Void Photon.Voice.Unity.UtilityScripts.MicrophonePermission::PermissionCallbacks_PermissionGranted(System.String)
 extern void MicrophonePermission_PermissionCallbacks_PermissionGranted_m17DD84B1FD901ACA84CCBE7AD0B05BEADB263D4B (void);
-// 0x00000123 System.Void Photon.Voice.Unity.UtilityScripts.MicrophonePermission::PermissionCallbacks_PermissionDenied(System.String)
+// 0x00000122 System.Void Photon.Voice.Unity.UtilityScripts.MicrophonePermission::PermissionCallbacks_PermissionDenied(System.String)
 extern void MicrophonePermission_PermissionCallbacks_PermissionDenied_m425B07B578360C72E66ED59A6E29512FFC542B9D (void);
-// 0x00000124 System.Void Photon.Voice.Unity.UtilityScripts.MicrophonePermission::.ctor()
+// 0x00000123 System.Void Photon.Voice.Unity.UtilityScripts.MicrophonePermission::.ctor()
 extern void MicrophonePermission__ctor_mD4A66D79C83CCE9FF1B089161382D370B646C1FE (void);
-// 0x00000125 System.Void Photon.Voice.Unity.UtilityScripts.PhotonVoiceLagSimulationGui::OnEnable()
+// 0x00000124 System.Void Photon.Voice.Unity.UtilityScripts.PhotonVoiceLagSimulationGui::OnEnable()
 extern void PhotonVoiceLagSimulationGui_OnEnable_mB5C48CEFC1ACD027B71766F9C645D82423002820 (void);
-// 0x00000126 System.Void Photon.Voice.Unity.UtilityScripts.PhotonVoiceLagSimulationGui::OnGUI()
+// 0x00000125 System.Void Photon.Voice.Unity.UtilityScripts.PhotonVoiceLagSimulationGui::OnGUI()
 extern void PhotonVoiceLagSimulationGui_OnGUI_m33FD8B912D29AB1564B3AA7B43926CD47E2851EA (void);
-// 0x00000127 System.Void Photon.Voice.Unity.UtilityScripts.PhotonVoiceLagSimulationGui::NetSimHasNoPeerWindow(System.Int32)
+// 0x00000126 System.Void Photon.Voice.Unity.UtilityScripts.PhotonVoiceLagSimulationGui::NetSimHasNoPeerWindow(System.Int32)
 extern void PhotonVoiceLagSimulationGui_NetSimHasNoPeerWindow_mBC4372FC5EB0B7F488D1D7D7E8570CCD05691441 (void);
-// 0x00000128 System.Void Photon.Voice.Unity.UtilityScripts.PhotonVoiceLagSimulationGui::NetSimWindow(System.Int32)
+// 0x00000127 System.Void Photon.Voice.Unity.UtilityScripts.PhotonVoiceLagSimulationGui::NetSimWindow(System.Int32)
 extern void PhotonVoiceLagSimulationGui_NetSimWindow_mE15BFDA974278A2F5E3FB785B5151087A2B95C43 (void);
-// 0x00000129 System.Void Photon.Voice.Unity.UtilityScripts.PhotonVoiceLagSimulationGui::.ctor()
+// 0x00000128 System.Void Photon.Voice.Unity.UtilityScripts.PhotonVoiceLagSimulationGui::.ctor()
 extern void PhotonVoiceLagSimulationGui__ctor_m637B94E69E32AB0C8EECE759909E11D1E0A77E4A (void);
-// 0x0000012A System.Void Photon.Voice.Unity.UtilityScripts.PhotonVoiceStatsGui::OnEnable()
+// 0x00000129 System.Void Photon.Voice.Unity.UtilityScripts.PhotonVoiceStatsGui::OnEnable()
 extern void PhotonVoiceStatsGui_OnEnable_mB740FFABD0CDB0DE8BC453EA7AFC1B3ED3B36D71 (void);
-// 0x0000012B System.Void Photon.Voice.Unity.UtilityScripts.PhotonVoiceStatsGui::Update()
+// 0x0000012A System.Void Photon.Voice.Unity.UtilityScripts.PhotonVoiceStatsGui::Update()
 extern void PhotonVoiceStatsGui_Update_mB384EE93629E553DA1E91E429F7BCD1BDF3C8576 (void);
-// 0x0000012C System.Void Photon.Voice.Unity.UtilityScripts.PhotonVoiceStatsGui::OnGUI()
+// 0x0000012B System.Void Photon.Voice.Unity.UtilityScripts.PhotonVoiceStatsGui::OnGUI()
 extern void PhotonVoiceStatsGui_OnGUI_m89DC27BAA17C7A69420DE48F7C38D8BCBCAB4946 (void);
-// 0x0000012D System.Void Photon.Voice.Unity.UtilityScripts.PhotonVoiceStatsGui::TrafficStatsWindow(System.Int32)
+// 0x0000012C System.Void Photon.Voice.Unity.UtilityScripts.PhotonVoiceStatsGui::TrafficStatsWindow(System.Int32)
 extern void PhotonVoiceStatsGui_TrafficStatsWindow_m2C30EE406DDF776AC9E5F3299C1E2A07DD4A7B23 (void);
-// 0x0000012E System.Void Photon.Voice.Unity.UtilityScripts.PhotonVoiceStatsGui::.ctor()
+// 0x0000012D System.Void Photon.Voice.Unity.UtilityScripts.PhotonVoiceStatsGui::.ctor()
 extern void PhotonVoiceStatsGui__ctor_mD5C775C32E2D9EA081752DC8AA3CB354CD73DA98 (void);
-// 0x0000012F System.Void Photon.Voice.Unity.UtilityScripts.SaveIncomingStreamToFile::Awake()
+// 0x0000012E System.Void Photon.Voice.Unity.UtilityScripts.SaveIncomingStreamToFile::Awake()
 extern void SaveIncomingStreamToFile_Awake_m488EC6BF522F8E701641E79182BC5159D2459BBD (void);
-// 0x00000130 System.Void Photon.Voice.Unity.UtilityScripts.SaveIncomingStreamToFile::OnSpeakerLinked(Photon.Voice.Unity.Speaker)
+// 0x0000012F System.Void Photon.Voice.Unity.UtilityScripts.SaveIncomingStreamToFile::OnSpeakerLinked(Photon.Voice.Unity.Speaker)
 extern void SaveIncomingStreamToFile_OnSpeakerLinked_m441F4227F7F6CB31C0C5DA87B1EC134BA05B1AAD (void);
-// 0x00000131 System.Void Photon.Voice.Unity.UtilityScripts.SaveIncomingStreamToFile::OnDestroy()
+// 0x00000130 System.Void Photon.Voice.Unity.UtilityScripts.SaveIncomingStreamToFile::OnDestroy()
 extern void SaveIncomingStreamToFile_OnDestroy_m2F0342BAC2242EB27A89BF2A544C2237739A2928 (void);
-// 0x00000132 System.Void Photon.Voice.Unity.UtilityScripts.SaveIncomingStreamToFile::OnRemoteVoiceAdded(Photon.Voice.Unity.RemoteVoiceLink)
+// 0x00000131 System.Void Photon.Voice.Unity.UtilityScripts.SaveIncomingStreamToFile::OnRemoteVoiceAdded(Photon.Voice.Unity.RemoteVoiceLink)
 extern void SaveIncomingStreamToFile_OnRemoteVoiceAdded_m0ED7856BAFC5671876C3837F9A0570D8C8AE7A0B (void);
-// 0x00000133 System.String Photon.Voice.Unity.UtilityScripts.SaveIncomingStreamToFile::GetFilePath(Photon.Voice.Unity.RemoteVoiceLink)
+// 0x00000132 System.String Photon.Voice.Unity.UtilityScripts.SaveIncomingStreamToFile::GetFilePath(Photon.Voice.Unity.RemoteVoiceLink)
 extern void SaveIncomingStreamToFile_GetFilePath_mA70252DBA0AAC7B473BC0358B5B9403CE7C19C5E (void);
-// 0x00000134 System.Void Photon.Voice.Unity.UtilityScripts.SaveIncomingStreamToFile::.ctor()
+// 0x00000133 System.Void Photon.Voice.Unity.UtilityScripts.SaveIncomingStreamToFile::.ctor()
 extern void SaveIncomingStreamToFile__ctor_m7A322CCD5CF2F9480D516E63E4151C6EC41A9D00 (void);
-// 0x00000135 System.Void Photon.Voice.Unity.UtilityScripts.SaveIncomingStreamToFile/<>c__DisplayClass5_0::.ctor()
+// 0x00000134 System.Void Photon.Voice.Unity.UtilityScripts.SaveIncomingStreamToFile/<>c__DisplayClass5_0::.ctor()
 extern void U3CU3Ec__DisplayClass5_0__ctor_m674636F2008E053FC99AC725DA4BF6FA34A42389 (void);
-// 0x00000136 System.Void Photon.Voice.Unity.UtilityScripts.SaveIncomingStreamToFile/<>c__DisplayClass5_0::<OnRemoteVoiceAdded>b__0(Photon.Voice.FrameOut`1<System.Single>)
+// 0x00000135 System.Void Photon.Voice.Unity.UtilityScripts.SaveIncomingStreamToFile/<>c__DisplayClass5_0::<OnRemoteVoiceAdded>b__0(Photon.Voice.FrameOut`1<System.Single>)
 extern void U3CU3Ec__DisplayClass5_0_U3COnRemoteVoiceAddedU3Eb__0_m3265BAEC06460A39E134CEDAF92D4AD8DC4232D3 (void);
-// 0x00000137 System.Void Photon.Voice.Unity.UtilityScripts.SaveIncomingStreamToFile/<>c__DisplayClass5_0::<OnRemoteVoiceAdded>b__1()
+// 0x00000136 System.Void Photon.Voice.Unity.UtilityScripts.SaveIncomingStreamToFile/<>c__DisplayClass5_0::<OnRemoteVoiceAdded>b__1()
 extern void U3CU3Ec__DisplayClass5_0_U3COnRemoteVoiceAddedU3Eb__1_m88401E3EF635535CE178EFFAE5FAC1F98062DE3E (void);
-// 0x00000138 System.Void Photon.Voice.Unity.UtilityScripts.SaveOutgoingStreamToFile::PhotonVoiceCreated(Photon.Voice.Unity.PhotonVoiceCreatedParams)
+// 0x00000137 System.Void Photon.Voice.Unity.UtilityScripts.SaveOutgoingStreamToFile::PhotonVoiceCreated(Photon.Voice.Unity.PhotonVoiceCreatedParams)
 extern void SaveOutgoingStreamToFile_PhotonVoiceCreated_mF4B16529C2FDA9F5053291B6C43D4C720CABFCBE (void);
-// 0x00000139 System.String Photon.Voice.Unity.UtilityScripts.SaveOutgoingStreamToFile::GetFilePath()
+// 0x00000138 System.String Photon.Voice.Unity.UtilityScripts.SaveOutgoingStreamToFile::GetFilePath()
 extern void SaveOutgoingStreamToFile_GetFilePath_mDB517C829E4480DEB80E0F5EC3F38AAF66D9B6EB (void);
-// 0x0000013A System.Void Photon.Voice.Unity.UtilityScripts.SaveOutgoingStreamToFile::PhotonVoiceRemoved()
+// 0x00000139 System.Void Photon.Voice.Unity.UtilityScripts.SaveOutgoingStreamToFile::PhotonVoiceRemoved()
 extern void SaveOutgoingStreamToFile_PhotonVoiceRemoved_m15E12CE64F2ADE8C0ACCE526990504C4F2DB2910 (void);
-// 0x0000013B System.Void Photon.Voice.Unity.UtilityScripts.SaveOutgoingStreamToFile::.ctor()
+// 0x0000013A System.Void Photon.Voice.Unity.UtilityScripts.SaveOutgoingStreamToFile::.ctor()
 extern void SaveOutgoingStreamToFile__ctor_mB36623985C112DA100954C05DBC662FDBD80C4BA (void);
-// 0x0000013C System.Void Photon.Voice.Unity.UtilityScripts.SaveOutgoingStreamToFile/OutgoingStreamSaverFloat::.ctor(Photon.Voice.Unity.UtilityScripts.WaveWriter)
+// 0x0000013B System.Void Photon.Voice.Unity.UtilityScripts.SaveOutgoingStreamToFile/OutgoingStreamSaverFloat::.ctor(Photon.Voice.Unity.UtilityScripts.WaveWriter)
 extern void OutgoingStreamSaverFloat__ctor_mD4E6FBE3DE2DA7B3F708F1ABD33B502E56C0EF06 (void);
-// 0x0000013D System.Single[] Photon.Voice.Unity.UtilityScripts.SaveOutgoingStreamToFile/OutgoingStreamSaverFloat::Process(System.Single[])
+// 0x0000013C System.Single[] Photon.Voice.Unity.UtilityScripts.SaveOutgoingStreamToFile/OutgoingStreamSaverFloat::Process(System.Single[])
 extern void OutgoingStreamSaverFloat_Process_m4F73A719AA7CDA9C3286CC76B748FB2736E5AFCB (void);
-// 0x0000013E System.Void Photon.Voice.Unity.UtilityScripts.SaveOutgoingStreamToFile/OutgoingStreamSaverFloat::Dispose()
+// 0x0000013D System.Void Photon.Voice.Unity.UtilityScripts.SaveOutgoingStreamToFile/OutgoingStreamSaverFloat::Dispose()
 extern void OutgoingStreamSaverFloat_Dispose_mE34C8F8B24D62B6DBFC58123560B90CB2E9B1E42 (void);
-// 0x0000013F System.Void Photon.Voice.Unity.UtilityScripts.SaveOutgoingStreamToFile/OutgoingStreamSaverShort::.ctor(Photon.Voice.Unity.UtilityScripts.WaveWriter)
+// 0x0000013E System.Void Photon.Voice.Unity.UtilityScripts.SaveOutgoingStreamToFile/OutgoingStreamSaverShort::.ctor(Photon.Voice.Unity.UtilityScripts.WaveWriter)
 extern void OutgoingStreamSaverShort__ctor_mE2FC2DFA4568C9B41738AA677A6AFC88EDA53CCE (void);
-// 0x00000140 System.Int16[] Photon.Voice.Unity.UtilityScripts.SaveOutgoingStreamToFile/OutgoingStreamSaverShort::Process(System.Int16[])
+// 0x0000013F System.Int16[] Photon.Voice.Unity.UtilityScripts.SaveOutgoingStreamToFile/OutgoingStreamSaverShort::Process(System.Int16[])
 extern void OutgoingStreamSaverShort_Process_mE2A38470D2808A1BE2B47D6677CF639345376370 (void);
-// 0x00000141 System.Void Photon.Voice.Unity.UtilityScripts.SaveOutgoingStreamToFile/OutgoingStreamSaverShort::Dispose()
+// 0x00000140 System.Void Photon.Voice.Unity.UtilityScripts.SaveOutgoingStreamToFile/OutgoingStreamSaverShort::Dispose()
 extern void OutgoingStreamSaverShort_Dispose_m264FD0D719B1DD529916DFB69064EDEBB9640BFB (void);
-// 0x00000142 System.Void Photon.Voice.Unity.UtilityScripts.TestTone::Start()
+// 0x00000141 System.Void Photon.Voice.Unity.UtilityScripts.TestTone::Start()
 extern void TestTone_Start_mB8A5A8DAE84888596E4B67619A6E2B3258BF03CE (void);
-// 0x00000143 System.Void Photon.Voice.Unity.UtilityScripts.TestTone::.ctor()
+// 0x00000142 System.Void Photon.Voice.Unity.UtilityScripts.TestTone::.ctor()
 extern void TestTone__ctor_mF62EDF8AB84B09AB5F4620DFF9091100F2EC7C79 (void);
-// 0x00000144 System.Void Photon.Voice.Unity.UtilityScripts.TestTone/<>c::.cctor()
+// 0x00000143 System.Void Photon.Voice.Unity.UtilityScripts.TestTone/<>c::.cctor()
 extern void U3CU3Ec__cctor_m0099BE6979E70C95124E261FF67C062E3F3D5F3C (void);
-// 0x00000145 System.Void Photon.Voice.Unity.UtilityScripts.TestTone/<>c::.ctor()
+// 0x00000144 System.Void Photon.Voice.Unity.UtilityScripts.TestTone/<>c::.ctor()
 extern void U3CU3Ec__ctor_m85FFABB32BE7E098A924EC2D0F049E5353CE2543 (void);
-// 0x00000146 Photon.Voice.IAudioDesc Photon.Voice.Unity.UtilityScripts.TestTone/<>c::<Start>b__0_0()
+// 0x00000145 Photon.Voice.IAudioDesc Photon.Voice.Unity.UtilityScripts.TestTone/<>c::<Start>b__0_0()
 extern void U3CU3Ec_U3CStartU3Eb__0_0_m577C6752940D6CFACDF5FB47E784E754A67B5B91 (void);
-// 0x00000147 System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::.ctor(System.String,System.Int32,System.Int32,System.Int32)
+// 0x00000146 System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::.ctor(System.String,System.Int32,System.Int32,System.Int32)
 extern void WaveWriter__ctor_mDA90748597EDDFD324F89956D5B644DAB91010E6 (void);
-// 0x00000148 System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::.ctor(System.IO.Stream,System.Int32,System.Int32,System.Int32)
+// 0x00000147 System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::.ctor(System.IO.Stream,System.Int32,System.Int32,System.Int32)
 extern void WaveWriter__ctor_m68FE107F552B2F4BB3289E5497AF2EDDA1457D97 (void);
-// 0x00000149 System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::Dispose()
+// 0x00000148 System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::Dispose()
 extern void WaveWriter_Dispose_m4424F9EDE3BCDD8834C0169FBC1D6EE9CE60EAEE (void);
-// 0x0000014A System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::WriteSample(System.Single)
+// 0x00000149 System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::WriteSample(System.Single)
 extern void WaveWriter_WriteSample_m86E8B1A958C911ABEBC182EB249AA6BA6DBEE974 (void);
-// 0x0000014B System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::WriteSamples(System.Single[],System.Int32,System.Int32)
+// 0x0000014A System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::WriteSamples(System.Single[],System.Int32,System.Int32)
 extern void WaveWriter_WriteSamples_m93C6AE051374D8B8F8D0608C886B98A1261AD966 (void);
-// 0x0000014C System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::Write(System.Byte[],System.Int32,System.Int32)
+// 0x0000014B System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::Write(System.Byte[],System.Int32,System.Int32)
 extern void WaveWriter_Write_mC8326621B40B757B52C43A45C1AB0D3F344B1C19 (void);
-// 0x0000014D System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::Write(System.Byte)
+// 0x0000014C System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::Write(System.Byte)
 extern void WaveWriter_Write_m6C6A031251231B79B1030B7C8D1C041C670A85B8 (void);
-// 0x0000014E System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::Write(System.Int16)
+// 0x0000014D System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::Write(System.Int16)
 extern void WaveWriter_Write_m5A8BEC7FE6C84386DA898181CE95679EE22645C3 (void);
-// 0x0000014F System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::Write(System.Int32)
+// 0x0000014E System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::Write(System.Int32)
 extern void WaveWriter_Write_mEB193C5ABBBC40C45BD57971C40B031C9DC7F0DD (void);
-// 0x00000150 System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::Write(System.Single)
+// 0x0000014F System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::Write(System.Single)
 extern void WaveWriter_Write_mA75F9F82A541ED873C22FF2341132A504875CC2F (void);
-// 0x00000151 System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::WriteHeader()
+// 0x00000150 System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::WriteHeader()
 extern void WaveWriter_WriteHeader_m636F1CEE22EDB9A7FF829F7001219D5514EDB95F (void);
-// 0x00000152 System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::Dispose(System.Boolean)
+// 0x00000151 System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::Dispose(System.Boolean)
 extern void WaveWriter_Dispose_m62E3C4AE3F329E8BAC871484ACD50673C02C6FED (void);
-// 0x00000153 System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::Finalize()
+// 0x00000152 System.Void Photon.Voice.Unity.UtilityScripts.WaveWriter::Finalize()
 extern void WaveWriter_Finalize_mCD10E7877CD51F98C92558F82A6D6FAF8CF424D1 (void);
-static Il2CppMethodPointer s_methodPointers[339] = 
+static Il2CppMethodPointer s_methodPointers[338] = 
 {
 	PhotonAppSettings_UseCloud_mDE9FE981FF01DE1E092BA5D400BD8499F43F53B3,
 	PhotonAppSettings_get_Instance_m1832F61D8631069601DA5BE3C37C431F91E0FA41,
@@ -770,7 +768,6 @@ static Il2CppMethodPointer s_methodPointers[339] =
 	Recorder_Update_m2292B992DE3E76536FD718EC646535C5523D9607,
 	Recorder_OnDestroy_mEAB0C8777A0031CC5CDBFE31E887E0E728B8C7BB,
 	Recorder_HandleDeviceChange_mCDC3E8FDE14EC0D397AF584C610CC17F46C15CD3,
-	Recorder_GetThresholdFromDetector_m9C5713684F5236D5DD24213D98C5AC17B9BFB0AB,
 	Recorder_OnApplicationPause_mAF04BC1BF50F4168D3D671016109696B2EC7109D,
 	Recorder_OnApplicationFocus_mA0659893C776982B9EBA471F6E23960624AF46AA,
 	Recorder_HandleApplicationPause_mF305F609099FB7F04E3DF74D6EC11D8C1493C680,
@@ -1035,355 +1032,354 @@ static Il2CppMethodPointer s_methodPointers[339] =
 extern void NativeAndroidMicrophoneSettings_BuildAndroidAudioInParameters_m0E926DA2EBCF2FBB2D85C5827329C98AB2BF946C_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] = 
 {
-	{ 0x06000054, NativeAndroidMicrophoneSettings_BuildAndroidAudioInParameters_m0E926DA2EBCF2FBB2D85C5827329C98AB2BF946C_AdjustorThunk },
+	{ 0x06000053, NativeAndroidMicrophoneSettings_BuildAndroidAudioInParameters_m0E926DA2EBCF2FBB2D85C5827329C98AB2BF946C_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[339] = 
+static const int32_t s_InvokerIndices[338] = 
 {
-	4508,
-	16476,
-	16532,
-	9714,
-	9873,
-	9873,
-	9873,
-	9873,
-	9873,
-	7705,
-	9873,
-	9873,
-	9576,
-	7705,
-	9576,
-	7705,
-	9576,
-	7705,
-	9576,
-	7705,
-	9576,
-	7705,
-	9787,
-	7918,
-	9669,
-	7800,
-	9714,
-	7845,
-	9714,
-	7845,
-	9714,
-	9576,
-	7705,
-	9576,
-	9714,
-	9576,
-	9714,
-	9669,
-	7800,
-	9669,
-	7800,
-	9714,
-	7845,
-	9576,
-	7705,
-	9669,
-	7800,
-	9669,
-	7800,
-	9669,
-	7800,
-	9576,
-	7705,
-	9576,
-	7705,
-	9576,
-	7705,
-	9576,
-	7705,
-	9576,
-	7705,
-	9599,
-	7734,
-	5658,
-	5658,
-	9576,
-	4148,
-	9873,
-	9873,
-	5523,
-	1842,
-	1818,
-	9576,
-	9714,
-	9873,
-	9873,
-	9873,
-	9873,
-	9873,
-	7705,
-	7705,
-	7705,
-	9873,
-	9714,
-	16532,
-	9873,
-	7918,
-	16532,
-	9873,
-	9714,
-	9873,
-	9873,
-	9873,
-	7845,
-	7845,
-	7845,
-	7845,
+	4518,
+	16499,
+	16555,
+	9736,
+	9895,
+	9895,
+	9895,
+	9895,
+	9895,
+	7723,
+	9895,
+	9895,
+	9598,
+	7723,
+	9598,
+	7723,
+	9598,
+	7723,
+	9598,
+	7723,
+	9598,
+	7723,
+	9809,
+	7936,
+	9691,
+	7818,
+	9736,
+	7863,
+	9736,
+	7863,
+	9736,
+	9598,
+	7723,
+	9598,
+	9736,
+	9598,
+	9736,
+	9691,
+	7818,
+	9691,
+	7818,
+	9736,
+	7863,
+	9598,
+	7723,
+	9691,
+	7818,
+	9691,
+	7818,
+	9691,
+	7818,
+	9598,
+	7723,
+	9598,
+	7723,
+	9598,
+	7723,
+	9598,
+	7723,
+	9598,
+	7723,
+	9621,
+	7752,
+	5672,
+	5672,
+	9598,
+	4157,
+	9895,
+	9895,
+	5537,
+	1844,
+	1820,
+	9598,
+	9736,
+	9895,
+	9895,
+	9895,
+	9895,
+	7723,
+	7723,
+	7723,
+	9895,
+	9736,
+	16555,
+	9895,
+	7936,
+	16555,
+	9895,
+	9736,
+	9895,
+	9895,
+	9895,
+	7863,
+	7863,
+	7863,
+	7863,
 	897,
-	9873,
-	7845,
-	9714,
-	9576,
-	9669,
-	9714,
-	7845,
-	9714,
-	7845,
-	9576,
-	9910,
-	8086,
-	9669,
-	7800,
-	9873,
-	7705,
-	9873,
-	9714,
-	5658,
-	9873,
-	7845,
-	9576,
-	9873,
-	9873,
-	9873,
-	9873,
-	9873,
-	9576,
-	7705,
-	9873,
-	9714,
-	4500,
-	9873,
-	9576,
-	9873,
-	5658,
-	2053,
-	9873,
-	9576,
-	9873,
-	7845,
-	7845,
-	7845,
-	7845,
-	9714,
-	9714,
-	9714,
-	9714,
-	9669,
-	9787,
-	7918,
-	9787,
-	7918,
-	9787,
-	7918,
-	9714,
-	7845,
-	9714,
-	7845,
-	9576,
-	9714,
-	7845,
-	5658,
-	2772,
-	9873,
-	9873,
-	9873,
-	9873,
-	9873,
-	2053,
-	3520,
+	9895,
+	7863,
+	9736,
+	9598,
+	9691,
+	9736,
+	7863,
+	9736,
+	7863,
+	9598,
+	9932,
+	8104,
+	9691,
+	7818,
+	9895,
+	7723,
+	9895,
+	9736,
+	5672,
+	9895,
+	7863,
+	9598,
+	9895,
+	9895,
+	9895,
+	9895,
+	9895,
+	9598,
+	7723,
+	9895,
+	9736,
+	4510,
+	9895,
+	9598,
+	9895,
+	5672,
+	2056,
+	9895,
+	9598,
+	9895,
+	7863,
+	7863,
+	7863,
+	7863,
+	9736,
+	9736,
+	9736,
+	9736,
+	9691,
+	9809,
+	7936,
+	9809,
+	7936,
+	9809,
+	7936,
+	9736,
+	7863,
+	9736,
+	7863,
+	9598,
+	9736,
+	7863,
+	5672,
+	2779,
+	9895,
+	9895,
+	9895,
+	9895,
+	9895,
+	2056,
+	3527,
 	786,
-	4112,
-	9873,
-	4508,
-	5658,
-	7845,
-	7845,
-	9873,
-	7845,
-	9873,
-	9873,
-	9873,
-	9873,
-	9873,
-	9714,
-	9714,
-	7845,
-	9873,
-	9714,
-	9714,
-	7845,
-	7845,
-	9873,
-	2386,
-	7845,
-	2233,
-	4508,
-	4508,
-	4508,
-	4508,
-	9873,
-	9873,
-	15248,
-	16476,
-	9873,
-	10538,
-	11607,
-	16476,
-	9576,
-	7705,
-	9576,
-	7705,
-	9669,
-	7800,
-	9576,
-	7705,
-	9576,
-	7705,
-	9576,
-	7705,
-	9576,
-	7705,
-	9669,
-	7800,
-	9669,
-	7800,
-	9576,
-	7705,
-	9873,
-	9873,
-	9576,
-	3719,
-	7705,
-	4500,
-	7845,
-	9873,
-	9873,
-	7845,
-	7845,
-	9873,
-	7705,
-	9873,
-	9873,
-	16532,
-	9576,
-	9873,
-	9873,
-	9873,
-	9873,
-	9873,
-	3786,
-	7845,
-	9873,
-	3786,
-	3786,
-	9873,
-	9873,
-	9873,
-	7800,
-	7845,
-	7845,
-	7845,
-	9873,
-	9787,
-	7918,
-	9873,
-	9873,
-	7845,
-	9873,
-	9787,
-	7918,
-	9576,
-	7705,
-	7918,
-	7005,
-	9873,
-	9787,
-	7918,
-	9576,
-	7705,
-	7918,
-	7005,
-	9873,
-	15579,
-	15579,
-	9576,
-	7705,
-	9873,
-	9873,
-	7845,
-	7845,
-	7845,
-	9873,
-	9873,
-	9873,
-	7800,
-	7800,
-	9873,
-	9873,
-	9873,
-	9873,
-	7800,
-	9873,
-	9873,
-	7845,
-	9873,
-	7845,
-	7005,
-	9873,
-	9873,
-	7845,
-	9873,
-	7845,
-	9714,
-	9873,
-	9873,
-	7845,
-	7005,
-	9873,
-	7845,
-	7005,
-	9873,
-	9873,
-	9873,
-	16532,
-	9873,
-	9714,
-	1660,
-	1660,
-	9873,
-	7918,
-	2359,
-	2359,
-	7705,
-	7799,
-	7800,
-	7918,
-	9873,
-	7705,
-	9873,
+	4121,
+	9895,
+	4518,
+	5672,
+	7863,
+	7863,
+	9895,
+	7863,
+	9895,
+	9895,
+	9895,
+	9895,
+	9895,
+	9736,
+	9736,
+	7863,
+	9895,
+	9736,
+	9736,
+	7863,
+	7863,
+	9895,
+	2391,
+	7863,
+	2236,
+	4518,
+	4518,
+	4518,
+	4518,
+	9895,
+	9895,
+	15271,
+	16499,
+	9895,
+	10560,
+	11630,
+	16499,
+	9598,
+	7723,
+	9598,
+	7723,
+	9691,
+	7818,
+	9598,
+	7723,
+	9598,
+	7723,
+	9598,
+	7723,
+	9598,
+	7723,
+	9691,
+	7818,
+	9691,
+	7818,
+	9598,
+	7723,
+	9895,
+	9895,
+	9598,
+	3726,
+	7723,
+	4510,
+	7863,
+	9895,
+	9895,
+	7863,
+	7863,
+	9895,
+	7723,
+	9895,
+	9895,
+	16555,
+	9598,
+	9895,
+	9895,
+	9895,
+	9895,
+	9895,
+	3793,
+	7863,
+	9895,
+	3793,
+	3793,
+	9895,
+	9895,
+	9895,
+	7818,
+	7863,
+	7863,
+	7863,
+	9895,
+	9809,
+	7936,
+	9895,
+	9895,
+	7863,
+	9895,
+	9809,
+	7936,
+	9598,
+	7723,
+	7936,
+	7021,
+	9895,
+	9809,
+	7936,
+	9598,
+	7723,
+	7936,
+	7021,
+	9895,
+	15602,
+	15602,
+	9598,
+	7723,
+	9895,
+	9895,
+	7863,
+	7863,
+	7863,
+	9895,
+	9895,
+	9895,
+	7818,
+	7818,
+	9895,
+	9895,
+	9895,
+	9895,
+	7818,
+	9895,
+	9895,
+	7863,
+	9895,
+	7863,
+	7021,
+	9895,
+	9895,
+	7863,
+	9895,
+	7863,
+	9736,
+	9895,
+	9895,
+	7863,
+	7021,
+	9895,
+	7863,
+	7021,
+	9895,
+	9895,
+	9895,
+	16555,
+	9895,
+	9736,
+	1662,
+	1662,
+	9895,
+	7936,
+	2364,
+	2364,
+	7723,
+	7817,
+	7818,
+	7936,
+	9895,
+	7723,
+	9895,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_PhotonVoice_CodeGenModule;
 const Il2CppCodeGenModule g_PhotonVoice_CodeGenModule = 
 {
 	"PhotonVoice.dll",
-	339,
+	338,
 	s_methodPointers,
 	1,
 	s_adjustorThunks,

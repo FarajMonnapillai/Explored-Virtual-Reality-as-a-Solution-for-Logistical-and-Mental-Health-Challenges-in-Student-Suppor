@@ -8102,8 +8102,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Recorder_get_LevelMeter_m4F6C7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceDemoUI_UpdateUiBasedOnVoiceState_mEFBFDED03B1DAC9C2D8D5EBFAABACD3B95B48549 (VoiceDemoUI_tCC1F6BE115FC5E35B753A6A2BBDF1FB2B3911EFD* __this, int32_t ___0_voiceClientState, const RuntimeMethod* method) ;
 // System.Boolean Photon.Pun.PhotonNetwork::get_InRoom()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonNetwork_get_InRoom_mFBE0C1A516C34FBAD9923933C73E07080FDA199D (const RuntimeMethod* method) ;
-// System.Void Photon.Realtime.LoadBalancingClient::Disconnect(Photon.Realtime.DisconnectCause)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient_Disconnect_m9E92F0FD6E20FA7FCB107FD132A62F6DEEC9AEF8 (LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* __this, int32_t ___0_cause, const RuntimeMethod* method) ;
 // System.Void OculusSampleFramework.ColorGrabbable::UpdateColor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGrabbable_UpdateColor_mCE9D7D0D07EFD5755541BA9DAB7E6CB8AA29DE2F (ColorGrabbable_t5D566462724092EB2B56A59AB4A4054969A46121* __this, const RuntimeMethod* method) ;
 // System.Boolean OVRGrabbable::get_isGrabbed()
@@ -16159,24 +16157,34 @@ IL_01f3:
 // System.Void ExitGames.Demos.DemoPunVoice.VoiceDemoUI::OnApplicationQuit()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceDemoUI_OnApplicationQuit_m0985DCE467FAF9586E2402F767B6BBD61EEA6850 (VoiceDemoUI_tCC1F6BE115FC5E35B753A6A2BBDF1FB2B3911EFD* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		// this.punVoiceClient.Client.Disconnect();
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VoiceDemoUI_PunClientStateChanged_m0B921FFA02E884DF2330EAB1028D02E70E1574E4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VoiceDemoUI_VoiceClientStateChanged_m0C246B7B37739B1E50635EE3EC4501FD5996A174_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// this.punVoiceClient.Client.StateChanged -= this.VoiceClientStateChanged;
 		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_0 = __this->___punVoiceClient_6;
 		NullCheck(L_0);
 		LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* L_1;
 		L_1 = VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F(L_0, NULL);
-		NullCheck(L_1);
-		LoadBalancingClient_Disconnect_m9E92F0FD6E20FA7FCB107FD132A62F6DEEC9AEF8(L_1, ((int32_t)15), NULL);
-		// this.punVoiceClient.Client.LoadBalancingPeer.StopThread();
-		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_2 = __this->___punVoiceClient_6;
+		Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490* L_2 = (Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490*)il2cpp_codegen_object_new(Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
-		LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* L_3;
-		L_3 = VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F(L_2, NULL);
-		NullCheck(L_3);
-		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_4;
-		L_4 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(L_3, NULL);
+		Action_2__ctor_m914229254E2DD1066D0E81418D2410B78F40DEBB(L_2, __this, (intptr_t)((void*)VoiceDemoUI_VoiceClientStateChanged_m0C246B7B37739B1E50635EE3EC4501FD5996A174_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		LoadBalancingClient_remove_StateChanged_m05D0CADDC74CE72BDD2CC9BBCBA8257D9CACD85B(L_1, L_2, NULL);
+		// PhotonNetwork.NetworkingClient.StateChanged -= this.PunClientStateChanged;
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* L_3 = ((PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_StaticFields*)il2cpp_codegen_static_fields_for(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var))->___NetworkingClient_2;
+		Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490* L_4 = (Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490*)il2cpp_codegen_object_new(Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490_il2cpp_TypeInfo_var);
 		NullCheck(L_4);
-		VirtualActionInvoker0::Invoke(9 /* System.Void ExitGames.Client.Photon.PhotonPeer::StopThread() */, L_4);
+		Action_2__ctor_m914229254E2DD1066D0E81418D2410B78F40DEBB(L_4, __this, (intptr_t)((void*)VoiceDemoUI_PunClientStateChanged_m0B921FFA02E884DF2330EAB1028D02E70E1574E4_RuntimeMethod_var), NULL);
+		NullCheck(L_3);
+		LoadBalancingClient_remove_StateChanged_m05D0CADDC74CE72BDD2CC9BBCBA8257D9CACD85B(L_3, L_4, NULL);
 		// }
 		return;
 	}

@@ -130,6 +130,8 @@ struct AsyncValue_1_tC5421C757AA1AAD9A26CFE04EDB3F0A123547AE3;
 struct AudioOutDelayControl_1_tDE92D1E5C97731C3EC748D8E4ECD1E28183FDC73;
 // Photon.Voice.AudioOutDelayControl`1<System.Single>
 struct AudioOutDelayControl_1_t58CC345DDDB952B3337C7221D25489E0DF8AE0DE;
+// Photon.Voice.AudioOutDummy`1<System.Object>
+struct AudioOutDummy_1_t42741BA3DE034E9B235B30EF3EE8E79BAB8A0602;
 // Photon.Voice.AudioSyncBuffer`1<System.Object>
 struct AudioSyncBuffer_1_t77890FE8C6A5C176E1C546968DD8AD212ACBB131;
 // Photon.Voice.AudioSyncBuffer`1<System.Single>
@@ -611,6 +613,11 @@ struct AsyncValue_1_tC5421C757AA1AAD9A26CFE04EDB3F0A123547AE3  : public RuntimeO
 	RuntimeObject* ___U3CvalueU3Ek__BackingField_7;
 	// System.Single UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1::<changeTimestamp>k__BackingField
 	float ___U3CchangeTimestampU3Ek__BackingField_8;
+};
+
+// Photon.Voice.AudioOutDummy`1<System.Object>
+struct AudioOutDummy_1_t42741BA3DE034E9B235B30EF3EE8E79BAB8A0602  : public RuntimeObject
+{
 };
 
 // Photon.Voice.AudioSyncBuffer`1<System.Object>
@@ -2365,6 +2372,10 @@ struct ArraySortHelper_2_t4AF8C900C0EE82707F837449B01BEABC8002A653_StaticFields
 // UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1<System.Object>
 
 // UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1<System.Object>
+
+// Photon.Voice.AudioOutDummy`1<System.Object>
+
+// Photon.Voice.AudioOutDummy`1<System.Object>
 
 // Photon.Voice.AudioSyncBuffer`1<System.Object>
 
@@ -24645,6 +24656,78 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioOutDelayControl_1_Stop_mAC8756D3B29
 		// this.started = false;
 		__this->___started_13 = (bool)0;
 		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Boolean Photon.Voice.AudioOutDummy`1<System.Object>::get_IsPlaying()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioOutDummy_1_get_IsPlaying_m3BEE7B5277E34D1BA644068F5C570EAFC0F99473_gshared (AudioOutDummy_1_t42741BA3DE034E9B235B30EF3EE8E79BAB8A0602* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsPlaying => false;
+		return (bool)0;
+	}
+}
+// System.Int32 Photon.Voice.AudioOutDummy`1<System.Object>::get_Lag()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioOutDummy_1_get_Lag_m6D009E92396A49399612F0DEC9756E31E7A7883A_gshared (AudioOutDummy_1_t42741BA3DE034E9B235B30EF3EE8E79BAB8A0602* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int Lag => 0;
+		return 0;
+	}
+}
+// System.Void Photon.Voice.AudioOutDummy`1<System.Object>::Flush()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioOutDummy_1_Flush_mD9248C6D61A01EF321B0064420981707F9620F56_gshared (AudioOutDummy_1_t42741BA3DE034E9B235B30EF3EE8E79BAB8A0602* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void Photon.Voice.AudioOutDummy`1<System.Object>::Push(T[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioOutDummy_1_Push_m067A03729C3E92E471FFDC629518173BD86C48F9_gshared (AudioOutDummy_1_t42741BA3DE034E9B235B30EF3EE8E79BAB8A0602* __this, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___0_frame, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void Photon.Voice.AudioOutDummy`1<System.Object>::Service()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioOutDummy_1_Service_m0D9CEEF3C80C9E800164F18D3FAA1703FCFA4455_gshared (AudioOutDummy_1_t42741BA3DE034E9B235B30EF3EE8E79BAB8A0602* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void Photon.Voice.AudioOutDummy`1<System.Object>::Start(System.Int32,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioOutDummy_1_Start_m1F6AE46DC4718B8AABECCC53C9BE32A74052B70F_gshared (AudioOutDummy_1_t42741BA3DE034E9B235B30EF3EE8E79BAB8A0602* __this, int32_t ___0_frequency, int32_t ___1_channels, int32_t ___2_frameSamplesPerChannel, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void Photon.Voice.AudioOutDummy`1<System.Object>::Stop()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioOutDummy_1_Stop_mAA8F5DF82A6519C78A098FB5F877A61A79DD7274_gshared (AudioOutDummy_1_t42741BA3DE034E9B235B30EF3EE8E79BAB8A0602* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void Photon.Voice.AudioOutDummy`1<System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioOutDummy_1__ctor_mB6E93C583B8D049677EAAF23DCF10105294D1143_gshared (AudioOutDummy_1_t42741BA3DE034E9B235B30EF3EE8E79BAB8A0602* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
 		return;
 	}
 }

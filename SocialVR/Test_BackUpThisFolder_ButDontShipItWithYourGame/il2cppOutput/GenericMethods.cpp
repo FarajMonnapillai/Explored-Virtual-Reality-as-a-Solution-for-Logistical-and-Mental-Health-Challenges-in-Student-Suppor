@@ -4722,8 +4722,8 @@ struct Encoder_1_t2842F88FA239B8D1A704F222556A99B53E77F796  : public RuntimeObje
 	bool ___disposed_1;
 	// System.String Photon.Voice.OpusCodec/Encoder`1::<Error>k__BackingField
 	String_t* ___U3CErrorU3Ek__BackingField_2;
-	// System.Action`2<System.ArraySegment`1<System.Byte>,Photon.Voice.FrameFlags> Photon.Voice.OpusCodec/Encoder`1::<Output>k__BackingField
-	Action_2_t200A26AA6AFF8C50FAAC2D6D43B25E7718E3A18A* ___U3COutputU3Ek__BackingField_3;
+	// System.Action`2<System.ArraySegment`1<System.Byte>,Photon.Voice.FrameFlags> Photon.Voice.OpusCodec/Encoder`1::output
+	Action_2_t200A26AA6AFF8C50FAAC2D6D43B25E7718E3A18A* ___output_3;
 };
 
 // Photon.Voice.RawCodec/Encoder`1<System.Int16>
@@ -4748,8 +4748,8 @@ struct Encoder_1_t9A71B8CB55738ABEF97CAE3783CC50BEE0FBC049  : public RuntimeObje
 	bool ___disposed_1;
 	// System.String Photon.Voice.OpusCodec/Encoder`1::<Error>k__BackingField
 	String_t* ___U3CErrorU3Ek__BackingField_2;
-	// System.Action`2<System.ArraySegment`1<System.Byte>,Photon.Voice.FrameFlags> Photon.Voice.OpusCodec/Encoder`1::<Output>k__BackingField
-	Action_2_t200A26AA6AFF8C50FAAC2D6D43B25E7718E3A18A* ___U3COutputU3Ek__BackingField_3;
+	// System.Action`2<System.ArraySegment`1<System.Byte>,Photon.Voice.FrameFlags> Photon.Voice.OpusCodec/Encoder`1::output
+	Action_2_t200A26AA6AFF8C50FAAC2D6D43B25E7718E3A18A* ___output_3;
 };
 
 // Photon.Voice.RawCodec/Encoder`1<System.Object>
@@ -4774,8 +4774,8 @@ struct Encoder_1_t46069E40DA962B35E5C8B5F6DAA6864D1A649EB8  : public RuntimeObje
 	bool ___disposed_1;
 	// System.String Photon.Voice.OpusCodec/Encoder`1::<Error>k__BackingField
 	String_t* ___U3CErrorU3Ek__BackingField_2;
-	// System.Action`2<System.ArraySegment`1<System.Byte>,Photon.Voice.FrameFlags> Photon.Voice.OpusCodec/Encoder`1::<Output>k__BackingField
-	Action_2_t200A26AA6AFF8C50FAAC2D6D43B25E7718E3A18A* ___U3COutputU3Ek__BackingField_3;
+	// System.Action`2<System.ArraySegment`1<System.Byte>,Photon.Voice.FrameFlags> Photon.Voice.OpusCodec/Encoder`1::output
+	Action_2_t200A26AA6AFF8C50FAAC2D6D43B25E7718E3A18A* ___output_3;
 };
 
 // Photon.Voice.RawCodec/Encoder`1<System.Single>

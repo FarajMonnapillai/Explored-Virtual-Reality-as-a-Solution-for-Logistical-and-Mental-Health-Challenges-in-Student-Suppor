@@ -362,6 +362,8 @@ struct Il2CppEagerStaticClassConstructionAttribute_t281D90A6001BE0D464C6ACDCCDC3
 struct ImageEffectAllowedInSceneView_t1F7C90CBB9520B45DE7107D93DFBF513A2A11AD8;
 // System.IndexOutOfRangeException
 struct IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82;
+// UnityEngine.InspectorNameAttribute
+struct InspectorNameAttribute_t30287A92B113253B9E22924DD6FC4C7007545497;
 // System.InvalidOperationException
 struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB;
 // System.Runtime.CompilerServices.IsReadOnlyAttribute
@@ -430,6 +432,8 @@ struct PlayerPrefsException_t960857DB45C7B0D7B7CEAC7FBA346D68DBDA0CB5;
 struct PreferBinarySerialization_tC45A9D40023B540A12C675B8CD57BBCE0B88BDCE;
 // Unity.Profiling.ProfilerRecorderDebugView
 struct ProfilerRecorderDebugView_t3038874E4671712E25FEF4730B3833739B321386;
+// UnityEngine.PropertyAttribute
+struct PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0;
 // JetBrains.Annotations.PureAttribute
 struct PureAttribute_t3849F74ED557F0AC093F5CB298A7ABE4486A1997;
 // Unity.Collections.ReadOnlyAttribute
@@ -2185,6 +2189,11 @@ struct ProfilerRecorderSample_t1F59CC43F81B774053308543605585CA87C94C5F
 	int64_t ___refValue_2;
 };
 
+// UnityEngine.PropertyAttribute
+struct PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+};
+
 // UnityEngine.PropertyName
 struct PropertyName_tE4B4AAA58AF3BF2C0CD95509EB7B786F096901C2 
 {
@@ -2921,6 +2930,13 @@ struct Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E_marshaled_pinvoke
 struct Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E_marshaled_com
 {
 	intptr_t ___m_Ptr_0;
+};
+
+// UnityEngine.InspectorNameAttribute
+struct InspectorNameAttribute_t30287A92B113253B9E22924DD6FC4C7007545497  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
+{
+	// System.String UnityEngine.InspectorNameAttribute::displayName
+	String_t* ___displayName_0;
 };
 
 // Unity.Jobs.JobHandle
@@ -4365,6 +4381,10 @@ struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_StaticFields
 
 // Unity.Profiling.ProfilerRecorderSample
 
+// UnityEngine.PropertyAttribute
+
+// UnityEngine.PropertyAttribute
+
 // UnityEngine.PropertyName
 
 // UnityEngine.PropertyName
@@ -4629,6 +4649,10 @@ struct Exception_t_StaticFields
 // UnityEngine.Gradient
 
 // UnityEngine.Gradient
+
+// UnityEngine.InspectorNameAttribute
+
+// UnityEngine.InspectorNameAttribute
 
 // Unity.Jobs.JobHandle
 
@@ -7407,10 +7431,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_GetScreenOrientation_m7F30F42A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Screen_get_currentResolution_Injected_mDD7FDFD0D75C71FB4A7261EEE08B1817C19EBE50 (Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525* ___0_ret, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Screen::get_safeArea_Injected(UnityEngine.Rect&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Screen_get_safeArea_Injected_m640AF525EB7C9F73CE34BA0B4B0BE2AA80AA53FF (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* ___0_ret, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Screen::SetResolution(System.Int32,System.Int32,UnityEngine.FullScreenMode,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Screen_SetResolution_m304B309D9323AEADA0943FD79FF5F0EB5B8AC1A2 (int32_t ___0_width, int32_t ___1_height, int32_t ___2_fullscreenMode, int32_t ___3_preferredRefreshRate, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Screen::SetResolution(System.Int32,System.Int32,System.Boolean,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Screen_SetResolution_mCDABC3299024A96B6ECD72B0859BAF424A0E4F7E (int32_t ___0_width, int32_t ___1_height, bool ___2_fullscreen, int32_t ___3_preferredRefreshRate, const RuntimeMethod* method) ;
 // UnityEngine.ResourcesAPI UnityEngine.ResourcesAPI::get_ActiveAPI()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ResourcesAPI_tDD1769E5695358FB56E4E0FA44A9E25900662A95* ResourcesAPI_get_ActiveAPI_mF850D558242EC69D97A42BCAEC2270D71F3250A4 (const RuntimeMethod* method) ;
 // System.Void UnityEngine.Shader::SetGlobalVectorImpl_Injected(System.Int32,UnityEngine.Vector4&)
@@ -8147,6 +8167,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Ray_ToString_mA76F7B86876505F674F3E20C18C8258103622C10 (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) ;
 // System.String UnityEngine.Ray::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Ray_ToString_m06274331D92120539B4C6E0D3747EE620DB468E5 (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.PropertyAttribute::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D (PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Color::.ctor(System.Single,System.Single,System.Single,System.Single)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
@@ -28076,70 +28098,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0
 		return L_0;
 	}
 }
-// System.Void UnityEngine.Screen::SetResolution(System.Int32,System.Int32,UnityEngine.FullScreenMode,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Screen_SetResolution_m304B309D9323AEADA0943FD79FF5F0EB5B8AC1A2 (int32_t ___0_width, int32_t ___1_height, int32_t ___2_fullscreenMode, int32_t ___3_preferredRefreshRate, const RuntimeMethod* method) 
-{
-	typedef void (*Screen_SetResolution_m304B309D9323AEADA0943FD79FF5F0EB5B8AC1A2_ftn) (int32_t, int32_t, int32_t, int32_t);
-	static Screen_SetResolution_m304B309D9323AEADA0943FD79FF5F0EB5B8AC1A2_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Screen_SetResolution_m304B309D9323AEADA0943FD79FF5F0EB5B8AC1A2_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Screen::SetResolution(System.Int32,System.Int32,UnityEngine.FullScreenMode,System.Int32)");
-	_il2cpp_icall_func(___0_width, ___1_height, ___2_fullscreenMode, ___3_preferredRefreshRate);
-}
-// System.Void UnityEngine.Screen::SetResolution(System.Int32,System.Int32,System.Boolean,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Screen_SetResolution_mCDABC3299024A96B6ECD72B0859BAF424A0E4F7E (int32_t ___0_width, int32_t ___1_height, bool ___2_fullscreen, int32_t ___3_preferredRefreshRate, const RuntimeMethod* method) 
-{
-	int32_t G_B2_0 = 0;
-	int32_t G_B2_1 = 0;
-	int32_t G_B1_0 = 0;
-	int32_t G_B1_1 = 0;
-	int32_t G_B3_0 = 0;
-	int32_t G_B3_1 = 0;
-	int32_t G_B3_2 = 0;
-	{
-		int32_t L_0 = ___0_width;
-		int32_t L_1 = ___1_height;
-		bool L_2 = ___2_fullscreen;
-		G_B1_0 = L_1;
-		G_B1_1 = L_0;
-		if (L_2)
-		{
-			G_B2_0 = L_1;
-			G_B2_1 = L_0;
-			goto IL_0009;
-		}
-	}
-	{
-		G_B3_0 = 3;
-		G_B3_1 = G_B1_0;
-		G_B3_2 = G_B1_1;
-		goto IL_000a;
-	}
-
-IL_0009:
-	{
-		G_B3_0 = 1;
-		G_B3_1 = G_B2_0;
-		G_B3_2 = G_B2_1;
-	}
-
-IL_000a:
-	{
-		int32_t L_3 = ___3_preferredRefreshRate;
-		Screen_SetResolution_m304B309D9323AEADA0943FD79FF5F0EB5B8AC1A2(G_B3_2, G_B3_1, G_B3_0, L_3, NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.Screen::SetResolution(System.Int32,System.Int32,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Screen_SetResolution_m8EDEB77BD1220D9836020BA4FA26D77A10771100 (int32_t ___0_width, int32_t ___1_height, bool ___2_fullscreen, const RuntimeMethod* method) 
-{
-	{
-		int32_t L_0 = ___0_width;
-		int32_t L_1 = ___1_height;
-		bool L_2 = ___2_fullscreen;
-		Screen_SetResolution_mCDABC3299024A96B6ECD72B0859BAF424A0E4F7E(L_0, L_1, L_2, 0, NULL);
-		return;
-	}
-}
 // System.Void UnityEngine.Screen::get_currentResolution_Injected(UnityEngine.Resolution&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Screen_get_currentResolution_Injected_mDD7FDFD0D75C71FB4A7261EEE08B1817C19EBE50 (Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525* ___0_ret, const RuntimeMethod* method) 
 {
@@ -39621,6 +39579,41 @@ IL2CPP_EXTERN_C  String_t* Ray_ToString_mA76F7B86876505F674F3E20C18C8258103622C1
 	String_t* _returnValue;
 	_returnValue = Ray_ToString_mA76F7B86876505F674F3E20C18C8258103622C10(_thisAdjusted, ___0_format, ___1_formatProvider, method);
 	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.PropertyAttribute::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D (PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0* __this, const RuntimeMethod* method) 
+{
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.InspectorNameAttribute::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InspectorNameAttribute__ctor_mCAA369ED478B033D540656991D781208244CBC8B (InspectorNameAttribute_t30287A92B113253B9E22924DD6FC4C7007545497* __this, String_t* ___0_displayName, const RuntimeMethod* method) 
+{
+	{
+		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		String_t* L_0 = ___0_displayName;
+		__this->___displayName_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___displayName_0), (void*)L_0);
+		return;
+	}
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
