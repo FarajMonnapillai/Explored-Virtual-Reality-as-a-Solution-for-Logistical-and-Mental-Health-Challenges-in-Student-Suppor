@@ -770,6 +770,8 @@ struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
 struct MonoBehaviourPunCallbacks_t0B3C6A2FD0A09450A8505ACD42A647F3BCE6D783;
 // MouseLookHelper
 struct MouseLookHelper_t2B5B60FD0EFF6E9E01B4E43CDBEE487683206663;
+// MuteAudio
+struct MuteAudio_t2275EF16E14595FB5222C4CEB64DEE303CDEA931;
 // MyCustomSceneModelLoader
 struct MyCustomSceneModelLoader_t7D880295E90274666F38B8BB0D07546431D87C11;
 // NetworkManager
@@ -1030,6 +1032,8 @@ struct VoiceConnection_tB1A14C698697002D8D57FA47F332A44E7E294DB3;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 // VolumeAndPlaneSwitcher
 struct VolumeAndPlaneSwitcher_tBC9040CF8181A95B11E58104FAC293D5AF080F54;
+// VolumeControl
+struct VolumeControl_t0FB79DB008D97572BC239981A26A7C880BA104F0;
 // UnityEngine.WaitForFixedUpdate
 struct WaitForFixedUpdate_t86F5BC0B6A668AEF2903DE9ADB52062E457BD1B7;
 // UnityEngine.WaitForSeconds
@@ -1249,6 +1253,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral08AAE7186C2602C0A8C88A3E00A89B0B334CE638
 IL2CPP_EXTERN_C String_t* _stringLiteral11B4CB6A71122BE7CCE10E7363E942673B28E84E;
 IL2CPP_EXTERN_C String_t* _stringLiteral12316CA5E779D0CE0469C9868F6BEE4611BAD3D1;
 IL2CPP_EXTERN_C String_t* _stringLiteral12E781C6303EBD173BD2692DB4B70F1A245208B3;
+IL2CPP_EXTERN_C String_t* _stringLiteral138036CF00DC7AA638E8C59DE658B2B707E5188E;
 IL2CPP_EXTERN_C String_t* _stringLiteral13C4FE3CBF141F691D44E2A85C71705A56CC6267;
 IL2CPP_EXTERN_C String_t* _stringLiteral1425034D10C7AB5A98E4E8E2D94EB4E70694A0B8;
 IL2CPP_EXTERN_C String_t* _stringLiteral144E3DF6B6A08805C9EAE0B2FEA7F2193817E6A8;
@@ -1268,6 +1273,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral31534B578295BBC2CB4120A8A85BE27239633B59
 IL2CPP_EXTERN_C String_t* _stringLiteral3372D9FB564B10A61ED1CB9AC90EFC53D442C97A;
 IL2CPP_EXTERN_C String_t* _stringLiteral362F6C49457218D1AD9C8F28CDEBFED6FE4E0445;
 IL2CPP_EXTERN_C String_t* _stringLiteral36967F33A1482179FE45CD9CCC3AE6241AA43F85;
+IL2CPP_EXTERN_C String_t* _stringLiteral36F21B40E32B6749F5195A0CF39917977BAF4CD4;
 IL2CPP_EXTERN_C String_t* _stringLiteral382BF78E08260DE1DA14563F3987282174498879;
 IL2CPP_EXTERN_C String_t* _stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0;
 IL2CPP_EXTERN_C String_t* _stringLiteral3BB716E4BB2169270B1262EC893148E120F6DA50;
@@ -1329,6 +1335,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralBC9B92D01F5C65AF4C60CE7BAED5F7824FF341CE
 IL2CPP_EXTERN_C String_t* _stringLiteralBDBB8D317096A0BA6BA9463FC2533707873DF8FD;
 IL2CPP_EXTERN_C String_t* _stringLiteralBE2117BC4109A6033BA69CFDAB4ADC8FD4F90401;
 IL2CPP_EXTERN_C String_t* _stringLiteralBF312D4ECBF434B103EC7D2AB0EDDCAA57411006;
+IL2CPP_EXTERN_C String_t* _stringLiteralC008E503687BA2A627379D4E257787AEA3506830;
 IL2CPP_EXTERN_C String_t* _stringLiteralC026F06E81D5205631FFAB799089B94C5C120675;
 IL2CPP_EXTERN_C String_t* _stringLiteralC26CDE57796D5DBB2BEB80CB4D5896E9233B86AA;
 IL2CPP_EXTERN_C String_t* _stringLiteralCA09C4C34C068F7FC6B654CDE0EEBCFCFB52BF40;
@@ -5663,6 +5670,11 @@ struct MonoBehaviourPun_t64DD82CBA1C47A70448DAB2263AB90A4411621BD  : public Mono
 	PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* ___pvCache_4;
 };
 
+// MuteAudio
+struct MuteAudio_t2275EF16E14595FB5222C4CEB64DEE303CDEA931  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+
 // NetworkPlayer
 struct NetworkPlayer_t7F21AEB6412E7912BE78858377B0ED3DF4DF1D74  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -6540,6 +6552,21 @@ struct VolumeAndPlaneSwitcher_tBC9040CF8181A95B11E58104FAC293D5AF080F54  : publi
 	OVRSceneAnchor_tAF36EEA6E22DCD47BA537E85CAC57424A1B51F69* ___volumePrefab_5;
 	// System.Collections.Generic.List`1<VolumeAndPlaneSwitcher/LabelGeometryPair> VolumeAndPlaneSwitcher::desiredSwitches
 	List_1_tEF68BE9F454D88F4E129BB31E592C66741D1B485* ___desiredSwitches_6;
+};
+
+// VolumeControl
+struct VolumeControl_t0FB79DB008D97572BC239981A26A7C880BA104F0  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.UI.Slider VolumeControl::volumeSlider
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___volumeSlider_4;
+	// UnityEngine.UI.Text VolumeControl::volumeTextUI
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___volumeTextUI_5;
+	// UnityEngine.UI.Slider VolumeControl::pitchSlider
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___pitchSlider_6;
+	// UnityEngine.UI.Text VolumeControl::pitchTextUI
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___pitchTextUI_7;
+	// UnityEngine.AudioSource VolumeControl::audioSource
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___audioSource_8;
 };
 
 // WristMenu
@@ -9966,6 +9993,10 @@ struct FurnitureSpawner_tC3C532786588E281CD80DCB11C39A15F78B6DC2B_StaticFields
 
 // Photon.Pun.MonoBehaviourPun
 
+// MuteAudio
+
+// MuteAudio
+
 // NetworkPlayer
 
 // NetworkPlayer
@@ -10312,6 +10343,10 @@ struct UiSceneMenu_tA5C7AC5B4F00307CB28FB567D6CD3624E433486E_StaticFields
 // VolumeAndPlaneSwitcher
 
 // VolumeAndPlaneSwitcher
+
+// VolumeControl
+
+// VolumeControl
 
 // WristMenu
 
@@ -12299,6 +12334,16 @@ inline OVRGrabber_tC16FABB1A90FB635BDE98E18F032A793D7033FCC* Component_GetCompon
 {
 	return ((  OVRGrabber_tC16FABB1A90FB635BDE98E18F032A793D7033FCC* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared)(__this, method);
 }
+// System.Void UnityEngine.AudioListener::set_volume(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioListener_set_volume_m72BAF2D558A5449091A59630EBF48095DEB4C721 (float ___0_value, const RuntimeMethod* method) ;
+// System.Void VolumeControl::LoadValues()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VolumeControl_LoadValues_m870164941A1C25486B94244332012E7B80B8A414 (VolumeControl_t0FB79DB008D97572BC239981A26A7C880BA104F0* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.PlayerPrefs::SetFloat(System.String,System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285 (String_t* ___0_key, float ___1_value, const RuntimeMethod* method) ;
+// System.Single UnityEngine.PlayerPrefs::GetFloat(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB (String_t* ___0_key, const RuntimeMethod* method) ;
+// System.Void UnityEngine.AudioSource::set_pitch(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_pitch_mD14631FC99BF38AAFB356D9C45546BC16CF9E811 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, float ___0_value, const RuntimeMethod* method) ;
 // System.Void HandPresence::TryInitialize()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandPresence_TryInitialize_mC9F75E11B29DA4D04784520945D5EDD1603DC8BF (HandPresence_t207BDDABDEEF9B9E837275B8459E53789E17A51E* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<UnityEngine.XR.InputDevice>::.ctor()
@@ -24208,6 +24253,217 @@ IL_005a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypingArea__ctor_mEED97BA0F136CDE1E4465C0E1C304F172B79AFAE (TypingArea_t77BDAC184A48613CD49D9999E7F47CAB1BAA6248* __this, const RuntimeMethod* method) 
 {
 	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void MuteAudio::MuteToggle(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MuteAudio_MuteToggle_mF13727E169FD16449BF12C1AE32D2B0831E58873 (MuteAudio_t2275EF16E14595FB5222C4CEB64DEE303CDEA931* __this, bool ___0_muted, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		// if (muted)
+		bool L_0 = ___0_muted;
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		// AudioListener.volume = 0;
+		AudioListener_set_volume_m72BAF2D558A5449091A59630EBF48095DEB4C721((0.0f), NULL);
+		goto IL_0022;
+	}
+
+IL_0015:
+	{
+		// AudioListener.volume = 1;
+		AudioListener_set_volume_m72BAF2D558A5449091A59630EBF48095DEB4C721((1.0f), NULL);
+	}
+
+IL_0022:
+	{
+		// }
+		return;
+	}
+}
+// System.Void MuteAudio::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MuteAudio__ctor_m19A09270F0963E7DD68C816C8CA336F69363829F (MuteAudio_t2275EF16E14595FB5222C4CEB64DEE303CDEA931* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void VolumeControl::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VolumeControl_Start_m6321B714F6723A072F1D00DE2F04EF59364C382F (VolumeControl_t0FB79DB008D97572BC239981A26A7C880BA104F0* __this, const RuntimeMethod* method) 
+{
+	{
+		// LoadValues();
+		VolumeControl_LoadValues_m870164941A1C25486B94244332012E7B80B8A414(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Void VolumeControl::VolumeSlider(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VolumeControl_VolumeSlider_m034315B30628530D91AD46C12CE1C51509339E9A (VolumeControl_t0FB79DB008D97572BC239981A26A7C880BA104F0* __this, float ___0_volume, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC008E503687BA2A627379D4E257787AEA3506830);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// volumeTextUI.text = volume.ToString("0.0");
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___volumeTextUI_5;
+		String_t* L_1;
+		L_1 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D((&___0_volume), _stringLiteralC008E503687BA2A627379D4E257787AEA3506830, NULL);
+		NullCheck(L_0);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_1);
+		// }
+		return;
+	}
+}
+// System.Void VolumeControl::PitchSlider(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VolumeControl_PitchSlider_m56ACE04BA0DD1F1EBD690701E164F1995DDF0513 (VolumeControl_t0FB79DB008D97572BC239981A26A7C880BA104F0* __this, float ___0_pitch, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC008E503687BA2A627379D4E257787AEA3506830);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// pitchTextUI.text = pitch.ToString("0.0");
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___pitchTextUI_7;
+		String_t* L_1;
+		L_1 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D((&___0_pitch), _stringLiteralC008E503687BA2A627379D4E257787AEA3506830, NULL);
+		NullCheck(L_0);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_1);
+		// }
+		return;
+	}
+}
+// System.Void VolumeControl::SaveVolumeButton()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VolumeControl_SaveVolumeButton_m6827E8B5FB59E059757135F5B9F42A433096AC7A (VolumeControl_t0FB79DB008D97572BC239981A26A7C880BA104F0* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral138036CF00DC7AA638E8C59DE658B2B707E5188E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral36F21B40E32B6749F5195A0CF39917977BAF4CD4);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	{
+		// float volumeValue = volumeSlider.value;
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->___volumeSlider_4;
+		NullCheck(L_0);
+		float L_1;
+		L_1 = VirtualFuncInvoker0< float >::Invoke(46 /* System.Single UnityEngine.UI.Slider::get_value() */, L_0);
+		V_0 = L_1;
+		// PlayerPrefs.SetFloat("VolumeValue", volumeValue);
+		float L_2 = V_0;
+		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral138036CF00DC7AA638E8C59DE658B2B707E5188E, L_2, NULL);
+		// LoadValues();
+		VolumeControl_LoadValues_m870164941A1C25486B94244332012E7B80B8A414(__this, NULL);
+		// float pitchValue = pitchSlider.value;
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_3 = __this->___pitchSlider_6;
+		NullCheck(L_3);
+		float L_4;
+		L_4 = VirtualFuncInvoker0< float >::Invoke(46 /* System.Single UnityEngine.UI.Slider::get_value() */, L_3);
+		V_1 = L_4;
+		// PlayerPrefs.SetFloat("PitchValue", pitchValue);
+		float L_5 = V_1;
+		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral36F21B40E32B6749F5195A0CF39917977BAF4CD4, L_5, NULL);
+		// LoadValues();
+		VolumeControl_LoadValues_m870164941A1C25486B94244332012E7B80B8A414(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Void VolumeControl::LoadValues()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VolumeControl_LoadValues_m870164941A1C25486B94244332012E7B80B8A414 (VolumeControl_t0FB79DB008D97572BC239981A26A7C880BA104F0* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral138036CF00DC7AA638E8C59DE658B2B707E5188E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral36F21B40E32B6749F5195A0CF39917977BAF4CD4);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	{
+		// float volumeValue = PlayerPrefs.GetFloat("VolumeValue");
+		float L_0;
+		L_0 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral138036CF00DC7AA638E8C59DE658B2B707E5188E, NULL);
+		V_0 = L_0;
+		// volumeSlider.value = volumeValue;
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_1 = __this->___volumeSlider_4;
+		float L_2 = V_0;
+		NullCheck(L_1);
+		VirtualActionInvoker1< float >::Invoke(47 /* System.Void UnityEngine.UI.Slider::set_value(System.Single) */, L_1, L_2);
+		// AudioListener.volume = volumeValue;
+		float L_3 = V_0;
+		AudioListener_set_volume_m72BAF2D558A5449091A59630EBF48095DEB4C721(L_3, NULL);
+		// float pitchValue = PlayerPrefs.GetFloat("PitchValue");
+		float L_4;
+		L_4 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral36F21B40E32B6749F5195A0CF39917977BAF4CD4, NULL);
+		V_1 = L_4;
+		// pitchSlider.value = pitchValue;
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_5 = __this->___pitchSlider_6;
+		float L_6 = V_1;
+		NullCheck(L_5);
+		VirtualActionInvoker1< float >::Invoke(47 /* System.Void UnityEngine.UI.Slider::set_value(System.Single) */, L_5, L_6);
+		// audioSource.pitch = pitchValue;
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_7 = __this->___audioSource_8;
+		float L_8 = V_1;
+		NullCheck(L_7);
+		AudioSource_set_pitch_mD14631FC99BF38AAFB356D9C45546BC16CF9E811(L_7, L_8, NULL);
+		// }
+		return;
+	}
+}
+// System.Void VolumeControl::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VolumeControl__ctor_m768B2103E0EC6961C8F76593740A382B55FF9EA4 (VolumeControl_t0FB79DB008D97572BC239981A26A7C880BA104F0* __this, const RuntimeMethod* method) 
+{
+	{
+		// [SerializeField] private Slider volumeSlider = null;
+		__this->___volumeSlider_4 = (Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___volumeSlider_4), (void*)(Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F*)NULL);
+		// [SerializeField] private Text volumeTextUI = null;
+		__this->___volumeTextUI_5 = (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___volumeTextUI_5), (void*)(Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)NULL);
+		// [SerializeField] private Slider pitchSlider = null;
+		__this->___pitchSlider_6 = (Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___pitchSlider_6), (void*)(Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F*)NULL);
+		// [SerializeField] private Text pitchTextUI = null;
+		__this->___pitchTextUI_7 = (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___pitchTextUI_7), (void*)(Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)NULL);
+		// [SerializeField] private AudioSource audioSource = null;
+		__this->___audioSource_8 = (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___audioSource_8), (void*)(AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299*)NULL);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
