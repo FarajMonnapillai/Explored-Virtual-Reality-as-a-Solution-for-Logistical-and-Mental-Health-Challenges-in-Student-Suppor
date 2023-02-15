@@ -559,7 +559,6 @@ IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t428B95F22B12C42F05233DE02507635B55BBBF98_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* UnityOpenXR_tBE61966A5EA8E0DA3190F5309575D0B3EF7ECB3E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7_il2cpp_TypeInfo_var;
@@ -586,13 +585,13 @@ IL2CPP_EXTERN_C String_t* _stringLiteral2499E045B1B3619FF6FB77C788E0D2E8134BC96D
 IL2CPP_EXTERN_C String_t* _stringLiteral2D7A8563F8863399BEE53651854D779097538730;
 IL2CPP_EXTERN_C String_t* _stringLiteral2EF7DEC74A60941E8EA4D312EA0C3FD9C14303FA;
 IL2CPP_EXTERN_C String_t* _stringLiteral38D2CF180BAEA5AC39A051E431530C030665C5EE;
+IL2CPP_EXTERN_C String_t* _stringLiteral40457678CE607C8ACB74508CC74E43DBC9E7CFAC;
 IL2CPP_EXTERN_C String_t* _stringLiteral422CE50B3F71A8EB315B423F59FF11B9D0313D22;
 IL2CPP_EXTERN_C String_t* _stringLiteral42AA32717042087706ACA1EEC2EB3C2A03C44C34;
 IL2CPP_EXTERN_C String_t* _stringLiteral4481EB4F8B6BEF5D863C23DACE5D92E1C6603258;
 IL2CPP_EXTERN_C String_t* _stringLiteral4D4229E0C147BE8C7321C97D16DA6567C7CC7385;
 IL2CPP_EXTERN_C String_t* _stringLiteral588B8CAF579C3071462D21957C92A405CE7A5FA1;
 IL2CPP_EXTERN_C String_t* _stringLiteral5AC0D3D4D36181576B50E4AA23AD0D9503DC7809;
-IL2CPP_EXTERN_C String_t* _stringLiteral5B18830FFFE6BD51C72FE2FEDDC95FA3B7BF888B;
 IL2CPP_EXTERN_C String_t* _stringLiteral5E48FB0EE174BD6AAFEB32AF96DDA6901B776752;
 IL2CPP_EXTERN_C String_t* _stringLiteral6093CF95875C05DE3109742296262213D3EFB135;
 IL2CPP_EXTERN_C String_t* _stringLiteral61890C9111848030046E81DB6B67572678ADB6E8;
@@ -608,7 +607,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral7D612383984721A96F4EC02A755EEDF86152260F
 IL2CPP_EXTERN_C String_t* _stringLiteral8056EF217D555787C1F04ECE7927A2323D1D2AEA;
 IL2CPP_EXTERN_C String_t* _stringLiteral812FAFBBC880731B5FC0ABD9009768693FE806C9;
 IL2CPP_EXTERN_C String_t* _stringLiteral81CAC178337D7DB2DE46BA16AA1C0CBA34FA4277;
-IL2CPP_EXTERN_C String_t* _stringLiteral8492E72FD492148021A921D852729AD1B2D18127;
 IL2CPP_EXTERN_C String_t* _stringLiteral88BEE283254D7094E258B3A88730F4CC4F1E4AC7;
 IL2CPP_EXTERN_C String_t* _stringLiteral90976408DD45FD6617A1CA11E8C4DBBA408E7456;
 IL2CPP_EXTERN_C String_t* _stringLiteral961EF7AEB27DE3B713816701CD90839814BE303D;
@@ -633,9 +631,9 @@ IL2CPP_EXTERN_C String_t* _stringLiteralD51A5F81179392C785765556663B36E28DBF8E5F
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA480199DC2D7E93700F1B1FE80DED08B369ABB3;
 IL2CPP_EXTERN_C String_t* _stringLiteralDED689386F73A7C43A44AAE858DB1A6629E49B63;
-IL2CPP_EXTERN_C String_t* _stringLiteralE228AB76360D732126AF51A79C6935C66E6E9CDE;
 IL2CPP_EXTERN_C String_t* _stringLiteralE302AA9BECF9F1CB69CF2A3E5B33E0716BEA97F6;
 IL2CPP_EXTERN_C String_t* _stringLiteralEB4165285C60D41020FC1659B2ABB1D5BF5252BE;
+IL2CPP_EXTERN_C String_t* _stringLiteralEE25EB25AA74DA323C4A0C2C18E0921705443848;
 IL2CPP_EXTERN_C String_t* _stringLiteralEEC9061235D18ABA19D23FEB9715D246FB781D8E;
 IL2CPP_EXTERN_C String_t* _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D;
 IL2CPP_EXTERN_C String_t* _stringLiteralF5A3962735819AF9C1D00988DC53C00ED4339C24;
@@ -995,6 +993,8 @@ struct OVRHapticsOutput_t8AEFB01983659374BAC6EB7381C83F9A05DE70EE  : public Runt
 	OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* ___m_nativeBuffer_9;
 	// OVRHapticsClip OVRHaptics/OVRHapticsOutput::m_paddingClip
 	OVRHapticsClip_t76F18B7843EDB06C61DE1DBA343216CEB5BE2E8C* ___m_paddingClip_10;
+	// System.Int32 OVRHaptics/OVRHapticsOutput::PrevSampleRateHz
+	int32_t ___PrevSampleRateHz_11;
 };
 
 // OVRInput/HapticInfo
@@ -1024,11 +1024,6 @@ struct PassthroughCapabilities_t3B338539A7E4125FE79381628715BDC608471F9F  : publ
 	bool ___U3CSupportsPassthroughU3Ek__BackingField_0;
 	// System.Boolean OVRManager/PassthroughCapabilities::<SupportsColorPassthrough>k__BackingField
 	bool ___U3CSupportsColorPassthroughU3Ek__BackingField_1;
-};
-
-// OVRPlugin/UnityOpenXR
-struct UnityOpenXR_tBE61966A5EA8E0DA3190F5309575D0B3EF7ECB3E  : public RuntimeObject
-{
 };
 
 // OVRHaptics/OVRHapticsOutput/ClipPlaybackTracker
@@ -1635,6 +1630,8 @@ struct OVRTextureData_t357BF09E78929C6C4BC7C3039D461E73D58064A3_marshaled_com
 // UnityEngine.PropertyAttribute
 struct PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
+	// System.Int32 UnityEngine.PropertyAttribute::<order>k__BackingField
+	int32_t ___U3CorderU3Ek__BackingField_0;
 };
 
 // UnityEngine.Quaternion
@@ -3746,15 +3743,6 @@ struct U3CU3Ec_t428B95F22B12C42F05233DE02507635B55BBBF98_StaticFields
 
 // OVRManager/PassthroughCapabilities
 
-// OVRPlugin/UnityOpenXR
-struct UnityOpenXR_tBE61966A5EA8E0DA3190F5309575D0B3EF7ECB3E_StaticFields
-{
-	// System.Boolean OVRPlugin/UnityOpenXR::Enabled
-	bool ___Enabled_0;
-};
-
-// OVRPlugin/UnityOpenXR
-
 // OVRHaptics/OVRHapticsOutput/ClipPlaybackTracker
 
 // OVRHaptics/OVRHapticsOutput/ClipPlaybackTracker
@@ -4433,48 +4421,48 @@ struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
 // OVRPlugin
 struct OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields
 {
-	// System.Version OVRPlugin::_versionZero
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ____versionZero_1;
 	// System.Version OVRPlugin::wrapperVersion
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___wrapperVersion_3;
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___wrapperVersion_1;
 	// System.Version OVRPlugin::_version
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ____version_4;
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ____version_2;
 	// System.Version OVRPlugin::_nativeSDKVersion
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ____nativeSDKVersion_5;
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ____nativeSDKVersion_3;
 	// System.Int32 OVRPlugin::MAX_CPU_CORES
-	int32_t ___MAX_CPU_CORES_6;
+	int32_t ___MAX_CPU_CORES_4;
 	// System.Nullable`1<OVRPlugin/XrApi> OVRPlugin::_nativeXrApi
-	Nullable_1_tC438FE0466EF1565EE278C732EE7C3053C1053C4 ____nativeXrApi_14;
+	Nullable_1_tC438FE0466EF1565EE278C732EE7C3053C1053C4 ____nativeXrApi_12;
 	// OVRPlugin/GUID OVRPlugin::_nativeAudioOutGuid
-	GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* ____nativeAudioOutGuid_15;
+	GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* ____nativeAudioOutGuid_13;
 	// System.Guid OVRPlugin::_cachedAudioOutGuid
-	Guid_t ____cachedAudioOutGuid_16;
+	Guid_t ____cachedAudioOutGuid_14;
 	// System.String OVRPlugin::_cachedAudioOutString
-	String_t* ____cachedAudioOutString_17;
+	String_t* ____cachedAudioOutString_15;
 	// OVRPlugin/GUID OVRPlugin::_nativeAudioInGuid
-	GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* ____nativeAudioInGuid_18;
+	GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* ____nativeAudioInGuid_16;
 	// System.Guid OVRPlugin::_cachedAudioInGuid
-	Guid_t ____cachedAudioInGuid_19;
+	Guid_t ____cachedAudioInGuid_17;
 	// System.String OVRPlugin::_cachedAudioInString
-	String_t* ____cachedAudioInString_20;
+	String_t* ____cachedAudioInString_18;
 	// System.Boolean OVRPlugin::perfStatWarningPrinted
-	bool ___perfStatWarningPrinted_21;
+	bool ___perfStatWarningPrinted_19;
 	// System.Boolean OVRPlugin::resetPerfStatWarningPrinted
-	bool ___resetPerfStatWarningPrinted_22;
+	bool ___resetPerfStatWarningPrinted_20;
 	// OVRNativeBuffer OVRPlugin::_nativeSystemDisplayFrequenciesAvailable
-	OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* ____nativeSystemDisplayFrequenciesAvailable_23;
+	OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* ____nativeSystemDisplayFrequenciesAvailable_21;
 	// System.Single[] OVRPlugin::_cachedSystemDisplayFrequenciesAvailable
-	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____cachedSystemDisplayFrequenciesAvailable_24;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____cachedSystemDisplayFrequenciesAvailable_22;
 	// OVRPlugin/HandStateInternal OVRPlugin::cachedHandState
-	HandStateInternal_tADD472E69CDB0B051EFD5EAAFB69D16BA364BE37 ___cachedHandState_25;
+	HandStateInternal_tADD472E69CDB0B051EFD5EAAFB69D16BA364BE37 ___cachedHandState_23;
 	// OVRPlugin/Skeleton OVRPlugin::cachedSkeleton
-	Skeleton_tB4F8C22D03DF1FD94CF2389561489C573C84FF0E ___cachedSkeleton_26;
+	Skeleton_tB4F8C22D03DF1FD94CF2389561489C573C84FF0E ___cachedSkeleton_24;
 	// OVRPlugin/Skeleton2Internal OVRPlugin::cachedSkeleton2
-	Skeleton2Internal_tF8531C814EC7E128C6EE97A4547497AE2042E432 ___cachedSkeleton2_27;
+	Skeleton2Internal_tF8531C814EC7E128C6EE97A4547497AE2042E432 ___cachedSkeleton2_25;
 	// OVRPlugin/FaceStateInternal OVRPlugin::cachedFaceState
-	FaceStateInternal_t0C7FBA46B3EFEDDFF67EA74919D07A7EDA1532EC ___cachedFaceState_28;
+	FaceStateInternal_t0C7FBA46B3EFEDDFF67EA74919D07A7EDA1532EC ___cachedFaceState_26;
 	// OVRPlugin/EyeGazesStateInternal OVRPlugin::cachedEyeGazesState
-	EyeGazesStateInternal_tBF79AEE2A05EA3315FA4B97D5C758FA977BD39BF ___cachedEyeGazesState_29;
+	EyeGazesStateInternal_tBF79AEE2A05EA3315FA4B97D5C758FA977BD39BF ___cachedEyeGazesState_27;
+	// System.Version OVRPlugin::_versionZero
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ____versionZero_29;
 };
 
 // OVRPlugin
@@ -4626,6 +4614,8 @@ struct OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_StaticFields
 	bool ___suppressDisableMixedRealityBecauseOfNoMainCameraWarning_123;
 	// OVRManager/PassthroughInitializationState OVRManager::_passthroughInitializationState
 	int32_t ____passthroughInitializationState_124;
+	// OVRManager/PassthroughCapabilities OVRManager::_passthroughCapabilities
+	PassthroughCapabilities_t3B338539A7E4125FE79381628715BDC608471F9F* ____passthroughCapabilities_125;
 };
 
 // OVRManager
@@ -5154,6 +5144,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Config_get_SampleSizeInBy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRNativeBuffer__ctor_m49B59D113EB19FB7AB2111CBCD8AC8D2D0EF4285 (OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* __this, int32_t ___0_numBytes, const RuntimeMethod* method) ;
 // System.Void OVRHapticsClip::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRHapticsClip__ctor_m42DBDF3ECFAD1D75A8C835F65532743278009A08 (OVRHapticsClip_t76F18B7843EDB06C61DE1DBA343216CEB5BE2E8C* __this, const RuntimeMethod* method) ;
+// System.Int32 OVRHaptics/Config::get_SampleRateHz()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Config_get_SampleRateHz_m2D1B79A8EC0A19BA0EA97E6B3039D15788BB9F47_inline (const RuntimeMethod* method) ;
+// System.Void UnityEngine.Debug::Log(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 // System.Int32 OVRNativeBuffer::GetCapacity()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OVRNativeBuffer_GetCapacity_m388215B1A6727C487815D040FE7DF9E91B2EA1AF (OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* __this, const RuntimeMethod* method) ;
 // System.Void OVRNativeBuffer::Reset(System.Int32)
@@ -5162,8 +5156,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRNativeBuffer_Reset_m65A403E428F766CF9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD OVRPlugin_GetControllerHapticsState_mEEA959FE0B91F35368C4229D5423C70C448E03DE (uint32_t ___0_controllerMask, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Time::get_realtimeSinceStartup()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510 (const RuntimeMethod* method) ;
-// System.Int32 OVRHaptics/Config::get_SampleRateHz()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Config_get_SampleRateHz_m2D1B79A8EC0A19BA0EA97E6B3039D15788BB9F47_inline (const RuntimeMethod* method) ;
 // System.Int32 OVRHaptics/Config::get_OptimalBufferSamplesCount()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Config_get_OptimalBufferSamplesCount_mBC971D5C4CF6F34A8A3925DC8103A09E3E8BF4F7_inline (const RuntimeMethod* method) ;
 // System.Int32 OVRHaptics/Config::get_MinimumSafeSamplesQueued()
@@ -5695,10 +5687,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OculusXRPlugin_SetSpaceWarp_m591EA7747C0C944877CE8350AEA763560E46E7F1 (int32_t ___0_on, const RuntimeMethod* method) ;
 // OVRPlugin/TrackingOrigin OVRPlugin::GetTrackingOriginType()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OVRPlugin_GetTrackingOriginType_m2EDAA913509E615DD626803932B8CE16955F961A (const RuntimeMethod* method) ;
-// UnityEngine.XR.XRInputSubsystem OVRManager::GetCurrentInputSubsystem()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* OVRManager_GetCurrentInputSubsystem_m6343BBB6BBB22C59B70C2502CCFF5D0073B7272D (const RuntimeMethod* method) ;
-// System.Boolean UnityEngine.XR.XRInputSubsystem::TrySetTrackingOriginMode(UnityEngine.XR.TrackingOriginModeFlags)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRInputSubsystem_TrySetTrackingOriginMode_m132C190CEAE4403A381BF1C1C4B5FF349F2A3FA7 (XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* __this, int32_t ___0_origin, const RuntimeMethod* method) ;
 // System.Boolean OVRPlugin::SetTrackingOriginType(OVRPlugin/TrackingOrigin)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRPlugin_SetTrackingOriginType_mC03CEE60AF8A00DE01E5071C8CCBE8C366ED2105 (int32_t ___0_originType, const RuntimeMethod* method) ;
 // System.Boolean OVRPlugin::get_userPresent()
@@ -5729,8 +5717,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRRuntimeSettings_tC85E84DCFBF4DB2D4C3311CA3
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OVRManager_set_runtimeSettings_m66D09D518E906F1A50738B3BFA760EE8B117C469_inline (OVRRuntimeSettings_tC85E84DCFBF4DB2D4C3311CA39C96DEE89220EE1* ___0_value, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_values, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Debug::Log(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 // OVRManager/SystemHeadsetType OVRManager::get_systemHeadsetType()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OVRManager_get_systemHeadsetType_mCF5CFA237F93EC8DE90C8F9241846C505C7388B1 (const RuntimeMethod* method) ;
 // OVRManager/XrApi OVRManager::get_xrApi()
@@ -6797,6 +6783,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRHapticsOutput__ctor_mA154790252DB03E7
 		OVRHapticsClip__ctor_m42DBDF3ECFAD1D75A8C835F65532743278009A08(L_4, NULL);
 		__this->___m_paddingClip_10 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_paddingClip_10), (void*)L_4);
+		// private int PrevSampleRateHz = -1;
+		__this->___PrevSampleRateHz_11 = (-1);
 		// public OVRHapticsOutput(uint controller)
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		// m_paddingEnabled = false;
@@ -6815,11 +6803,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRHapticsOutput_Process_mD508D5EA14E13D
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Config_tBB31557219CCC3C5813D03CA13CADC73D7E14EF2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_RemoveAt_m7C70CF4778FAA1C22586E0F909585AD0F1A9172C_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m56AACF0D9683BE0A6929A5B9DE131EE44C5DC9C1_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral40457678CE607C8ACB74508CC74E43DBC9E7CFAC);
 		s_Il2CppMethodInitialized = true;
 	}
 	HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD V_0;
@@ -6830,714 +6820,757 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRHapticsOutput_Process_mD508D5EA14E13D
 	int32_t V_4 = 0;
 	bool V_5 = false;
 	bool V_6 = false;
-	int32_t V_7 = 0;
+	bool V_7 = false;
 	bool V_8 = false;
-	bool V_9 = false;
+	int32_t V_9 = 0;
 	bool V_10 = false;
 	bool V_11 = false;
-	float V_12 = 0.0f;
-	float V_13 = 0.0f;
-	int32_t V_14 = 0;
-	int32_t V_15 = 0;
-	bool V_16 = false;
-	bool V_17 = false;
+	bool V_12 = false;
+	bool V_13 = false;
+	float V_14 = 0.0f;
+	float V_15 = 0.0f;
+	int32_t V_16 = 0;
+	int32_t V_17 = 0;
 	bool V_18 = false;
 	bool V_19 = false;
-	int32_t V_20 = 0;
-	int32_t V_21 = 0;
-	bool V_22 = false;
-	bool V_23 = false;
-	int32_t V_24 = 0;
-	int32_t V_25 = 0;
+	bool V_20 = false;
+	bool V_21 = false;
+	int32_t V_22 = 0;
+	int32_t V_23 = 0;
+	bool V_24 = false;
+	bool V_25 = false;
 	int32_t V_26 = 0;
-	bool V_27 = false;
+	int32_t V_27 = 0;
 	int32_t V_28 = 0;
 	bool V_29 = false;
-	bool V_30 = false;
+	int32_t V_30 = 0;
 	bool V_31 = false;
-	int32_t V_32 = 0;
+	bool V_32 = false;
 	bool V_33 = false;
-	bool V_34 = false;
+	int32_t V_34 = 0;
 	bool V_35 = false;
-	int32_t V_36 = 0;
-	int32_t V_37 = 0;
+	bool V_36 = false;
+	bool V_37 = false;
 	int32_t V_38 = 0;
-	bool V_39 = false;
-	HapticsBuffer_t05090BEFD2D209883C588225318CD620E29EF181 V_40;
-	memset((&V_40), 0, sizeof(V_40));
-	int32_t G_B11_0 = 0;
-	int32_t G_B33_0 = 0;
-	int32_t G_B41_0 = 0;
+	int32_t V_39 = 0;
+	int32_t V_40 = 0;
+	bool V_41 = false;
+	HapticsBuffer_t05090BEFD2D209883C588225318CD620E29EF181 V_42;
+	memset((&V_42), 0, sizeof(V_42));
+	int32_t G_B15_0 = 0;
+	int32_t G_B37_0 = 0;
+	int32_t G_B45_0 = 0;
 	{
-		// if (m_nativeBuffer.GetCapacity() != Config.MaximumBufferSamplesCount * Config.SampleSizeInBytes)
-		OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* L_0 = __this->___m_nativeBuffer_9;
-		NullCheck(L_0);
-		int32_t L_1;
-		L_1 = OVRNativeBuffer_GetCapacity_m388215B1A6727C487815D040FE7DF9E91B2EA1AF(L_0, NULL);
+		// if (OVRHaptics.Config.SampleRateHz == 0)
 		il2cpp_codegen_runtime_class_init_inline(Config_tBB31557219CCC3C5813D03CA13CADC73D7E14EF2_il2cpp_TypeInfo_var);
-		int32_t L_2;
-		L_2 = Config_get_MaximumBufferSamplesCount_mFA9670050A7B57A5778B588CB400DBEB413DE4C0_inline(NULL);
-		int32_t L_3;
-		L_3 = Config_get_SampleSizeInBytes_m8A59438CA870B1DEDA2DDE836BBF513D4DA6C209_inline(NULL);
-		V_5 = (bool)((((int32_t)((((int32_t)L_1) == ((int32_t)((int32_t)il2cpp_codegen_multiply(L_2, L_3))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_4 = V_5;
-		if (!L_4)
+		int32_t L_0;
+		L_0 = Config_get_SampleRateHz_m2D1B79A8EC0A19BA0EA97E6B3039D15788BB9F47_inline(NULL);
+		V_5 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_5;
+		if (!L_1)
 		{
-			goto IL_003b;
+			goto IL_0038;
+		}
+	}
+	{
+		// if(PrevSampleRateHz != 0)
+		int32_t L_2 = __this->___PrevSampleRateHz_11;
+		V_6 = (bool)((!(((uint32_t)L_2) <= ((uint32_t)0)))? 1 : 0);
+		bool L_3 = V_6;
+		if (!L_3)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		// Debug.Log("Unable to process a controller whose SampleRateHz is 0 now.");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral40457678CE607C8ACB74508CC74E43DBC9E7CFAC, NULL);
+		// PrevSampleRateHz = 0;
+		__this->___PrevSampleRateHz_11 = 0;
+	}
+
+IL_0033:
+	{
+		// return;
+		goto IL_042f;
+	}
+
+IL_0038:
+	{
+		// PrevSampleRateHz = OVRHaptics.Config.SampleRateHz;
+		il2cpp_codegen_runtime_class_init_inline(Config_tBB31557219CCC3C5813D03CA13CADC73D7E14EF2_il2cpp_TypeInfo_var);
+		int32_t L_4;
+		L_4 = Config_get_SampleRateHz_m2D1B79A8EC0A19BA0EA97E6B3039D15788BB9F47_inline(NULL);
+		__this->___PrevSampleRateHz_11 = L_4;
+		// if (m_nativeBuffer.GetCapacity() != Config.MaximumBufferSamplesCount * Config.SampleSizeInBytes)
+		OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* L_5 = __this->___m_nativeBuffer_9;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = OVRNativeBuffer_GetCapacity_m388215B1A6727C487815D040FE7DF9E91B2EA1AF(L_5, NULL);
+		int32_t L_7;
+		L_7 = Config_get_MaximumBufferSamplesCount_mFA9670050A7B57A5778B588CB400DBEB413DE4C0_inline(NULL);
+		int32_t L_8;
+		L_8 = Config_get_SampleSizeInBytes_m8A59438CA870B1DEDA2DDE836BBF513D4DA6C209_inline(NULL);
+		V_7 = (bool)((((int32_t)((((int32_t)L_6) == ((int32_t)((int32_t)il2cpp_codegen_multiply(L_7, L_8))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_9 = V_7;
+		if (!L_9)
+		{
+			goto IL_007d;
 		}
 	}
 	{
 		// m_nativeBuffer.Reset(Config.MaximumBufferSamplesCount * Config.SampleSizeInBytes);
-		OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* L_5 = __this->___m_nativeBuffer_9;
+		OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* L_10 = __this->___m_nativeBuffer_9;
 		il2cpp_codegen_runtime_class_init_inline(Config_tBB31557219CCC3C5813D03CA13CADC73D7E14EF2_il2cpp_TypeInfo_var);
-		int32_t L_6;
-		L_6 = Config_get_MaximumBufferSamplesCount_mFA9670050A7B57A5778B588CB400DBEB413DE4C0_inline(NULL);
-		int32_t L_7;
-		L_7 = Config_get_SampleSizeInBytes_m8A59438CA870B1DEDA2DDE836BBF513D4DA6C209_inline(NULL);
-		NullCheck(L_5);
-		OVRNativeBuffer_Reset_m65A403E428F766CF99119FFDDC3824A856F6B45A(L_5, ((int32_t)il2cpp_codegen_multiply(L_6, L_7)), NULL);
+		int32_t L_11;
+		L_11 = Config_get_MaximumBufferSamplesCount_mFA9670050A7B57A5778B588CB400DBEB413DE4C0_inline(NULL);
+		int32_t L_12;
+		L_12 = Config_get_SampleSizeInBytes_m8A59438CA870B1DEDA2DDE836BBF513D4DA6C209_inline(NULL);
+		NullCheck(L_10);
+		OVRNativeBuffer_Reset_m65A403E428F766CF99119FFDDC3824A856F6B45A(L_10, ((int32_t)il2cpp_codegen_multiply(L_11, L_12)), NULL);
 	}
 
-IL_003b:
+IL_007d:
 	{
 		// var hapticsState = OVRPlugin.GetControllerHapticsState(m_controller);
-		uint32_t L_8 = __this->___m_controller_8;
+		uint32_t L_13 = __this->___m_controller_8;
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_9;
-		L_9 = OVRPlugin_GetControllerHapticsState_mEEA959FE0B91F35368C4229D5423C70C448E03DE(L_8, NULL);
-		V_0 = L_9;
+		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_14;
+		L_14 = OVRPlugin_GetControllerHapticsState_mEEA959FE0B91F35368C4229D5423C70C448E03DE(L_13, NULL);
+		V_0 = L_14;
 		// float elapsedTime = Time.realtimeSinceStartup - m_prevSamplesQueuedTime;
-		float L_10;
-		L_10 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
-		float L_11 = __this->___m_prevSamplesQueuedTime_3;
-		V_1 = ((float)il2cpp_codegen_subtract(L_10, L_11));
+		float L_15;
+		L_15 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
+		float L_16 = __this->___m_prevSamplesQueuedTime_3;
+		V_1 = ((float)il2cpp_codegen_subtract(L_15, L_16));
 		// if (m_prevSamplesQueued > 0)
-		int32_t L_12 = __this->___m_prevSamplesQueued_2;
-		V_6 = (bool)((((int32_t)L_12) > ((int32_t)0))? 1 : 0);
-		bool L_13 = V_6;
-		if (!L_13)
+		int32_t L_17 = __this->___m_prevSamplesQueued_2;
+		V_8 = (bool)((((int32_t)L_17) > ((int32_t)0))? 1 : 0);
+		bool L_18 = V_8;
+		if (!L_18)
 		{
-			goto IL_00fc;
+			goto IL_013e;
 		}
 	}
 	{
 		// int expectedSamples = m_prevSamplesQueued - (int)(elapsedTime * OVRHaptics.Config.SampleRateHz + 0.5f);
-		int32_t L_14 = __this->___m_prevSamplesQueued_2;
-		float L_15 = V_1;
+		int32_t L_19 = __this->___m_prevSamplesQueued_2;
+		float L_20 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Config_tBB31557219CCC3C5813D03CA13CADC73D7E14EF2_il2cpp_TypeInfo_var);
-		int32_t L_16;
-		L_16 = Config_get_SampleRateHz_m2D1B79A8EC0A19BA0EA97E6B3039D15788BB9F47_inline(NULL);
-		V_7 = ((int32_t)il2cpp_codegen_subtract(L_14, il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_15, ((float)L_16))), (0.5f))))));
+		int32_t L_21;
+		L_21 = Config_get_SampleRateHz_m2D1B79A8EC0A19BA0EA97E6B3039D15788BB9F47_inline(NULL);
+		V_9 = ((int32_t)il2cpp_codegen_subtract(L_19, il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_20, ((float)L_21))), (0.5f))))));
 		// if (expectedSamples < 0)
-		int32_t L_17 = V_7;
-		V_8 = (bool)((((int32_t)L_17) < ((int32_t)0))? 1 : 0);
-		bool L_18 = V_8;
-		if (!L_18)
+		int32_t L_22 = V_9;
+		V_10 = (bool)((((int32_t)L_22) < ((int32_t)0))? 1 : 0);
+		bool L_23 = V_10;
+		if (!L_23)
 		{
-			goto IL_008d;
+			goto IL_00cf;
 		}
 	}
 	{
 		// expectedSamples = 0;
-		V_7 = 0;
+		V_9 = 0;
 	}
 
-IL_008d:
+IL_00cf:
 	{
 		// if ((hapticsState.SamplesQueued - expectedSamples) == 0)
-		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_19 = V_0;
-		int32_t L_20 = L_19.___SamplesQueued_1;
-		int32_t L_21 = V_7;
-		V_9 = (bool)((((int32_t)((int32_t)il2cpp_codegen_subtract(L_20, L_21))) == ((int32_t)0))? 1 : 0);
-		bool L_22 = V_9;
-		if (!L_22)
+		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_24 = V_0;
+		int32_t L_25 = L_24.___SamplesQueued_1;
+		int32_t L_26 = V_9;
+		V_11 = (bool)((((int32_t)((int32_t)il2cpp_codegen_subtract(L_25, L_26))) == ((int32_t)0))? 1 : 0);
+		bool L_27 = V_11;
+		if (!L_27)
 		{
-			goto IL_00af;
+			goto IL_00f1;
 		}
 	}
 	{
 		// m_numPredictionHits++;
-		int32_t L_23 = __this->___m_numPredictionHits_4;
-		__this->___m_numPredictionHits_4 = ((int32_t)il2cpp_codegen_add(L_23, 1));
-		goto IL_00bd;
+		int32_t L_28 = __this->___m_numPredictionHits_4;
+		__this->___m_numPredictionHits_4 = ((int32_t)il2cpp_codegen_add(L_28, 1));
+		goto IL_00ff;
 	}
 
-IL_00af:
+IL_00f1:
 	{
 		// m_numPredictionMisses++;
-		int32_t L_24 = __this->___m_numPredictionMisses_5;
-		__this->___m_numPredictionMisses_5 = ((int32_t)il2cpp_codegen_add(L_24, 1));
+		int32_t L_29 = __this->___m_numPredictionMisses_5;
+		__this->___m_numPredictionMisses_5 = ((int32_t)il2cpp_codegen_add(L_29, 1));
 	}
 
-IL_00bd:
+IL_00ff:
 	{
 		// if ((expectedSamples > 0) && (hapticsState.SamplesQueued == 0))
-		int32_t L_25 = V_7;
-		if ((((int32_t)L_25) <= ((int32_t)0)))
+		int32_t L_30 = V_9;
+		if ((((int32_t)L_30) <= ((int32_t)0)))
 		{
-			goto IL_00cd;
+			goto IL_010f;
 		}
 	}
 	{
-		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_26 = V_0;
-		int32_t L_27 = L_26.___SamplesQueued_1;
-		G_B11_0 = ((((int32_t)L_27) == ((int32_t)0))? 1 : 0);
-		goto IL_00ce;
+		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_31 = V_0;
+		int32_t L_32 = L_31.___SamplesQueued_1;
+		G_B15_0 = ((((int32_t)L_32) == ((int32_t)0))? 1 : 0);
+		goto IL_0110;
 	}
 
-IL_00cd:
+IL_010f:
 	{
-		G_B11_0 = 0;
+		G_B15_0 = 0;
 	}
 
-IL_00ce:
+IL_0110:
 	{
-		V_10 = (bool)G_B11_0;
-		bool L_28 = V_10;
-		if (!L_28)
+		V_12 = (bool)G_B15_0;
+		bool L_33 = V_12;
+		if (!L_33)
 		{
-			goto IL_00e4;
+			goto IL_0126;
 		}
 	}
 	{
 		// m_numUnderruns++;
-		int32_t L_29 = __this->___m_numUnderruns_6;
-		__this->___m_numUnderruns_6 = ((int32_t)il2cpp_codegen_add(L_29, 1));
+		int32_t L_34 = __this->___m_numUnderruns_6;
+		__this->___m_numUnderruns_6 = ((int32_t)il2cpp_codegen_add(L_34, 1));
 	}
 
-IL_00e4:
+IL_0126:
 	{
 		// m_prevSamplesQueued = hapticsState.SamplesQueued;
-		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_30 = V_0;
-		int32_t L_31 = L_30.___SamplesQueued_1;
-		__this->___m_prevSamplesQueued_2 = L_31;
+		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_35 = V_0;
+		int32_t L_36 = L_35.___SamplesQueued_1;
+		__this->___m_prevSamplesQueued_2 = L_36;
 		// m_prevSamplesQueuedTime = Time.realtimeSinceStartup;
-		float L_32;
-		L_32 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
-		__this->___m_prevSamplesQueuedTime_3 = L_32;
+		float L_37;
+		L_37 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
+		__this->___m_prevSamplesQueuedTime_3 = L_37;
 	}
 
-IL_00fc:
+IL_013e:
 	{
 		// int desiredSamplesCount = OVRHaptics.Config.OptimalBufferSamplesCount;
 		il2cpp_codegen_runtime_class_init_inline(Config_tBB31557219CCC3C5813D03CA13CADC73D7E14EF2_il2cpp_TypeInfo_var);
-		int32_t L_33;
-		L_33 = Config_get_OptimalBufferSamplesCount_mBC971D5C4CF6F34A8A3925DC8103A09E3E8BF4F7_inline(NULL);
-		V_2 = L_33;
+		int32_t L_38;
+		L_38 = Config_get_OptimalBufferSamplesCount_mBC971D5C4CF6F34A8A3925DC8103A09E3E8BF4F7_inline(NULL);
+		V_2 = L_38;
 		// if (m_lowLatencyMode)
-		bool L_34 = __this->___m_lowLatencyMode_0;
-		V_11 = L_34;
-		bool L_35 = V_11;
-		if (!L_35)
+		bool L_39 = __this->___m_lowLatencyMode_0;
+		V_13 = L_39;
+		bool L_40 = V_13;
+		if (!L_40)
 		{
-			goto IL_014c;
+			goto IL_018e;
 		}
 	}
 	{
 		// float sampleRateMs = 1000.0f / (float)OVRHaptics.Config.SampleRateHz;
 		il2cpp_codegen_runtime_class_init_inline(Config_tBB31557219CCC3C5813D03CA13CADC73D7E14EF2_il2cpp_TypeInfo_var);
-		int32_t L_36;
-		L_36 = Config_get_SampleRateHz_m2D1B79A8EC0A19BA0EA97E6B3039D15788BB9F47_inline(NULL);
-		V_12 = ((float)((1000.0f)/((float)L_36)));
-		// float elapsedMs = elapsedTime * 1000.0f;
-		float L_37 = V_1;
-		V_13 = ((float)il2cpp_codegen_multiply(L_37, (1000.0f)));
-		// int samplesNeededPerFrame = (int)Mathf.Ceil(elapsedMs / sampleRateMs);
-		float L_38 = V_13;
-		float L_39 = V_12;
-		float L_40;
-		L_40 = ceilf(((float)(L_38/L_39)));
-		V_14 = il2cpp_codegen_cast_double_to_int<int32_t>(L_40);
-		// int lowLatencySamplesCount = OVRHaptics.Config.MinimumSafeSamplesQueued + samplesNeededPerFrame;
 		int32_t L_41;
-		L_41 = Config_get_MinimumSafeSamplesQueued_m479D3DEBCD5251637DC7FDE141FBECAC70DE5A1C_inline(NULL);
-		int32_t L_42 = V_14;
-		V_15 = ((int32_t)il2cpp_codegen_add(L_41, L_42));
+		L_41 = Config_get_SampleRateHz_m2D1B79A8EC0A19BA0EA97E6B3039D15788BB9F47_inline(NULL);
+		V_14 = ((float)((1000.0f)/((float)L_41)));
+		// float elapsedMs = elapsedTime * 1000.0f;
+		float L_42 = V_1;
+		V_15 = ((float)il2cpp_codegen_multiply(L_42, (1000.0f)));
+		// int samplesNeededPerFrame = (int)Mathf.Ceil(elapsedMs / sampleRateMs);
+		float L_43 = V_15;
+		float L_44 = V_14;
+		float L_45;
+		L_45 = ceilf(((float)(L_43/L_44)));
+		V_16 = il2cpp_codegen_cast_double_to_int<int32_t>(L_45);
+		// int lowLatencySamplesCount = OVRHaptics.Config.MinimumSafeSamplesQueued + samplesNeededPerFrame;
+		int32_t L_46;
+		L_46 = Config_get_MinimumSafeSamplesQueued_m479D3DEBCD5251637DC7FDE141FBECAC70DE5A1C_inline(NULL);
+		int32_t L_47 = V_16;
+		V_17 = ((int32_t)il2cpp_codegen_add(L_46, L_47));
 		// if (lowLatencySamplesCount < desiredSamplesCount)
-		int32_t L_43 = V_15;
-		int32_t L_44 = V_2;
-		V_16 = (bool)((((int32_t)L_43) < ((int32_t)L_44))? 1 : 0);
-		bool L_45 = V_16;
-		if (!L_45)
+		int32_t L_48 = V_17;
+		int32_t L_49 = V_2;
+		V_18 = (bool)((((int32_t)L_48) < ((int32_t)L_49))? 1 : 0);
+		bool L_50 = V_18;
+		if (!L_50)
 		{
-			goto IL_014b;
+			goto IL_018d;
 		}
 	}
 	{
 		// desiredSamplesCount = lowLatencySamplesCount;
-		int32_t L_46 = V_15;
-		V_2 = L_46;
+		int32_t L_51 = V_17;
+		V_2 = L_51;
 	}
 
-IL_014b:
+IL_018d:
 	{
 	}
 
-IL_014c:
+IL_018e:
 	{
 		// if (hapticsState.SamplesQueued > desiredSamplesCount)
-		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_47 = V_0;
-		int32_t L_48 = L_47.___SamplesQueued_1;
-		int32_t L_49 = V_2;
-		V_17 = (bool)((((int32_t)L_48) > ((int32_t)L_49))? 1 : 0);
-		bool L_50 = V_17;
-		if (!L_50)
+		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_52 = V_0;
+		int32_t L_53 = L_52.___SamplesQueued_1;
+		int32_t L_54 = V_2;
+		V_19 = (bool)((((int32_t)L_53) > ((int32_t)L_54))? 1 : 0);
+		bool L_55 = V_19;
+		if (!L_55)
 		{
-			goto IL_0160;
+			goto IL_01a2;
 		}
 	}
 	{
 		// return;
-		goto IL_03ed;
+		goto IL_042f;
 	}
 
-IL_0160:
+IL_01a2:
 	{
 		// if (desiredSamplesCount > OVRHaptics.Config.MaximumBufferSamplesCount)
-		int32_t L_51 = V_2;
+		int32_t L_56 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Config_tBB31557219CCC3C5813D03CA13CADC73D7E14EF2_il2cpp_TypeInfo_var);
-		int32_t L_52;
-		L_52 = Config_get_MaximumBufferSamplesCount_mFA9670050A7B57A5778B588CB400DBEB413DE4C0_inline(NULL);
-		V_18 = (bool)((((int32_t)L_51) > ((int32_t)L_52))? 1 : 0);
-		bool L_53 = V_18;
-		if (!L_53)
+		int32_t L_57;
+		L_57 = Config_get_MaximumBufferSamplesCount_mFA9670050A7B57A5778B588CB400DBEB413DE4C0_inline(NULL);
+		V_20 = (bool)((((int32_t)L_56) > ((int32_t)L_57))? 1 : 0);
+		bool L_58 = V_20;
+		if (!L_58)
 		{
-			goto IL_0174;
+			goto IL_01b6;
 		}
 	}
 	{
 		// desiredSamplesCount = OVRHaptics.Config.MaximumBufferSamplesCount;
 		il2cpp_codegen_runtime_class_init_inline(Config_tBB31557219CCC3C5813D03CA13CADC73D7E14EF2_il2cpp_TypeInfo_var);
-		int32_t L_54;
-		L_54 = Config_get_MaximumBufferSamplesCount_mFA9670050A7B57A5778B588CB400DBEB413DE4C0_inline(NULL);
-		V_2 = L_54;
+		int32_t L_59;
+		L_59 = Config_get_MaximumBufferSamplesCount_mFA9670050A7B57A5778B588CB400DBEB413DE4C0_inline(NULL);
+		V_2 = L_59;
 	}
 
-IL_0174:
+IL_01b6:
 	{
 		// if (desiredSamplesCount > hapticsState.SamplesAvailable)
-		int32_t L_55 = V_2;
-		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_56 = V_0;
-		int32_t L_57 = L_56.___SamplesAvailable_0;
-		V_19 = (bool)((((int32_t)L_55) > ((int32_t)L_57))? 1 : 0);
-		bool L_58 = V_19;
-		if (!L_58)
+		int32_t L_60 = V_2;
+		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_61 = V_0;
+		int32_t L_62 = L_61.___SamplesAvailable_0;
+		V_21 = (bool)((((int32_t)L_60) > ((int32_t)L_62))? 1 : 0);
+		bool L_63 = V_21;
+		if (!L_63)
 		{
-			goto IL_018a;
+			goto IL_01cc;
 		}
 	}
 	{
 		// desiredSamplesCount = hapticsState.SamplesAvailable;
-		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_59 = V_0;
-		int32_t L_60 = L_59.___SamplesAvailable_0;
-		V_2 = L_60;
+		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_64 = V_0;
+		int32_t L_65 = L_64.___SamplesAvailable_0;
+		V_2 = L_65;
 	}
 
-IL_018a:
+IL_01cc:
 	{
 		// int acquiredSamplesCount = 0;
 		V_3 = 0;
 		// int clipIndex = 0;
 		V_4 = 0;
-		goto IL_0266;
+		goto IL_02a8;
 	}
 
-IL_0194:
+IL_01d6:
 	{
 		// int numSamplesToCopy = desiredSamplesCount - acquiredSamplesCount;
-		int32_t L_61 = V_2;
-		int32_t L_62 = V_3;
-		V_20 = ((int32_t)il2cpp_codegen_subtract(L_61, L_62));
+		int32_t L_66 = V_2;
+		int32_t L_67 = V_3;
+		V_22 = ((int32_t)il2cpp_codegen_subtract(L_66, L_67));
 		// int remainingSamplesInClip = m_pendingClips[clipIndex].Clip.Count - m_pendingClips[clipIndex].ReadCount;
-		List_1_tB829B146F0C20427588C75576BC36BB6A1D016E6* L_63 = __this->___m_pendingClips_7;
-		int32_t L_64 = V_4;
-		NullCheck(L_63);
-		ClipPlaybackTracker_tE311D8396BEABBFDE613AAB1A13FE30D1A6FA75B* L_65;
-		L_65 = List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3(L_63, L_64, List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3_RuntimeMethod_var);
-		NullCheck(L_65);
-		OVRHapticsClip_t76F18B7843EDB06C61DE1DBA343216CEB5BE2E8C* L_66;
-		L_66 = ClipPlaybackTracker_get_Clip_m5F7BF9A75928114403808D29DCF2E00243A5D87A_inline(L_65, NULL);
-		NullCheck(L_66);
-		int32_t L_67;
-		L_67 = OVRHapticsClip_get_Count_mF6DCD041E169A35A5B208FE92AEE5D47269F107E_inline(L_66, NULL);
 		List_1_tB829B146F0C20427588C75576BC36BB6A1D016E6* L_68 = __this->___m_pendingClips_7;
 		int32_t L_69 = V_4;
 		NullCheck(L_68);
 		ClipPlaybackTracker_tE311D8396BEABBFDE613AAB1A13FE30D1A6FA75B* L_70;
 		L_70 = List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3(L_68, L_69, List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3_RuntimeMethod_var);
 		NullCheck(L_70);
-		int32_t L_71;
-		L_71 = ClipPlaybackTracker_get_ReadCount_m5CB89D120FC361680A8450515CA02357D2879191_inline(L_70, NULL);
-		V_21 = ((int32_t)il2cpp_codegen_subtract(L_67, L_71));
+		OVRHapticsClip_t76F18B7843EDB06C61DE1DBA343216CEB5BE2E8C* L_71;
+		L_71 = ClipPlaybackTracker_get_Clip_m5F7BF9A75928114403808D29DCF2E00243A5D87A_inline(L_70, NULL);
+		NullCheck(L_71);
+		int32_t L_72;
+		L_72 = OVRHapticsClip_get_Count_mF6DCD041E169A35A5B208FE92AEE5D47269F107E_inline(L_71, NULL);
+		List_1_tB829B146F0C20427588C75576BC36BB6A1D016E6* L_73 = __this->___m_pendingClips_7;
+		int32_t L_74 = V_4;
+		NullCheck(L_73);
+		ClipPlaybackTracker_tE311D8396BEABBFDE613AAB1A13FE30D1A6FA75B* L_75;
+		L_75 = List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3(L_73, L_74, List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3_RuntimeMethod_var);
+		NullCheck(L_75);
+		int32_t L_76;
+		L_76 = ClipPlaybackTracker_get_ReadCount_m5CB89D120FC361680A8450515CA02357D2879191_inline(L_75, NULL);
+		V_23 = ((int32_t)il2cpp_codegen_subtract(L_72, L_76));
 		// if (numSamplesToCopy > remainingSamplesInClip)
-		int32_t L_72 = V_20;
-		int32_t L_73 = V_21;
-		V_22 = (bool)((((int32_t)L_72) > ((int32_t)L_73))? 1 : 0);
-		bool L_74 = V_22;
-		if (!L_74)
+		int32_t L_77 = V_22;
+		int32_t L_78 = V_23;
+		V_24 = (bool)((((int32_t)L_77) > ((int32_t)L_78))? 1 : 0);
+		bool L_79 = V_24;
+		if (!L_79)
 		{
-			goto IL_01d6;
+			goto IL_0218;
 		}
 	}
 	{
 		// numSamplesToCopy = remainingSamplesInClip;
-		int32_t L_75 = V_21;
-		V_20 = L_75;
+		int32_t L_80 = V_23;
+		V_22 = L_80;
 	}
 
-IL_01d6:
+IL_0218:
 	{
 		// if (numSamplesToCopy > 0)
-		int32_t L_76 = V_20;
-		V_23 = (bool)((((int32_t)L_76) > ((int32_t)0))? 1 : 0);
-		bool L_77 = V_23;
-		if (!L_77)
+		int32_t L_81 = V_22;
+		V_25 = (bool)((((int32_t)L_81) > ((int32_t)0))? 1 : 0);
+		bool L_82 = V_25;
+		if (!L_82)
 		{
-			goto IL_025f;
+			goto IL_02a1;
 		}
 	}
 	{
 		// int numBytes = numSamplesToCopy * OVRHaptics.Config.SampleSizeInBytes;
-		int32_t L_78 = V_20;
+		int32_t L_83 = V_22;
 		il2cpp_codegen_runtime_class_init_inline(Config_tBB31557219CCC3C5813D03CA13CADC73D7E14EF2_il2cpp_TypeInfo_var);
-		int32_t L_79;
-		L_79 = Config_get_SampleSizeInBytes_m8A59438CA870B1DEDA2DDE836BBF513D4DA6C209_inline(NULL);
-		V_24 = ((int32_t)il2cpp_codegen_multiply(L_78, L_79));
+		int32_t L_84;
+		L_84 = Config_get_SampleSizeInBytes_m8A59438CA870B1DEDA2DDE836BBF513D4DA6C209_inline(NULL);
+		V_26 = ((int32_t)il2cpp_codegen_multiply(L_83, L_84));
 		// int dstOffset = acquiredSamplesCount * OVRHaptics.Config.SampleSizeInBytes;
-		int32_t L_80 = V_3;
-		int32_t L_81;
-		L_81 = Config_get_SampleSizeInBytes_m8A59438CA870B1DEDA2DDE836BBF513D4DA6C209_inline(NULL);
-		V_25 = ((int32_t)il2cpp_codegen_multiply(L_80, L_81));
-		// int srcOffset = m_pendingClips[clipIndex].ReadCount * OVRHaptics.Config.SampleSizeInBytes;
-		List_1_tB829B146F0C20427588C75576BC36BB6A1D016E6* L_82 = __this->___m_pendingClips_7;
-		int32_t L_83 = V_4;
-		NullCheck(L_82);
-		ClipPlaybackTracker_tE311D8396BEABBFDE613AAB1A13FE30D1A6FA75B* L_84;
-		L_84 = List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3(L_82, L_83, List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3_RuntimeMethod_var);
-		NullCheck(L_84);
-		int32_t L_85;
-		L_85 = ClipPlaybackTracker_get_ReadCount_m5CB89D120FC361680A8450515CA02357D2879191_inline(L_84, NULL);
+		int32_t L_85 = V_3;
 		int32_t L_86;
 		L_86 = Config_get_SampleSizeInBytes_m8A59438CA870B1DEDA2DDE836BBF513D4DA6C209_inline(NULL);
-		V_26 = ((int32_t)il2cpp_codegen_multiply(L_85, L_86));
-		// Marshal.Copy(m_pendingClips[clipIndex].Clip.Samples, srcOffset, m_nativeBuffer.GetPointer(dstOffset), numBytes);
+		V_27 = ((int32_t)il2cpp_codegen_multiply(L_85, L_86));
+		// int srcOffset = m_pendingClips[clipIndex].ReadCount * OVRHaptics.Config.SampleSizeInBytes;
 		List_1_tB829B146F0C20427588C75576BC36BB6A1D016E6* L_87 = __this->___m_pendingClips_7;
 		int32_t L_88 = V_4;
 		NullCheck(L_87);
 		ClipPlaybackTracker_tE311D8396BEABBFDE613AAB1A13FE30D1A6FA75B* L_89;
 		L_89 = List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3(L_87, L_88, List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3_RuntimeMethod_var);
 		NullCheck(L_89);
-		OVRHapticsClip_t76F18B7843EDB06C61DE1DBA343216CEB5BE2E8C* L_90;
-		L_90 = ClipPlaybackTracker_get_Clip_m5F7BF9A75928114403808D29DCF2E00243A5D87A_inline(L_89, NULL);
-		NullCheck(L_90);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_91;
-		L_91 = OVRHapticsClip_get_Samples_m433E8160F5A8874E4AC7972406FB0CC146AC74BE_inline(L_90, NULL);
-		int32_t L_92 = V_26;
-		OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* L_93 = __this->___m_nativeBuffer_9;
-		int32_t L_94 = V_25;
-		NullCheck(L_93);
-		intptr_t L_95;
-		L_95 = OVRNativeBuffer_GetPointer_m0BDE8F3A317E948AA21A16BAF97CDF360C9C6AA7(L_93, L_94, NULL);
-		int32_t L_96 = V_24;
+		int32_t L_90;
+		L_90 = ClipPlaybackTracker_get_ReadCount_m5CB89D120FC361680A8450515CA02357D2879191_inline(L_89, NULL);
+		int32_t L_91;
+		L_91 = Config_get_SampleSizeInBytes_m8A59438CA870B1DEDA2DDE836BBF513D4DA6C209_inline(NULL);
+		V_28 = ((int32_t)il2cpp_codegen_multiply(L_90, L_91));
+		// Marshal.Copy(m_pendingClips[clipIndex].Clip.Samples, srcOffset, m_nativeBuffer.GetPointer(dstOffset), numBytes);
+		List_1_tB829B146F0C20427588C75576BC36BB6A1D016E6* L_92 = __this->___m_pendingClips_7;
+		int32_t L_93 = V_4;
+		NullCheck(L_92);
+		ClipPlaybackTracker_tE311D8396BEABBFDE613AAB1A13FE30D1A6FA75B* L_94;
+		L_94 = List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3(L_92, L_93, List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3_RuntimeMethod_var);
+		NullCheck(L_94);
+		OVRHapticsClip_t76F18B7843EDB06C61DE1DBA343216CEB5BE2E8C* L_95;
+		L_95 = ClipPlaybackTracker_get_Clip_m5F7BF9A75928114403808D29DCF2E00243A5D87A_inline(L_94, NULL);
+		NullCheck(L_95);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_96;
+		L_96 = OVRHapticsClip_get_Samples_m433E8160F5A8874E4AC7972406FB0CC146AC74BE_inline(L_95, NULL);
+		int32_t L_97 = V_28;
+		OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* L_98 = __this->___m_nativeBuffer_9;
+		int32_t L_99 = V_27;
+		NullCheck(L_98);
+		intptr_t L_100;
+		L_100 = OVRNativeBuffer_GetPointer_m0BDE8F3A317E948AA21A16BAF97CDF360C9C6AA7(L_98, L_99, NULL);
+		int32_t L_101 = V_26;
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
-		Marshal_Copy_m0FD7BFE70EE28FC67B67A6225AD58F95FEE7EB85(L_91, L_92, L_95, L_96, NULL);
+		Marshal_Copy_m0FD7BFE70EE28FC67B67A6225AD58F95FEE7EB85(L_96, L_97, L_100, L_101, NULL);
 		// m_pendingClips[clipIndex].ReadCount += numSamplesToCopy;
-		List_1_tB829B146F0C20427588C75576BC36BB6A1D016E6* L_97 = __this->___m_pendingClips_7;
-		int32_t L_98 = V_4;
-		NullCheck(L_97);
-		ClipPlaybackTracker_tE311D8396BEABBFDE613AAB1A13FE30D1A6FA75B* L_99;
-		L_99 = List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3(L_97, L_98, List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3_RuntimeMethod_var);
-		ClipPlaybackTracker_tE311D8396BEABBFDE613AAB1A13FE30D1A6FA75B* L_100 = L_99;
-		NullCheck(L_100);
-		int32_t L_101;
-		L_101 = ClipPlaybackTracker_get_ReadCount_m5CB89D120FC361680A8450515CA02357D2879191_inline(L_100, NULL);
-		int32_t L_102 = V_20;
-		NullCheck(L_100);
-		ClipPlaybackTracker_set_ReadCount_m5BA54F5A69408488A59C5FFA2DE454E199469671_inline(L_100, ((int32_t)il2cpp_codegen_add(L_101, L_102)), NULL);
+		List_1_tB829B146F0C20427588C75576BC36BB6A1D016E6* L_102 = __this->___m_pendingClips_7;
+		int32_t L_103 = V_4;
+		NullCheck(L_102);
+		ClipPlaybackTracker_tE311D8396BEABBFDE613AAB1A13FE30D1A6FA75B* L_104;
+		L_104 = List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3(L_102, L_103, List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3_RuntimeMethod_var);
+		ClipPlaybackTracker_tE311D8396BEABBFDE613AAB1A13FE30D1A6FA75B* L_105 = L_104;
+		NullCheck(L_105);
+		int32_t L_106;
+		L_106 = ClipPlaybackTracker_get_ReadCount_m5CB89D120FC361680A8450515CA02357D2879191_inline(L_105, NULL);
+		int32_t L_107 = V_22;
+		NullCheck(L_105);
+		ClipPlaybackTracker_set_ReadCount_m5BA54F5A69408488A59C5FFA2DE454E199469671_inline(L_105, ((int32_t)il2cpp_codegen_add(L_106, L_107)), NULL);
 		// acquiredSamplesCount += numSamplesToCopy;
-		int32_t L_103 = V_3;
-		int32_t L_104 = V_20;
-		V_3 = ((int32_t)il2cpp_codegen_add(L_103, L_104));
+		int32_t L_108 = V_3;
+		int32_t L_109 = V_22;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_108, L_109));
 	}
 
-IL_025f:
+IL_02a1:
 	{
 		// clipIndex++;
-		int32_t L_105 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_105, 1));
+		int32_t L_110 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_110, 1));
 	}
 
-IL_0266:
+IL_02a8:
 	{
 		// while(acquiredSamplesCount < desiredSamplesCount && clipIndex < m_pendingClips.Count)
-		int32_t L_106 = V_3;
-		int32_t L_107 = V_2;
-		if ((((int32_t)L_106) >= ((int32_t)L_107)))
+		int32_t L_111 = V_3;
+		int32_t L_112 = V_2;
+		if ((((int32_t)L_111) >= ((int32_t)L_112)))
 		{
-			goto IL_027b;
+			goto IL_02bd;
 		}
 	}
 	{
-		int32_t L_108 = V_4;
-		List_1_tB829B146F0C20427588C75576BC36BB6A1D016E6* L_109 = __this->___m_pendingClips_7;
-		NullCheck(L_109);
-		int32_t L_110;
-		L_110 = List_1_get_Count_m56AACF0D9683BE0A6929A5B9DE131EE44C5DC9C1_inline(L_109, List_1_get_Count_m56AACF0D9683BE0A6929A5B9DE131EE44C5DC9C1_RuntimeMethod_var);
-		G_B33_0 = ((((int32_t)L_108) < ((int32_t)L_110))? 1 : 0);
-		goto IL_027c;
+		int32_t L_113 = V_4;
+		List_1_tB829B146F0C20427588C75576BC36BB6A1D016E6* L_114 = __this->___m_pendingClips_7;
+		NullCheck(L_114);
+		int32_t L_115;
+		L_115 = List_1_get_Count_m56AACF0D9683BE0A6929A5B9DE131EE44C5DC9C1_inline(L_114, List_1_get_Count_m56AACF0D9683BE0A6929A5B9DE131EE44C5DC9C1_RuntimeMethod_var);
+		G_B37_0 = ((((int32_t)L_113) < ((int32_t)L_115))? 1 : 0);
+		goto IL_02be;
 	}
 
-IL_027b:
+IL_02bd:
 	{
-		G_B33_0 = 0;
+		G_B37_0 = 0;
 	}
 
-IL_027c:
+IL_02be:
 	{
-		V_27 = (bool)G_B33_0;
-		bool L_111 = V_27;
-		if (L_111)
+		V_29 = (bool)G_B37_0;
+		bool L_116 = V_29;
+		if (L_116)
 		{
-			goto IL_0194;
+			goto IL_01d6;
 		}
 	}
 	{
 		// for (int i = m_pendingClips.Count - 1; i >= 0 && m_pendingClips.Count > 0; i--)
-		List_1_tB829B146F0C20427588C75576BC36BB6A1D016E6* L_112 = __this->___m_pendingClips_7;
-		NullCheck(L_112);
-		int32_t L_113;
-		L_113 = List_1_get_Count_m56AACF0D9683BE0A6929A5B9DE131EE44C5DC9C1_inline(L_112, List_1_get_Count_m56AACF0D9683BE0A6929A5B9DE131EE44C5DC9C1_RuntimeMethod_var);
-		V_28 = ((int32_t)il2cpp_codegen_subtract(L_113, 1));
-		goto IL_02e0;
+		List_1_tB829B146F0C20427588C75576BC36BB6A1D016E6* L_117 = __this->___m_pendingClips_7;
+		NullCheck(L_117);
+		int32_t L_118;
+		L_118 = List_1_get_Count_m56AACF0D9683BE0A6929A5B9DE131EE44C5DC9C1_inline(L_117, List_1_get_Count_m56AACF0D9683BE0A6929A5B9DE131EE44C5DC9C1_RuntimeMethod_var);
+		V_30 = ((int32_t)il2cpp_codegen_subtract(L_118, 1));
+		goto IL_0322;
 	}
 
-IL_0296:
+IL_02d8:
 	{
 		// if (m_pendingClips[i].ReadCount >= m_pendingClips[i].Clip.Count)
-		List_1_tB829B146F0C20427588C75576BC36BB6A1D016E6* L_114 = __this->___m_pendingClips_7;
-		int32_t L_115 = V_28;
-		NullCheck(L_114);
-		ClipPlaybackTracker_tE311D8396BEABBFDE613AAB1A13FE30D1A6FA75B* L_116;
-		L_116 = List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3(L_114, L_115, List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3_RuntimeMethod_var);
-		NullCheck(L_116);
-		int32_t L_117;
-		L_117 = ClipPlaybackTracker_get_ReadCount_m5CB89D120FC361680A8450515CA02357D2879191_inline(L_116, NULL);
-		List_1_tB829B146F0C20427588C75576BC36BB6A1D016E6* L_118 = __this->___m_pendingClips_7;
-		int32_t L_119 = V_28;
-		NullCheck(L_118);
-		ClipPlaybackTracker_tE311D8396BEABBFDE613AAB1A13FE30D1A6FA75B* L_120;
-		L_120 = List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3(L_118, L_119, List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3_RuntimeMethod_var);
-		NullCheck(L_120);
-		OVRHapticsClip_t76F18B7843EDB06C61DE1DBA343216CEB5BE2E8C* L_121;
-		L_121 = ClipPlaybackTracker_get_Clip_m5F7BF9A75928114403808D29DCF2E00243A5D87A_inline(L_120, NULL);
+		List_1_tB829B146F0C20427588C75576BC36BB6A1D016E6* L_119 = __this->___m_pendingClips_7;
+		int32_t L_120 = V_30;
+		NullCheck(L_119);
+		ClipPlaybackTracker_tE311D8396BEABBFDE613AAB1A13FE30D1A6FA75B* L_121;
+		L_121 = List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3(L_119, L_120, List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3_RuntimeMethod_var);
 		NullCheck(L_121);
 		int32_t L_122;
-		L_122 = OVRHapticsClip_get_Count_mF6DCD041E169A35A5B208FE92AEE5D47269F107E_inline(L_121, NULL);
-		V_29 = (bool)((((int32_t)((((int32_t)L_117) < ((int32_t)L_122))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_123 = V_29;
-		if (!L_123)
+		L_122 = ClipPlaybackTracker_get_ReadCount_m5CB89D120FC361680A8450515CA02357D2879191_inline(L_121, NULL);
+		List_1_tB829B146F0C20427588C75576BC36BB6A1D016E6* L_123 = __this->___m_pendingClips_7;
+		int32_t L_124 = V_30;
+		NullCheck(L_123);
+		ClipPlaybackTracker_tE311D8396BEABBFDE613AAB1A13FE30D1A6FA75B* L_125;
+		L_125 = List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3(L_123, L_124, List_1_get_Item_m1DF20120684518D1E70C0DC8F9D80031B06744F3_RuntimeMethod_var);
+		NullCheck(L_125);
+		OVRHapticsClip_t76F18B7843EDB06C61DE1DBA343216CEB5BE2E8C* L_126;
+		L_126 = ClipPlaybackTracker_get_Clip_m5F7BF9A75928114403808D29DCF2E00243A5D87A_inline(L_125, NULL);
+		NullCheck(L_126);
+		int32_t L_127;
+		L_127 = OVRHapticsClip_get_Count_mF6DCD041E169A35A5B208FE92AEE5D47269F107E_inline(L_126, NULL);
+		V_31 = (bool)((((int32_t)((((int32_t)L_122) < ((int32_t)L_127))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_128 = V_31;
+		if (!L_128)
 		{
-			goto IL_02d9;
+			goto IL_031b;
 		}
 	}
 	{
 		// m_pendingClips.RemoveAt(i);
-		List_1_tB829B146F0C20427588C75576BC36BB6A1D016E6* L_124 = __this->___m_pendingClips_7;
-		int32_t L_125 = V_28;
-		NullCheck(L_124);
-		List_1_RemoveAt_m7C70CF4778FAA1C22586E0F909585AD0F1A9172C(L_124, L_125, List_1_RemoveAt_m7C70CF4778FAA1C22586E0F909585AD0F1A9172C_RuntimeMethod_var);
+		List_1_tB829B146F0C20427588C75576BC36BB6A1D016E6* L_129 = __this->___m_pendingClips_7;
+		int32_t L_130 = V_30;
+		NullCheck(L_129);
+		List_1_RemoveAt_m7C70CF4778FAA1C22586E0F909585AD0F1A9172C(L_129, L_130, List_1_RemoveAt_m7C70CF4778FAA1C22586E0F909585AD0F1A9172C_RuntimeMethod_var);
 	}
 
-IL_02d9:
+IL_031b:
 	{
 		// for (int i = m_pendingClips.Count - 1; i >= 0 && m_pendingClips.Count > 0; i--)
-		int32_t L_126 = V_28;
-		V_28 = ((int32_t)il2cpp_codegen_subtract(L_126, 1));
+		int32_t L_131 = V_30;
+		V_30 = ((int32_t)il2cpp_codegen_subtract(L_131, 1));
 	}
 
-IL_02e0:
+IL_0322:
 	{
 		// for (int i = m_pendingClips.Count - 1; i >= 0 && m_pendingClips.Count > 0; i--)
-		int32_t L_127 = V_28;
-		if ((((int32_t)L_127) < ((int32_t)0)))
+		int32_t L_132 = V_30;
+		if ((((int32_t)L_132) < ((int32_t)0)))
 		{
-			goto IL_02f5;
+			goto IL_0337;
 		}
 	}
 	{
-		List_1_tB829B146F0C20427588C75576BC36BB6A1D016E6* L_128 = __this->___m_pendingClips_7;
-		NullCheck(L_128);
-		int32_t L_129;
-		L_129 = List_1_get_Count_m56AACF0D9683BE0A6929A5B9DE131EE44C5DC9C1_inline(L_128, List_1_get_Count_m56AACF0D9683BE0A6929A5B9DE131EE44C5DC9C1_RuntimeMethod_var);
-		G_B41_0 = ((((int32_t)L_129) > ((int32_t)0))? 1 : 0);
-		goto IL_02f6;
+		List_1_tB829B146F0C20427588C75576BC36BB6A1D016E6* L_133 = __this->___m_pendingClips_7;
+		NullCheck(L_133);
+		int32_t L_134;
+		L_134 = List_1_get_Count_m56AACF0D9683BE0A6929A5B9DE131EE44C5DC9C1_inline(L_133, List_1_get_Count_m56AACF0D9683BE0A6929A5B9DE131EE44C5DC9C1_RuntimeMethod_var);
+		G_B45_0 = ((((int32_t)L_134) > ((int32_t)0))? 1 : 0);
+		goto IL_0338;
 	}
 
-IL_02f5:
+IL_0337:
 	{
-		G_B41_0 = 0;
+		G_B45_0 = 0;
 	}
 
-IL_02f6:
+IL_0338:
 	{
-		V_30 = (bool)G_B41_0;
-		bool L_130 = V_30;
-		if (L_130)
+		V_32 = (bool)G_B45_0;
+		bool L_135 = V_32;
+		if (L_135)
 		{
-			goto IL_0296;
+			goto IL_02d8;
 		}
 	}
 	{
 		// if (m_paddingEnabled)
-		bool L_131 = __this->___m_paddingEnabled_1;
-		V_31 = L_131;
-		bool L_132 = V_31;
-		if (!L_132)
+		bool L_136 = __this->___m_paddingEnabled_1;
+		V_33 = L_136;
+		bool L_137 = V_33;
+		if (!L_137)
 		{
-			goto IL_0395;
+			goto IL_03d7;
 		}
 	}
 	{
 		// int desiredPadding = desiredSamplesCount - (hapticsState.SamplesQueued + acquiredSamplesCount);
-		int32_t L_133 = V_2;
-		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_134 = V_0;
-		int32_t L_135 = L_134.___SamplesQueued_1;
-		int32_t L_136 = V_3;
-		V_32 = ((int32_t)il2cpp_codegen_subtract(L_133, ((int32_t)il2cpp_codegen_add(L_135, L_136))));
+		int32_t L_138 = V_2;
+		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_139 = V_0;
+		int32_t L_140 = L_139.___SamplesQueued_1;
+		int32_t L_141 = V_3;
+		V_34 = ((int32_t)il2cpp_codegen_subtract(L_138, ((int32_t)il2cpp_codegen_add(L_140, L_141))));
 		// if (desiredPadding < (OVRHaptics.Config.MinimumBufferSamplesCount - acquiredSamplesCount))
-		int32_t L_137 = V_32;
+		int32_t L_142 = V_34;
 		il2cpp_codegen_runtime_class_init_inline(Config_tBB31557219CCC3C5813D03CA13CADC73D7E14EF2_il2cpp_TypeInfo_var);
-		int32_t L_138;
-		L_138 = Config_get_MinimumBufferSamplesCount_m27DBFB9FEA1CB7EF08AC8C62B2F7B99CF1B9457C_inline(NULL);
-		int32_t L_139 = V_3;
-		V_33 = (bool)((((int32_t)L_137) < ((int32_t)((int32_t)il2cpp_codegen_subtract(L_138, L_139))))? 1 : 0);
-		bool L_140 = V_33;
-		if (!L_140)
+		int32_t L_143;
+		L_143 = Config_get_MinimumBufferSamplesCount_m27DBFB9FEA1CB7EF08AC8C62B2F7B99CF1B9457C_inline(NULL);
+		int32_t L_144 = V_3;
+		V_35 = (bool)((((int32_t)L_142) < ((int32_t)((int32_t)il2cpp_codegen_subtract(L_143, L_144))))? 1 : 0);
+		bool L_145 = V_35;
+		if (!L_145)
 		{
-			goto IL_0332;
+			goto IL_0374;
 		}
 	}
 	{
 		// desiredPadding = (OVRHaptics.Config.MinimumBufferSamplesCount - acquiredSamplesCount);
 		il2cpp_codegen_runtime_class_init_inline(Config_tBB31557219CCC3C5813D03CA13CADC73D7E14EF2_il2cpp_TypeInfo_var);
-		int32_t L_141;
-		L_141 = Config_get_MinimumBufferSamplesCount_m27DBFB9FEA1CB7EF08AC8C62B2F7B99CF1B9457C_inline(NULL);
-		int32_t L_142 = V_3;
-		V_32 = ((int32_t)il2cpp_codegen_subtract(L_141, L_142));
+		int32_t L_146;
+		L_146 = Config_get_MinimumBufferSamplesCount_m27DBFB9FEA1CB7EF08AC8C62B2F7B99CF1B9457C_inline(NULL);
+		int32_t L_147 = V_3;
+		V_34 = ((int32_t)il2cpp_codegen_subtract(L_146, L_147));
 	}
 
-IL_0332:
+IL_0374:
 	{
 		// if (desiredPadding > hapticsState.SamplesAvailable)
-		int32_t L_143 = V_32;
-		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_144 = V_0;
-		int32_t L_145 = L_144.___SamplesAvailable_0;
-		V_34 = (bool)((((int32_t)L_143) > ((int32_t)L_145))? 1 : 0);
-		bool L_146 = V_34;
-		if (!L_146)
+		int32_t L_148 = V_34;
+		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_149 = V_0;
+		int32_t L_150 = L_149.___SamplesAvailable_0;
+		V_36 = (bool)((((int32_t)L_148) > ((int32_t)L_150))? 1 : 0);
+		bool L_151 = V_36;
+		if (!L_151)
 		{
-			goto IL_034a;
+			goto IL_038c;
 		}
 	}
 	{
 		// desiredPadding = hapticsState.SamplesAvailable;
-		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_147 = V_0;
-		int32_t L_148 = L_147.___SamplesAvailable_0;
-		V_32 = L_148;
+		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_152 = V_0;
+		int32_t L_153 = L_152.___SamplesAvailable_0;
+		V_34 = L_153;
 	}
 
-IL_034a:
+IL_038c:
 	{
 		// if (desiredPadding > 0)
-		int32_t L_149 = V_32;
-		V_35 = (bool)((((int32_t)L_149) > ((int32_t)0))? 1 : 0);
-		bool L_150 = V_35;
-		if (!L_150)
+		int32_t L_154 = V_34;
+		V_37 = (bool)((((int32_t)L_154) > ((int32_t)0))? 1 : 0);
+		bool L_155 = V_37;
+		if (!L_155)
 		{
-			goto IL_0394;
+			goto IL_03d6;
 		}
 	}
 	{
 		// int numBytes = desiredPadding * OVRHaptics.Config.SampleSizeInBytes;
-		int32_t L_151 = V_32;
+		int32_t L_156 = V_34;
 		il2cpp_codegen_runtime_class_init_inline(Config_tBB31557219CCC3C5813D03CA13CADC73D7E14EF2_il2cpp_TypeInfo_var);
-		int32_t L_152;
-		L_152 = Config_get_SampleSizeInBytes_m8A59438CA870B1DEDA2DDE836BBF513D4DA6C209_inline(NULL);
-		V_36 = ((int32_t)il2cpp_codegen_multiply(L_151, L_152));
+		int32_t L_157;
+		L_157 = Config_get_SampleSizeInBytes_m8A59438CA870B1DEDA2DDE836BBF513D4DA6C209_inline(NULL);
+		V_38 = ((int32_t)il2cpp_codegen_multiply(L_156, L_157));
 		// int dstOffset = acquiredSamplesCount * OVRHaptics.Config.SampleSizeInBytes;
-		int32_t L_153 = V_3;
-		int32_t L_154;
-		L_154 = Config_get_SampleSizeInBytes_m8A59438CA870B1DEDA2DDE836BBF513D4DA6C209_inline(NULL);
-		V_37 = ((int32_t)il2cpp_codegen_multiply(L_153, L_154));
+		int32_t L_158 = V_3;
+		int32_t L_159;
+		L_159 = Config_get_SampleSizeInBytes_m8A59438CA870B1DEDA2DDE836BBF513D4DA6C209_inline(NULL);
+		V_39 = ((int32_t)il2cpp_codegen_multiply(L_158, L_159));
 		// int srcOffset = 0;
-		V_38 = 0;
+		V_40 = 0;
 		// Marshal.Copy(m_paddingClip.Samples, srcOffset, m_nativeBuffer.GetPointer(dstOffset), numBytes);
-		OVRHapticsClip_t76F18B7843EDB06C61DE1DBA343216CEB5BE2E8C* L_155 = __this->___m_paddingClip_10;
-		NullCheck(L_155);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_156;
-		L_156 = OVRHapticsClip_get_Samples_m433E8160F5A8874E4AC7972406FB0CC146AC74BE_inline(L_155, NULL);
-		int32_t L_157 = V_38;
-		OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* L_158 = __this->___m_nativeBuffer_9;
-		int32_t L_159 = V_37;
-		NullCheck(L_158);
-		intptr_t L_160;
-		L_160 = OVRNativeBuffer_GetPointer_m0BDE8F3A317E948AA21A16BAF97CDF360C9C6AA7(L_158, L_159, NULL);
-		int32_t L_161 = V_36;
+		OVRHapticsClip_t76F18B7843EDB06C61DE1DBA343216CEB5BE2E8C* L_160 = __this->___m_paddingClip_10;
+		NullCheck(L_160);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_161;
+		L_161 = OVRHapticsClip_get_Samples_m433E8160F5A8874E4AC7972406FB0CC146AC74BE_inline(L_160, NULL);
+		int32_t L_162 = V_40;
+		OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* L_163 = __this->___m_nativeBuffer_9;
+		int32_t L_164 = V_39;
+		NullCheck(L_163);
+		intptr_t L_165;
+		L_165 = OVRNativeBuffer_GetPointer_m0BDE8F3A317E948AA21A16BAF97CDF360C9C6AA7(L_163, L_164, NULL);
+		int32_t L_166 = V_38;
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
-		Marshal_Copy_m0FD7BFE70EE28FC67B67A6225AD58F95FEE7EB85(L_156, L_157, L_160, L_161, NULL);
+		Marshal_Copy_m0FD7BFE70EE28FC67B67A6225AD58F95FEE7EB85(L_161, L_162, L_165, L_166, NULL);
 		// acquiredSamplesCount += desiredPadding;
-		int32_t L_162 = V_3;
-		int32_t L_163 = V_32;
-		V_3 = ((int32_t)il2cpp_codegen_add(L_162, L_163));
+		int32_t L_167 = V_3;
+		int32_t L_168 = V_34;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_167, L_168));
 	}
 
-IL_0394:
+IL_03d6:
 	{
 	}
 
-IL_0395:
+IL_03d7:
 	{
 		// if (acquiredSamplesCount > 0)
-		int32_t L_164 = V_3;
-		V_39 = (bool)((((int32_t)L_164) > ((int32_t)0))? 1 : 0);
-		bool L_165 = V_39;
-		if (!L_165)
+		int32_t L_169 = V_3;
+		V_41 = (bool)((((int32_t)L_169) > ((int32_t)0))? 1 : 0);
+		bool L_170 = V_41;
+		if (!L_170)
 		{
-			goto IL_03ed;
+			goto IL_042f;
 		}
 	}
 	{
 		// hapticsBuffer.Samples = m_nativeBuffer.GetPointer();
-		OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* L_166 = __this->___m_nativeBuffer_9;
-		NullCheck(L_166);
-		intptr_t L_167;
-		L_167 = OVRNativeBuffer_GetPointer_m0BDE8F3A317E948AA21A16BAF97CDF360C9C6AA7(L_166, 0, NULL);
-		(&V_40)->___Samples_0 = L_167;
+		OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* L_171 = __this->___m_nativeBuffer_9;
+		NullCheck(L_171);
+		intptr_t L_172;
+		L_172 = OVRNativeBuffer_GetPointer_m0BDE8F3A317E948AA21A16BAF97CDF360C9C6AA7(L_171, 0, NULL);
+		(&V_42)->___Samples_0 = L_172;
 		// hapticsBuffer.SamplesCount = acquiredSamplesCount;
-		int32_t L_168 = V_3;
-		(&V_40)->___SamplesCount_1 = L_168;
+		int32_t L_173 = V_3;
+		(&V_42)->___SamplesCount_1 = L_173;
 		// OVRPlugin.SetControllerHaptics(m_controller, hapticsBuffer);
-		uint32_t L_169 = __this->___m_controller_8;
-		HapticsBuffer_t05090BEFD2D209883C588225318CD620E29EF181 L_170 = V_40;
+		uint32_t L_174 = __this->___m_controller_8;
+		HapticsBuffer_t05090BEFD2D209883C588225318CD620E29EF181 L_175 = V_42;
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		bool L_171;
-		L_171 = OVRPlugin_SetControllerHaptics_mF261D7841611D1A96353C34F471145D69A15A0DE(L_169, L_170, NULL);
+		bool L_176;
+		L_176 = OVRPlugin_SetControllerHaptics_mF261D7841611D1A96353C34F471145D69A15A0DE(L_174, L_175, NULL);
 		// hapticsState = OVRPlugin.GetControllerHapticsState(m_controller);
-		uint32_t L_172 = __this->___m_controller_8;
-		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_173;
-		L_173 = OVRPlugin_GetControllerHapticsState_mEEA959FE0B91F35368C4229D5423C70C448E03DE(L_172, NULL);
-		V_0 = L_173;
+		uint32_t L_177 = __this->___m_controller_8;
+		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_178;
+		L_178 = OVRPlugin_GetControllerHapticsState_mEEA959FE0B91F35368C4229D5423C70C448E03DE(L_177, NULL);
+		V_0 = L_178;
 		// m_prevSamplesQueued = hapticsState.SamplesQueued;
-		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_174 = V_0;
-		int32_t L_175 = L_174.___SamplesQueued_1;
-		__this->___m_prevSamplesQueued_2 = L_175;
+		HapticsState_tF1FED426B2261FB06D69988945D47B96DC067ABD L_179 = V_0;
+		int32_t L_180 = L_179.___SamplesQueued_1;
+		__this->___m_prevSamplesQueued_2 = L_180;
 		// m_prevSamplesQueuedTime = Time.realtimeSinceStartup;
-		float L_176;
-		L_176 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
-		__this->___m_prevSamplesQueuedTime_3 = L_176;
+		float L_181;
+		L_181 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
+		__this->___m_prevSamplesQueuedTime_3 = L_181;
 	}
 
-IL_03ed:
+IL_042f:
 	{
 		// }
 		return;
@@ -8738,6 +8771,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRHapticsClip_InitializeFromAudioFloatT
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Config_tBB31557219CCC3C5813D03CA13CADC73D7E14EF2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEE25EB25AA74DA323C4A0C2C18E0921705443848);
 		s_Il2CppMethodInitialized = true;
 	}
 	double V_0 = 0.0;
@@ -8750,141 +8785,182 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRHapticsClip_InitializeFromAudioFloatT
 	bool V_7 = false;
 	bool V_8 = false;
 	bool V_9 = false;
+	bool V_10 = false;
+	int32_t G_B5_0 = 0;
+	{
+		// if (OVRHaptics.Config.SampleRateHz == 0)
+		il2cpp_codegen_runtime_class_init_inline(Config_tBB31557219CCC3C5813D03CA13CADC73D7E14EF2_il2cpp_TypeInfo_var);
+		int32_t L_0;
+		L_0 = Config_get_SampleRateHz_m2D1B79A8EC0A19BA0EA97E6B3039D15788BB9F47_inline(NULL);
+		V_6 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_6;
+		if (!L_1)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		// Debug.Log("Unable to initialize a controller whose SampleRateHz is 0 now.");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralEE25EB25AA74DA323C4A0C2C18E0921705443848, NULL);
+		// return;
+		goto IL_0109;
+	}
+
+IL_0020:
 	{
 		// double stepSizePrecise = (sourceFrequency + 1e-6) / OVRHaptics.Config.SampleRateHz;
-		double L_0 = ___1_sourceFrequency;
+		double L_2 = ___1_sourceFrequency;
 		il2cpp_codegen_runtime_class_init_inline(Config_tBB31557219CCC3C5813D03CA13CADC73D7E14EF2_il2cpp_TypeInfo_var);
-		int32_t L_1;
-		L_1 = Config_get_SampleRateHz_m2D1B79A8EC0A19BA0EA97E6B3039D15788BB9F47_inline(NULL);
-		V_0 = ((double)(((double)il2cpp_codegen_add(L_0, (9.9999999999999995E-07)))/((double)L_1)));
-		// if (stepSizePrecise < 1.0)
-		double L_2 = V_0;
-		V_6 = (bool)((((double)L_2) < ((double)(1.0)))? 1 : 0);
-		bool L_3 = V_6;
-		if (!L_3)
+		int32_t L_3;
+		L_3 = Config_get_SampleRateHz_m2D1B79A8EC0A19BA0EA97E6B3039D15788BB9F47_inline(NULL);
+		V_0 = ((double)(((double)il2cpp_codegen_add(L_2, (9.9999999999999995E-07)))/((double)L_3)));
+		// if (stepSizePrecise < 1.0 || stepSizePrecise> Int32.MaxValue)
+		double L_4 = V_0;
+		if ((((double)L_4) < ((double)(1.0))))
 		{
-			goto IL_002b;
+			goto IL_004d;
+		}
+	}
+	{
+		double L_5 = V_0;
+		G_B5_0 = ((((double)L_5) > ((double)(2147483647.0)))? 1 : 0);
+		goto IL_004e;
+	}
+
+IL_004d:
+	{
+		G_B5_0 = 1;
+	}
+
+IL_004e:
+	{
+		V_7 = (bool)G_B5_0;
+		bool L_6 = V_7;
+		if (!L_6)
+		{
+			goto IL_0059;
 		}
 	}
 	{
 		// return;
-		goto IL_00db;
+		goto IL_0109;
 	}
 
-IL_002b:
+IL_0059:
 	{
 		// int stepSize = (int)stepSizePrecise;
-		double L_4 = V_0;
-		V_1 = il2cpp_codegen_cast_double_to_int<int32_t>(L_4);
+		double L_7 = V_0;
+		V_1 = il2cpp_codegen_cast_double_to_int<int32_t>(L_7);
 		// double stepSizeError = stepSizePrecise - stepSize;
-		double L_5 = V_0;
-		int32_t L_6 = V_1;
-		V_2 = ((double)il2cpp_codegen_subtract(L_5, ((double)L_6)));
+		double L_8 = V_0;
+		int32_t L_9 = V_1;
+		V_2 = ((double)il2cpp_codegen_subtract(L_8, ((double)L_9)));
 		// double accumulatedStepSizeError = 0.0f;
 		V_3 = (0.0);
 		// int length = sourceData.Length;
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_7 = ___0_sourceData;
-		NullCheck(L_7);
-		V_4 = ((int32_t)(((RuntimeArray*)L_7)->max_length));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_10 = ___0_sourceData;
+		NullCheck(L_10);
+		V_4 = ((int32_t)(((RuntimeArray*)L_10)->max_length));
 		// Count = 0;
 		OVRHapticsClip_set_Count_m174C326E1966E50541CE7774619B508BC732B810_inline(__this, 0, NULL);
 		// Capacity = length / sourceChannelCount / stepSize + 1;
-		int32_t L_8 = V_4;
-		int32_t L_9 = ___2_sourceChannelCount;
-		int32_t L_10 = V_1;
-		OVRHapticsClip_set_Capacity_m0648341A0AFFFE4D146AE0A3EFAC23B70AA739B0_inline(__this, ((int32_t)il2cpp_codegen_add(((int32_t)(((int32_t)(L_8/L_9))/L_10)), 1)), NULL);
+		int32_t L_11 = V_4;
+		int32_t L_12 = ___2_sourceChannelCount;
+		int32_t L_13 = V_1;
+		OVRHapticsClip_set_Capacity_m0648341A0AFFFE4D146AE0A3EFAC23B70AA739B0_inline(__this, ((int32_t)il2cpp_codegen_add(((int32_t)(((int32_t)(L_11/L_12))/L_13)), 1)), NULL);
 		// Samples = new byte[Capacity * OVRHaptics.Config.SampleSizeInBytes];
-		int32_t L_11;
-		L_11 = OVRHapticsClip_get_Capacity_mB9F5A181D3C9F8208F229AE0A8734C9E18F22A7C_inline(__this, NULL);
+		int32_t L_14;
+		L_14 = OVRHapticsClip_get_Capacity_mB9F5A181D3C9F8208F229AE0A8734C9E18F22A7C_inline(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Config_tBB31557219CCC3C5813D03CA13CADC73D7E14EF2_il2cpp_TypeInfo_var);
-		int32_t L_12;
-		L_12 = Config_get_SampleSizeInBytes_m8A59438CA870B1DEDA2DDE836BBF513D4DA6C209_inline(NULL);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_13 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_11, L_12)));
-		OVRHapticsClip_set_Samples_mE62A59340D856612957FB1381FCACDE676702A70_inline(__this, L_13, NULL);
+		int32_t L_15;
+		L_15 = Config_get_SampleSizeInBytes_m8A59438CA870B1DEDA2DDE836BBF513D4DA6C209_inline(NULL);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_16 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_14, L_15)));
+		OVRHapticsClip_set_Samples_mE62A59340D856612957FB1381FCACDE676702A70_inline(__this, L_16, NULL);
 		// int i = sourceChannel % sourceChannelCount;
-		int32_t L_14 = ___3_sourceChannel;
-		int32_t L_15 = ___2_sourceChannelCount;
-		V_5 = ((int32_t)(L_14%L_15));
-		goto IL_00cf;
+		int32_t L_17 = ___3_sourceChannel;
+		int32_t L_18 = ___2_sourceChannelCount;
+		V_5 = ((int32_t)(L_17%L_18));
+		goto IL_00fd;
 	}
 
-IL_0079:
+IL_00a7:
 	{
 		// if (OVRHaptics.Config.SampleSizeInBytes == 1)
 		il2cpp_codegen_runtime_class_init_inline(Config_tBB31557219CCC3C5813D03CA13CADC73D7E14EF2_il2cpp_TypeInfo_var);
-		int32_t L_16;
-		L_16 = Config_get_SampleSizeInBytes_m8A59438CA870B1DEDA2DDE836BBF513D4DA6C209_inline(NULL);
-		V_7 = (bool)((((int32_t)L_16) == ((int32_t)1))? 1 : 0);
-		bool L_17 = V_7;
-		if (!L_17)
+		int32_t L_19;
+		L_19 = Config_get_SampleSizeInBytes_m8A59438CA870B1DEDA2DDE836BBF513D4DA6C209_inline(NULL);
+		V_8 = (bool)((((int32_t)L_19) == ((int32_t)1))? 1 : 0);
+		bool L_20 = V_8;
+		if (!L_20)
 		{
-			goto IL_00a6;
+			goto IL_00d4;
 		}
 	}
 	{
 		// WriteSample((byte)(Mathf.Clamp01(Mathf.Abs(sourceData[i])) * System.Byte.MaxValue)); // TODO support multi-byte samples
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_18 = ___0_sourceData;
-		int32_t L_19 = V_5;
-		NullCheck(L_18);
-		int32_t L_20 = L_19;
-		float L_21 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_20));
-		float L_22;
-		L_22 = fabsf(L_21);
-		float L_23;
-		L_23 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_22, NULL);
-		OVRHapticsClip_WriteSample_m5C7A13E38F525E2C58DF5A09E1EC9493FCF262ED(__this, (uint8_t)il2cpp_codegen_cast_floating_point<uint8_t, int32_t, float>(((float)il2cpp_codegen_multiply(L_23, (255.0f)))), NULL);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_21 = ___0_sourceData;
+		int32_t L_22 = V_5;
+		NullCheck(L_21);
+		int32_t L_23 = L_22;
+		float L_24 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
+		float L_25;
+		L_25 = fabsf(L_24);
+		float L_26;
+		L_26 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_25, NULL);
+		OVRHapticsClip_WriteSample_m5C7A13E38F525E2C58DF5A09E1EC9493FCF262ED(__this, (uint8_t)il2cpp_codegen_cast_floating_point<uint8_t, int32_t, float>(((float)il2cpp_codegen_multiply(L_26, (255.0f)))), NULL);
 	}
 
-IL_00a6:
+IL_00d4:
 	{
 		// i+= stepSize * sourceChannelCount;
-		int32_t L_24 = V_5;
-		int32_t L_25 = V_1;
-		int32_t L_26 = ___2_sourceChannelCount;
-		V_5 = ((int32_t)il2cpp_codegen_add(L_24, ((int32_t)il2cpp_codegen_multiply(L_25, L_26))));
+		int32_t L_27 = V_5;
+		int32_t L_28 = V_1;
+		int32_t L_29 = ___2_sourceChannelCount;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_27, ((int32_t)il2cpp_codegen_multiply(L_28, L_29))));
 		// accumulatedStepSizeError += stepSizeError;
-		double L_27 = V_3;
-		double L_28 = V_2;
-		V_3 = ((double)il2cpp_codegen_add(L_27, L_28));
+		double L_30 = V_3;
+		double L_31 = V_2;
+		V_3 = ((double)il2cpp_codegen_add(L_30, L_31));
 		// if ((int)accumulatedStepSizeError > 0)
-		double L_29 = V_3;
-		V_8 = (bool)((((int32_t)il2cpp_codegen_cast_double_to_int<int32_t>(L_29)) > ((int32_t)0))? 1 : 0);
-		bool L_30 = V_8;
-		if (!L_30)
+		double L_32 = V_3;
+		V_9 = (bool)((((int32_t)il2cpp_codegen_cast_double_to_int<int32_t>(L_32)) > ((int32_t)0))? 1 : 0);
+		bool L_33 = V_9;
+		if (!L_33)
 		{
-			goto IL_00ce;
+			goto IL_00fc;
 		}
 	}
 	{
 		// i+= (int)accumulatedStepSizeError * sourceChannelCount;
-		int32_t L_31 = V_5;
-		double L_32 = V_3;
-		int32_t L_33 = ___2_sourceChannelCount;
-		V_5 = ((int32_t)il2cpp_codegen_add(L_31, ((int32_t)il2cpp_codegen_multiply(il2cpp_codegen_cast_double_to_int<int32_t>(L_32), L_33))));
-		// accumulatedStepSizeError = accumulatedStepSizeError - (int)accumulatedStepSizeError;
-		double L_34 = V_3;
+		int32_t L_34 = V_5;
 		double L_35 = V_3;
-		V_3 = ((double)il2cpp_codegen_subtract(L_34, ((double)il2cpp_codegen_cast_double_to_int<int32_t>(L_35))));
+		int32_t L_36 = ___2_sourceChannelCount;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_34, ((int32_t)il2cpp_codegen_multiply(il2cpp_codegen_cast_double_to_int<int32_t>(L_35), L_36))));
+		// accumulatedStepSizeError = accumulatedStepSizeError - (int)accumulatedStepSizeError;
+		double L_37 = V_3;
+		double L_38 = V_3;
+		V_3 = ((double)il2cpp_codegen_subtract(L_37, ((double)il2cpp_codegen_cast_double_to_int<int32_t>(L_38))));
 	}
 
-IL_00ce:
+IL_00fc:
 	{
 	}
 
-IL_00cf:
+IL_00fd:
 	{
 		// while (i < length)
-		int32_t L_36 = V_5;
-		int32_t L_37 = V_4;
-		V_9 = (bool)((((int32_t)L_36) < ((int32_t)L_37))? 1 : 0);
-		bool L_38 = V_9;
-		if (L_38)
+		int32_t L_39 = V_5;
+		int32_t L_40 = V_4;
+		V_10 = (bool)((((int32_t)L_39) < ((int32_t)L_40))? 1 : 0);
+		bool L_41 = V_10;
+		if (L_41)
 		{
-			goto IL_0079;
+			goto IL_00a7;
 		}
 	}
 
-IL_00db:
+IL_0109:
 	{
 		// }
 		return;
@@ -29709,26 +29785,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRManager_set_trackingOriginType_mDDB79
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityOpenXR_tBE61966A5EA8E0DA3190F5309575D0B3EF7ECB3E_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5B18830FFFE6BD51C72FE2FEDDC95FA3B7BF888B);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8492E72FD492148021A921D852729AD1B2D18127);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE228AB76360D732126AF51A79C6935C66E6E9CDE);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
 	bool V_1 = false;
 	bool V_2 = false;
-	int32_t V_3 = 0;
-	bool V_4 = false;
-	bool V_5 = false;
-	bool V_6 = false;
-	bool V_7 = false;
-	bool V_8 = false;
-	bool V_9 = false;
-	int32_t G_B10_0 = 0;
 	{
 		// if (!isHmdPresent)
 		il2cpp_codegen_runtime_class_init_inline(OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_il2cpp_TypeInfo_var);
@@ -29738,170 +29801,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRManager_set_trackingOriginType_mDDB79
 		bool L_1 = V_1;
 		if (!L_1)
 		{
-			goto IL_0012;
+			goto IL_000f;
 		}
 	}
 	{
 		// return;
-		goto IL_00ba;
+		goto IL_0024;
 	}
 
-IL_0012:
+IL_000f:
 	{
 		// OVRPlugin.TrackingOrigin newOrigin = (OVRPlugin.TrackingOrigin)value;
 		int32_t L_2 = ___0_value;
 		V_0 = L_2;
-		// if (OVRPlugin.UnityOpenXR.Enabled)
-		bool L_3 = ((UnityOpenXR_tBE61966A5EA8E0DA3190F5309575D0B3EF7ECB3E_StaticFields*)il2cpp_codegen_static_fields_for(UnityOpenXR_tBE61966A5EA8E0DA3190F5309575D0B3EF7ECB3E_il2cpp_TypeInfo_var))->___Enabled_0;
-		V_2 = L_3;
-		bool L_4 = V_2;
-		if (!L_4)
-		{
-			goto IL_00a5;
-		}
-	}
-	{
-		// if (GetCurrentInputSubsystem() == null)
-		il2cpp_codegen_runtime_class_init_inline(OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_il2cpp_TypeInfo_var);
-		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_5;
-		L_5 = OVRManager_GetCurrentInputSubsystem_m6343BBB6BBB22C59B70C2502CCFF5D0073B7272D(NULL);
-		V_5 = (bool)((((RuntimeObject*)(XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34*)L_5) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-		bool L_6 = V_5;
-		if (!L_6)
-		{
-			goto IL_003d;
-		}
-	}
-	{
-		// Debug.LogError("InputSubsystem not found");
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralE228AB76360D732126AF51A79C6935C66E6E9CDE, NULL);
-		// return;
-		goto IL_00ba;
-	}
-
-IL_003d:
-	{
-		// TrackingOriginModeFlags mode = TrackingOriginModeFlags.Unknown;
-		V_3 = 0;
-		// if (newOrigin == OVRPlugin.TrackingOrigin.EyeLevel)
-		int32_t L_7 = V_0;
-		V_6 = (bool)((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
-		bool L_8 = V_6;
-		if (!L_8)
-		{
-			goto IL_004f;
-		}
-	}
-	{
-		// mode = TrackingOriginModeFlags.Device;
-		V_3 = 1;
-		goto IL_0073;
-	}
-
-IL_004f:
-	{
-		// else if (newOrigin == OVRPlugin.TrackingOrigin.FloorLevel || newOrigin == OVRPlugin.TrackingOrigin.Stage)
-		int32_t L_9 = V_0;
-		if ((((int32_t)L_9) == ((int32_t)1)))
-		{
-			goto IL_0059;
-		}
-	}
-	{
-		int32_t L_10 = V_0;
-		G_B10_0 = ((((int32_t)L_10) == ((int32_t)2))? 1 : 0);
-		goto IL_005a;
-	}
-
-IL_0059:
-	{
-		G_B10_0 = 1;
-	}
-
-IL_005a:
-	{
-		V_7 = (bool)G_B10_0;
-		bool L_11 = V_7;
-		if (!L_11)
-		{
-			goto IL_0066;
-		}
-	}
-	{
-		// mode = TrackingOriginModeFlags.Floor; // Stage in OpenXR
-		V_3 = 2;
-		goto IL_0073;
-	}
-
-IL_0066:
-	{
-		// Debug.LogError("Unable to map TrackingOrigin {0} in Unity OpenXR");
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral5B18830FFFE6BD51C72FE2FEDDC95FA3B7BF888B, NULL);
-	}
-
-IL_0073:
-	{
-		// bool success = GetCurrentInputSubsystem().TrySetTrackingOriginMode(mode);
-		il2cpp_codegen_runtime_class_init_inline(OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_il2cpp_TypeInfo_var);
-		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_12;
-		L_12 = OVRManager_GetCurrentInputSubsystem_m6343BBB6BBB22C59B70C2502CCFF5D0073B7272D(NULL);
-		int32_t L_13 = V_3;
-		NullCheck(L_12);
-		bool L_14;
-		L_14 = XRInputSubsystem_TrySetTrackingOriginMode_m132C190CEAE4403A381BF1C1C4B5FF349F2A3FA7(L_12, L_13, NULL);
-		V_4 = L_14;
-		// if (!success)
-		bool L_15 = V_4;
-		V_8 = (bool)((((int32_t)L_15) == ((int32_t)0))? 1 : 0);
-		bool L_16 = V_8;
-		if (!L_16)
-		{
-			goto IL_009a;
-		}
-	}
-	{
-		// Debug.LogError("Unable to set TrackingOrigin {0} to Unity Input Subsystem");
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral8492E72FD492148021A921D852729AD1B2D18127, NULL);
-		goto IL_00a3;
-	}
-
-IL_009a:
-	{
-		// _trackingOriginType = value;
-		int32_t L_17 = ___0_value;
-		__this->____trackingOriginType_94 = L_17;
-	}
-
-IL_00a3:
-	{
-		// return;
-		goto IL_00ba;
-	}
-
-IL_00a5:
-	{
 		// if (OVRPlugin.SetTrackingOriginType(newOrigin))
-		int32_t L_18 = V_0;
+		int32_t L_3 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		bool L_19;
-		L_19 = OVRPlugin_SetTrackingOriginType_mC03CEE60AF8A00DE01E5071C8CCBE8C366ED2105(L_18, NULL);
-		V_9 = L_19;
-		bool L_20 = V_9;
-		if (!L_20)
+		bool L_4;
+		L_4 = OVRPlugin_SetTrackingOriginType_mC03CEE60AF8A00DE01E5071C8CCBE8C366ED2105(L_3, NULL);
+		V_2 = L_4;
+		bool L_5 = V_2;
+		if (!L_5)
 		{
-			goto IL_00ba;
+			goto IL_0024;
 		}
 	}
 	{
 		// _trackingOriginType = value;
-		int32_t L_21 = ___0_value;
-		__this->____trackingOriginType_94 = L_21;
+		int32_t L_6 = ___0_value;
+		__this->____trackingOriginType_94 = L_6;
 	}
 
-IL_00ba:
+IL_0024:
 	{
 		// }
 		return;
@@ -30009,7 +29940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Version_tE426DB5655D0F22920AE16A2AA9AB7781B82
 	{
 		// get { return OVRPlugin.wrapperVersion; }
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_0 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___wrapperVersion_3;
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_0 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___wrapperVersion_1;
 		V_0 = L_0;
 		goto IL_0009;
 	}
@@ -30796,7 +30727,7 @@ IL_0025:
 		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralD51A5F81179392C785765556663B36E28DBF8E5F);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = L_8;
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_10 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___wrapperVersion_3;
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_10 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___wrapperVersion_1;
 		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_11 = L_10;
 		G_B3_0 = L_11;
 		G_B3_1 = 3;
@@ -36292,36 +36223,59 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PassthroughCapabilities_t3B338539A7E4125FE793
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PassthroughCapabilities_t3B338539A7E4125FE79381628715BDC608471F9F_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	int32_t V_0 = 0;
-	PassthroughCapabilities_t3B338539A7E4125FE79381628715BDC608471F9F* V_1 = NULL;
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	PassthroughCapabilities_t3B338539A7E4125FE79381628715BDC608471F9F* V_2 = NULL;
+	{
+		// if (_passthroughCapabilities == null) {
+		il2cpp_codegen_runtime_class_init_inline(OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_il2cpp_TypeInfo_var);
+		PassthroughCapabilities_t3B338539A7E4125FE79381628715BDC608471F9F* L_0 = ((OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_StaticFields*)il2cpp_codegen_static_fields_for(OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_il2cpp_TypeInfo_var))->____passthroughCapabilities_125;
+		V_0 = (bool)((((RuntimeObject*)(PassthroughCapabilities_t3B338539A7E4125FE79381628715BDC608471F9F*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_002b;
+		}
+	}
 	{
 		// OVRPlugin.PassthroughCapabilityFlags capabilityFlags = OVRPlugin.GetPassthroughCapabilityFlags();
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		int32_t L_0;
-		L_0 = OVRPlugin_GetPassthroughCapabilityFlags_m17CE0E3D6F476E63ECE69CC29FA167DE14C6DD3B(NULL);
-		V_0 = L_0;
-		// return new PassthroughCapabilities(
+		int32_t L_2;
+		L_2 = OVRPlugin_GetPassthroughCapabilityFlags_m17CE0E3D6F476E63ECE69CC29FA167DE14C6DD3B(NULL);
+		V_1 = L_2;
+		// _passthroughCapabilities = new PassthroughCapabilities(
 		//     supportsPassthrough: (capabilityFlags & OVRPlugin.PassthroughCapabilityFlags.Passthrough) == OVRPlugin.PassthroughCapabilityFlags.Passthrough,
 		//     supportsColorPassthrough: (capabilityFlags & OVRPlugin.PassthroughCapabilityFlags.Color) == OVRPlugin.PassthroughCapabilityFlags.Color
 		// );
-		int32_t L_1 = V_0;
-		int32_t L_2 = V_0;
-		PassthroughCapabilities_t3B338539A7E4125FE79381628715BDC608471F9F* L_3 = (PassthroughCapabilities_t3B338539A7E4125FE79381628715BDC608471F9F*)il2cpp_codegen_object_new(PassthroughCapabilities_t3B338539A7E4125FE79381628715BDC608471F9F_il2cpp_TypeInfo_var);
-		NullCheck(L_3);
-		PassthroughCapabilities__ctor_mD9AD81E53544D7D85A7E6CAAF8F277721F0B31A3(L_3, (bool)((((int32_t)((int32_t)((int32_t)L_1&1))) == ((int32_t)1))? 1 : 0), (bool)((((int32_t)((int32_t)((int32_t)L_2&2))) == ((int32_t)2))? 1 : 0), NULL);
-		V_1 = L_3;
-		goto IL_001b;
+		int32_t L_3 = V_1;
+		int32_t L_4 = V_1;
+		PassthroughCapabilities_t3B338539A7E4125FE79381628715BDC608471F9F* L_5 = (PassthroughCapabilities_t3B338539A7E4125FE79381628715BDC608471F9F*)il2cpp_codegen_object_new(PassthroughCapabilities_t3B338539A7E4125FE79381628715BDC608471F9F_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		PassthroughCapabilities__ctor_mD9AD81E53544D7D85A7E6CAAF8F277721F0B31A3(L_5, (bool)((((int32_t)((int32_t)((int32_t)L_3&1))) == ((int32_t)1))? 1 : 0), (bool)((((int32_t)((int32_t)((int32_t)L_4&2))) == ((int32_t)2))? 1 : 0), NULL);
+		il2cpp_codegen_runtime_class_init_inline(OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_il2cpp_TypeInfo_var);
+		((OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_StaticFields*)il2cpp_codegen_static_fields_for(OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_il2cpp_TypeInfo_var))->____passthroughCapabilities_125 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&((OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_StaticFields*)il2cpp_codegen_static_fields_for(OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_il2cpp_TypeInfo_var))->____passthroughCapabilities_125), (void*)L_5);
 	}
 
-IL_001b:
+IL_002b:
+	{
+		// return _passthroughCapabilities;
+		il2cpp_codegen_runtime_class_init_inline(OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_il2cpp_TypeInfo_var);
+		PassthroughCapabilities_t3B338539A7E4125FE79381628715BDC608471F9F* L_6 = ((OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_StaticFields*)il2cpp_codegen_static_fields_for(OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_il2cpp_TypeInfo_var))->____passthroughCapabilities_125;
+		V_2 = L_6;
+		goto IL_0033;
+	}
+
+IL_0033:
 	{
 		// }
-		PassthroughCapabilities_t3B338539A7E4125FE79381628715BDC608471F9F* L_4 = V_1;
-		return L_4;
+		PassthroughCapabilities_t3B338539A7E4125FE79381628715BDC608471F9F* L_7 = V_2;
+		return L_7;
 	}
 }
 // System.Boolean OVRManager::IsInsightPassthroughInitialized()
@@ -36407,8 +36361,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRManager__ctor_mDC0740CE9C6AE096D5776D
 		__this->___useRecommendedMSAALevel_42 = (bool)1;
 		// private bool _monoscopic = false;
 		__this->____monoscopic_43 = (bool)0;
-		// private OVRManager.ColorSpace _colorGamut = OVRManager.ColorSpace.Rift_CV1;
-		__this->____colorGamut_44 = 4;
+		// private OVRManager.ColorSpace _colorGamut = OVRManager.ColorSpace.P3;
+		__this->____colorGamut_44 = 7;
 		// public float minRenderScale = 0.7f;
 		__this->___minRenderScale_45 = (0.699999988f);
 		// public float maxRenderScale = 1.0f;
@@ -36476,8 +36430,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRManager__ctor_mDC0740CE9C6AE096D5776D
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___instantiateMixedRealityCameraGameObject_78), (void*)(InstantiateMrcCameraDelegate_t26D39C3003CADD2CBA4E7C5EB75333089B2F03C8*)NULL);
 		// public bool isInsightPassthroughEnabled = false;
 		__this->___isInsightPassthroughEnabled_79 = (bool)0;
-		// private bool _localDimming = false;
-		__this->____localDimming_93 = (bool)0;
+		// private bool _localDimming = true;
+		__this->____localDimming_93 = (bool)1;
 		// private OVRManager.TrackingOrigin _trackingOriginType = OVRManager.TrackingOrigin.EyeLevel;
 		__this->____trackingOriginType_94 = 0;
 		// public bool usePositionTracking = true;

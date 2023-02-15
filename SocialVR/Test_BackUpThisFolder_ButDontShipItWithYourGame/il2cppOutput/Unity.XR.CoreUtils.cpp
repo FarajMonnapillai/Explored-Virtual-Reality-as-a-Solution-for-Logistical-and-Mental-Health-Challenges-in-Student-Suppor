@@ -1775,6 +1775,8 @@ struct MethodBase_t  : public MemberInfo_t
 // UnityEngine.PropertyAttribute
 struct PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
+	// System.Int32 UnityEngine.PropertyAttribute::<order>k__BackingField
+	int32_t ___U3CorderU3Ek__BackingField_0;
 };
 
 // System.Reflection.PropertyInfo
@@ -2106,9 +2108,9 @@ struct Delegate_t_marshaled_com
 struct EnumDisplayAttribute_tDAE484F20982CD887E2422F9099BB6C1CA7D165A  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 	// System.String[] Unity.XR.CoreUtils.GUI.EnumDisplayAttribute::Names
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___Names_0;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___Names_1;
 	// System.Int32[] Unity.XR.CoreUtils.GUI.EnumDisplayAttribute::Values
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___Values_1;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___Values_2;
 };
 
 // System.Exception
@@ -22811,14 +22813,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumDisplayAttribute__ctor_mA3848EC7E676
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = ___0_enumValues;
 		NullCheck(L_0);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_0)->max_length)));
-		__this->___Names_0 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___Names_0), (void*)L_1);
+		__this->___Names_1 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Names_1), (void*)L_1);
 		// Values = new int[enumValues.Length];
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = ___0_enumValues;
 		NullCheck(L_2);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_2)->max_length)));
-		__this->___Values_1 = L_3;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___Values_1), (void*)L_3);
+		__this->___Values_2 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Values_2), (void*)L_3);
 		// var valueCounter = 0;
 		V_0 = 0;
 		goto IL_0071;
@@ -22860,7 +22862,7 @@ IL_0028:
 IL_0050:
 	{
 		// Names[valueCounter] = asEnum.ToString();
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = __this->___Names_0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = __this->___Names_1;
 		int32_t L_16 = V_0;
 		Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2* L_17 = V_1;
 		NullCheck(L_17);
@@ -22870,7 +22872,7 @@ IL_0050:
 		ArrayElementTypeCheck (L_15, L_18);
 		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(L_16), (String_t*)L_18);
 		// Values[valueCounter] = Convert.ToInt32(asEnum);
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_19 = __this->___Values_1;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_19 = __this->___Values_2;
 		int32_t L_20 = V_0;
 		Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2* L_21 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -22887,7 +22889,7 @@ IL_0071:
 	{
 		// while (valueCounter < Values.Length)
 		int32_t L_24 = V_0;
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_25 = __this->___Values_1;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_25 = __this->___Values_2;
 		NullCheck(L_25);
 		V_3 = (bool)((((int32_t)L_24) < ((int32_t)((int32_t)(((RuntimeArray*)L_25)->max_length))))? 1 : 0);
 		bool L_26 = V_3;

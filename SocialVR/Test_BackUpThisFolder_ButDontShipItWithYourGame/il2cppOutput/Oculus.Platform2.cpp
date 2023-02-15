@@ -6574,8 +6574,8 @@ inline RuntimeObject* DeserializableList_1_GetEnumerator_m6FF4EACFD252C29BB95B64
 {
 	return ((  RuntimeObject* (*) (DeserializableList_1_tDC302AFD37EC50BB1B2E5B3FC30740B13395F726*, const RuntimeMethod*))DeserializableList_1_GetEnumerator_m5BD9919C68A9CE0BAD70A5138DED5B35B59E6DC8_gshared)(__this, method);
 }
-// Oculus.Platform.Request`1<Oculus.Platform.Models.PurchaseList> Oculus.Platform.IAP::GetViewerPurchases(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Request_1_tC5B6E137548496BDBF83B246FD4875ECE59B63E6* IAP_GetViewerPurchases_mDC9F2E1FB5B93683A0EAE253825D6F96340CE189 (bool ___0_fetchDeveloperPayload, const RuntimeMethod* method) ;
+// Oculus.Platform.Request`1<Oculus.Platform.Models.PurchaseList> Oculus.Platform.IAP::GetViewerPurchases()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Request_1_tC5B6E137548496BDBF83B246FD4875ECE59B63E6* IAP_GetViewerPurchases_m57FBEE9C191FCB6152855B537076B0C4FE14CFE3 (const RuntimeMethod* method) ;
 // System.Void Oculus.Platform.Message`1/Callback<Oculus.Platform.Models.PurchaseList>::.ctor(System.Object,System.IntPtr)
 inline void Callback__ctor_mC0D8F4E69B15C5C470C097D6265BF60948CA572D (Callback_t68D318874164CF157B48CC9CC0FEA09979D4A5C9* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
@@ -22935,7 +22935,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAPManager_FetchPurchasedProducts_mED4C1
 	{
 		// IAP.GetViewerPurchases().OnComplete(GetViewerPurchasesCallback);
 		Request_1_tC5B6E137548496BDBF83B246FD4875ECE59B63E6* L_0;
-		L_0 = IAP_GetViewerPurchases_mDC9F2E1FB5B93683A0EAE253825D6F96340CE189((bool)0, NULL);
+		L_0 = IAP_GetViewerPurchases_m57FBEE9C191FCB6152855B537076B0C4FE14CFE3(NULL);
 		Callback_t68D318874164CF157B48CC9CC0FEA09979D4A5C9* L_1 = (Callback_t68D318874164CF157B48CC9CC0FEA09979D4A5C9*)il2cpp_codegen_object_new(Callback_t68D318874164CF157B48CC9CC0FEA09979D4A5C9_il2cpp_TypeInfo_var);
 		NullCheck(L_1);
 		Callback__ctor_mC0D8F4E69B15C5C470C097D6265BF60948CA572D(L_1, __this, (intptr_t)((void*)IAPManager_GetViewerPurchasesCallback_mC59D74CD44DE5759357598077EF9007951BC6705_RuntimeMethod_var), NULL);

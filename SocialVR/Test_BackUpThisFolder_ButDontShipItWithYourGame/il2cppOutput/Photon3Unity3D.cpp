@@ -618,7 +618,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral07A13FEB8D57D224668946545BF7D88AF256F59D
 IL2CPP_EXTERN_C String_t* _stringLiteral0844A3E92F62DCD91CD00D9084B9DB82474F02CA;
 IL2CPP_EXTERN_C String_t* _stringLiteral10106947746BD42FA0BD6272E30F9790D32AF30D;
 IL2CPP_EXTERN_C String_t* _stringLiteral127BEF72D491675F571DE6B748C51C5069ABBE4C;
-IL2CPP_EXTERN_C String_t* _stringLiteral159B7CBACAF9D880290831B8D2775CDE0E27A653;
 IL2CPP_EXTERN_C String_t* _stringLiteral15DDB656D13AF391C03AD752B3D0D113D3D5F2D4;
 IL2CPP_EXTERN_C String_t* _stringLiteral1A9D21C94B6E4762E585BF23F9DF931068EA8F69;
 IL2CPP_EXTERN_C String_t* _stringLiteral1C7A9E8795DAC93A625C23D6E9F2BC7332ABF459;
@@ -4337,8 +4336,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkSimulationSet_get_IsSimulationEna
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkSimulationSet_set_IsSimulationEnabled_mC0152180754C1C5234FDD39B829681D59BD708B9 (NetworkSimulationSet_t4BA8B34DF74B489FCB89281132F777080DBEAF49* __this, bool ___0_value, const RuntimeMethod* method) ;
 // System.Void ExitGames.Client.Photon.TrafficStats::CountControlCommand(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficStats_CountControlCommand_m70A881827E55E476DAF814DFE9E6ACF8CCE939D7 (TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* __this, int32_t ___0_size, const RuntimeMethod* method) ;
-// System.Void System.Threading.Thread::Sleep(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Thread_Sleep_m71DE163765BF465EC4A0163F2ED4D43143094549 (int32_t ___0_millisecondsTimeout, const RuntimeMethod* method) ;
 // System.Void ExitGames.Client.Photon.PeerBase::EnqueueStatusCallback(ExitGames.Client.Photon.StatusCode)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PeerBase_EnqueueStatusCallback_mC9A83CF587306DB6FAF719D13EAD3B56EBBC3DC5 (PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* __this, int32_t ___0_statusValue, const RuntimeMethod* method) ;
 // ExitGames.Client.Photon.IPhotonPeerListener ExitGames.Client.Photon.PeerBase::get_Listener()
@@ -4409,6 +4406,8 @@ inline int32_t Queue_1_Dequeue_mF8CBF6CA268A863994D198E7FB69116D39C9D650 (Queue_
 {
 	return ((  int32_t (*) (Queue_1_tCA24E420CB13C6411AEFC3ECE9E62219F7937A1E*, const RuntimeMethod*))Queue_1_Dequeue_mF8CBF6CA268A863994D198E7FB69116D39C9D650_gshared)(__this, method);
 }
+// System.Void ExitGames.Client.Photon.NCommand::FreePayload()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NCommand_FreePayload_m1F0CA292EAB4093AFB7BCF11875E136346B637C2 (NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* __this, const RuntimeMethod* method) ;
 // System.Void ExitGames.Client.Photon.NCommand::Release()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NCommand_Release_m10B77A64210E77CE8F307631B54974CA1C3E739E (NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* __this, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.Queue`1<System.Int32>::get_Count()
@@ -4418,8 +4417,6 @@ inline int32_t Queue_1_get_Count_mC5E49C471693AD17FDBA87D8532FB0676AC0BB75_inlin
 }
 // System.Void ExitGames.Client.Photon.PhotonPeer::set_DeltaUnreliableNumber(System.Int32)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PhotonPeer_set_DeltaUnreliableNumber_m27DE18E82856C2D8279201A908E477E5FF4BB8A5_inline (PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* __this, int32_t ___0_value, const RuntimeMethod* method) ;
-// System.Void ExitGames.Client.Photon.NCommand::FreePayload()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NCommand_FreePayload_m1F0CA292EAB4093AFB7BCF11875E136346B637C2 (NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* __this, const RuntimeMethod* method) ;
 // System.Boolean ExitGames.Client.Photon.PhotonPeer::get_CrcEnabled()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonPeer_get_CrcEnabled_mC3B0A7568E7759E05E6C033BFA695FEDE405207E (PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* __this, const RuntimeMethod* method) ;
 // System.Boolean ExitGames.Client.Photon.IPhotonSocket::get_Connected()
@@ -4451,8 +4448,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t TrafficStats_get_TotalCom
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TrafficStats_set_TotalCommandsInPackets_mF1BAE11EB423190F3D02166FF5A99DF3463EE535_inline (TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Void ExitGames.Client.Photon.EnetPeer::SendData(System.Byte[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnetPeer_SendData_mDB170927011673C0E0F31E910FEC8182DCB0DAFD (EnetPeer_tD564D9EBA7748312B4DFA76365AC936D646E9381* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, int32_t ___1_length, const RuntimeMethod* method) ;
-// System.String System.String::Format(System.String,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
 // System.Int32 ExitGames.Client.Photon.StreamBuffer::get_Length()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t StreamBuffer_get_Length_m8BF20D43953229862DFDBEC8D74C8F76442833A7 (StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* __this, const RuntimeMethod* method) ;
 // System.String System.Int32::ToString()
@@ -4561,6 +4556,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnetPeer_QueueOutgoingAcknowledgement_m254F3AEABA9FAD6BEF3856D28FFEFAD42A5B98B3 (EnetPeer_tD564D9EBA7748312B4DFA76365AC936D646E9381* __this, NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* ___0_readCommand, int32_t ___1_sendTime, const RuntimeMethod* method) ;
 // System.Void ExitGames.Client.Photon.TrafficStats::set_TimestampOfLastReliableCommand(System.Int32)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TrafficStats_set_TimestampOfLastReliableCommand_m3AB3B935DE215E86B85F74628D15FCD68498350E_inline (TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+// System.String System.String::Format(System.String,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
 // System.String ExitGames.Client.Photon.PeerBase::get_ServerAddress()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* PeerBase_get_ServerAddress_mB49A10CE97A4B3D6F5934FE9FA8A635A8DA16522_inline (PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* __this, const RuntimeMethod* method) ;
 // System.String System.UInt16::ToString()
@@ -5123,6 +5120,8 @@ inline void LinkedList_1_RemoveFirst_m66B2E02B2C66A490AFD8471730DDF5999F441858 (
 {
 	((  void (*) (LinkedList_1_t1D68692B59A0459D88CB117CF9AC5EA8B3FA682F*, const RuntimeMethod*))LinkedList_1_RemoveFirst_m225E1E99245052D8FC3C27D63679A1ABC10DCBBB_gshared)(__this, method);
 }
+// System.Void System.Threading.Thread::Sleep(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Thread_Sleep_m71DE163765BF465EC4A0163F2ED4D43143094549 (int32_t ___0_millisecondsTimeout, const RuntimeMethod* method) ;
 // System.Boolean ExitGames.Client.Photon.PhotonPeer::get_TrafficStatsEnabled()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonPeer_get_TrafficStatsEnabled_mB7C4D26AAD36A731A4C89B1DE6144B480D9FF2C9 (PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* __this, const RuntimeMethod* method) ;
 // ExitGames.Client.Photon.TrafficStats ExitGames.Client.Photon.PhotonPeer::get_TrafficStatsIncoming()
@@ -9036,7 +9035,7 @@ IL_0015:
 		}
 	}
 	{
-		goto IL_0177;
+		goto IL_016f;
 	}
 
 IL_001f:
@@ -9221,7 +9220,6 @@ IL_0116:
 		bool L_36 = V_0;
 		NullCheck(L_35);
 		NetworkSimulationSet_set_IsSimulationEnabled_mC0152180754C1C5234FDD39B829681D59BD708B9(L_35, L_36, NULL);
-		Thread_Sleep_m71DE163765BF465EC4A0163F2ED4D43143094549(((int32_t)10), NULL);
 		IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34* L_37 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___PhotonSocket_3;
 		NullCheck(L_37);
 		bool L_38;
@@ -9236,13 +9234,13 @@ IL_0116:
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_016a:
+FINALLY_0162:
 			{// begin finally (depth: 1)
 				{
 					bool L_40 = V_13;
 					if (!L_40)
 					{
-						goto IL_0176;
+						goto IL_016e;
 					}
 				}
 				{
@@ -9250,7 +9248,7 @@ FINALLY_016a:
 					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA((RuntimeObject*)L_41, NULL);
 				}
 
-IL_0176:
+IL_016e:
 				{
 					return;
 				}
@@ -9261,7 +9259,7 @@ IL_0176:
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_42 = V_12;
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149((RuntimeObject*)L_42, (&V_13), NULL);
 			__this->___datagramEncryptedConnection_67 = (bool)0;
-			goto IL_0177;
+			goto IL_016f;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
 		{
@@ -9269,7 +9267,7 @@ IL_0176:
 		}
 	}
 
-IL_0177:
+IL_016f:
 	{
 		return;
 	}
@@ -9655,13 +9653,13 @@ IL_00c7:
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_0394:
+FINALLY_039c:
 			{// begin finally (depth: 1)
 				{
 					bool L_26 = V_14;
 					if (!L_26)
 					{
-						goto IL_03a0;
+						goto IL_03a8;
 					}
 				}
 				{
@@ -9669,7 +9667,7 @@ FINALLY_0394:
 					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA((RuntimeObject*)L_27, NULL);
 				}
 
-IL_03a0:
+IL_03a8:
 				{
 					return;
 				}
@@ -9681,7 +9679,7 @@ IL_03a0:
 				EnetChannelU5BU5D_t28B7D059931AE97622CC1B28BBA512792396FDEA* L_28 = V_13;
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149((RuntimeObject*)L_28, (&V_14), NULL);
 				V_15 = 0;
-				goto IL_037c_1;
+				goto IL_0384_1;
 			}
 
 IL_00e7_1:
@@ -9713,7 +9711,7 @@ IL_00e7_1:
 				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_39;
 				L_39 = Queue_1_Dequeue_mCB676542B454F5CBA00442DA2F9FCF84C08FC9E4(L_38, Queue_1_Dequeue_mCB676542B454F5CBA00442DA2F9FCF84C08FC9E4_RuntimeMethod_var);
 				V_2 = L_39;
-				goto IL_0391_1;
+				goto IL_0399_1;
 			}
 
 IL_011b_1:
@@ -9728,7 +9726,7 @@ IL_011b_1:
 				bool L_43 = V_18;
 				if (!L_43)
 				{
-					goto IL_02ba_1;
+					goto IL_02c2_1;
 				}
 			}
 			{
@@ -9888,7 +9886,7 @@ IL_0208_1:
 				NullCheck(L_77);
 				NonAllocDictionary_2_t4D0712DA02FF330561AEC741786409F035AD360A* L_78 = L_77->___incomingUnreliableCommandsList_2;
 				V_20 = L_78;
-				goto IL_023f_1;
+				goto IL_0247_1;
 			}
 
 IL_0213_1:
@@ -9911,238 +9909,241 @@ IL_0213_1:
 				L_86 = NonAllocDictionary_2_Remove_m5872D018D6A7D82EA707CA2FC51B79F44BC1694E(L_84, L_85, NonAllocDictionary_2_Remove_m5872D018D6A7D82EA707CA2FC51B79F44BC1694E_RuntimeMethod_var);
 				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_87 = V_30;
 				NullCheck(L_87);
-				NCommand_Release_m10B77A64210E77CE8F307631B54974CA1C3E739E(L_87, NULL);
+				NCommand_FreePayload_m1F0CA292EAB4093AFB7BCF11875E136346B637C2(L_87, NULL);
+				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_88 = V_30;
+				NullCheck(L_88);
+				NCommand_Release_m10B77A64210E77CE8F307631B54974CA1C3E739E(L_88, NULL);
 			}
 
-IL_023f_1:
+IL_0247_1:
 			{
-				Queue_1_tCA24E420CB13C6411AEFC3ECE9E62219F7937A1E* L_88 = __this->___commandsToRemove_72;
-				NullCheck(L_88);
-				int32_t L_89;
-				L_89 = Queue_1_get_Count_mC5E49C471693AD17FDBA87D8532FB0676AC0BB75_inline(L_88, Queue_1_get_Count_mC5E49C471693AD17FDBA87D8532FB0676AC0BB75_RuntimeMethod_var);
-				V_31 = (bool)((((int32_t)L_89) > ((int32_t)0))? 1 : 0);
-				bool L_90 = V_31;
-				if (L_90)
+				Queue_1_tCA24E420CB13C6411AEFC3ECE9E62219F7937A1E* L_89 = __this->___commandsToRemove_72;
+				NullCheck(L_89);
+				int32_t L_90;
+				L_90 = Queue_1_get_Count_mC5E49C471693AD17FDBA87D8532FB0676AC0BB75_inline(L_89, Queue_1_get_Count_mC5E49C471693AD17FDBA87D8532FB0676AC0BB75_RuntimeMethod_var);
+				V_31 = (bool)((((int32_t)L_90) > ((int32_t)0))? 1 : 0);
+				bool L_91 = V_31;
+				if (L_91)
 				{
 					goto IL_0213_1;
 				}
 			}
 			{
-				int32_t L_91 = V_19;
-				V_32 = (bool)((((int32_t)L_91) < ((int32_t)((int32_t)2147483647LL)))? 1 : 0);
-				bool L_92 = V_32;
-				if (!L_92)
+				int32_t L_92 = V_19;
+				V_32 = (bool)((((int32_t)L_92) < ((int32_t)((int32_t)2147483647LL)))? 1 : 0);
+				bool L_93 = V_32;
+				if (!L_93)
 				{
-					goto IL_0289_1;
+					goto IL_0291_1;
 				}
 			}
 			{
-				PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* L_93 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___photonPeer_0;
-				int32_t L_94 = V_19;
-				EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_95 = V_16;
-				NullCheck(L_95);
-				int32_t L_96 = L_95->___incomingUnreliableSequenceNumber_8;
-				NullCheck(L_93);
-				PhotonPeer_set_DeltaUnreliableNumber_m27DE18E82856C2D8279201A908E477E5FF4BB8A5_inline(L_93, ((int32_t)il2cpp_codegen_subtract(L_94, L_96)), NULL);
-				EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_97 = V_16;
-				NullCheck(L_97);
-				NonAllocDictionary_2_t4D0712DA02FF330561AEC741786409F035AD360A* L_98 = L_97->___incomingUnreliableCommandsList_2;
-				int32_t L_99 = V_19;
+				PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* L_94 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___photonPeer_0;
+				int32_t L_95 = V_19;
+				EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_96 = V_16;
+				NullCheck(L_96);
+				int32_t L_97 = L_96->___incomingUnreliableSequenceNumber_8;
+				NullCheck(L_94);
+				PhotonPeer_set_DeltaUnreliableNumber_m27DE18E82856C2D8279201A908E477E5FF4BB8A5_inline(L_94, ((int32_t)il2cpp_codegen_subtract(L_95, L_97)), NULL);
+				EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_98 = V_16;
 				NullCheck(L_98);
-				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_100;
-				L_100 = NonAllocDictionary_2_get_Item_mEF3DDDC89AE8FD797F4524BA13BDBE6E350D7392(L_98, L_99, NonAllocDictionary_2_get_Item_mEF3DDDC89AE8FD797F4524BA13BDBE6E350D7392_RuntimeMethod_var);
-				V_2 = L_100;
+				NonAllocDictionary_2_t4D0712DA02FF330561AEC741786409F035AD360A* L_99 = L_98->___incomingUnreliableCommandsList_2;
+				int32_t L_100 = V_19;
+				NullCheck(L_99);
+				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_101;
+				L_101 = NonAllocDictionary_2_get_Item_mEF3DDDC89AE8FD797F4524BA13BDBE6E350D7392(L_99, L_100, NonAllocDictionary_2_get_Item_mEF3DDDC89AE8FD797F4524BA13BDBE6E350D7392_RuntimeMethod_var);
+				V_2 = L_101;
 			}
 
-IL_0289_1:
+IL_0291_1:
 			{
-				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_101 = V_2;
-				V_33 = (bool)((!(((RuntimeObject*)(NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1*)L_101) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-				bool L_102 = V_33;
-				if (!L_102)
+				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_102 = V_2;
+				V_33 = (bool)((!(((RuntimeObject*)(NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1*)L_102) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+				bool L_103 = V_33;
+				if (!L_103)
 				{
-					goto IL_02b9_1;
+					goto IL_02c1_1;
 				}
 			}
 			{
-				EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_103 = V_16;
-				NullCheck(L_103);
-				NonAllocDictionary_2_t4D0712DA02FF330561AEC741786409F035AD360A* L_104 = L_103->___incomingUnreliableCommandsList_2;
-				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_105 = V_2;
-				NullCheck(L_105);
-				int32_t L_106 = L_105->___unreliableSequenceNumber_35;
+				EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_104 = V_16;
 				NullCheck(L_104);
-				bool L_107;
-				L_107 = NonAllocDictionary_2_Remove_m5872D018D6A7D82EA707CA2FC51B79F44BC1694E(L_104, L_106, NonAllocDictionary_2_Remove_m5872D018D6A7D82EA707CA2FC51B79F44BC1694E_RuntimeMethod_var);
-				EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_108 = V_16;
-				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_109 = V_2;
+				NonAllocDictionary_2_t4D0712DA02FF330561AEC741786409F035AD360A* L_105 = L_104->___incomingUnreliableCommandsList_2;
+				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_106 = V_2;
+				NullCheck(L_106);
+				int32_t L_107 = L_106->___unreliableSequenceNumber_35;
+				NullCheck(L_105);
+				bool L_108;
+				L_108 = NonAllocDictionary_2_Remove_m5872D018D6A7D82EA707CA2FC51B79F44BC1694E(L_105, L_107, NonAllocDictionary_2_Remove_m5872D018D6A7D82EA707CA2FC51B79F44BC1694E_RuntimeMethod_var);
+				EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_109 = V_16;
+				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_110 = V_2;
+				NullCheck(L_110);
+				int32_t L_111 = L_110->___unreliableSequenceNumber_35;
 				NullCheck(L_109);
-				int32_t L_110 = L_109->___unreliableSequenceNumber_35;
-				NullCheck(L_108);
-				L_108->___incomingUnreliableSequenceNumber_8 = L_110;
-				goto IL_0391_1;
+				L_109->___incomingUnreliableSequenceNumber_8 = L_111;
+				goto IL_0399_1;
 			}
 
-IL_02b9_1:
+IL_02c1_1:
 			{
 			}
 
-IL_02ba_1:
+IL_02c2_1:
 			{
-				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_111 = V_2;
-				if (L_111)
+				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_112 = V_2;
+				if (L_112)
 				{
-					goto IL_02ce_1;
+					goto IL_02d6_1;
 				}
 			}
 			{
-				EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_112 = V_16;
-				NullCheck(L_112);
-				NonAllocDictionary_2_t4D0712DA02FF330561AEC741786409F035AD360A* L_113 = L_112->___incomingReliableCommandsList_1;
+				EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_113 = V_16;
 				NullCheck(L_113);
-				int32_t L_114;
-				L_114 = NonAllocDictionary_2_get_Count_m788C90CD6A672AB1D4F272CFCEEA3D168C48C396(L_113, NonAllocDictionary_2_get_Count_m788C90CD6A672AB1D4F272CFCEEA3D168C48C396_RuntimeMethod_var);
-				G_B51_0 = ((((int32_t)L_114) > ((int32_t)0))? 1 : 0);
-				goto IL_02cf_1;
+				NonAllocDictionary_2_t4D0712DA02FF330561AEC741786409F035AD360A* L_114 = L_113->___incomingReliableCommandsList_1;
+				NullCheck(L_114);
+				int32_t L_115;
+				L_115 = NonAllocDictionary_2_get_Count_m788C90CD6A672AB1D4F272CFCEEA3D168C48C396(L_114, NonAllocDictionary_2_get_Count_m788C90CD6A672AB1D4F272CFCEEA3D168C48C396_RuntimeMethod_var);
+				G_B51_0 = ((((int32_t)L_115) > ((int32_t)0))? 1 : 0);
+				goto IL_02d7_1;
 			}
 
-IL_02ce_1:
+IL_02d6_1:
 			{
 				G_B51_0 = 0;
 			}
 
-IL_02cf_1:
+IL_02d7_1:
 			{
 				V_34 = (bool)G_B51_0;
-				bool L_115 = V_34;
-				if (!L_115)
+				bool L_116 = V_34;
+				if (!L_116)
 				{
-					goto IL_0375_1;
+					goto IL_037d_1;
 				}
 			}
 			{
-				EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_116 = V_16;
-				NullCheck(L_116);
-				NonAllocDictionary_2_t4D0712DA02FF330561AEC741786409F035AD360A* L_117 = L_116->___incomingReliableCommandsList_1;
-				EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_118 = V_16;
-				NullCheck(L_118);
-				int32_t L_119 = L_118->___incomingReliableSequenceNumber_7;
+				EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_117 = V_16;
 				NullCheck(L_117);
-				bool L_120;
-				L_120 = NonAllocDictionary_2_TryGetValue_mBF2D37A854A4706370B5962CDF6D96993DB16537(L_117, ((int32_t)il2cpp_codegen_add(L_119, 1)), (&V_2), NonAllocDictionary_2_TryGetValue_mBF2D37A854A4706370B5962CDF6D96993DB16537_RuntimeMethod_var);
-				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_121 = V_2;
-				V_35 = (bool)((((RuntimeObject*)(NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1*)L_121) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-				bool L_122 = V_35;
-				if (!L_122)
+				NonAllocDictionary_2_t4D0712DA02FF330561AEC741786409F035AD360A* L_118 = L_117->___incomingReliableCommandsList_1;
+				EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_119 = V_16;
+				NullCheck(L_119);
+				int32_t L_120 = L_119->___incomingReliableSequenceNumber_7;
+				NullCheck(L_118);
+				bool L_121;
+				L_121 = NonAllocDictionary_2_TryGetValue_mBF2D37A854A4706370B5962CDF6D96993DB16537(L_118, ((int32_t)il2cpp_codegen_add(L_120, 1)), (&V_2), NonAllocDictionary_2_TryGetValue_mBF2D37A854A4706370B5962CDF6D96993DB16537_RuntimeMethod_var);
+				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_122 = V_2;
+				V_35 = (bool)((((RuntimeObject*)(NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1*)L_122) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+				bool L_123 = V_35;
+				if (!L_123)
 				{
-					goto IL_02fe_1;
+					goto IL_0306_1;
 				}
 			}
 			{
-				goto IL_0376_1;
+				goto IL_037e_1;
 			}
 
-IL_02fe_1:
+IL_0306_1:
 			{
-				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_123 = V_2;
-				NullCheck(L_123);
-				uint8_t L_124 = L_123->___commandType_32;
-				V_36 = (bool)((((int32_t)((((int32_t)L_124) == ((int32_t)8))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-				bool L_125 = V_36;
-				if (!L_125)
+				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_124 = V_2;
+				NullCheck(L_124);
+				uint8_t L_125 = L_124->___commandType_32;
+				V_36 = (bool)((((int32_t)((((int32_t)L_125) == ((int32_t)8))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+				bool L_126 = V_36;
+				if (!L_126)
 				{
-					goto IL_0333_1;
+					goto IL_033b_1;
 				}
 			}
 			{
-				EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_126 = V_16;
-				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_127 = V_2;
+				EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_127 = V_16;
+				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_128 = V_2;
+				NullCheck(L_128);
+				int32_t L_129 = L_128->___reliableSequenceNumber_34;
 				NullCheck(L_127);
-				int32_t L_128 = L_127->___reliableSequenceNumber_34;
-				NullCheck(L_126);
-				L_126->___incomingReliableSequenceNumber_7 = L_128;
-				EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_129 = V_16;
-				NullCheck(L_129);
-				NonAllocDictionary_2_t4D0712DA02FF330561AEC741786409F035AD360A* L_130 = L_129->___incomingReliableCommandsList_1;
-				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_131 = V_2;
-				NullCheck(L_131);
-				int32_t L_132 = L_131->___reliableSequenceNumber_34;
+				L_127->___incomingReliableSequenceNumber_7 = L_129;
+				EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_130 = V_16;
 				NullCheck(L_130);
-				bool L_133;
-				L_133 = NonAllocDictionary_2_Remove_m5872D018D6A7D82EA707CA2FC51B79F44BC1694E(L_130, L_132, NonAllocDictionary_2_Remove_m5872D018D6A7D82EA707CA2FC51B79F44BC1694E_RuntimeMethod_var);
-				goto IL_0391_1;
+				NonAllocDictionary_2_t4D0712DA02FF330561AEC741786409F035AD360A* L_131 = L_130->___incomingReliableCommandsList_1;
+				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_132 = V_2;
+				NullCheck(L_132);
+				int32_t L_133 = L_132->___reliableSequenceNumber_34;
+				NullCheck(L_131);
+				bool L_134;
+				L_134 = NonAllocDictionary_2_Remove_m5872D018D6A7D82EA707CA2FC51B79F44BC1694E(L_131, L_133, NonAllocDictionary_2_Remove_m5872D018D6A7D82EA707CA2FC51B79F44BC1694E_RuntimeMethod_var);
+				goto IL_0399_1;
 			}
 
-IL_0333_1:
+IL_033b_1:
 			{
-				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_134 = V_2;
-				NullCheck(L_134);
-				int32_t L_135 = L_134->___fragmentsRemaining_43;
-				V_37 = (bool)((((int32_t)L_135) > ((int32_t)0))? 1 : 0);
-				bool L_136 = V_37;
-				if (!L_136)
+				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_135 = V_2;
+				NullCheck(L_135);
+				int32_t L_136 = L_135->___fragmentsRemaining_43;
+				V_37 = (bool)((((int32_t)L_136) > ((int32_t)0))? 1 : 0);
+				bool L_137 = V_37;
+				if (!L_137)
 				{
-					goto IL_0348_1;
+					goto IL_0350_1;
 				}
 			}
 			{
 				V_2 = (NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1*)NULL;
-				goto IL_0373_1;
+				goto IL_037b_1;
 			}
 
-IL_0348_1:
+IL_0350_1:
 			{
-				EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_137 = V_16;
-				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_138 = V_2;
+				EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_138 = V_16;
+				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_139 = V_2;
+				NullCheck(L_139);
+				int32_t L_140 = L_139->___reliableSequenceNumber_34;
+				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_141 = V_2;
+				NullCheck(L_141);
+				int32_t L_142 = L_141->___fragmentCount_39;
 				NullCheck(L_138);
-				int32_t L_139 = L_138->___reliableSequenceNumber_34;
-				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_140 = V_2;
-				NullCheck(L_140);
-				int32_t L_141 = L_140->___fragmentCount_39;
-				NullCheck(L_137);
-				L_137->___incomingReliableSequenceNumber_7 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_139, L_141)), 1));
-				EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_142 = V_16;
-				NullCheck(L_142);
-				NonAllocDictionary_2_t4D0712DA02FF330561AEC741786409F035AD360A* L_143 = L_142->___incomingReliableCommandsList_1;
-				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_144 = V_2;
-				NullCheck(L_144);
-				int32_t L_145 = L_144->___reliableSequenceNumber_34;
+				L_138->___incomingReliableSequenceNumber_7 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_140, L_142)), 1));
+				EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_143 = V_16;
 				NullCheck(L_143);
-				bool L_146;
-				L_146 = NonAllocDictionary_2_Remove_m5872D018D6A7D82EA707CA2FC51B79F44BC1694E(L_143, L_145, NonAllocDictionary_2_Remove_m5872D018D6A7D82EA707CA2FC51B79F44BC1694E_RuntimeMethod_var);
+				NonAllocDictionary_2_t4D0712DA02FF330561AEC741786409F035AD360A* L_144 = L_143->___incomingReliableCommandsList_1;
+				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_145 = V_2;
+				NullCheck(L_145);
+				int32_t L_146 = L_145->___reliableSequenceNumber_34;
+				NullCheck(L_144);
+				bool L_147;
+				L_147 = NonAllocDictionary_2_Remove_m5872D018D6A7D82EA707CA2FC51B79F44BC1694E(L_144, L_146, NonAllocDictionary_2_Remove_m5872D018D6A7D82EA707CA2FC51B79F44BC1694E_RuntimeMethod_var);
 			}
 
-IL_0373_1:
+IL_037b_1:
 			{
-				goto IL_0391_1;
+				goto IL_0399_1;
 			}
 
-IL_0375_1:
+IL_037d_1:
 			{
 			}
 
-IL_0376_1:
-			{
-				int32_t L_147 = V_15;
-				V_15 = ((int32_t)il2cpp_codegen_add(L_147, 1));
-			}
-
-IL_037c_1:
+IL_037e_1:
 			{
 				int32_t L_148 = V_15;
-				EnetChannelU5BU5D_t28B7D059931AE97622CC1B28BBA512792396FDEA* L_149 = __this->___channelArray_68;
-				NullCheck(L_149);
-				V_38 = (bool)((((int32_t)L_148) < ((int32_t)((int32_t)(((RuntimeArray*)L_149)->max_length))))? 1 : 0);
-				bool L_150 = V_38;
-				if (L_150)
+				V_15 = ((int32_t)il2cpp_codegen_add(L_148, 1));
+			}
+
+IL_0384_1:
+			{
+				int32_t L_149 = V_15;
+				EnetChannelU5BU5D_t28B7D059931AE97622CC1B28BBA512792396FDEA* L_150 = __this->___channelArray_68;
+				NullCheck(L_150);
+				V_38 = (bool)((((int32_t)L_149) < ((int32_t)((int32_t)(((RuntimeArray*)L_150)->max_length))))? 1 : 0);
+				bool L_151 = V_38;
+				if (L_151)
 				{
 					goto IL_00e7_1;
 				}
 			}
 
-IL_0391_1:
+IL_0399_1:
 			{
-				goto IL_03a1;
+				goto IL_03a9;
 			}
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
@@ -10151,72 +10152,72 @@ IL_0391_1:
 		}
 	}
 
-IL_03a1:
+IL_03a9:
 	{
-		NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_151 = V_2;
-		if (!L_151)
+		NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_152 = V_2;
+		if (!L_152)
 		{
-			goto IL_03af;
+			goto IL_03b7;
 		}
 	}
 	{
-		NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_152 = V_2;
-		NullCheck(L_152);
-		StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_153 = L_152->___Payload_51;
-		G_B70_0 = ((!(((RuntimeObject*)(StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB*)L_153) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		goto IL_03b0;
+		NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_153 = V_2;
+		NullCheck(L_153);
+		StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_154 = L_153->___Payload_51;
+		G_B70_0 = ((!(((RuntimeObject*)(StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB*)L_154) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		goto IL_03b8;
 	}
 
-IL_03af:
+IL_03b7:
 	{
 		G_B70_0 = 0;
 	}
 
-IL_03b0:
+IL_03b8:
 	{
 		V_39 = (bool)G_B70_0;
-		bool L_154 = V_39;
-		if (!L_154)
+		bool L_155 = V_39;
+		if (!L_155)
 		{
-			goto IL_03f2;
+			goto IL_03fa;
 		}
 	}
 	{
-		NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_155 = V_2;
-		NullCheck(L_155);
-		int32_t L_156 = L_155->___Size_50;
-		((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___ByteCountCurrentDispatch_8 = L_156;
-		NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_157 = V_2;
-		((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___CommandInCurrentDispatch_9 = L_157;
-		Il2CppCodeGenWriteBarrier((void**)(&((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___CommandInCurrentDispatch_9), (void*)L_157);
+		NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_156 = V_2;
+		NullCheck(L_156);
+		int32_t L_157 = L_156->___Size_50;
+		((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___ByteCountCurrentDispatch_8 = L_157;
 		NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_158 = V_2;
-		NullCheck(L_158);
-		StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_159 = L_158->___Payload_51;
-		bool L_160;
-		L_160 = VirtualFuncInvoker1< bool, StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* >::Invoke(20 /* System.Boolean ExitGames.Client.Photon.PeerBase::DeserializeMessageAndCallback(ExitGames.Client.Photon.StreamBuffer) */, __this, L_159);
-		V_40 = L_160;
+		((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___CommandInCurrentDispatch_9 = L_158;
+		Il2CppCodeGenWriteBarrier((void**)(&((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___CommandInCurrentDispatch_9), (void*)L_158);
+		NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_159 = V_2;
+		NullCheck(L_159);
+		StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_160 = L_159->___Payload_51;
+		bool L_161;
+		L_161 = VirtualFuncInvoker1< bool, StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* >::Invoke(20 /* System.Boolean ExitGames.Client.Photon.PeerBase::DeserializeMessageAndCallback(ExitGames.Client.Photon.StreamBuffer) */, __this, L_160);
+		V_40 = L_161;
 		((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___CommandInCurrentDispatch_9 = (NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___CommandInCurrentDispatch_9), (void*)(NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1*)NULL);
-		NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_161 = V_2;
-		NullCheck(L_161);
-		NCommand_FreePayload_m1F0CA292EAB4093AFB7BCF11875E136346B637C2(L_161, NULL);
 		NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_162 = V_2;
 		NullCheck(L_162);
-		NCommand_Release_m10B77A64210E77CE8F307631B54974CA1C3E739E(L_162, NULL);
+		NCommand_FreePayload_m1F0CA292EAB4093AFB7BCF11875E136346B637C2(L_162, NULL);
+		NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_163 = V_2;
+		NullCheck(L_163);
+		NCommand_Release_m10B77A64210E77CE8F307631B54974CA1C3E739E(L_163, NULL);
 		V_41 = (bool)1;
-		goto IL_03f7;
+		goto IL_03ff;
 	}
 
-IL_03f2:
+IL_03fa:
 	{
 		V_41 = (bool)0;
-		goto IL_03f7;
+		goto IL_03ff;
 	}
 
-IL_03f7:
+IL_03ff:
 	{
-		bool L_163 = V_41;
-		return L_163;
+		bool L_164 = V_41;
+		return L_164;
 	}
 }
 // System.Int32 ExitGames.Client.Photon.EnetPeer::GetFragmentLength()
@@ -11025,7 +11026,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EnetPeer_SendOutgoingCommands_mDFABC12ED
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Queue_1_Peek_m9179E22C81B5C07AC5558012E42CAA7C78EB1793_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Queue_1_get_Count_m2DC385014B3B668759ABFBF3553E1E5B713E01F0_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral159B7CBACAF9D880290831B8D2775CDE0E27A653);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2834DAEEA6BE11C5C43C474688D4B5E91DDF715C);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral48BC860C25F2B8A0144D32CE4B551DE7C3BE774A);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6CF3C4456E1D88D9E28372775CA6FEB5F9616128);
@@ -11035,165 +11035,127 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EnetPeer_SendOutgoingCommands_mDFABC12ED
 	bool V_0 = false;
 	bool V_1 = false;
 	bool V_2 = false;
-	bool V_3 = false;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_3 = NULL;
 	bool V_4 = false;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_5 = NULL;
-	bool V_6 = false;
-	int32_t V_7 = 0;
-	StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* V_8 = NULL;
+	int32_t V_5 = 0;
+	StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* V_6 = NULL;
+	bool V_7 = false;
+	bool V_8 = false;
 	bool V_9 = false;
-	bool V_10 = false;
-	bool V_11 = false;
-	int32_t V_12 = 0;
-	List_1_t743B07CCEE5920A8470C463FFD20439AE947FFA8* V_13 = NULL;
-	bool V_14 = false;
+	int32_t V_10 = 0;
+	List_1_t743B07CCEE5920A8470C463FFD20439AE947FFA8* V_11 = NULL;
+	bool V_12 = false;
+	int32_t V_13 = 0;
+	NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* V_14 = NULL;
 	int32_t V_15 = 0;
-	NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* V_16 = NULL;
-	int32_t V_17 = 0;
+	bool V_16 = false;
+	bool V_17 = false;
 	bool V_18 = false;
 	bool V_19 = false;
-	bool V_20 = false;
+	int32_t V_20 = 0;
 	bool V_21 = false;
-	int32_t V_22 = 0;
+	EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* V_22 = NULL;
 	bool V_23 = false;
-	EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* V_24 = NULL;
+	bool V_24 = false;
 	bool V_25 = false;
 	bool V_26 = false;
 	bool V_27 = false;
 	bool V_28 = false;
-	bool V_29 = false;
+	NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* V_29 = NULL;
 	bool V_30 = false;
-	NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* V_31 = NULL;
+	EnetChannelU5BU5D_t28B7D059931AE97622CC1B28BBA512792396FDEA* V_31 = NULL;
 	bool V_32 = false;
-	EnetChannelU5BU5D_t28B7D059931AE97622CC1B28BBA512792396FDEA* V_33 = NULL;
-	bool V_34 = false;
-	int32_t V_35 = 0;
-	EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* V_36 = NULL;
-	EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* V_37 = NULL;
-	bool V_38 = false;
+	int32_t V_33 = 0;
+	EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* V_34 = NULL;
+	EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* V_35 = NULL;
+	bool V_36 = false;
+	bool V_37 = false;
+	NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* V_38 = NULL;
 	bool V_39 = false;
-	NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* V_40 = NULL;
+	bool V_40 = false;
 	bool V_41 = false;
 	bool V_42 = false;
-	bool V_43 = false;
-	bool V_44 = false;
-	int32_t G_B19_0 = 0;
-	int32_t G_B26_0 = 0;
-	NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* G_B30_0 = NULL;
-	int32_t G_B30_1 = 0;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B30_2 = NULL;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B30_3 = NULL;
-	int32_t G_B30_4 = 0;
-	RuntimeObject* G_B30_5 = NULL;
-	NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* G_B29_0 = NULL;
-	int32_t G_B29_1 = 0;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B29_2 = NULL;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B29_3 = NULL;
-	int32_t G_B29_4 = 0;
-	RuntimeObject* G_B29_5 = NULL;
-	String_t* G_B31_0 = NULL;
-	int32_t G_B31_1 = 0;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B31_2 = NULL;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B31_3 = NULL;
-	int32_t G_B31_4 = 0;
-	RuntimeObject* G_B31_5 = NULL;
-	int32_t G_B42_0 = 0;
-	int32_t G_B61_0 = 0;
+	int32_t G_B15_0 = 0;
+	int32_t G_B22_0 = 0;
+	NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* G_B26_0 = NULL;
+	int32_t G_B26_1 = 0;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B26_2 = NULL;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B26_3 = NULL;
+	int32_t G_B26_4 = 0;
+	RuntimeObject* G_B26_5 = NULL;
+	NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* G_B25_0 = NULL;
+	int32_t G_B25_1 = 0;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B25_2 = NULL;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B25_3 = NULL;
+	int32_t G_B25_4 = 0;
+	RuntimeObject* G_B25_5 = NULL;
+	String_t* G_B27_0 = NULL;
+	int32_t G_B27_1 = 0;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B27_2 = NULL;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B27_3 = NULL;
+	int32_t G_B27_4 = 0;
+	RuntimeObject* G_B27_5 = NULL;
+	int32_t G_B38_0 = 0;
+	int32_t G_B57_0 = 0;
+	int32_t G_B67_0 = 0;
 	int32_t G_B71_0 = 0;
-	int32_t G_B75_0 = 0;
 	{
 		uint8_t L_0 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___peerConnectionState_6;
 		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 		bool L_1 = V_0;
 		if (!L_1)
 		{
-			goto IL_0028;
+			goto IL_0016;
 		}
 	}
 	{
-		uint8_t L_2;
-		L_2 = PeerBase_get_debugOut_mA29D5E38097C6B8374B8C69C89D2AEE5ACBCDF76(__this, NULL);
-		V_1 = (bool)((((int32_t)((((int32_t)L_2) < ((int32_t)5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_1;
-		if (!L_3)
+		V_1 = (bool)0;
+		goto IL_0592;
+	}
+
+IL_0016:
+	{
+		IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34* L_2 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___PhotonSocket_3;
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = IPhotonSocket_get_Connected_mB8837449AB5C1DC2A811F1B4DC9D2E7EA9C1C71A(L_2, NULL);
+		V_2 = (bool)((((int32_t)L_3) == ((int32_t)0))? 1 : 0);
+		bool L_4 = V_2;
+		if (!L_4)
 		{
-			goto IL_0021;
+			goto IL_0030;
 		}
 	}
 	{
+		V_1 = (bool)0;
+		goto IL_0592;
 	}
 
-IL_0021:
+IL_0030:
 	{
-		V_2 = (bool)0;
-		goto IL_05d8;
-	}
-
-IL_0028:
-	{
-		IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34* L_4 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___PhotonSocket_3;
-		NullCheck(L_4);
-		bool L_5;
-		L_5 = IPhotonSocket_get_Connected_mB8837449AB5C1DC2A811F1B4DC9D2E7EA9C1C71A(L_4, NULL);
-		V_3 = (bool)((((int32_t)L_5) == ((int32_t)0))? 1 : 0);
-		bool L_6 = V_3;
-		if (!L_6)
-		{
-			goto IL_0073;
-		}
-	}
-	{
-		uint8_t L_7;
-		L_7 = PeerBase_get_debugOut_mA29D5E38097C6B8374B8C69C89D2AEE5ACBCDF76(__this, NULL);
-		V_4 = (bool)((((int32_t)((((int32_t)L_7) < ((int32_t)5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_8 = V_4;
-		if (!L_8)
-		{
-			goto IL_006c;
-		}
-	}
-	{
-		RuntimeObject* L_9;
-		L_9 = PeerBase_get_Listener_m3E13539621D55C1171BE6FBEA59BE827F43BDB59(__this, NULL);
-		String_t* L_10;
-		L_10 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String ExitGames.Client.Photon.PeerBase::get_PeerID() */, __this);
-		String_t* L_11;
-		L_11 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral159B7CBACAF9D880290831B8D2775CDE0E27A653, L_10, NULL);
-		NullCheck(L_9);
-		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_tCF670245092F1C9F0BB8F83AE0742E9473417E6D_il2cpp_TypeInfo_var, L_9, 5, L_11);
-	}
-
-IL_006c:
-	{
-		V_2 = (bool)0;
-		goto IL_05d8;
-	}
-
-IL_0073:
-	{
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12 = __this->___udpBuffer_58;
-		V_5 = L_12;
-		V_6 = (bool)0;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5 = __this->___udpBuffer_58;
+		V_3 = L_5;
+		V_4 = (bool)0;
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_05cb:
+FINALLY_0586:
 			{// begin finally (depth: 1)
 				{
-					bool L_13 = V_6;
-					if (!L_13)
+					bool L_6 = V_4;
+					if (!L_6)
 					{
-						goto IL_05d7;
+						goto IL_0591;
 					}
 				}
 				{
-					ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14 = V_5;
-					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA((RuntimeObject*)L_14, NULL);
+					ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7 = V_3;
+					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA((RuntimeObject*)L_7, NULL);
 				}
 
-IL_05d7:
+IL_0591:
 				{
 					return;
 				}
@@ -11202,39 +11164,39 @@ IL_05d7:
 		try
 		{// begin try (depth: 1)
 			{
-				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_15 = V_5;
-				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149((RuntimeObject*)L_15, (&V_6), NULL);
-				V_7 = 0;
-				int32_t L_16;
-				L_16 = EnetPeer_CalculateInitialOffset_m1696E1C84405CE94B7F7C41DA4B39AF0F7C29FEF(__this, NULL);
-				__this->___udpBufferIndex_59 = L_16;
+				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = V_3;
+				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149((RuntimeObject*)L_8, (&V_4), NULL);
+				V_5 = 0;
+				int32_t L_9;
+				L_9 = EnetPeer_CalculateInitialOffset_m1696E1C84405CE94B7F7C41DA4B39AF0F7C29FEF(__this, NULL);
+				__this->___udpBufferIndex_59 = L_9;
 				__this->___udpCommandCount_57 = (uint8_t)0;
-				int32_t L_17;
-				L_17 = PeerBase_get_timeInt_m58B98F2C895A84331EE6E9CC340117F1DF7DBF6F(__this, NULL);
-				((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___timeLastSendOutgoing_34 = L_17;
-				StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_18 = __this->___outgoingAcknowledgementsPool_52;
-				V_8 = L_18;
-				V_9 = (bool)0;
+				int32_t L_10;
+				L_10 = PeerBase_get_timeInt_m58B98F2C895A84331EE6E9CC340117F1DF7DBF6F(__this, NULL);
+				((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___timeLastSendOutgoing_34 = L_10;
+				StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_11 = __this->___outgoingAcknowledgementsPool_52;
+				V_6 = L_11;
+				V_7 = (bool)0;
 			}
 			{
 				auto __finallyBlock = il2cpp::utils::Finally([&]
 				{
 
-FINALLY_00ee_1:
+FINALLY_00a9_1:
 					{// begin finally (depth: 2)
 						{
-							bool L_19 = V_9;
-							if (!L_19)
+							bool L_12 = V_7;
+							if (!L_12)
 							{
-								goto IL_00fa_1;
+								goto IL_00b5_1;
 							}
 						}
 						{
-							StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_20 = V_8;
-							Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_20, NULL);
+							StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_13 = V_6;
+							Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_13, NULL);
 						}
 
-IL_00fa_1:
+IL_00b5_1:
 						{
 							return;
 						}
@@ -11243,31 +11205,31 @@ IL_00fa_1:
 				try
 				{// begin try (depth: 2)
 					{
-						StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_21 = V_8;
-						Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_21, (&V_9), NULL);
-						StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_22 = __this->___outgoingAcknowledgementsPool_52;
-						NullCheck(L_22);
-						int32_t L_23;
-						L_23 = StreamBuffer_get_Length_m8BF20D43953229862DFDBEC8D74C8F76442833A7(L_22, NULL);
-						V_10 = (bool)((((int32_t)L_23) > ((int32_t)0))? 1 : 0);
-						bool L_24 = V_10;
-						if (!L_24)
+						StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_14 = V_6;
+						Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_14, (&V_7), NULL);
+						StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_15 = __this->___outgoingAcknowledgementsPool_52;
+						NullCheck(L_15);
+						int32_t L_16;
+						L_16 = StreamBuffer_get_Length_m8BF20D43953229862DFDBEC8D74C8F76442833A7(L_15, NULL);
+						V_8 = (bool)((((int32_t)L_16) > ((int32_t)0))? 1 : 0);
+						bool L_17 = V_8;
+						if (!L_17)
 						{
-							goto IL_00eb_2;
+							goto IL_00a6_2;
 						}
 					}
 					{
-						int32_t L_25;
-						L_25 = EnetPeer_SerializeAckToBuffer_m5D585BB5272D9EEAF0B16428BF15E97856061F01(__this, NULL);
-						V_7 = L_25;
-						int32_t L_26;
-						L_26 = PeerBase_get_timeInt_m58B98F2C895A84331EE6E9CC340117F1DF7DBF6F(__this, NULL);
-						((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___timeLastSendAck_33 = L_26;
+						int32_t L_18;
+						L_18 = EnetPeer_SerializeAckToBuffer_m5D585BB5272D9EEAF0B16428BF15E97856061F01(__this, NULL);
+						V_5 = L_18;
+						int32_t L_19;
+						L_19 = PeerBase_get_timeInt_m58B98F2C895A84331EE6E9CC340117F1DF7DBF6F(__this, NULL);
+						((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___timeLastSendAck_33 = L_19;
 					}
 
-IL_00eb_2:
+IL_00a6_2:
 					{
-						goto IL_00fb_1;
+						goto IL_00b6_1;
 					}
 				}// end try (depth: 2)
 				catch(Il2CppExceptionWrapper& e)
@@ -11276,66 +11238,66 @@ IL_00eb_2:
 				}
 			}
 
-IL_00fb_1:
+IL_00b6_1:
 			{
-				int32_t L_27;
-				L_27 = PeerBase_get_timeInt_m58B98F2C895A84331EE6E9CC340117F1DF7DBF6F(__this, NULL);
-				int32_t L_28 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___timeoutInt_30;
-				if ((((int32_t)L_27) <= ((int32_t)L_28)))
+				int32_t L_20;
+				L_20 = PeerBase_get_timeInt_m58B98F2C895A84331EE6E9CC340117F1DF7DBF6F(__this, NULL);
+				int32_t L_21 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___timeoutInt_30;
+				if ((((int32_t)L_20) <= ((int32_t)L_21)))
 				{
-					goto IL_0119_1;
+					goto IL_00d4_1;
 				}
 			}
 			{
-				List_1_t743B07CCEE5920A8470C463FFD20439AE947FFA8* L_29 = __this->___sentReliableCommands_51;
-				NullCheck(L_29);
-				int32_t L_30;
-				L_30 = List_1_get_Count_m3E521E3C61DBC85C5DBD8936EDA21E11C281CCD2_inline(L_29, List_1_get_Count_m3E521E3C61DBC85C5DBD8936EDA21E11C281CCD2_RuntimeMethod_var);
-				G_B19_0 = ((((int32_t)L_30) > ((int32_t)0))? 1 : 0);
-				goto IL_011a_1;
+				List_1_t743B07CCEE5920A8470C463FFD20439AE947FFA8* L_22 = __this->___sentReliableCommands_51;
+				NullCheck(L_22);
+				int32_t L_23;
+				L_23 = List_1_get_Count_m3E521E3C61DBC85C5DBD8936EDA21E11C281CCD2_inline(L_22, List_1_get_Count_m3E521E3C61DBC85C5DBD8936EDA21E11C281CCD2_RuntimeMethod_var);
+				G_B15_0 = ((((int32_t)L_23) > ((int32_t)0))? 1 : 0);
+				goto IL_00d5_1;
 			}
 
-IL_0119_1:
+IL_00d4_1:
 			{
-				G_B19_0 = 0;
+				G_B15_0 = 0;
 			}
 
-IL_011a_1:
+IL_00d5_1:
 			{
-				V_11 = (bool)G_B19_0;
-				bool L_31 = V_11;
-				if (!L_31)
+				V_9 = (bool)G_B15_0;
+				bool L_24 = V_9;
+				if (!L_24)
 				{
-					goto IL_03c4_1;
+					goto IL_037f_1;
 				}
 			}
 			{
-				int32_t L_32;
-				L_32 = PeerBase_get_timeInt_m58B98F2C895A84331EE6E9CC340117F1DF7DBF6F(__this, NULL);
-				V_12 = ((int32_t)il2cpp_codegen_add(L_32, ((int32_t)100)));
-				List_1_t743B07CCEE5920A8470C463FFD20439AE947FFA8* L_33 = __this->___sentReliableCommands_51;
-				V_13 = L_33;
-				V_14 = (bool)0;
+				int32_t L_25;
+				L_25 = PeerBase_get_timeInt_m58B98F2C895A84331EE6E9CC340117F1DF7DBF6F(__this, NULL);
+				V_10 = ((int32_t)il2cpp_codegen_add(L_25, ((int32_t)100)));
+				List_1_t743B07CCEE5920A8470C463FFD20439AE947FFA8* L_26 = __this->___sentReliableCommands_51;
+				V_11 = L_26;
+				V_12 = (bool)0;
 			}
 			{
 				auto __finallyBlock = il2cpp::utils::Finally([&]
 				{
 
-FINALLY_03b6_1:
+FINALLY_0371_1:
 					{// begin finally (depth: 2)
 						{
-							bool L_34 = V_14;
-							if (!L_34)
+							bool L_27 = V_12;
+							if (!L_27)
 							{
-								goto IL_03c2_1;
+								goto IL_037d_1;
 							}
 						}
 						{
-							List_1_t743B07CCEE5920A8470C463FFD20439AE947FFA8* L_35 = V_13;
-							Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_35, NULL);
+							List_1_t743B07CCEE5920A8470C463FFD20439AE947FFA8* L_28 = V_11;
+							Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_28, NULL);
 						}
 
-IL_03c2_1:
+IL_037d_1:
 						{
 							return;
 						}
@@ -11344,393 +11306,393 @@ IL_03c2_1:
 				try
 				{// begin try (depth: 2)
 					{
-						List_1_t743B07CCEE5920A8470C463FFD20439AE947FFA8* L_36 = V_13;
-						Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_36, (&V_14), NULL);
-						V_15 = 0;
-						goto IL_0393_2;
+						List_1_t743B07CCEE5920A8470C463FFD20439AE947FFA8* L_29 = V_11;
+						Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_29, (&V_12), NULL);
+						V_13 = 0;
+						goto IL_034e_2;
 					}
 
-IL_014d_2:
+IL_0108_2:
 					{
-						List_1_t743B07CCEE5920A8470C463FFD20439AE947FFA8* L_37 = __this->___sentReliableCommands_51;
+						List_1_t743B07CCEE5920A8470C463FFD20439AE947FFA8* L_30 = __this->___sentReliableCommands_51;
+						int32_t L_31 = V_13;
+						NullCheck(L_30);
+						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_32;
+						L_32 = List_1_get_Item_mF6CC658707BC6BAE93221C651A2D291478AF65F6(L_30, L_31, List_1_get_Item_mF6CC658707BC6BAE93221C651A2D291478AF65F6_RuntimeMethod_var);
+						V_14 = L_32;
+						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_33 = V_14;
+						NullCheck(L_33);
+						int32_t L_34 = L_33->___commandSentTime_44;
+						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_35 = V_14;
+						NullCheck(L_35);
+						int32_t L_36 = L_35->___roundTripTimeout_46;
+						V_15 = ((int32_t)il2cpp_codegen_add(L_34, L_36));
+						int32_t L_37;
+						L_37 = PeerBase_get_timeInt_m58B98F2C895A84331EE6E9CC340117F1DF7DBF6F(__this, NULL);
 						int32_t L_38 = V_15;
-						NullCheck(L_37);
-						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_39;
-						L_39 = List_1_get_Item_mF6CC658707BC6BAE93221C651A2D291478AF65F6(L_37, L_38, List_1_get_Item_mF6CC658707BC6BAE93221C651A2D291478AF65F6_RuntimeMethod_var);
-						V_16 = L_39;
-						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_40 = V_16;
-						NullCheck(L_40);
-						int32_t L_41 = L_40->___commandSentTime_44;
-						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_42 = V_16;
-						NullCheck(L_42);
-						int32_t L_43 = L_42->___roundTripTimeout_46;
-						V_17 = ((int32_t)il2cpp_codegen_add(L_41, L_43));
-						int32_t L_44;
-						L_44 = PeerBase_get_timeInt_m58B98F2C895A84331EE6E9CC340117F1DF7DBF6F(__this, NULL);
-						int32_t L_45 = V_17;
-						V_18 = (bool)((((int32_t)L_44) > ((int32_t)L_45))? 1 : 0);
-						bool L_46 = V_18;
-						if (!L_46)
-						{
-							goto IL_037a_2;
-						}
-					}
-					{
-						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_47 = V_16;
-						NullCheck(L_47);
-						uint8_t L_48 = L_47->___commandSentCount_45;
-						PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* L_49 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___photonPeer_0;
-						NullCheck(L_49);
-						int32_t L_50 = L_49->___SentCountAllowance_35;
-						if ((((int32_t)L_48) > ((int32_t)L_50)))
-						{
-							goto IL_01a7_2;
-						}
-					}
-					{
-						int32_t L_51;
-						L_51 = PeerBase_get_timeInt_m58B98F2C895A84331EE6E9CC340117F1DF7DBF6F(__this, NULL);
-						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_52 = V_16;
-						NullCheck(L_52);
-						int32_t L_53 = L_52->___timeoutTime_47;
-						G_B26_0 = ((((int32_t)L_51) > ((int32_t)L_53))? 1 : 0);
-						goto IL_01a8_2;
-					}
-
-IL_01a7_2:
-					{
-						G_B26_0 = 1;
-					}
-
-IL_01a8_2:
-					{
-						V_20 = (bool)G_B26_0;
-						bool L_54 = V_20;
-						if (!L_54)
-						{
-							goto IL_0252_2;
-						}
-					}
-					{
-						uint8_t L_55;
-						L_55 = PeerBase_get_debugOut_mA29D5E38097C6B8374B8C69C89D2AEE5ACBCDF76(__this, NULL);
-						V_21 = (bool)((((int32_t)((((int32_t)L_55) < ((int32_t)2))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-						bool L_56 = V_21;
-						if (!L_56)
-						{
-							goto IL_0229_2;
-						}
-					}
-					{
-						RuntimeObject* L_57;
-						L_57 = PeerBase_get_Listener_m3E13539621D55C1171BE6FBEA59BE827F43BDB59(__this, NULL);
-						StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_58 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
-						StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_59 = L_58;
-						NullCheck(L_59);
-						ArrayElementTypeCheck (L_59, _stringLiteral2834DAEEA6BE11C5C43C474688D4B5E91DDF715C);
-						(L_59)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral2834DAEEA6BE11C5C43C474688D4B5E91DDF715C);
-						StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_60 = L_59;
-						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_61 = V_16;
-						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_62 = L_61;
-						G_B29_0 = L_62;
-						G_B29_1 = 1;
-						G_B29_2 = L_60;
-						G_B29_3 = L_60;
-						G_B29_4 = 2;
-						G_B29_5 = L_57;
-						if (L_62)
-						{
-							G_B30_0 = L_62;
-							G_B30_1 = 1;
-							G_B30_2 = L_60;
-							G_B30_3 = L_60;
-							G_B30_4 = 2;
-							G_B30_5 = L_57;
-							goto IL_01e5_2;
-						}
-					}
-					{
-						G_B31_0 = ((String_t*)(NULL));
-						G_B31_1 = G_B29_1;
-						G_B31_2 = G_B29_2;
-						G_B31_3 = G_B29_3;
-						G_B31_4 = G_B29_4;
-						G_B31_5 = G_B29_5;
-						goto IL_01ea_2;
-					}
-
-IL_01e5_2:
-					{
-						NullCheck(G_B30_0);
-						String_t* L_63;
-						L_63 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, G_B30_0);
-						G_B31_0 = L_63;
-						G_B31_1 = G_B30_1;
-						G_B31_2 = G_B30_2;
-						G_B31_3 = G_B30_3;
-						G_B31_4 = G_B30_4;
-						G_B31_5 = G_B30_5;
-					}
-
-IL_01ea_2:
-					{
-						NullCheck(G_B31_2);
-						ArrayElementTypeCheck (G_B31_2, G_B31_0);
-						(G_B31_2)->SetAt(static_cast<il2cpp_array_size_t>(G_B31_1), (String_t*)G_B31_0);
-						StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_64 = G_B31_3;
-						NullCheck(L_64);
-						ArrayElementTypeCheck (L_64, _stringLiteralD1D58C31D89D104422AB17657A06A5DD4B99EB4F);
-						(L_64)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralD1D58C31D89D104422AB17657A06A5DD4B99EB4F);
-						StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_65 = L_64;
-						int32_t L_66;
-						L_66 = PeerBase_get_timeInt_m58B98F2C895A84331EE6E9CC340117F1DF7DBF6F(__this, NULL);
-						V_22 = L_66;
-						String_t* L_67;
-						L_67 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_22), NULL);
-						NullCheck(L_65);
-						ArrayElementTypeCheck (L_65, L_67);
-						(L_65)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_67);
-						StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_68 = L_65;
-						NullCheck(L_68);
-						ArrayElementTypeCheck (L_68, _stringLiteral6CF3C4456E1D88D9E28372775CA6FEB5F9616128);
-						(L_68)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral6CF3C4456E1D88D9E28372775CA6FEB5F9616128);
-						StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_69 = L_68;
-						int32_t L_70 = __this->___challenge_62;
-						il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
-						String_t* L_71;
-						L_71 = Convert_ToString_mC3349029FE37EB00B5BFCB1F87022458A3834E35(L_70, ((int32_t)16), NULL);
-						NullCheck(L_69);
-						ArrayElementTypeCheck (L_69, L_71);
-						(L_69)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_71);
-						String_t* L_72;
-						L_72 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_69, NULL);
-						NullCheck(G_B31_5);
-						InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_tCF670245092F1C9F0BB8F83AE0742E9473417E6D_il2cpp_TypeInfo_var, G_B31_5, G_B31_4, L_72);
-					}
-
-IL_0229_2:
-					{
-						((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___peerConnectionState_6 = 6;
-						PeerBase_EnqueueStatusCallback_mC9A83CF587306DB6FAF719D13EAD3B56EBBC3DC5(__this, ((int32_t)1040), NULL);
-						VirtualActionInvoker0::Invoke(11 /* System.Void ExitGames.Client.Photon.PeerBase::Disconnect() */, __this);
-						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_73 = V_16;
-						NullCheck(L_73);
-						NCommand_Release_m10B77A64210E77CE8F307631B54974CA1C3E739E(L_73, NULL);
-						V_2 = (bool)0;
-						goto IL_05d8;
-					}
-
-IL_0252_2:
-					{
-						PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* L_74 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___photonPeer_0;
-						NullCheck(L_74);
-						int32_t L_75 = L_74->___SequenceDeltaLimitResends_27;
-						V_23 = (bool)((((int32_t)L_75) > ((int32_t)0))? 1 : 0);
-						bool L_76 = V_23;
-						if (!L_76)
-						{
-							goto IL_029f_2;
-						}
-					}
-					{
-						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_77 = V_16;
-						NullCheck(L_77);
-						uint8_t L_78 = L_77->___commandChannelID_33;
-						EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_79;
-						L_79 = EnetPeer_GetChannel_mC7C3645A08134CA7D2AAF4E758507150D7BC4C34(__this, L_78, NULL);
-						V_24 = L_79;
-						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_80 = V_16;
-						NullCheck(L_80);
-						int32_t L_81 = L_80->___reliableSequenceNumber_34;
-						EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_82 = V_24;
-						NullCheck(L_82);
-						int32_t L_83 = L_82->___highestReceivedAck_14;
-						PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* L_84 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___photonPeer_0;
-						NullCheck(L_84);
-						int32_t L_85 = L_84->___SequenceDeltaLimitResends_27;
-						V_25 = (bool)((((int32_t)((int32_t)il2cpp_codegen_subtract(L_81, L_83))) > ((int32_t)L_85))? 1 : 0);
-						bool L_86 = V_25;
-						if (!L_86)
-						{
-							goto IL_029e_2;
-						}
-					}
-					{
-						goto IL_038d_2;
-					}
-
-IL_029e_2:
-					{
-					}
-
-IL_029f_2:
-					{
-						uint8_t L_87;
-						L_87 = PeerBase_get_debugOut_mA29D5E38097C6B8374B8C69C89D2AEE5ACBCDF76(__this, NULL);
-						V_26 = (bool)((((int32_t)((((int32_t)L_87) < ((int32_t)5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-						bool L_88 = V_26;
-						if (!L_88)
+						V_16 = (bool)((((int32_t)L_37) > ((int32_t)L_38))? 1 : 0);
+						bool L_39 = V_16;
+						if (!L_39)
 						{
 							goto IL_0335_2;
 						}
 					}
 					{
-						RuntimeObject* L_89;
-						L_89 = PeerBase_get_Listener_m3E13539621D55C1171BE6FBEA59BE827F43BDB59(__this, NULL);
-						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_90 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)7);
-						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_91 = L_90;
-						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_92 = V_16;
+						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_40 = V_14;
+						NullCheck(L_40);
+						uint8_t L_41 = L_40->___commandSentCount_45;
+						PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* L_42 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___photonPeer_0;
+						NullCheck(L_42);
+						int32_t L_43 = L_42->___SentCountAllowance_35;
+						if ((((int32_t)L_41) > ((int32_t)L_43)))
+						{
+							goto IL_0162_2;
+						}
+					}
+					{
+						int32_t L_44;
+						L_44 = PeerBase_get_timeInt_m58B98F2C895A84331EE6E9CC340117F1DF7DBF6F(__this, NULL);
+						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_45 = V_14;
+						NullCheck(L_45);
+						int32_t L_46 = L_45->___timeoutTime_47;
+						G_B22_0 = ((((int32_t)L_44) > ((int32_t)L_46))? 1 : 0);
+						goto IL_0163_2;
+					}
+
+IL_0162_2:
+					{
+						G_B22_0 = 1;
+					}
+
+IL_0163_2:
+					{
+						V_18 = (bool)G_B22_0;
+						bool L_47 = V_18;
+						if (!L_47)
+						{
+							goto IL_020d_2;
+						}
+					}
+					{
+						uint8_t L_48;
+						L_48 = PeerBase_get_debugOut_mA29D5E38097C6B8374B8C69C89D2AEE5ACBCDF76(__this, NULL);
+						V_19 = (bool)((((int32_t)((((int32_t)L_48) < ((int32_t)2))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+						bool L_49 = V_19;
+						if (!L_49)
+						{
+							goto IL_01e4_2;
+						}
+					}
+					{
+						RuntimeObject* L_50;
+						L_50 = PeerBase_get_Listener_m3E13539621D55C1171BE6FBEA59BE827F43BDB59(__this, NULL);
+						StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_51 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
+						StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_52 = L_51;
+						NullCheck(L_52);
+						ArrayElementTypeCheck (L_52, _stringLiteral2834DAEEA6BE11C5C43C474688D4B5E91DDF715C);
+						(L_52)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral2834DAEEA6BE11C5C43C474688D4B5E91DDF715C);
+						StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_53 = L_52;
+						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_54 = V_14;
+						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_55 = L_54;
+						G_B25_0 = L_55;
+						G_B25_1 = 1;
+						G_B25_2 = L_53;
+						G_B25_3 = L_53;
+						G_B25_4 = 2;
+						G_B25_5 = L_50;
+						if (L_55)
+						{
+							G_B26_0 = L_55;
+							G_B26_1 = 1;
+							G_B26_2 = L_53;
+							G_B26_3 = L_53;
+							G_B26_4 = 2;
+							G_B26_5 = L_50;
+							goto IL_01a0_2;
+						}
+					}
+					{
+						G_B27_0 = ((String_t*)(NULL));
+						G_B27_1 = G_B25_1;
+						G_B27_2 = G_B25_2;
+						G_B27_3 = G_B25_3;
+						G_B27_4 = G_B25_4;
+						G_B27_5 = G_B25_5;
+						goto IL_01a5_2;
+					}
+
+IL_01a0_2:
+					{
+						NullCheck(G_B26_0);
+						String_t* L_56;
+						L_56 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, G_B26_0);
+						G_B27_0 = L_56;
+						G_B27_1 = G_B26_1;
+						G_B27_2 = G_B26_2;
+						G_B27_3 = G_B26_3;
+						G_B27_4 = G_B26_4;
+						G_B27_5 = G_B26_5;
+					}
+
+IL_01a5_2:
+					{
+						NullCheck(G_B27_2);
+						ArrayElementTypeCheck (G_B27_2, G_B27_0);
+						(G_B27_2)->SetAt(static_cast<il2cpp_array_size_t>(G_B27_1), (String_t*)G_B27_0);
+						StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_57 = G_B27_3;
+						NullCheck(L_57);
+						ArrayElementTypeCheck (L_57, _stringLiteralD1D58C31D89D104422AB17657A06A5DD4B99EB4F);
+						(L_57)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralD1D58C31D89D104422AB17657A06A5DD4B99EB4F);
+						StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_58 = L_57;
+						int32_t L_59;
+						L_59 = PeerBase_get_timeInt_m58B98F2C895A84331EE6E9CC340117F1DF7DBF6F(__this, NULL);
+						V_20 = L_59;
+						String_t* L_60;
+						L_60 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_20), NULL);
+						NullCheck(L_58);
+						ArrayElementTypeCheck (L_58, L_60);
+						(L_58)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_60);
+						StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_61 = L_58;
+						NullCheck(L_61);
+						ArrayElementTypeCheck (L_61, _stringLiteral6CF3C4456E1D88D9E28372775CA6FEB5F9616128);
+						(L_61)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral6CF3C4456E1D88D9E28372775CA6FEB5F9616128);
+						StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_62 = L_61;
+						int32_t L_63 = __this->___challenge_62;
+						il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+						String_t* L_64;
+						L_64 = Convert_ToString_mC3349029FE37EB00B5BFCB1F87022458A3834E35(L_63, ((int32_t)16), NULL);
+						NullCheck(L_62);
+						ArrayElementTypeCheck (L_62, L_64);
+						(L_62)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_64);
+						String_t* L_65;
+						L_65 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_62, NULL);
+						NullCheck(G_B27_5);
+						InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_tCF670245092F1C9F0BB8F83AE0742E9473417E6D_il2cpp_TypeInfo_var, G_B27_5, G_B27_4, L_65);
+					}
+
+IL_01e4_2:
+					{
+						((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___peerConnectionState_6 = 6;
+						PeerBase_EnqueueStatusCallback_mC9A83CF587306DB6FAF719D13EAD3B56EBBC3DC5(__this, ((int32_t)1040), NULL);
+						VirtualActionInvoker0::Invoke(11 /* System.Void ExitGames.Client.Photon.PeerBase::Disconnect() */, __this);
+						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_66 = V_14;
+						NullCheck(L_66);
+						NCommand_Release_m10B77A64210E77CE8F307631B54974CA1C3E739E(L_66, NULL);
+						V_1 = (bool)0;
+						goto IL_0592;
+					}
+
+IL_020d_2:
+					{
+						PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* L_67 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___photonPeer_0;
+						NullCheck(L_67);
+						int32_t L_68 = L_67->___SequenceDeltaLimitResends_27;
+						V_21 = (bool)((((int32_t)L_68) > ((int32_t)0))? 1 : 0);
+						bool L_69 = V_21;
+						if (!L_69)
+						{
+							goto IL_025a_2;
+						}
+					}
+					{
+						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_70 = V_14;
+						NullCheck(L_70);
+						uint8_t L_71 = L_70->___commandChannelID_33;
+						EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_72;
+						L_72 = EnetPeer_GetChannel_mC7C3645A08134CA7D2AAF4E758507150D7BC4C34(__this, L_71, NULL);
+						V_22 = L_72;
+						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_73 = V_14;
+						NullCheck(L_73);
+						int32_t L_74 = L_73->___reliableSequenceNumber_34;
+						EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_75 = V_22;
+						NullCheck(L_75);
+						int32_t L_76 = L_75->___highestReceivedAck_14;
+						PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* L_77 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___photonPeer_0;
+						NullCheck(L_77);
+						int32_t L_78 = L_77->___SequenceDeltaLimitResends_27;
+						V_23 = (bool)((((int32_t)((int32_t)il2cpp_codegen_subtract(L_74, L_76))) > ((int32_t)L_78))? 1 : 0);
+						bool L_79 = V_23;
+						if (!L_79)
+						{
+							goto IL_0259_2;
+						}
+					}
+					{
+						goto IL_0348_2;
+					}
+
+IL_0259_2:
+					{
+					}
+
+IL_025a_2:
+					{
+						uint8_t L_80;
+						L_80 = PeerBase_get_debugOut_mA29D5E38097C6B8374B8C69C89D2AEE5ACBCDF76(__this, NULL);
+						V_24 = (bool)((((int32_t)((((int32_t)L_80) < ((int32_t)5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+						bool L_81 = V_24;
+						if (!L_81)
+						{
+							goto IL_02f0_2;
+						}
+					}
+					{
+						RuntimeObject* L_82;
+						L_82 = PeerBase_get_Listener_m3E13539621D55C1171BE6FBEA59BE827F43BDB59(__this, NULL);
+						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_83 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)7);
+						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_84 = L_83;
+						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_85 = V_14;
+						NullCheck(L_84);
+						ArrayElementTypeCheck (L_84, L_85);
+						(L_84)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_85);
+						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_86 = L_84;
+						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_87 = V_14;
+						NullCheck(L_87);
+						int32_t L_88 = L_87->___roundTripTimeout_46;
+						int32_t L_89 = L_88;
+						RuntimeObject* L_90 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_89);
+						NullCheck(L_86);
+						ArrayElementTypeCheck (L_86, L_90);
+						(L_86)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_90);
+						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_91 = L_86;
+						int32_t L_92;
+						L_92 = PeerBase_get_timeInt_m58B98F2C895A84331EE6E9CC340117F1DF7DBF6F(__this, NULL);
+						int32_t L_93 = L_92;
+						RuntimeObject* L_94 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_93);
 						NullCheck(L_91);
-						ArrayElementTypeCheck (L_91, L_92);
-						(L_91)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_92);
-						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_93 = L_91;
-						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_94 = V_16;
-						NullCheck(L_94);
-						int32_t L_95 = L_94->___roundTripTimeout_46;
-						int32_t L_96 = L_95;
-						RuntimeObject* L_97 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_96);
-						NullCheck(L_93);
-						ArrayElementTypeCheck (L_93, L_97);
-						(L_93)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_97);
-						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_98 = L_93;
-						int32_t L_99;
-						L_99 = PeerBase_get_timeInt_m58B98F2C895A84331EE6E9CC340117F1DF7DBF6F(__this, NULL);
-						int32_t L_100 = L_99;
-						RuntimeObject* L_101 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_100);
-						NullCheck(L_98);
-						ArrayElementTypeCheck (L_98, L_101);
-						(L_98)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_101);
-						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_102 = L_98;
-						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_103 = V_16;
-						NullCheck(L_103);
-						int32_t L_104 = L_103->___commandSentTime_44;
-						int32_t L_105 = L_104;
-						RuntimeObject* L_106 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_105);
-						NullCheck(L_102);
-						ArrayElementTypeCheck (L_102, L_106);
-						(L_102)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_106);
-						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_107 = L_102;
-						int32_t L_108 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___roundTripTime_16;
-						int32_t L_109 = L_108;
-						RuntimeObject* L_110 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_109);
-						NullCheck(L_107);
-						ArrayElementTypeCheck (L_107, L_110);
-						(L_107)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject*)L_110);
-						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_111 = L_107;
-						int32_t L_112 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___roundTripTimeVariance_17;
-						int32_t L_113 = L_112;
-						RuntimeObject* L_114 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_113);
-						NullCheck(L_111);
-						ArrayElementTypeCheck (L_111, L_114);
-						(L_111)->SetAt(static_cast<il2cpp_array_size_t>(5), (RuntimeObject*)L_114);
-						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_115 = L_111;
-						int32_t L_116;
-						L_116 = PeerBase_get_timeInt_m58B98F2C895A84331EE6E9CC340117F1DF7DBF6F(__this, NULL);
-						int32_t L_117 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___timestampOfLastReceive_21;
-						int32_t L_118 = ((int32_t)il2cpp_codegen_subtract(L_116, L_117));
-						RuntimeObject* L_119 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_118);
-						NullCheck(L_115);
-						ArrayElementTypeCheck (L_115, L_119);
-						(L_115)->SetAt(static_cast<il2cpp_array_size_t>(6), (RuntimeObject*)L_119);
-						String_t* L_120;
-						L_120 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral48BC860C25F2B8A0144D32CE4B551DE7C3BE774A, L_115, NULL);
-						NullCheck(L_89);
-						InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_tCF670245092F1C9F0BB8F83AE0742E9473417E6D_il2cpp_TypeInfo_var, L_89, 5, L_120);
+						ArrayElementTypeCheck (L_91, L_94);
+						(L_91)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_94);
+						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_95 = L_91;
+						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_96 = V_14;
+						NullCheck(L_96);
+						int32_t L_97 = L_96->___commandSentTime_44;
+						int32_t L_98 = L_97;
+						RuntimeObject* L_99 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_98);
+						NullCheck(L_95);
+						ArrayElementTypeCheck (L_95, L_99);
+						(L_95)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_99);
+						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_100 = L_95;
+						int32_t L_101 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___roundTripTime_16;
+						int32_t L_102 = L_101;
+						RuntimeObject* L_103 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_102);
+						NullCheck(L_100);
+						ArrayElementTypeCheck (L_100, L_103);
+						(L_100)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject*)L_103);
+						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_104 = L_100;
+						int32_t L_105 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___roundTripTimeVariance_17;
+						int32_t L_106 = L_105;
+						RuntimeObject* L_107 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_106);
+						NullCheck(L_104);
+						ArrayElementTypeCheck (L_104, L_107);
+						(L_104)->SetAt(static_cast<il2cpp_array_size_t>(5), (RuntimeObject*)L_107);
+						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_108 = L_104;
+						int32_t L_109;
+						L_109 = PeerBase_get_timeInt_m58B98F2C895A84331EE6E9CC340117F1DF7DBF6F(__this, NULL);
+						int32_t L_110 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___timestampOfLastReceive_21;
+						int32_t L_111 = ((int32_t)il2cpp_codegen_subtract(L_109, L_110));
+						RuntimeObject* L_112 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_111);
+						NullCheck(L_108);
+						ArrayElementTypeCheck (L_108, L_112);
+						(L_108)->SetAt(static_cast<il2cpp_array_size_t>(6), (RuntimeObject*)L_112);
+						String_t* L_113;
+						L_113 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral48BC860C25F2B8A0144D32CE4B551DE7C3BE774A, L_108, NULL);
+						NullCheck(L_82);
+						InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_tCF670245092F1C9F0BB8F83AE0742E9473417E6D_il2cpp_TypeInfo_var, L_82, 5, L_113);
+					}
+
+IL_02f0_2:
+					{
+						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_114 = V_14;
+						bool L_115;
+						L_115 = EnetPeer_SerializeCommandToBuffer_m515ED731BC9649A9FCBCC6BF4AB903A1EDE3E354(__this, L_114, (bool)1, NULL);
+						V_17 = L_115;
+						bool L_116 = V_17;
+						if (L_116)
+						{
+							goto IL_0312_2;
+						}
+					}
+					{
+						int32_t L_117;
+						L_117 = PeerBase_get_mtu_mC01F04407072451449FF676D041A2DE91C827EC9(__this, NULL);
+						int32_t L_118 = __this->___udpBufferIndex_59;
+						G_B38_0 = ((((int32_t)((int32_t)il2cpp_codegen_subtract(L_117, L_118))) < ((int32_t)((int32_t)80)))? 1 : 0);
+						goto IL_0313_2;
+					}
+
+IL_0312_2:
+					{
+						G_B38_0 = 0;
+					}
+
+IL_0313_2:
+					{
+						V_25 = (bool)G_B38_0;
+						bool L_119 = V_25;
+						if (!L_119)
+						{
+							goto IL_0324_2;
+						}
+					}
+					{
+						int32_t L_120 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___timeoutInt_30;
+						V_10 = L_120;
+						goto IL_0366_2;
+					}
+
+IL_0324_2:
+					{
+						int32_t L_121 = __this->___reliableCommandsRepeated_63;
+						__this->___reliableCommandsRepeated_63 = ((int32_t)il2cpp_codegen_add(L_121, 1));
+						goto IL_0347_2;
 					}
 
 IL_0335_2:
 					{
-						NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_121 = V_16;
-						bool L_122;
-						L_122 = EnetPeer_SerializeCommandToBuffer_m515ED731BC9649A9FCBCC6BF4AB903A1EDE3E354(__this, L_121, (bool)1, NULL);
-						V_19 = L_122;
-						bool L_123 = V_19;
-						if (L_123)
+						int32_t L_122 = V_15;
+						int32_t L_123 = V_10;
+						V_26 = (bool)((((int32_t)L_122) < ((int32_t)L_123))? 1 : 0);
+						bool L_124 = V_26;
+						if (!L_124)
 						{
-							goto IL_0357_2;
+							goto IL_0347_2;
 						}
 					}
 					{
-						int32_t L_124;
-						L_124 = PeerBase_get_mtu_mC01F04407072451449FF676D041A2DE91C827EC9(__this, NULL);
-						int32_t L_125 = __this->___udpBufferIndex_59;
-						G_B42_0 = ((((int32_t)((int32_t)il2cpp_codegen_subtract(L_124, L_125))) < ((int32_t)((int32_t)80)))? 1 : 0);
-						goto IL_0358_2;
+						int32_t L_125 = V_15;
+						V_10 = L_125;
 					}
 
-IL_0357_2:
+IL_0347_2:
 					{
-						G_B42_0 = 0;
 					}
 
-IL_0358_2:
+IL_0348_2:
 					{
-						V_27 = (bool)G_B42_0;
-						bool L_126 = V_27;
-						if (!L_126)
+						int32_t L_126 = V_13;
+						V_13 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+					}
+
+IL_034e_2:
+					{
+						int32_t L_127 = V_13;
+						List_1_t743B07CCEE5920A8470C463FFD20439AE947FFA8* L_128 = __this->___sentReliableCommands_51;
+						NullCheck(L_128);
+						int32_t L_129;
+						L_129 = List_1_get_Count_m3E521E3C61DBC85C5DBD8936EDA21E11C281CCD2_inline(L_128, List_1_get_Count_m3E521E3C61DBC85C5DBD8936EDA21E11C281CCD2_RuntimeMethod_var);
+						V_27 = (bool)((((int32_t)L_127) < ((int32_t)L_129))? 1 : 0);
+						bool L_130 = V_27;
+						if (L_130)
 						{
-							goto IL_0369_2;
-						}
-					}
-					{
-						int32_t L_127 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___timeoutInt_30;
-						V_12 = L_127;
-						goto IL_03ab_2;
-					}
-
-IL_0369_2:
-					{
-						int32_t L_128 = __this->___reliableCommandsRepeated_63;
-						__this->___reliableCommandsRepeated_63 = ((int32_t)il2cpp_codegen_add(L_128, 1));
-						goto IL_038c_2;
-					}
-
-IL_037a_2:
-					{
-						int32_t L_129 = V_17;
-						int32_t L_130 = V_12;
-						V_28 = (bool)((((int32_t)L_129) < ((int32_t)L_130))? 1 : 0);
-						bool L_131 = V_28;
-						if (!L_131)
-						{
-							goto IL_038c_2;
-						}
-					}
-					{
-						int32_t L_132 = V_17;
-						V_12 = L_132;
-					}
-
-IL_038c_2:
-					{
-					}
-
-IL_038d_2:
-					{
-						int32_t L_133 = V_15;
-						V_15 = ((int32_t)il2cpp_codegen_add(L_133, 1));
-					}
-
-IL_0393_2:
-					{
-						int32_t L_134 = V_15;
-						List_1_t743B07CCEE5920A8470C463FFD20439AE947FFA8* L_135 = __this->___sentReliableCommands_51;
-						NullCheck(L_135);
-						int32_t L_136;
-						L_136 = List_1_get_Count_m3E521E3C61DBC85C5DBD8936EDA21E11C281CCD2_inline(L_135, List_1_get_Count_m3E521E3C61DBC85C5DBD8936EDA21E11C281CCD2_RuntimeMethod_var);
-						V_29 = (bool)((((int32_t)L_134) < ((int32_t)L_136))? 1 : 0);
-						bool L_137 = V_29;
-						if (L_137)
-						{
-							goto IL_014d_2;
+							goto IL_0108_2;
 						}
 					}
 
-IL_03ab_2:
+IL_0366_2:
 					{
-						int32_t L_138 = V_12;
-						((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___timeoutInt_30 = L_138;
-						goto IL_03c3_1;
+						int32_t L_131 = V_10;
+						((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___timeoutInt_30 = L_131;
+						goto IL_037e_1;
 					}
 				}// end try (depth: 2)
 				catch(Il2CppExceptionWrapper& e)
@@ -11739,127 +11701,127 @@ IL_03ab_2:
 				}
 			}
 
-IL_03c3_1:
+IL_037e_1:
 			{
 			}
 
-IL_03c4_1:
+IL_037f_1:
 			{
-				uint8_t L_139 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___peerConnectionState_6;
-				if ((!(((uint32_t)L_139) == ((uint32_t)3))))
+				uint8_t L_132 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___peerConnectionState_6;
+				if ((!(((uint32_t)L_132) == ((uint32_t)3))))
 				{
-					goto IL_0414_1;
+					goto IL_03cf_1;
 				}
 			}
 			{
+				int32_t L_133;
+				L_133 = PeerBase_get_timePingInterval_mAD3BCDADA9AEFD1EF576A4EE193F1801312EBE3D(__this, NULL);
+				if ((((int32_t)L_133) <= ((int32_t)0)))
+				{
+					goto IL_03cf_1;
+				}
+			}
+			{
+				List_1_t743B07CCEE5920A8470C463FFD20439AE947FFA8* L_134 = __this->___sentReliableCommands_51;
+				NullCheck(L_134);
+				int32_t L_135;
+				L_135 = List_1_get_Count_m3E521E3C61DBC85C5DBD8936EDA21E11C281CCD2_inline(L_134, List_1_get_Count_m3E521E3C61DBC85C5DBD8936EDA21E11C281CCD2_RuntimeMethod_var);
+				if (L_135)
+				{
+					goto IL_03cf_1;
+				}
+			}
+			{
+				int32_t L_136;
+				L_136 = PeerBase_get_timeInt_m58B98F2C895A84331EE6E9CC340117F1DF7DBF6F(__this, NULL);
+				int32_t L_137 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___timeLastAckReceive_31;
+				int32_t L_138;
+				L_138 = PeerBase_get_timePingInterval_mAD3BCDADA9AEFD1EF576A4EE193F1801312EBE3D(__this, NULL);
+				if ((((int32_t)((int32_t)il2cpp_codegen_subtract(L_136, L_137))) <= ((int32_t)L_138)))
+				{
+					goto IL_03cf_1;
+				}
+			}
+			{
+				int32_t L_139 = __this->___udpBufferIndex_59;
 				int32_t L_140;
-				L_140 = PeerBase_get_timePingInterval_mAD3BCDADA9AEFD1EF576A4EE193F1801312EBE3D(__this, NULL);
-				if ((((int32_t)L_140) <= ((int32_t)0)))
-				{
-					goto IL_0414_1;
-				}
-			}
-			{
-				List_1_t743B07CCEE5920A8470C463FFD20439AE947FFA8* L_141 = __this->___sentReliableCommands_51;
-				NullCheck(L_141);
-				int32_t L_142;
-				L_142 = List_1_get_Count_m3E521E3C61DBC85C5DBD8936EDA21E11C281CCD2_inline(L_141, List_1_get_Count_m3E521E3C61DBC85C5DBD8936EDA21E11C281CCD2_RuntimeMethod_var);
-				if (L_142)
-				{
-					goto IL_0414_1;
-				}
-			}
-			{
-				int32_t L_143;
-				L_143 = PeerBase_get_timeInt_m58B98F2C895A84331EE6E9CC340117F1DF7DBF6F(__this, NULL);
-				int32_t L_144 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___timeLastAckReceive_31;
-				int32_t L_145;
-				L_145 = PeerBase_get_timePingInterval_mAD3BCDADA9AEFD1EF576A4EE193F1801312EBE3D(__this, NULL);
-				if ((((int32_t)((int32_t)il2cpp_codegen_subtract(L_143, L_144))) <= ((int32_t)L_145)))
-				{
-					goto IL_0414_1;
-				}
-			}
-			{
-				int32_t L_146 = __this->___udpBufferIndex_59;
-				int32_t L_147;
-				L_147 = EnetPeer_CalculatePacketSize_m4BFE7820737109F4478ADCA6B63E3B5052E8E283(__this, ((int32_t)il2cpp_codegen_add(L_146, ((int32_t)12))), NULL);
-				int32_t L_148;
-				L_148 = PeerBase_get_mtu_mC01F04407072451449FF676D041A2DE91C827EC9(__this, NULL);
-				G_B61_0 = ((((int32_t)((((int32_t)L_147) > ((int32_t)L_148))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-				goto IL_0415_1;
+				L_140 = EnetPeer_CalculatePacketSize_m4BFE7820737109F4478ADCA6B63E3B5052E8E283(__this, ((int32_t)il2cpp_codegen_add(L_139, ((int32_t)12))), NULL);
+				int32_t L_141;
+				L_141 = PeerBase_get_mtu_mC01F04407072451449FF676D041A2DE91C827EC9(__this, NULL);
+				G_B57_0 = ((((int32_t)((((int32_t)L_140) > ((int32_t)L_141))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+				goto IL_03d0_1;
 			}
 
-IL_0414_1:
+IL_03cf_1:
 			{
-				G_B61_0 = 0;
+				G_B57_0 = 0;
 			}
 
-IL_0415_1:
+IL_03d0_1:
 			{
-				V_30 = (bool)G_B61_0;
-				bool L_149 = V_30;
-				if (!L_149)
+				V_28 = (bool)G_B57_0;
+				bool L_142 = V_28;
+				if (!L_142)
 				{
-					goto IL_045c_1;
+					goto IL_0417_1;
 				}
 			}
 			{
-				NCommandPool_t65540238CE5B4A7F0232349A62437142F11E6DAD* L_150 = __this->___nCommandPool_50;
-				NullCheck(L_150);
-				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_151;
-				L_151 = NCommandPool_Acquire_m8EEBCC31674B954253FE7DF66328FD76147BC65F(L_150, __this, (uint8_t)5, (StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB*)NULL, (uint8_t)((int32_t)255), NULL);
+				NCommandPool_t65540238CE5B4A7F0232349A62437142F11E6DAD* L_143 = __this->___nCommandPool_50;
+				NullCheck(L_143);
+				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_144;
+				L_144 = NCommandPool_Acquire_m8EEBCC31674B954253FE7DF66328FD76147BC65F(L_143, __this, (uint8_t)5, (StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB*)NULL, (uint8_t)((int32_t)255), NULL);
+				V_29 = L_144;
+				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_145 = V_29;
+				EnetPeer_QueueOutgoingReliableCommand_m2E34344E0DADA6F1B44C1E953C1AF2947CADC351(__this, L_145, NULL);
+				bool L_146;
+				L_146 = PeerBase_get_TrafficStatsEnabled_mCC1511B967600ABB65663EE7B8AC96942DC75879(__this, NULL);
+				V_30 = L_146;
+				bool L_147 = V_30;
+				if (!L_147)
+				{
+					goto IL_0416_1;
+				}
+			}
+			{
+				TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_148;
+				L_148 = PeerBase_get_TrafficStatsOutgoing_m20D7D5D750CA213D715AB7CDE26ABA707B15DB7E(__this, NULL);
+				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_149 = V_29;
+				NullCheck(L_149);
+				int32_t L_150 = L_149->___Size_50;
+				NullCheck(L_148);
+				TrafficStats_CountControlCommand_m70A881827E55E476DAF814DFE9E6ACF8CCE939D7(L_148, L_150, NULL);
+			}
+
+IL_0416_1:
+			{
+			}
+
+IL_0417_1:
+			{
+				EnetChannelU5BU5D_t28B7D059931AE97622CC1B28BBA512792396FDEA* L_151 = __this->___channelArray_68;
 				V_31 = L_151;
-				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_152 = V_31;
-				EnetPeer_QueueOutgoingReliableCommand_m2E34344E0DADA6F1B44C1E953C1AF2947CADC351(__this, L_152, NULL);
-				bool L_153;
-				L_153 = PeerBase_get_TrafficStatsEnabled_mCC1511B967600ABB65663EE7B8AC96942DC75879(__this, NULL);
-				V_32 = L_153;
-				bool L_154 = V_32;
-				if (!L_154)
-				{
-					goto IL_045b_1;
-				}
-			}
-			{
-				TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_155;
-				L_155 = PeerBase_get_TrafficStatsOutgoing_m20D7D5D750CA213D715AB7CDE26ABA707B15DB7E(__this, NULL);
-				NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_156 = V_31;
-				NullCheck(L_156);
-				int32_t L_157 = L_156->___Size_50;
-				NullCheck(L_155);
-				TrafficStats_CountControlCommand_m70A881827E55E476DAF814DFE9E6ACF8CCE939D7(L_155, L_157, NULL);
-			}
-
-IL_045b_1:
-			{
-			}
-
-IL_045c_1:
-			{
-				EnetChannelU5BU5D_t28B7D059931AE97622CC1B28BBA512792396FDEA* L_158 = __this->___channelArray_68;
-				V_33 = L_158;
-				V_34 = (bool)0;
+				V_32 = (bool)0;
 			}
 			{
 				auto __finallyBlock = il2cpp::utils::Finally([&]
 				{
 
-FINALLY_054d_1:
+FINALLY_0508_1:
 					{// begin finally (depth: 2)
 						{
-							bool L_159 = V_34;
-							if (!L_159)
+							bool L_152 = V_32;
+							if (!L_152)
 							{
-								goto IL_0559_1;
+								goto IL_0514_1;
 							}
 						}
 						{
-							EnetChannelU5BU5D_t28B7D059931AE97622CC1B28BBA512792396FDEA* L_160 = V_33;
-							Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA((RuntimeObject*)L_160, NULL);
+							EnetChannelU5BU5D_t28B7D059931AE97622CC1B28BBA512792396FDEA* L_153 = V_31;
+							Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA((RuntimeObject*)L_153, NULL);
 						}
 
-IL_0559_1:
+IL_0514_1:
 						{
 							return;
 						}
@@ -11868,43 +11830,43 @@ IL_0559_1:
 				try
 				{// begin try (depth: 2)
 					{
-						EnetChannelU5BU5D_t28B7D059931AE97622CC1B28BBA512792396FDEA* L_161 = V_33;
-						Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149((RuntimeObject*)L_161, (&V_34), NULL);
-						V_35 = 0;
-						goto IL_0535_2;
+						EnetChannelU5BU5D_t28B7D059931AE97622CC1B28BBA512792396FDEA* L_154 = V_31;
+						Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149((RuntimeObject*)L_154, (&V_32), NULL);
+						V_33 = 0;
+						goto IL_04f0_2;
 					}
 
-IL_047a_2:
+IL_0435_2:
 					{
-						EnetChannelU5BU5D_t28B7D059931AE97622CC1B28BBA512792396FDEA* L_162 = __this->___channelArray_68;
-						int32_t L_163 = V_35;
-						NullCheck(L_162);
-						int32_t L_164 = L_163;
-						EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_165 = (L_162)->GetAt(static_cast<il2cpp_array_size_t>(L_164));
-						V_36 = L_165;
-						EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_166 = V_36;
-						V_37 = L_166;
-						V_38 = (bool)0;
+						EnetChannelU5BU5D_t28B7D059931AE97622CC1B28BBA512792396FDEA* L_155 = __this->___channelArray_68;
+						int32_t L_156 = V_33;
+						NullCheck(L_155);
+						int32_t L_157 = L_156;
+						EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_158 = (L_155)->GetAt(static_cast<il2cpp_array_size_t>(L_157));
+						V_34 = L_158;
+						EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_159 = V_34;
+						V_35 = L_159;
+						V_36 = (bool)0;
 					}
 					{
 						auto __finallyBlock = il2cpp::utils::Finally([&]
 						{
 
-FINALLY_0521_2:
+FINALLY_04dc_2:
 							{// begin finally (depth: 3)
 								{
-									bool L_167 = V_38;
-									if (!L_167)
+									bool L_160 = V_36;
+									if (!L_160)
 									{
-										goto IL_052d_2;
+										goto IL_04e8_2;
 									}
 								}
 								{
-									EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_168 = V_37;
-									Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_168, NULL);
+									EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_161 = V_35;
+									Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_161, NULL);
 								}
 
-IL_052d_2:
+IL_04e8_2:
 								{
 									return;
 								}
@@ -11913,108 +11875,108 @@ IL_052d_2:
 						try
 						{// begin try (depth: 3)
 							{
-								EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_169 = V_37;
-								Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_169, (&V_38), NULL);
-								PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* L_170 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___photonPeer_0;
-								NullCheck(L_170);
-								int32_t L_171 = L_170->___SequenceDeltaLimitSends_28;
-								if ((((int32_t)L_171) <= ((int32_t)0)))
+								EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_162 = V_35;
+								Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_162, (&V_36), NULL);
+								PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* L_163 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___photonPeer_0;
+								NullCheck(L_163);
+								int32_t L_164 = L_163->___SequenceDeltaLimitSends_28;
+								if ((((int32_t)L_164) <= ((int32_t)0)))
 								{
-									goto IL_04b7_3;
+									goto IL_0472_3;
 								}
 							}
 							{
-								EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_172 = V_36;
-								NullCheck(L_172);
-								Queue_1_t4ACA1F3DC7E7D6FB888ABBCB68839DB07FB163E9* L_173 = L_172->___outgoingReliableCommandsList_5;
-								NullCheck(L_173);
-								int32_t L_174;
-								L_174 = Queue_1_get_Count_m2DC385014B3B668759ABFBF3553E1E5B713E01F0_inline(L_173, Queue_1_get_Count_m2DC385014B3B668759ABFBF3553E1E5B713E01F0_RuntimeMethod_var);
-								G_B71_0 = ((((int32_t)L_174) > ((int32_t)0))? 1 : 0);
-								goto IL_04b8_3;
+								EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_165 = V_34;
+								NullCheck(L_165);
+								Queue_1_t4ACA1F3DC7E7D6FB888ABBCB68839DB07FB163E9* L_166 = L_165->___outgoingReliableCommandsList_5;
+								NullCheck(L_166);
+								int32_t L_167;
+								L_167 = Queue_1_get_Count_m2DC385014B3B668759ABFBF3553E1E5B713E01F0_inline(L_166, Queue_1_get_Count_m2DC385014B3B668759ABFBF3553E1E5B713E01F0_RuntimeMethod_var);
+								G_B67_0 = ((((int32_t)L_167) > ((int32_t)0))? 1 : 0);
+								goto IL_0473_3;
 							}
 
-IL_04b7_3:
+IL_0472_3:
+							{
+								G_B67_0 = 0;
+							}
+
+IL_0473_3:
+							{
+								V_37 = (bool)G_B67_0;
+								bool L_168 = V_37;
+								if (!L_168)
+								{
+									goto IL_04b5_3;
+								}
+							}
+							{
+								EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_169 = V_34;
+								NullCheck(L_169);
+								Queue_1_t4ACA1F3DC7E7D6FB888ABBCB68839DB07FB163E9* L_170 = L_169->___outgoingReliableCommandsList_5;
+								NullCheck(L_170);
+								NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_171;
+								L_171 = Queue_1_Peek_m9179E22C81B5C07AC5558012E42CAA7C78EB1793(L_170, Queue_1_Peek_m9179E22C81B5C07AC5558012E42CAA7C78EB1793_RuntimeMethod_var);
+								V_38 = L_171;
+								NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_172 = V_38;
+								if (!L_172)
+								{
+									goto IL_04aa_3;
+								}
+							}
+							{
+								NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_173 = V_38;
+								NullCheck(L_173);
+								int32_t L_174 = L_173->___reliableSequenceNumber_34;
+								EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_175 = V_34;
+								NullCheck(L_175);
+								int32_t L_176 = L_175->___highestReceivedAck_14;
+								PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* L_177 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___photonPeer_0;
+								NullCheck(L_177);
+								int32_t L_178 = L_177->___SequenceDeltaLimitSends_28;
+								G_B71_0 = ((((int32_t)((int32_t)il2cpp_codegen_subtract(L_174, L_176))) > ((int32_t)L_178))? 1 : 0);
+								goto IL_04ab_3;
+							}
+
+IL_04aa_3:
 							{
 								G_B71_0 = 0;
 							}
 
-IL_04b8_3:
+IL_04ab_3:
 							{
 								V_39 = (bool)G_B71_0;
-								bool L_175 = V_39;
-								if (!L_175)
-								{
-									goto IL_04fa_3;
-								}
-							}
-							{
-								EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_176 = V_36;
-								NullCheck(L_176);
-								Queue_1_t4ACA1F3DC7E7D6FB888ABBCB68839DB07FB163E9* L_177 = L_176->___outgoingReliableCommandsList_5;
-								NullCheck(L_177);
-								NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_178;
-								L_178 = Queue_1_Peek_m9179E22C81B5C07AC5558012E42CAA7C78EB1793(L_177, Queue_1_Peek_m9179E22C81B5C07AC5558012E42CAA7C78EB1793_RuntimeMethod_var);
-								V_40 = L_178;
-								NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_179 = V_40;
+								bool L_179 = V_39;
 								if (!L_179)
 								{
-									goto IL_04ef_3;
+									goto IL_04b4_3;
 								}
 							}
 							{
-								NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_180 = V_40;
-								NullCheck(L_180);
-								int32_t L_181 = L_180->___reliableSequenceNumber_34;
-								EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_182 = V_36;
-								NullCheck(L_182);
-								int32_t L_183 = L_182->___highestReceivedAck_14;
-								PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* L_184 = ((PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F*)__this)->___photonPeer_0;
-								NullCheck(L_184);
-								int32_t L_185 = L_184->___SequenceDeltaLimitSends_28;
-								G_B75_0 = ((((int32_t)((int32_t)il2cpp_codegen_subtract(L_181, L_183))) > ((int32_t)L_185))? 1 : 0);
-								goto IL_04f0_3;
+								goto IL_04ea_2;
 							}
 
-IL_04ef_3:
-							{
-								G_B75_0 = 0;
-							}
-
-IL_04f0_3:
-							{
-								V_41 = (bool)G_B75_0;
-								bool L_186 = V_41;
-								if (!L_186)
-								{
-									goto IL_04f9_3;
-								}
-							}
-							{
-								goto IL_052f_2;
-							}
-
-IL_04f9_3:
+IL_04b4_3:
 							{
 							}
 
-IL_04fa_3:
+IL_04b5_3:
 							{
-								int32_t L_187 = V_7;
-								EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_188 = V_36;
-								NullCheck(L_188);
-								Queue_1_t4ACA1F3DC7E7D6FB888ABBCB68839DB07FB163E9* L_189 = L_188->___outgoingReliableCommandsList_5;
-								int32_t L_190;
-								L_190 = EnetPeer_SerializeToBuffer_mC2DDFAEB3BD4FBF553A19048BA5D807DF8544FE6(__this, L_189, NULL);
-								V_7 = ((int32_t)il2cpp_codegen_add(L_187, L_190));
-								int32_t L_191 = V_7;
-								EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_192 = V_36;
-								NullCheck(L_192);
-								Queue_1_t4ACA1F3DC7E7D6FB888ABBCB68839DB07FB163E9* L_193 = L_192->___outgoingUnreliableCommandsList_6;
-								int32_t L_194;
-								L_194 = EnetPeer_SerializeToBuffer_mC2DDFAEB3BD4FBF553A19048BA5D807DF8544FE6(__this, L_193, NULL);
-								V_7 = ((int32_t)il2cpp_codegen_add(L_191, L_194));
-								goto IL_052e_2;
+								int32_t L_180 = V_5;
+								EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_181 = V_34;
+								NullCheck(L_181);
+								Queue_1_t4ACA1F3DC7E7D6FB888ABBCB68839DB07FB163E9* L_182 = L_181->___outgoingReliableCommandsList_5;
+								int32_t L_183;
+								L_183 = EnetPeer_SerializeToBuffer_mC2DDFAEB3BD4FBF553A19048BA5D807DF8544FE6(__this, L_182, NULL);
+								V_5 = ((int32_t)il2cpp_codegen_add(L_180, L_183));
+								int32_t L_184 = V_5;
+								EnetChannel_tF9D870786353576F3CE8CFBAC0AD37CB9E81EE96* L_185 = V_34;
+								NullCheck(L_185);
+								Queue_1_t4ACA1F3DC7E7D6FB888ABBCB68839DB07FB163E9* L_186 = L_185->___outgoingUnreliableCommandsList_6;
+								int32_t L_187;
+								L_187 = EnetPeer_SerializeToBuffer_mC2DDFAEB3BD4FBF553A19048BA5D807DF8544FE6(__this, L_186, NULL);
+								V_5 = ((int32_t)il2cpp_codegen_add(L_184, L_187));
+								goto IL_04e9_2;
 							}
 						}// end try (depth: 3)
 						catch(Il2CppExceptionWrapper& e)
@@ -12023,30 +11985,30 @@ IL_04fa_3:
 						}
 					}
 
-IL_052e_2:
+IL_04e9_2:
 					{
 					}
 
-IL_052f_2:
+IL_04ea_2:
 					{
-						int32_t L_195 = V_35;
-						V_35 = ((int32_t)il2cpp_codegen_add(L_195, 1));
+						int32_t L_188 = V_33;
+						V_33 = ((int32_t)il2cpp_codegen_add(L_188, 1));
 					}
 
-IL_0535_2:
+IL_04f0_2:
 					{
-						int32_t L_196 = V_35;
-						EnetChannelU5BU5D_t28B7D059931AE97622CC1B28BBA512792396FDEA* L_197 = __this->___channelArray_68;
-						NullCheck(L_197);
-						V_42 = (bool)((((int32_t)L_196) < ((int32_t)((int32_t)(((RuntimeArray*)L_197)->max_length))))? 1 : 0);
-						bool L_198 = V_42;
-						if (L_198)
+						int32_t L_189 = V_33;
+						EnetChannelU5BU5D_t28B7D059931AE97622CC1B28BBA512792396FDEA* L_190 = __this->___channelArray_68;
+						NullCheck(L_190);
+						V_40 = (bool)((((int32_t)L_189) < ((int32_t)((int32_t)(((RuntimeArray*)L_190)->max_length))))? 1 : 0);
+						bool L_191 = V_40;
+						if (L_191)
 						{
-							goto IL_047a_2;
+							goto IL_0435_2;
 						}
 					}
 					{
-						goto IL_055a_1;
+						goto IL_0515_1;
 					}
 				}// end try (depth: 2)
 				catch(Il2CppExceptionWrapper& e)
@@ -12055,62 +12017,62 @@ IL_0535_2:
 				}
 			}
 
-IL_055a_1:
+IL_0515_1:
 			{
-				uint8_t L_199 = __this->___udpCommandCount_57;
-				V_43 = (bool)((((int32_t)((((int32_t)L_199) > ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-				bool L_200 = V_43;
-				if (!L_200)
+				uint8_t L_192 = __this->___udpCommandCount_57;
+				V_41 = (bool)((((int32_t)((((int32_t)L_192) > ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+				bool L_193 = V_41;
+				if (!L_193)
 				{
-					goto IL_0571_1;
+					goto IL_052c_1;
 				}
 			}
 			{
-				V_2 = (bool)0;
-				goto IL_05d8;
+				V_1 = (bool)0;
+				goto IL_0592;
 			}
 
-IL_0571_1:
+IL_052c_1:
 			{
-				bool L_201;
-				L_201 = PeerBase_get_TrafficStatsEnabled_mCC1511B967600ABB65663EE7B8AC96942DC75879(__this, NULL);
-				V_44 = L_201;
-				bool L_202 = V_44;
-				if (!L_202)
+				bool L_194;
+				L_194 = PeerBase_get_TrafficStatsEnabled_mCC1511B967600ABB65663EE7B8AC96942DC75879(__this, NULL);
+				V_42 = L_194;
+				bool L_195 = V_42;
+				if (!L_195)
 				{
-					goto IL_05b0_1;
+					goto IL_056b_1;
 				}
 			}
 			{
-				TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_203;
-				L_203 = PeerBase_get_TrafficStatsOutgoing_m20D7D5D750CA213D715AB7CDE26ABA707B15DB7E(__this, NULL);
-				TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_204 = L_203;
-				NullCheck(L_204);
-				int32_t L_205;
-				L_205 = TrafficStats_get_TotalPacketCount_m53FF50B024EC68701EB6CD83DC691D521067CF56_inline(L_204, NULL);
-				V_22 = L_205;
-				int32_t L_206 = V_22;
-				NullCheck(L_204);
-				TrafficStats_set_TotalPacketCount_m1F2462971D60D696A9F0ACC128B36EC38B2298DF_inline(L_204, ((int32_t)il2cpp_codegen_add(L_206, 1)), NULL);
-				TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_207;
-				L_207 = PeerBase_get_TrafficStatsOutgoing_m20D7D5D750CA213D715AB7CDE26ABA707B15DB7E(__this, NULL);
-				TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_208 = L_207;
-				NullCheck(L_208);
-				int32_t L_209;
-				L_209 = TrafficStats_get_TotalCommandsInPackets_m81EFD3CD6FF16B0BD0BF40A96D234C13FFA0AB5B_inline(L_208, NULL);
-				uint8_t L_210 = __this->___udpCommandCount_57;
-				NullCheck(L_208);
-				TrafficStats_set_TotalCommandsInPackets_mF1BAE11EB423190F3D02166FF5A99DF3463EE535_inline(L_208, ((int32_t)il2cpp_codegen_add(L_209, (int32_t)L_210)), NULL);
+				TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_196;
+				L_196 = PeerBase_get_TrafficStatsOutgoing_m20D7D5D750CA213D715AB7CDE26ABA707B15DB7E(__this, NULL);
+				TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_197 = L_196;
+				NullCheck(L_197);
+				int32_t L_198;
+				L_198 = TrafficStats_get_TotalPacketCount_m53FF50B024EC68701EB6CD83DC691D521067CF56_inline(L_197, NULL);
+				V_20 = L_198;
+				int32_t L_199 = V_20;
+				NullCheck(L_197);
+				TrafficStats_set_TotalPacketCount_m1F2462971D60D696A9F0ACC128B36EC38B2298DF_inline(L_197, ((int32_t)il2cpp_codegen_add(L_199, 1)), NULL);
+				TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_200;
+				L_200 = PeerBase_get_TrafficStatsOutgoing_m20D7D5D750CA213D715AB7CDE26ABA707B15DB7E(__this, NULL);
+				TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_201 = L_200;
+				NullCheck(L_201);
+				int32_t L_202;
+				L_202 = TrafficStats_get_TotalCommandsInPackets_m81EFD3CD6FF16B0BD0BF40A96D234C13FFA0AB5B_inline(L_201, NULL);
+				uint8_t L_203 = __this->___udpCommandCount_57;
+				NullCheck(L_201);
+				TrafficStats_set_TotalCommandsInPackets_mF1BAE11EB423190F3D02166FF5A99DF3463EE535_inline(L_201, ((int32_t)il2cpp_codegen_add(L_202, (int32_t)L_203)), NULL);
 			}
 
-IL_05b0_1:
+IL_056b_1:
 			{
-				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_211 = __this->___udpBuffer_58;
-				int32_t L_212 = __this->___udpBufferIndex_59;
-				EnetPeer_SendData_mDB170927011673C0E0F31E910FEC8182DCB0DAFD(__this, L_211, L_212, NULL);
-				int32_t L_213 = V_7;
-				V_2 = (bool)((((int32_t)L_213) > ((int32_t)0))? 1 : 0);
-				goto IL_05d8;
+				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_204 = __this->___udpBuffer_58;
+				int32_t L_205 = __this->___udpBufferIndex_59;
+				EnetPeer_SendData_mDB170927011673C0E0F31E910FEC8182DCB0DAFD(__this, L_204, L_205, NULL);
+				int32_t L_206 = V_5;
+				V_1 = (bool)((((int32_t)L_206) > ((int32_t)0))? 1 : 0);
+				goto IL_0592;
 			}
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
@@ -12119,10 +12081,10 @@ IL_05b0_1:
 		}
 	}
 
-IL_05d8:
+IL_0592:
 	{
-		bool L_214 = V_2;
-		return L_214;
+		bool L_207 = V_1;
+		return L_207;
 	}
 }
 // System.Boolean ExitGames.Client.Photon.EnetPeer::EnqueuePhotonMessage(ExitGames.Client.Photon.StreamBuffer,ExitGames.Client.Photon.SendOptions)

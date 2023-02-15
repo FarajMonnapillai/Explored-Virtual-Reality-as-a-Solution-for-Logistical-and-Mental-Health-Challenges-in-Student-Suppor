@@ -389,6 +389,8 @@ struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
 struct OVRBody_tFD1925544E46951623093A6B3F553E4F05BED1E6;
 // OVRBoundary
 struct OVRBoundary_t56DFE91F758A740A34575D748FEC61959A106DAE;
+// OVRCameraComposition
+struct OVRCameraComposition_tB0D5E7882D82294126E5191D58DA2253171E7034;
 // OVRCameraRig
 struct OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9;
 // OVRComposition
@@ -397,6 +399,8 @@ struct OVRComposition_t3C87C75A9F3C80DA1C14548FE623BCF901284C48;
 struct OVRCompositionUtil_t05D2F7CA8008F386A7D68844B6B3D363E23A5E7A;
 // OVRDebugHeadController
 struct OVRDebugHeadController_t9847D58CEA8BB96FA805A60CD5733F312528DE18;
+// OVRDirectComposition
+struct OVRDirectComposition_t52E0AB2D6EE3D8861751601F9830B8D7D2D6B4FC;
 // OVRDisplay
 struct OVRDisplay_t1518043CC531CD088400F80558DF7A849ECA2D27;
 // OVRExternalComposition
@@ -493,6 +497,8 @@ struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
 struct U3CU3Ec__DisplayClass27_0_tE26F78A56AA4B7B70818EB50BF1D6AF8D0415010;
 // OVRManager/InstantiateMrcCameraDelegate
 struct InstantiateMrcCameraDelegate_t26D39C3003CADD2CBA4E7C5EB75333089B2F03C8;
+// OVRManager/PassthroughCapabilities
+struct PassthroughCapabilities_t3B338539A7E4125FE79381628715BDC608471F9F;
 // System.Text.RegularExpressions.Regex/CachedCodeEntry
 struct CachedCodeEntry_tE201C3AD65C234AD9ED7A78C95025824A7A9FF39;
 // System.IO.Stream/ReadWriteTask
@@ -676,7 +682,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral7F5DF872FA6CA76650526A1B598A5AE1F16E1FFC
 IL2CPP_EXTERN_C String_t* _stringLiteral81101D7B77B0D56812EB710C33F6915D4AA70581;
 IL2CPP_EXTERN_C String_t* _stringLiteral866DE57E7E4678162A1865095E3B8C11E24AD5C6;
 IL2CPP_EXTERN_C String_t* _stringLiteral870857B06064D5065FA68372874727DCBE2E478F;
-IL2CPP_EXTERN_C String_t* _stringLiteral875A1D4FD88DD762BAB0B2E40F59DE19D2C2351C;
 IL2CPP_EXTERN_C String_t* _stringLiteral8B2BA149AD620F72CDF40EE270812BA52F59A2BB;
 IL2CPP_EXTERN_C String_t* _stringLiteral8C3D95C6221D52D4D4FBC794EDA88BD83AE8387B;
 IL2CPP_EXTERN_C String_t* _stringLiteral8DD345FD5E347B928556D65DD49780B8BC5D7267;
@@ -809,6 +814,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mE8DBE527F24D9CFED839C34216
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mEEBA599288D944CA89F3C1522CEF69990E504468_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_m0A2811694917F8032EBEB471978D5FE1289915C0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* OVRBody_OnPermissionGranted_m0EEEE70D50DB29499209D70AA2FF89C9F2135045_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OVRCameraRig_U3CCheckForAnchorsInParentU3Eg__CheckU7C75_0_TisOVRSceneAnchor_tAF36EEA6E22DCD47BA537E85CAC57424A1B51F69_m4929475EEB07641CBAC09FD5E17B3187FC858211_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OVRCameraRig_U3CCheckForAnchorsInParentU3Eg__CheckU7C75_0_TisOVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874_mA6CFCFDF515F1A74CF2DB450EE98B86E7D095DF0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* OVRExtensions_ToSpaceStorageLocation_mFF7C8770305D5CFCCB62FB78319A81CEFFF6926C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* OVRExternalComposition_DisplayRefreshRateChanged_mC4070A362E609417C0C8EA9A296C51CBF3ABB358_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* OVREyeGaze_OnPermissionGranted_mB34D1014262301BEE82953BE312C6123727587CB_RuntimeMethod_var;
@@ -1185,8 +1192,18 @@ struct OVRBoundary_t56DFE91F758A740A34575D748FEC61959A106DAE  : public RuntimeOb
 	List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* ___cachedGeometryList_3;
 };
 
+// OVRCameraComposition
+struct OVRCameraComposition_tB0D5E7882D82294126E5191D58DA2253171E7034  : public RuntimeObject
+{
+};
+
 // OVRCompositionUtil
 struct OVRCompositionUtil_t05D2F7CA8008F386A7D68844B6B3D363E23A5E7A  : public RuntimeObject
+{
+};
+
+// OVRDirectComposition
+struct OVRDirectComposition_t52E0AB2D6EE3D8861751601F9830B8D7D2D6B4FC  : public RuntimeObject
 {
 };
 
@@ -3615,9 +3632,17 @@ struct OVRBoundary_t56DFE91F758A740A34575D748FEC61959A106DAE_StaticFields
 
 // OVRBoundary
 
+// OVRCameraComposition
+
+// OVRCameraComposition
+
 // OVRCompositionUtil
 
 // OVRCompositionUtil
+
+// OVRDirectComposition
+
+// OVRDirectComposition
 
 // OVRDisplay
 
@@ -4657,6 +4682,8 @@ struct OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_StaticFields
 	bool ___suppressDisableMixedRealityBecauseOfNoMainCameraWarning_123;
 	// OVRManager/PassthroughInitializationState OVRManager::_passthroughInitializationState
 	int32_t ____passthroughInitializationState_124;
+	// OVRManager/PassthroughCapabilities OVRManager::_passthroughCapabilities
+	PassthroughCapabilities_t3B338539A7E4125FE79381628715BDC608471F9F* ____passthroughCapabilities_125;
 };
 
 // OVRManager
@@ -5567,6 +5594,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisVector3f_t232AF83B4642C6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C_gshared (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Object>::Invoke(T)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+// System.Void OVRCameraRig::<CheckForAnchorsInParent>g__Check|75_0<System.Object>(UnityEngine.Transform)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRig_U3CCheckForAnchorsInParentU3Eg__CheckU7C75_0_TisRuntimeObject_mE39D61DFA5BABCEC415856F58343B1A5E5B4AB2B_gshared (OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_node, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState>::get_Count()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m87B87D63BFF8E54EC550E3699DCFA6ED6513B1C4_gshared_inline (List_1_t8AE5A65CCFBC753343962D38B82C801F7BDE3C87* __this, const RuntimeMethod* method) ;
 // T System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState>::get_Item(System.Int32)
@@ -6096,6 +6125,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA97
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131 (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Application::add_onBeforeRender(UnityEngine.Events.UnityAction)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_add_onBeforeRender_mEE8925294C807AD08FA0FF35D4C663E098510394 (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___0_value, const RuntimeMethod* method) ;
+// System.Void OVRCameraRig::CheckForAnchorsInParent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRig_CheckForAnchorsInParent_m943AA70717711D3778B9AFA83DB72ECBEA09F14B (OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Application::remove_onBeforeRender(UnityEngine.Events.UnityAction)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_remove_onBeforeRender_m9F54448ED4059A26C9972E5C9ED2F6DCD58B4E24 (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___0_value, const RuntimeMethod* method) ;
 // OVRPose OVRPose::get_identity()
@@ -6224,6 +6255,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_pos, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_q, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_s, const RuntimeMethod* method) ;
 // UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::op_Multiply(UnityEngine.Matrix4x4,UnityEngine.Matrix4x4)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Matrix4x4_op_Multiply_m75E91775655DCA8DFC8EDE0AB787285BB3935162 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___0_lhs, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___1_rhs, const RuntimeMethod* method) ;
+// UnityEngine.Transform UnityEngine.Transform::get_parent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+// System.Void OVRCameraRig::<CheckForAnchorsInParent>g__Check|75_0<OVRSpatialAnchor>(UnityEngine.Transform)
+inline void OVRCameraRig_U3CCheckForAnchorsInParentU3Eg__CheckU7C75_0_TisOVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874_mA6CFCFDF515F1A74CF2DB450EE98B86E7D095DF0 (OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_node, const RuntimeMethod* method)
+{
+	((  void (*) (OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, const RuntimeMethod*))OVRCameraRig_U3CCheckForAnchorsInParentU3Eg__CheckU7C75_0_TisRuntimeObject_mE39D61DFA5BABCEC415856F58343B1A5E5B4AB2B_gshared)(__this, ___0_node, method);
+}
+// System.Void OVRCameraRig::<CheckForAnchorsInParent>g__Check|75_0<OVRSceneAnchor>(UnityEngine.Transform)
+inline void OVRCameraRig_U3CCheckForAnchorsInParentU3Eg__CheckU7C75_0_TisOVRSceneAnchor_tAF36EEA6E22DCD47BA537E85CAC57424A1B51F69_m4929475EEB07641CBAC09FD5E17B3187FC858211 (OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_node, const RuntimeMethod* method)
+{
+	((  void (*) (OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, const RuntimeMethod*))OVRCameraRig_U3CCheckForAnchorsInParentU3Eg__CheckU7C75_0_TisRuntimeObject_mE39D61DFA5BABCEC415856F58343B1A5E5B4AB2B_gshared)(__this, ___0_node, method);
+}
 // OVRPose OVRExtensions::ToHeadSpacePose(UnityEngine.Transform,UnityEngine.Camera)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRPose_t8054769FD4517C10D2ECD2C14C823723D675EEFB OVRExtensions_ToHeadSpacePose_m76E544EB993FA33F3045ECD44176D6E5859EC866 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_transform, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___1_camera, const RuntimeMethod* method) ;
 // OVRPose OVRExtensions::ToHeadSpacePose(OVRPose)
@@ -6464,8 +6507,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_LookRotation_mFB02EDC8F733774DFAC3BEA4B4BB265A228F8307 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_forward, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_upwards, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Transform::SetPositionAndRotation(UnityEngine.Vector3,UnityEngine.Quaternion)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_SetPositionAndRotation_m418859BF59086EEAA084FFD6F258A43FAB408F5A (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rotation, const RuntimeMethod* method) ;
-// UnityEngine.Transform UnityEngine.Transform::get_parent()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
 // System.Boolean OVRPlugin::get_faceTrackingEnabled()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRPlugin_get_faceTrackingEnabled_mCD72BC658CA302F6FFF5EF44002E281D7813BC04 (const RuntimeMethod* method) ;
 // System.Boolean OVRFaceExpressions::StartFaceTracking()
@@ -7033,6 +7074,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IsUnmanagedAttribute__ctor_mC1B6E34FB2E7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void OVRCameraComposition::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraComposition__ctor_m0D9714BB28E10B2BE4A9F359B3FEA18EA0AE41BE (OVRCameraComposition_tB0D5E7882D82294126E5191D58DA2253171E7034* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void OVRComposition::.ctor(UnityEngine.GameObject,UnityEngine.Camera,OVRMixedRealityCaptureConfiguration)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRComposition__ctor_mC9F4DA32BAF2E785D3DBE178343CFEE8A1D90886 (OVRComposition_t3C87C75A9F3C80DA1C14548FE623BCF901284C48* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_parentObject, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___1_mainCamera, RuntimeObject* ___2_configuration, const RuntimeMethod* method) 
 {
@@ -7491,122 +7548,6 @@ IL_001a:
 	{
 		// }
 		return;
-	}
-}
-// OVRPlugin/CameraDevice OVRCompositionUtil::ConvertCameraDevice(OVRManager/CameraDevice)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OVRCompositionUtil_ConvertCameraDevice_mB034354B863BF0B7EDDE257657C584FB84E4AE79 (int32_t ___0_cameraDevice, const RuntimeMethod* method) 
-{
-	bool V_0 = false;
-	int32_t V_1 = 0;
-	bool V_2 = false;
-	bool V_3 = false;
-	{
-		// if (cameraDevice == OVRManager.CameraDevice.WebCamera0)
-		int32_t L_0 = ___0_cameraDevice;
-		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
-		bool L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_000f;
-		}
-	}
-	{
-		// return OVRPlugin.CameraDevice.WebCamera0;
-		V_1 = ((int32_t)100);
-		goto IL_0033;
-	}
-
-IL_000f:
-	{
-		// else if (cameraDevice == OVRManager.CameraDevice.WebCamera1)
-		int32_t L_2 = ___0_cameraDevice;
-		V_2 = (bool)((((int32_t)L_2) == ((int32_t)1))? 1 : 0);
-		bool L_3 = V_2;
-		if (!L_3)
-		{
-			goto IL_001d;
-		}
-	}
-	{
-		// return OVRPlugin.CameraDevice.WebCamera1;
-		V_1 = ((int32_t)101);
-		goto IL_0033;
-	}
-
-IL_001d:
-	{
-		// else if (cameraDevice == OVRManager.CameraDevice.ZEDCamera)
-		int32_t L_4 = ___0_cameraDevice;
-		V_3 = (bool)((((int32_t)L_4) == ((int32_t)2))? 1 : 0);
-		bool L_5 = V_3;
-		if (!L_5)
-		{
-			goto IL_002e;
-		}
-	}
-	{
-		// return OVRPlugin.CameraDevice.ZEDCamera;
-		V_1 = ((int32_t)300);
-		goto IL_0033;
-	}
-
-IL_002e:
-	{
-		// return OVRPlugin.CameraDevice.None;
-		V_1 = 0;
-		goto IL_0033;
-	}
-
-IL_0033:
-	{
-		// }
-		int32_t L_6 = V_1;
-		return L_6;
-	}
-}
-// OVRBoundary/BoundaryType OVRCompositionUtil::ToBoundaryType(OVRManager/VirtualGreenScreenType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OVRCompositionUtil_ToBoundaryType_mDFB017A0B99DB2B5CC2103B48DED5A0FE968F8F3 (int32_t ___0_type, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral875A1D4FD88DD762BAB0B2E40F59DE19D2C2351C);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	int32_t V_1 = 0;
-	{
-		// else */if (type == OVRManager.VirtualGreenScreenType.PlayArea)
-		int32_t L_0 = ___0_type;
-		V_0 = (bool)((((int32_t)L_0) == ((int32_t)2))? 1 : 0);
-		bool L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_0012;
-		}
-	}
-	{
-		// return OVRBoundary.BoundaryType.PlayArea;
-		V_1 = ((int32_t)256);
-		goto IL_0026;
-	}
-
-IL_0012:
-	{
-		// Debug.LogWarning("Unmatched VirtualGreenScreenType");
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral875A1D4FD88DD762BAB0B2E40F59DE19D2C2351C, NULL);
-		// return OVRBoundary.BoundaryType.PlayArea;
-		V_1 = ((int32_t)256);
-		goto IL_0026;
-	}
-
-IL_0026:
-	{
-		// }
-		int32_t L_2 = V_1;
-		return L_2;
 	}
 }
 // UnityEngine.Vector3 OVRCompositionUtil::GetWorldPosition(UnityEngine.Vector3)
@@ -8124,6 +8065,22 @@ IL_01a7:
 }
 // System.Void OVRCompositionUtil::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCompositionUtil__ctor_mFDD14BC86EB6C12B36C8D5D01476EC272E3AD4DB (OVRCompositionUtil_t05D2F7CA8008F386A7D68844B6B3D363E23A5E7A* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void OVRDirectComposition::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRDirectComposition__ctor_m156C5F6DE67689C9A3F6293CA5D429AEBA640BC2 (OVRDirectComposition_t52E0AB2D6EE3D8861751601F9830B8D7D2D6B4FC* __this, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -13002,6 +12959,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRig_Update_m9D48D4C84C3E700E645
 
 IL_001e:
 	{
+		// CheckForAnchorsInParent();
+		OVRCameraRig_CheckForAnchorsInParent_m943AA70717711D3778B9AFA83DB72ECBEA09F14B(__this, NULL);
 		// }
 		return;
 	}
@@ -15067,6 +15026,65 @@ IL_009c:
 		// }
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_23 = V_7;
 		return L_23;
+	}
+}
+// System.Void OVRCameraRig::CheckForAnchorsInParent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRig_CheckForAnchorsInParent_m943AA70717711D3778B9AFA83DB72ECBEA09F14B (OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OVRCameraRig_U3CCheckForAnchorsInParentU3Eg__CheckU7C75_0_TisOVRSceneAnchor_tAF36EEA6E22DCD47BA537E85CAC57424A1B51F69_m4929475EEB07641CBAC09FD5E17B3187FC858211_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OVRCameraRig_U3CCheckForAnchorsInParentU3Eg__CheckU7C75_0_TisOVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874_mA6CFCFDF515F1A74CF2DB450EE98B86E7D095DF0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
+	bool V_1 = false;
+	{
+		// var parent = transform.parent;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_0);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_0, NULL);
+		V_0 = L_1;
+		goto IL_0029;
+	}
+
+IL_0010:
+	{
+		// Check<OVRSpatialAnchor>(parent);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = V_0;
+		OVRCameraRig_U3CCheckForAnchorsInParentU3Eg__CheckU7C75_0_TisOVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874_mA6CFCFDF515F1A74CF2DB450EE98B86E7D095DF0(__this, L_2, OVRCameraRig_U3CCheckForAnchorsInParentU3Eg__CheckU7C75_0_TisOVRSpatialAnchor_t934BFAE22D42E703A59DD025972C1FBF22381874_mA6CFCFDF515F1A74CF2DB450EE98B86E7D095DF0_RuntimeMethod_var);
+		// Check<OVRSceneAnchor>(parent);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = V_0;
+		OVRCameraRig_U3CCheckForAnchorsInParentU3Eg__CheckU7C75_0_TisOVRSceneAnchor_tAF36EEA6E22DCD47BA537E85CAC57424A1B51F69_m4929475EEB07641CBAC09FD5E17B3187FC858211(__this, L_3, OVRCameraRig_U3CCheckForAnchorsInParentU3Eg__CheckU7C75_0_TisOVRSceneAnchor_tAF36EEA6E22DCD47BA537E85CAC57424A1B51F69_m4929475EEB07641CBAC09FD5E17B3187FC858211_RuntimeMethod_var);
+		// parent = parent.parent;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = V_0;
+		NullCheck(L_4);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
+		L_5 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_4, NULL);
+		V_0 = L_5;
+	}
+
+IL_0029:
+	{
+		// while (parent)
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_6, NULL);
+		V_1 = L_7;
+		bool L_8 = V_1;
+		if (L_8)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		// }
+		return;
 	}
 }
 // System.Void OVRCameraRig::.ctor()
@@ -22579,7 +22597,7 @@ IL_004a:
 		int32_t L_13 = __this->___additionalOffset_5;
 		NullCheck(L_9);
 		int64_t L_14;
-		L_14 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(30 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_9, ((int64_t)il2cpp_codegen_add(((int64_t)il2cpp_codegen_add(L_11, ((int64_t)L_12))), ((int64_t)L_13))), 0);
+		L_14 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(31 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_9, ((int64_t)il2cpp_codegen_add(((int64_t)il2cpp_codegen_add(L_11, ((int64_t)L_12))), ((int64_t)L_13))), 0);
 		// chunk.chunkStream.Read(bufferData, 0, byteLength);
 		OVRBinaryChunk_tE9B4C14312DD8DDC3FCF193FB3354692886D8925 L_15 = ___0_chunk;
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_16 = L_15.___chunkStream_0;
@@ -22587,7 +22605,7 @@ IL_004a:
 		int32_t L_18 = __this->___byteLength_1;
 		NullCheck(L_16);
 		int32_t L_19;
-		L_19 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_16, L_17, 0, L_18);
+		L_19 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_16, L_17, 0, L_18);
 		// int stride = byteStride > 0 ? byteStride : GetStrideForType(componentType);
 		int32_t L_20 = __this->___byteStride_2;
 		if ((((int32_t)L_20) > ((int32_t)0)))
@@ -22729,7 +22747,7 @@ IL_004a:
 		int32_t L_13 = __this->___additionalOffset_5;
 		NullCheck(L_9);
 		int64_t L_14;
-		L_14 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(30 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_9, ((int64_t)il2cpp_codegen_add(((int64_t)il2cpp_codegen_add(L_11, ((int64_t)L_12))), ((int64_t)L_13))), 0);
+		L_14 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(31 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_9, ((int64_t)il2cpp_codegen_add(((int64_t)il2cpp_codegen_add(L_11, ((int64_t)L_12))), ((int64_t)L_13))), 0);
 		// chunk.chunkStream.Read(bufferData, 0, byteLength);
 		OVRBinaryChunk_tE9B4C14312DD8DDC3FCF193FB3354692886D8925 L_15 = ___0_chunk;
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_16 = L_15.___chunkStream_0;
@@ -22737,7 +22755,7 @@ IL_004a:
 		int32_t L_18 = __this->___byteLength_1;
 		NullCheck(L_16);
 		int32_t L_19;
-		L_19 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_16, L_17, 0, L_18);
+		L_19 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_16, L_17, 0, L_18);
 		// int stride = byteStride > 0 ? byteStride : GetStrideForType(componentType);
 		int32_t L_20 = __this->___byteStride_2;
 		if ((((int32_t)L_20) > ((int32_t)0)))
@@ -22880,7 +22898,7 @@ IL_004c:
 		int32_t L_13 = __this->___additionalOffset_5;
 		NullCheck(L_9);
 		int64_t L_14;
-		L_14 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(30 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_9, ((int64_t)il2cpp_codegen_add(((int64_t)il2cpp_codegen_add(L_11, ((int64_t)L_12))), ((int64_t)L_13))), 0);
+		L_14 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(31 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_9, ((int64_t)il2cpp_codegen_add(((int64_t)il2cpp_codegen_add(L_11, ((int64_t)L_12))), ((int64_t)L_13))), 0);
 		// chunk.chunkStream.Read(bufferData, 0, byteLength);
 		OVRBinaryChunk_tE9B4C14312DD8DDC3FCF193FB3354692886D8925 L_15 = ___0_chunk;
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_16 = L_15.___chunkStream_0;
@@ -22888,7 +22906,7 @@ IL_004c:
 		int32_t L_18 = __this->___byteLength_1;
 		NullCheck(L_16);
 		int32_t L_19;
-		L_19 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_16, L_17, 0, L_18);
+		L_19 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_16, L_17, 0, L_18);
 		// int dataTypeSize = GetStrideForType(componentType);
 		int32_t L_20 = __this->___componentType_7;
 		int32_t L_21;
@@ -23061,7 +23079,7 @@ IL_004c:
 		int32_t L_13 = __this->___additionalOffset_5;
 		NullCheck(L_9);
 		int64_t L_14;
-		L_14 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(30 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_9, ((int64_t)il2cpp_codegen_add(((int64_t)il2cpp_codegen_add(L_11, ((int64_t)L_12))), ((int64_t)L_13))), 0);
+		L_14 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(31 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_9, ((int64_t)il2cpp_codegen_add(((int64_t)il2cpp_codegen_add(L_11, ((int64_t)L_12))), ((int64_t)L_13))), 0);
 		// chunk.chunkStream.Read(bufferData, 0, byteLength);
 		OVRBinaryChunk_tE9B4C14312DD8DDC3FCF193FB3354692886D8925 L_15 = ___0_chunk;
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_16 = L_15.___chunkStream_0;
@@ -23069,7 +23087,7 @@ IL_004c:
 		int32_t L_18 = __this->___byteLength_1;
 		NullCheck(L_16);
 		int32_t L_19;
-		L_19 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_16, L_17, 0, L_18);
+		L_19 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_16, L_17, 0, L_18);
 		// int dataTypeSize = GetStrideForType(componentType);
 		int32_t L_20 = __this->___componentType_7;
 		int32_t L_21;
@@ -23309,7 +23327,7 @@ IL_004c:
 		int32_t L_13 = __this->___additionalOffset_5;
 		NullCheck(L_9);
 		int64_t L_14;
-		L_14 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(30 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_9, ((int64_t)il2cpp_codegen_add(((int64_t)il2cpp_codegen_add(L_11, ((int64_t)L_12))), ((int64_t)L_13))), 0);
+		L_14 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(31 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_9, ((int64_t)il2cpp_codegen_add(((int64_t)il2cpp_codegen_add(L_11, ((int64_t)L_12))), ((int64_t)L_13))), 0);
 		// chunk.chunkStream.Read(bufferData, 0, byteLength);
 		OVRBinaryChunk_tE9B4C14312DD8DDC3FCF193FB3354692886D8925 L_15 = ___0_chunk;
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_16 = L_15.___chunkStream_0;
@@ -23317,7 +23335,7 @@ IL_004c:
 		int32_t L_18 = __this->___byteLength_1;
 		NullCheck(L_16);
 		int32_t L_19;
-		L_19 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_16, L_17, 0, L_18);
+		L_19 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_16, L_17, 0, L_18);
 		// int dataTypeSize = GetStrideForType(componentType);
 		int32_t L_20 = __this->___componentType_7;
 		int32_t L_21;
@@ -23614,7 +23632,7 @@ IL_005a:
 		int32_t L_14 = __this->___additionalOffset_5;
 		NullCheck(L_10);
 		int64_t L_15;
-		L_15 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(30 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_10, ((int64_t)il2cpp_codegen_add(((int64_t)il2cpp_codegen_add(L_12, ((int64_t)L_13))), ((int64_t)L_14))), 0);
+		L_15 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(31 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_10, ((int64_t)il2cpp_codegen_add(((int64_t)il2cpp_codegen_add(L_12, ((int64_t)L_13))), ((int64_t)L_14))), 0);
 		// chunk.chunkStream.Read(bufferData, 0, byteLength);
 		OVRBinaryChunk_tE9B4C14312DD8DDC3FCF193FB3354692886D8925 L_16 = ___0_chunk;
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_17 = L_16.___chunkStream_0;
@@ -23622,7 +23640,7 @@ IL_005a:
 		int32_t L_19 = __this->___byteLength_1;
 		NullCheck(L_17);
 		int32_t L_20;
-		L_20 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_17, L_18, 0, L_19);
+		L_20 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_17, L_18, 0, L_19);
 		// int vecSize = dataType == OVRGLTFType.VEC3 ? 3 : 4;
 		int32_t L_21 = __this->___dataType_6;
 		if ((((int32_t)L_21) == ((int32_t)3)))
@@ -23958,7 +23976,7 @@ IL_004e:
 		int32_t L_13 = __this->___additionalOffset_5;
 		NullCheck(L_9);
 		int64_t L_14;
-		L_14 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(30 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_9, ((int64_t)il2cpp_codegen_add(((int64_t)il2cpp_codegen_add(L_11, ((int64_t)L_12))), ((int64_t)L_13))), 0);
+		L_14 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(31 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_9, ((int64_t)il2cpp_codegen_add(((int64_t)il2cpp_codegen_add(L_11, ((int64_t)L_12))), ((int64_t)L_13))), 0);
 		// chunk.chunkStream.Read(bufferData, 0, byteLength);
 		OVRBinaryChunk_tE9B4C14312DD8DDC3FCF193FB3354692886D8925 L_15 = ___0_chunk;
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_16 = L_15.___chunkStream_0;
@@ -23966,7 +23984,7 @@ IL_004e:
 		int32_t L_18 = __this->___byteLength_1;
 		NullCheck(L_16);
 		int32_t L_19;
-		L_19 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_16, L_17, 0, L_18);
+		L_19 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_16, L_17, 0, L_18);
 		// int dataTypeSize = GetStrideForType(componentType);
 		int32_t L_20 = __this->___componentType_7;
 		int32_t L_21;
@@ -24139,7 +24157,7 @@ IL_0028:
 		int32_t L_11 = __this->___additionalOffset_5;
 		NullCheck(L_7);
 		int64_t L_12;
-		L_12 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(30 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_7, ((int64_t)il2cpp_codegen_add(((int64_t)il2cpp_codegen_add(L_9, ((int64_t)L_10))), ((int64_t)L_11))), 0);
+		L_12 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(31 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_7, ((int64_t)il2cpp_codegen_add(((int64_t)il2cpp_codegen_add(L_9, ((int64_t)L_10))), ((int64_t)L_11))), 0);
 		// chunk.chunkStream.Read(bufferData, 0, byteLength);
 		OVRBinaryChunk_tE9B4C14312DD8DDC3FCF193FB3354692886D8925 L_13 = ___0_chunk;
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_14 = L_13.___chunkStream_0;
@@ -24147,7 +24165,7 @@ IL_0028:
 		int32_t L_16 = __this->___byteLength_1;
 		NullCheck(L_14);
 		int32_t L_17;
-		L_17 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_14, L_15, 0, L_16);
+		L_17 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_14, L_15, 0, L_16);
 		// return bufferData;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_18 = V_0;
 		V_2 = L_18;
@@ -24237,7 +24255,7 @@ IL_004c:
 		int32_t L_13 = __this->___additionalOffset_5;
 		NullCheck(L_9);
 		int64_t L_14;
-		L_14 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(30 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_9, ((int64_t)il2cpp_codegen_add(((int64_t)il2cpp_codegen_add(L_11, ((int64_t)L_12))), ((int64_t)L_13))), 0);
+		L_14 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(31 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_9, ((int64_t)il2cpp_codegen_add(((int64_t)il2cpp_codegen_add(L_11, ((int64_t)L_12))), ((int64_t)L_13))), 0);
 		// chunk.chunkStream.Read(bufferData, 0, byteLength);
 		OVRBinaryChunk_tE9B4C14312DD8DDC3FCF193FB3354692886D8925 L_15 = ___0_chunk;
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_16 = L_15.___chunkStream_0;
@@ -24245,7 +24263,7 @@ IL_004c:
 		int32_t L_18 = __this->___byteLength_1;
 		NullCheck(L_16);
 		int32_t L_19;
-		L_19 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_16, L_17, 0, L_18);
+		L_19 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_16, L_17, 0, L_18);
 		// int dataTypeSize = GetStrideForType(componentType);
 		int32_t L_20 = __this->___componentType_7;
 		int32_t L_21;
@@ -27255,7 +27273,7 @@ IL_0134:
 		// m_glbStream.Close();
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_40 = __this->___m_glbStream_1;
 		NullCheck(L_40);
-		VirtualActionInvoker0::Invoke(18 /* System.Void System.IO.Stream::Close() */, L_40);
+		VirtualActionInvoker0::Invoke(19 /* System.Void System.IO.Stream::Close() */, L_40);
 		// return scene;
 		OVRGLTFScene_tEE5A89F307256AFA8EECD1F91A7BAE590B13E834 L_41 = V_0;
 		V_12 = L_41;
@@ -27275,7 +27293,7 @@ IL_015e:
 		// m_glbStream.Close();
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_42 = __this->___m_glbStream_1;
 		NullCheck(L_42);
-		VirtualActionInvoker0::Invoke(18 /* System.Void System.IO.Stream::Close() */, L_42);
+		VirtualActionInvoker0::Invoke(19 /* System.Void System.IO.Stream::Close() */, L_42);
 		// scene.nodes = m_Nodes;
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_43 = __this->___m_Nodes_3;
 		(&V_0)->___nodes_1 = L_43;
@@ -27796,7 +27814,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRGLTFLoader_ValidateGLB_m995D23F3010DD
 		int32_t L_4 = V_0;
 		NullCheck(L_2);
 		int32_t L_5;
-		L_5 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_2, L_3, 0, L_4);
+		L_5 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_2, L_3, 0, L_4);
 		// uint magic = BitConverter.ToUInt32(buffer, 0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(BitConverter_t6E99605185963BC12B3D369E13F2B88997E64A27_il2cpp_TypeInfo_var);
@@ -27829,7 +27847,7 @@ IL_003e:
 		int32_t L_12 = V_0;
 		NullCheck(L_10);
 		int32_t L_13;
-		L_13 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_10, L_11, 0, L_12);
+		L_13 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_10, L_11, 0, L_12);
 		// uint version = BitConverter.ToUInt32(buffer, 0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(BitConverter_t6E99605185963BC12B3D369E13F2B88997E64A27_il2cpp_TypeInfo_var);
@@ -27862,7 +27880,7 @@ IL_006e:
 		int32_t L_20 = V_0;
 		NullCheck(L_18);
 		int32_t L_21;
-		L_21 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_18, L_19, 0, L_20);
+		L_21 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_18, L_19, 0, L_20);
 		// uint length = BitConverter.ToUInt32(buffer, 0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_22 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(BitConverter_t6E99605185963BC12B3D369E13F2B88997E64A27_il2cpp_TypeInfo_var);
@@ -27942,7 +27960,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 		uint32_t L_8 = V_0;
 		NullCheck(L_6);
 		int32_t L_9;
-		L_9 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_6, L_7, 0, L_8);
+		L_9 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_6, L_7, 0, L_8);
 		// return chunkBuffer;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10 = V_2;
 		V_3 = L_10;
@@ -27993,7 +28011,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRGLTFLoader_ValidateChunk_mAC5A0C52305
 		int32_t L_4 = V_0;
 		NullCheck(L_2);
 		int32_t L_5;
-		L_5 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_2, L_3, 0, L_4);
+		L_5 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_2, L_3, 0, L_4);
 		// chunkLength = BitConverter.ToUInt32(buffer, 0);
 		uint32_t* L_6 = ___2_chunkLength;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7 = V_1;
@@ -28007,7 +28025,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRGLTFLoader_ValidateChunk_mAC5A0C52305
 		int32_t L_11 = V_0;
 		NullCheck(L_9);
 		int32_t L_12;
-		L_12 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_9, L_10, 0, L_11);
+		L_12 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_9, L_10, 0, L_11);
 		// uint chunkType = BitConverter.ToUInt32(buffer, 0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_13 = V_1;
 		uint32_t L_14;

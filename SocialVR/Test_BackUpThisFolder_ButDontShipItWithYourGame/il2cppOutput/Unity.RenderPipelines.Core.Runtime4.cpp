@@ -2443,6 +2443,8 @@ struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_marshaled_com
 // UnityEngine.PropertyAttribute
 struct PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
+	// System.Int32 UnityEngine.PropertyAttribute::<order>k__BackingField
+	int32_t ___U3CorderU3Ek__BackingField_0;
 };
 
 // System.Reflection.PropertyInfo
@@ -3449,7 +3451,7 @@ struct ToggleEvent_t88B31268F9D6D1882E4F921B14704FB9F7047F02  : public UnityEven
 struct Indent_t0D5C0C4758A92151C838F36924BAAC62C4B5CE1F  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 	// System.Int32 UnityEngine.Rendering.VolumeComponent/Indent::relativeAmount
-	int32_t ___relativeAmount_0;
+	int32_t ___relativeAmount_1;
 };
 
 // UnityEngine.Rendering.ClampedFloatParameter
@@ -12858,7 +12860,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Indent__ctor_m7D602088CDE705BA4ACCC882A7
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
 		// => this.relativeAmount = relativeAmount;
 		int32_t L_0 = ___0_relativeAmount;
-		__this->___relativeAmount_0 = L_0;
+		__this->___relativeAmount_1 = L_0;
 		return;
 	}
 }

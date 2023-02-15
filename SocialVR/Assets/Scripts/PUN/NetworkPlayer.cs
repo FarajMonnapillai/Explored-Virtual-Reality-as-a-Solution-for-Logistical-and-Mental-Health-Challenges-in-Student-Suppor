@@ -21,7 +21,7 @@ public class NetworkPlayer : MonoBehaviour
     private Transform rightHandRig;
     
 
-    void start()
+    void Start()
     {
         photonView = GetComponent<PhotonView>();
 

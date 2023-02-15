@@ -422,8 +422,6 @@ struct Message_1_t9920F4A44062460A14FFEA51878BAB814FF6811E;
 struct Message_1_tD6AD79CDBF40325AC0387650AC706FFD63EED29A;
 // Oculus.Platform.Message`1<Oculus.Platform.Models.ProductList>
 struct Message_1_t6600CB25BE1DA3008F62FB49B44DB20C23B9FE93;
-// Oculus.Platform.Message`1<Oculus.Platform.Models.Purchase>
-struct Message_1_t27A884141DAE8B0CC324ED8E3C07EE4DD1D14D2D;
 // Oculus.Platform.Message`1<System.String>
 struct Message_1_t0F379AFBD2F9DC93B291238F9C57840F85433F10;
 // Oculus.Platform.Message`1<Oculus.Platform.Models.User>
@@ -1150,7 +1148,6 @@ IL2CPP_EXTERN_C RuntimeClass* PartyUpdateNotification_t2BF86F67045240B9ABC79B0AE
 IL2CPP_EXTERN_C RuntimeClass* Party_tBB0B5163EDF2C041744ACFC4119B0C9020A20DCB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PidList_tF91B18B51739A46D13D8E0A6440E331ACD2E61DF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ProductList_tE3694D232C493A9CD580C5557D937FD0A2506981_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Purchase_tD525E4FF299D923FAF9BF3EDB81772753A1E3697_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RequestCallback_tD51C93591FFF102CCC56DD0D35A9F28BCAF1E0A6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Request_1_tDF5315C7EB8AA620C19730D55185214ADD908497_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RosterOptions_tD68D8BEDE5B0BF4D0F371E9CE09095293C6E643F_il2cpp_TypeInfo_var;
@@ -1325,7 +1322,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* Message_1__ctor_mE7BA3E476E3398049B9B2D18FB
 IL2CPP_EXTERN_C const RuntimeMethod* Message_1__ctor_mEA0299EC02D86625DFEE9ED2FAD15DBB7ADFBBD1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Message_1__ctor_mEB1C3B9A6E95897990D8890E498D08F2599F944D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Message_1__ctor_mEBF2B3F20E62AF7FEF504D1C7D0C4552BB6A00B0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Message_1__ctor_mEBF688B2590030D338E86F5623A986327E7579EB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Message_1__ctor_mEF0AB190E24F3A525F7D198EED9A1F105B6F4781_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Message_1__ctor_mF00F4AF2FD0D100A4B6463DC0C5484600CF54368_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Message_1__ctor_mF19F9DF6DF7C4BB967B16A733FAD1613BF47DE3C_RuntimeMethod_var;
@@ -1389,7 +1385,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* Message_1_get_Data_mEA8B87DEE05D524AF82AEAB
 IL2CPP_EXTERN_C const RuntimeMethod* Message_1_get_Data_mEDC56BFB7DDEFC631A17BA30451492E41DCF32AE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Message_1_get_Data_mEEC9F1929EEE481F36E37B1EDCB6F9332E22F0F8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Message_1_get_Data_mF57901B5099B728A4430D8986571459C1C37E5CB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Message_1_get_Data_mF5BEFF8C508C388FDBB3F4EE66016B49B40FF637_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Message_1_get_Data_mF76EEEC920F5FAC254DA0102F93A60EBE122DF2A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Message_1_get_Data_mF829EE114595202C5F13D822CE4BA219CC04710D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_FindObjectOfType_TisCallbackRunner_t11E18480966FFD791746CC78D266A284502D1B4E_mB44005B5A9B871FF8EFFC15017E49CA1CA964268_RuntimeMethod_var;
@@ -7587,6 +7582,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CAPI_ovr_CloudStorage_Save_Native_mF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CAPI_ovr_Colocation_RequestMap_Native_m4FFE59DA719EB96293C723C46286BE8A655266E0 (intptr_t ___0_uuid, const RuntimeMethod* method) ;
 // System.UInt64 Oculus.Platform.CAPI::ovr_Colocation_ShareMap_Native(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CAPI_ovr_Colocation_ShareMap_Native_mB4EF9F4548E32D86831DC55E35F2886308F6C5A7 (intptr_t ___0_uuid, const RuntimeMethod* method) ;
+// System.UInt64 Oculus.Platform.CAPI::ovr_DeviceApplicationIntegrity_GetAttestationToken_Native(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CAPI_ovr_DeviceApplicationIntegrity_GetAttestationToken_Native_m95D80BF08EF18BCCF5FEC8A8FEA168537B8F23D8 (intptr_t ___0_challenge_nonce, const RuntimeMethod* method) ;
 // System.UInt64 Oculus.Platform.CAPI::ovr_GraphAPI_Get_Native(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CAPI_ovr_GraphAPI_Get_Native_m934E5B31E7CAC79352326C4615FD5D0F753B8E60 (intptr_t ___0_url, const RuntimeMethod* method) ;
 // System.UInt64 Oculus.Platform.CAPI::ovr_GraphAPI_Post_Native(System.IntPtr)
@@ -9115,20 +9112,6 @@ inline ProductList_tE3694D232C493A9CD580C5557D937FD0A2506981* Message_1_get_Data
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CAPI_ovr_Message_GetProductArray_m6257DE23DAEAB9D1C9D9A98C17B221ECD8818085 (intptr_t ___0_obj, const RuntimeMethod* method) ;
 // System.Void Oculus.Platform.Models.ProductList::.ctor(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductList__ctor_mD915B5002B9E6EC562B397BFD376925E7CAE034C (ProductList_tE3694D232C493A9CD580C5557D937FD0A2506981* __this, intptr_t ___0_a, const RuntimeMethod* method) ;
-// System.Void Oculus.Platform.Message`1<Oculus.Platform.Models.Purchase>::.ctor(System.IntPtr)
-inline void Message_1__ctor_mEBF688B2590030D338E86F5623A986327E7579EB (Message_1_t27A884141DAE8B0CC324ED8E3C07EE4DD1D14D2D* __this, intptr_t ___0_c_message, const RuntimeMethod* method)
-{
-	((  void (*) (Message_1_t27A884141DAE8B0CC324ED8E3C07EE4DD1D14D2D*, intptr_t, const RuntimeMethod*))Message_1__ctor_m566E2EA3A05EB218169FCD55C0C6C67376717D2A_gshared)(__this, ___0_c_message, method);
-}
-// T Oculus.Platform.Message`1<Oculus.Platform.Models.Purchase>::get_Data()
-inline Purchase_tD525E4FF299D923FAF9BF3EDB81772753A1E3697* Message_1_get_Data_mF5BEFF8C508C388FDBB3F4EE66016B49B40FF637 (Message_1_t27A884141DAE8B0CC324ED8E3C07EE4DD1D14D2D* __this, const RuntimeMethod* method)
-{
-	return ((  Purchase_tD525E4FF299D923FAF9BF3EDB81772753A1E3697* (*) (Message_1_t27A884141DAE8B0CC324ED8E3C07EE4DD1D14D2D*, const RuntimeMethod*))Message_1_get_Data_mD1E64D6ED8A65C626BADB30710BCF145A526E86B_gshared)(__this, method);
-}
-// System.IntPtr Oculus.Platform.CAPI::ovr_Message_GetPurchase(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CAPI_ovr_Message_GetPurchase_m9ABBC9D1815CE9BD888A30939E9DB57D35EF2F40 (intptr_t ___0_obj, const RuntimeMethod* method) ;
-// System.Void Oculus.Platform.Models.Purchase::.ctor(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Purchase__ctor_mED9F6E66C7475E7AC92743F79934745D920FA039 (Purchase_tD525E4FF299D923FAF9BF3EDB81772753A1E3697* __this, intptr_t ___0_o, const RuntimeMethod* method) ;
 // System.Void System.Array::Clear(System.Array,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB (RuntimeArray* ___0_array, int32_t ___1_index, int32_t ___2_length, const RuntimeMethod* method) ;
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovrplatformloader_INTERNAL
@@ -9549,6 +9532,9 @@ IL2CPP_EXTERN_C uint64_t CDECL ovr_Colocation_RequestMap(intptr_t);
 IL2CPP_EXTERN_C uint64_t CDECL ovr_Colocation_ShareMap(intptr_t);
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovrplatformloader_INTERNAL
+IL2CPP_EXTERN_C uint64_t CDECL ovr_DeviceApplicationIntegrity_GetAttestationToken(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovrplatformloader_INTERNAL
 IL2CPP_EXTERN_C uint64_t CDECL ovr_Entitlement_GetIsViewerEntitled();
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovrplatformloader_INTERNAL
@@ -9618,7 +9604,7 @@ IL2CPP_EXTERN_C uint64_t CDECL ovr_IAP_ConsumePurchase(intptr_t);
 IL2CPP_EXTERN_C uint64_t CDECL ovr_IAP_GetProductsBySKU(char**, int32_t);
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovrplatformloader_INTERNAL
-IL2CPP_EXTERN_C uint64_t CDECL ovr_IAP_GetViewerPurchases(int32_t);
+IL2CPP_EXTERN_C uint64_t CDECL ovr_IAP_GetViewerPurchases();
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovrplatformloader_INTERNAL
 IL2CPP_EXTERN_C uint64_t CDECL ovr_IAP_GetViewerPurchasesDurableCache();
@@ -22436,6 +22422,72 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CAPI_ovr_Colocation_ShareMap_Native_
 
 	return returnValue;
 }
+// System.UInt64 Oculus.Platform.CAPI::ovr_DeviceApplicationIntegrity_GetAttestationToken(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CAPI_ovr_DeviceApplicationIntegrity_GetAttestationToken_m46B3448015BFA03594C945C78C81AEEA61EA2647 (String_t* ___0_challenge_nonce, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CAPI_t2BFE742D9AFC80CDA72B67CCB2BECAB63F82F903_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	uint64_t V_1 = 0;
+	uint64_t V_2 = 0;
+	{
+		// IntPtr challenge_nonce_native = StringToNative(challenge_nonce);
+		String_t* L_0 = ___0_challenge_nonce;
+		il2cpp_codegen_runtime_class_init_inline(CAPI_t2BFE742D9AFC80CDA72B67CCB2BECAB63F82F903_il2cpp_TypeInfo_var);
+		intptr_t L_1;
+		L_1 = CAPI_StringToNative_m173627D71EB50C1F9E17F6638116ED2FCA2534F2(L_0, NULL);
+		V_0 = L_1;
+		// var result = (ovr_DeviceApplicationIntegrity_GetAttestationToken_Native(challenge_nonce_native));
+		intptr_t L_2 = V_0;
+		uint64_t L_3;
+		L_3 = CAPI_ovr_DeviceApplicationIntegrity_GetAttestationToken_Native_m95D80BF08EF18BCCF5FEC8A8FEA168537B8F23D8(L_2, NULL);
+		V_1 = L_3;
+		// Marshal.FreeCoTaskMem(challenge_nonce_native);
+		intptr_t L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
+		Marshal_FreeCoTaskMem_mBCD7084667AE44C50938947CF5C22345A118C944(L_4, NULL);
+		// return result;
+		uint64_t L_5 = V_1;
+		V_2 = L_5;
+		goto IL_001a;
+	}
+
+IL_001a:
+	{
+		// }
+		uint64_t L_6 = V_2;
+		return L_6;
+	}
+}
+// System.UInt64 Oculus.Platform.CAPI::ovr_DeviceApplicationIntegrity_GetAttestationToken_Native(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CAPI_ovr_DeviceApplicationIntegrity_GetAttestationToken_Native_m95D80BF08EF18BCCF5FEC8A8FEA168537B8F23D8 (intptr_t ___0_challenge_nonce, const RuntimeMethod* method) 
+{
+	typedef uint64_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovrplatformloader_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("ovrplatformloader"), "ovr_DeviceApplicationIntegrity_GetAttestationToken", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovrplatformloader_INTERNAL
+	uint64_t returnValue = reinterpret_cast<PInvokeFunc>(ovr_DeviceApplicationIntegrity_GetAttestationToken)(___0_challenge_nonce);
+	#else
+	uint64_t returnValue = il2cppPInvokeFunc(___0_challenge_nonce);
+	#endif
+
+	return returnValue;
+}
 // System.UInt64 Oculus.Platform.CAPI::ovr_Entitlement_GetIsViewerEntitled()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CAPI_ovr_Entitlement_GetIsViewerEntitled_m3668A42558D3BFAC11E5CF44B0DA68EB850622FF (const RuntimeMethod* method) 
 {
@@ -23626,15 +23678,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CAPI_ovr_IAP_GetProductsBySKU_m85E0B
 
 	return returnValue;
 }
-// System.UInt64 Oculus.Platform.CAPI::ovr_IAP_GetViewerPurchases(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CAPI_ovr_IAP_GetViewerPurchases_mA28E565F541BE1340517975B6B7DA8B09178213D (bool ___0_fetchDeveloperPayload, const RuntimeMethod* method) 
+// System.UInt64 Oculus.Platform.CAPI::ovr_IAP_GetViewerPurchases()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CAPI_ovr_IAP_GetViewerPurchases_m6D486F9492BE42693CBD69399E21A09BBC7F1872 (const RuntimeMethod* method) 
 {
-	typedef uint64_t (CDECL *PInvokeFunc) (int32_t);
+	typedef uint64_t (CDECL *PInvokeFunc) ();
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovrplatformloader_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
-		int parameterSize = 4;
+		int parameterSize = 0;
 		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("ovrplatformloader"), "ovr_IAP_GetViewerPurchases", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
@@ -23642,9 +23694,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CAPI_ovr_IAP_GetViewerPurchases_mA28
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovrplatformloader_INTERNAL
-	uint64_t returnValue = reinterpret_cast<PInvokeFunc>(ovr_IAP_GetViewerPurchases)(static_cast<int32_t>(___0_fetchDeveloperPayload));
+	uint64_t returnValue = reinterpret_cast<PInvokeFunc>(ovr_IAP_GetViewerPurchases)();
 	#else
-	uint64_t returnValue = il2cppPInvokeFunc(static_cast<int32_t>(___0_fetchDeveloperPayload));
+	uint64_t returnValue = il2cppPInvokeFunc();
 	#endif
 
 	return returnValue;
@@ -62073,99 +62125,6 @@ IL_0018:
 	{
 		// }
 		ProductList_tE3694D232C493A9CD580C5557D937FD0A2506981* L_6 = V_2;
-		return L_6;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Platform.MessageWithPurchase::.ctor(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageWithPurchase__ctor_m037CDF852A598384888B143C531493B40C371548 (MessageWithPurchase_t2F67A7356E5C068730A577120FEFAFBC374180D4* __this, intptr_t ___0_c_message, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Message_1__ctor_mEBF688B2590030D338E86F5623A986327E7579EB_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// public MessageWithPurchase(IntPtr c_message) : base(c_message) { }
-		intptr_t L_0 = ___0_c_message;
-		Message_1__ctor_mEBF688B2590030D338E86F5623A986327E7579EB(__this, L_0, Message_1__ctor_mEBF688B2590030D338E86F5623A986327E7579EB_RuntimeMethod_var);
-		// public MessageWithPurchase(IntPtr c_message) : base(c_message) { }
-		return;
-	}
-}
-// Oculus.Platform.Models.Purchase Oculus.Platform.MessageWithPurchase::GetPurchase()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Purchase_tD525E4FF299D923FAF9BF3EDB81772753A1E3697* MessageWithPurchase_GetPurchase_m5A1FBCCA70C0E17C1931900121C7145B2A7D303A (MessageWithPurchase_t2F67A7356E5C068730A577120FEFAFBC374180D4* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Message_1_get_Data_mF5BEFF8C508C388FDBB3F4EE66016B49B40FF637_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Purchase_tD525E4FF299D923FAF9BF3EDB81772753A1E3697* V_0 = NULL;
-	{
-		// public override Purchase GetPurchase() { return Data; }
-		Purchase_tD525E4FF299D923FAF9BF3EDB81772753A1E3697* L_0;
-		L_0 = Message_1_get_Data_mF5BEFF8C508C388FDBB3F4EE66016B49B40FF637(__this, Message_1_get_Data_mF5BEFF8C508C388FDBB3F4EE66016B49B40FF637_RuntimeMethod_var);
-		V_0 = L_0;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		// public override Purchase GetPurchase() { return Data; }
-		Purchase_tD525E4FF299D923FAF9BF3EDB81772753A1E3697* L_1 = V_0;
-		return L_1;
-	}
-}
-// Oculus.Platform.Models.Purchase Oculus.Platform.MessageWithPurchase::GetDataFromMessage(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Purchase_tD525E4FF299D923FAF9BF3EDB81772753A1E3697* MessageWithPurchase_GetDataFromMessage_m33FB12BE649F048DE49353411AD60D9041A05545 (MessageWithPurchase_t2F67A7356E5C068730A577120FEFAFBC374180D4* __this, intptr_t ___0_c_message, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CAPI_t2BFE742D9AFC80CDA72B67CCB2BECAB63F82F903_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Purchase_tD525E4FF299D923FAF9BF3EDB81772753A1E3697_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	intptr_t V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	intptr_t V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	Purchase_tD525E4FF299D923FAF9BF3EDB81772753A1E3697* V_2 = NULL;
-	{
-		// var msg = CAPI.ovr_Message_GetNativeMessage(c_message);
-		intptr_t L_0 = ___0_c_message;
-		il2cpp_codegen_runtime_class_init_inline(CAPI_t2BFE742D9AFC80CDA72B67CCB2BECAB63F82F903_il2cpp_TypeInfo_var);
-		intptr_t L_1;
-		L_1 = CAPI_ovr_Message_GetNativeMessage_m09B6890DFE2A4D608E3441F2AFB2D43425EEAB6C(L_0, NULL);
-		V_0 = L_1;
-		// var obj = CAPI.ovr_Message_GetPurchase(msg);
-		intptr_t L_2 = V_0;
-		intptr_t L_3;
-		L_3 = CAPI_ovr_Message_GetPurchase_m9ABBC9D1815CE9BD888A30939E9DB57D35EF2F40(L_2, NULL);
-		V_1 = L_3;
-		// return new Purchase(obj);
-		intptr_t L_4 = V_1;
-		Purchase_tD525E4FF299D923FAF9BF3EDB81772753A1E3697* L_5 = (Purchase_tD525E4FF299D923FAF9BF3EDB81772753A1E3697*)il2cpp_codegen_object_new(Purchase_tD525E4FF299D923FAF9BF3EDB81772753A1E3697_il2cpp_TypeInfo_var);
-		NullCheck(L_5);
-		Purchase__ctor_mED9F6E66C7475E7AC92743F79934745D920FA039(L_5, L_4, NULL);
-		V_2 = L_5;
-		goto IL_0018;
-	}
-
-IL_0018:
-	{
-		// }
-		Purchase_tD525E4FF299D923FAF9BF3EDB81772753A1E3697* L_6 = V_2;
 		return L_6;
 	}
 }
