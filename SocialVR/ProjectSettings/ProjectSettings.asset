@@ -137,6 +137,10 @@ PlayerSettings:
   bundleVersion: 0.1.0
   preloadedAssets:
   - {fileID: 0}
+  - {fileID: 11400000, guid: 9af3bdcb4feba264392bafbb00bf8825, type: 2}
+  - {fileID: 2458236935776348715, guid: abf1da6de282d4b4db9f5784141ef848, type: 2}
+  - {fileID: 11400000, guid: 339ba95779d0e2546a939ad6a823e5ac, type: 2}
+  - {fileID: 11400000, guid: 80fe81e1061d74f7eb3ea84296fb9a85, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -514,7 +518,7 @@ PlayerSettings:
     m_Automatic: 0
   - m_BuildTarget: WindowsStandaloneSupport
     m_APIs: 15000000
-    m_Automatic: 0
+    m_Automatic: 1
   m_BuildTargetVRSettings: []
   m_DefaultShaderChunkSizeInMB: 16
   m_DefaultShaderChunkCount: 0
