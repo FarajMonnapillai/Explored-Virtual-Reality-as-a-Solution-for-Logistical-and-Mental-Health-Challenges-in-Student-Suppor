@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18288922, g: 0.22858718, b: 0.30692232, a: 1}
+  m_IndirectSpecularColor: {r: 0.1828892, g: 0.2285872, b: 0.30692232, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -610,7 +610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _userId: 0
-  appID: 09a1e6f5238b6d6685b44ac771ef7e90
+  appID: eadd88fcc9f16fe0c07d181fce1ca14f
   sampleAvatar: sampleAvatar
   playerGo: {fileID: 0}
   playerPrefab: {fileID: 4556844187600175455, guid: 0da4112b1be0b4fe688968da5d3802c3,
