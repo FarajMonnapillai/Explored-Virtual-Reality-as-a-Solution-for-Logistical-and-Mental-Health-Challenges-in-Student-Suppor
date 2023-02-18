@@ -1,17 +1,19 @@
 ManifestFileVersion: 0
-CRC: 4090132773
+CRC: 2127203025
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9d50d7a0eeff17203fc35e2cecd319ad
+    Hash: e8f681f0c9501e48cbfebca6871cdf0e
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 5236582d2096890db692485d9d027de9
+    Hash: e4cb284fba9a4316c53dd97d251b722f
 HashAppended: 0
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
 - Class: 4
+  Script: {instanceID: 0}
+- Class: 20
   Script: {instanceID: 0}
 - Class: 21
   Script: {instanceID: 0}
@@ -27,11 +29,23 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 49
   Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
 - Class: 54
+  Script: {instanceID: 0}
+- Class: 58
+  Script: {instanceID: 0}
+- Class: 62
   Script: {instanceID: 0}
 - Class: 65
   Script: {instanceID: 0}
 - Class: 74
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
   Script: {instanceID: 0}
 - Class: 90
   Script: {instanceID: 0}
@@ -39,69 +53,99 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 95
   Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  Script: {fileID: 12001, guid: 0000000000000000e000000000000000, type: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  Script: {fileID: 11500000, guid: 72872188c080b844a9c9d1015cf8e60a, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  Script: {fileID: 11500000, guid: af26de26c990e88409ad9c77bd247b0f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8cf6d7f07293ceb45bb4121e509661d7, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 2705215ac5b84b70bacc50632be6e391, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 0df83d9cfe88c7641b20a46c5228418c, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: ad074644ff568a14187a3690cfbd7534, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: da6aecf803b15f446ad259836bb2cf4f, type: 3}
+  Script: {fileID: 11500000, guid: 3f641f47ea9e246dca121069c2582cbf, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  Script: {fileID: 11500000, guid: 22d6d143693d26042907d2430a3477dc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6376dd7fc23b3764483a7349b58502e2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 455698a23ea64d1438d545455ecaf6a2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7f749614f3aef4e34b5b4df031cd500b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 93f52792dd821664a896b3c1c0418b9e, type: 3}
+- Class: 114
+  Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+- Class: 114
+  Script: {fileID: -478134329, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+- Class: 114
+  Script: {fileID: 1637150001, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+- Class: 114
+  Script: {fileID: 1710889294, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+- Class: 114
+  Script: {fileID: -1779252708, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+- Class: 114
+  Script: {fileID: 158639473, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
+- Class: 114
+  Script: {fileID: 1878438611, guid: 7de3b8b9e1263ad479e2d0c4261b7646, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b3d881e962d099f4a8eb492ef7e9a8c0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 99b4daedc5e674a429acdf1e77da6a55, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae58c0b74b23bf64e856c46783d1f181, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 00e2a674f00349f4ca3accde09d57809, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dd7fea91fe63f4e1b884ef1e16a975c3, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: ab2114bdc8544297b417dfefe9f1e410, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: b550d55edc18d8d40b5f5cf0e9c20e88, type: 3}
+  Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 191492db6e452eb468b95433ec162164, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 84a92b25f83d49b9bc132d206b370281, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  Script: {fileID: 11500000, guid: 91175dcc15224463780e01a8a98b1b60, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: e4713853bfdc862459ae0bb66b2b3750, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 126494ae2a10a34499272ed97a6c9f5d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 378411a89480da345945c2f888327a2d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: fb516f7ac0cee4b0f8345a5a60de3f42, type: 3}
+  Script: {fileID: 11500000, guid: 3863570e7e6387a40ae4f323d83291e5, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: dba1a179e553446f0a08606778f559f1, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 6321a7d9112988841b7223ac6a925bfc, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 507e5741cec8a42dc964c8e0a4b55bd6, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: c565458f43b8ad4469a2ca341c210318, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 4fde14656bc40455ba65844c093b79a3, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 541a76f9c03874323b5154b14ac00427, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: c852cc8bbc743374083cab6f7df68bb7, type: 3}
+  Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: fd08475b23aa548b7b9d28397d430b32, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 98fac77b304554f238a61572f5720187, type: 3}
 - Class: 115
+  Script: {instanceID: 0}
+- Class: 124
   Script: {instanceID: 0}
 - Class: 128
   Script: {instanceID: 0}
@@ -113,11 +157,11 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 143
   Script: {instanceID: 0}
-- Class: 198
-  Script: {instanceID: 0}
-- Class: 199
+- Class: 212
   Script: {instanceID: 0}
 - Class: 213
+  Script: {instanceID: 0}
+- Class: 221
   Script: {instanceID: 0}
 - Class: 222
   Script: {instanceID: 0}
@@ -125,15 +169,71 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 224
   Script: {instanceID: 0}
-- Class: 225
-  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: MouseLookHelper
+- AssemblyName: Fusion.Realtime
+  ClassName: Fusion.Photon.Realtime.AppSettings
+- AssemblyName: Fusion.Runtime
+  ClassName: Fusion.Accuracy
+- AssemblyName: Fusion.Runtime
+  ClassName: Fusion.AccuracyDefaults
+- AssemblyName: Fusion.Runtime
+  ClassName: Fusion.HeapConfiguration
+- AssemblyName: Fusion.Runtime
+  ClassName: Fusion.InterpolatedErrorCorrectionSettings
+- AssemblyName: Fusion.Runtime
+  ClassName: Fusion.InterpolationConfiguration
+- AssemblyName: Fusion.Runtime
+  ClassName: Fusion.LagCompensationSettings
+- AssemblyName: Fusion.Runtime
+  ClassName: Fusion.NetworkConfiguration
+- AssemblyName: Fusion.Runtime
+  ClassName: Fusion.NetworkObjectGuid
+- AssemblyName: Fusion.Runtime
+  ClassName: Fusion.NetworkProjectConfig
+- AssemblyName: Fusion.Runtime
+  ClassName: Fusion.NetworkSimulationConfiguration
+- AssemblyName: Fusion.Runtime
+  ClassName: Fusion.SimulationConfig
+- AssemblyName: Oculus.AvatarSDK2
+  ClassName: Oculus.Avatar2.CAPI/ovrAvatar2EntityCreateInfo
+- AssemblyName: Oculus.AvatarSDK2
+  ClassName: Oculus.Avatar2.CAPI/ovrAvatar2EntityFeatures
+- AssemblyName: Oculus.AvatarSDK2
+  ClassName: Oculus.Avatar2.CAPI/ovrAvatar2EntityFilters
+- AssemblyName: Oculus.AvatarSDK2
+  ClassName: Oculus.Avatar2.CAPI/ovrAvatar2EntityHighQualityFlags
+- AssemblyName: Oculus.AvatarSDK2
+  ClassName: Oculus.Avatar2.CAPI/ovrAvatar2EntityLODFlags
+- AssemblyName: Oculus.AvatarSDK2
+  ClassName: Oculus.Avatar2.CAPI/ovrAvatar2EntityManifestationFlags
+- AssemblyName: Oculus.AvatarSDK2
+  ClassName: Oculus.Avatar2.CAPI/ovrAvatar2EntitySubMeshInclusionFlags
+- AssemblyName: Oculus.AvatarSDK2
+  ClassName: Oculus.Avatar2.CAPI/ovrAvatar2EntityViewFlags
+- AssemblyName: Oculus.AvatarSDK2
+  ClassName: Oculus.Avatar2.OvrAvatarEntity/AvatarLoadFailedEvent
+- AssemblyName: Oculus.AvatarSDK2
+  ClassName: Oculus.Avatar2.OvrAvatarEntity/AvatarStateEvent
+- AssemblyName: Oculus.AvatarSDK2
+  ClassName: Oculus.Avatar2.OvrAvatarEntity/DebugDrawing
+- AssemblyName: Oculus.AvatarSDK2
+  ClassName: Oculus.Avatar2.OvrAvatarEntity/EntityLoadingStateEvent
+- AssemblyName: Oculus.AvatarSDK2
+  ClassName: Oculus.Avatar2.OvrAvatarEntity/LoadingStateEvent
 - AssemblyName: PhotonRealtime
   ClassName: Photon.Realtime.AppSettings
 - AssemblyName: PhotonUnityNetworking
   ClassName: Photon.Pun.PhotonAnimatorView/SynchronizedLayer
 - AssemblyName: PhotonUnityNetworking
   ClassName: Photon.Pun.PhotonAnimatorView/SynchronizedParameter
+- AssemblyName: PhotonVoice.API
+  ClassName: Photon.Voice.AudioOutDelayControl/PlayDelayConfig
+- AssemblyName: PhotonVoice.API
+  ClassName: Photon.Voice.IOS.AudioSessionParameters
+- AssemblyName: PhotonVoice
+  ClassName: Photon.Voice.Unity.Recorder/NativeAndroidMicrophoneSettings
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.FaceInfo_Legacy
 - AssemblyName: Unity.TextMeshPro
@@ -161,7 +261,15 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.TMP_Style
 - AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.ArgumentCache
+- AssemblyName: UnityEngine.CoreModule
   ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentListenerMode
+- AssemblyName: UnityEngine.IMGUIModule
+  ClassName: UnityEngine.GUISettings
+- AssemblyName: UnityEngine.IMGUIModule
+  ClassName: UnityEngine.GUIStyle
 - AssemblyName: UnityEngine.TextCoreFontEngineModule
   ClassName: UnityEngine.TextCore.FaceInfo
 - AssemblyName: UnityEngine.TextCoreFontEngineModule
@@ -171,57 +279,99 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: UnityEngine.TextCoreFontEngineModule
   ClassName: UnityEngine.TextCore.GlyphRect
 - AssemblyName: UnityEngine.UI
-  ClassName: UnityEngine.UI.AnimationTriggers
-- AssemblyName: UnityEngine.UI
-  ClassName: UnityEngine.UI.ColorBlock
-- AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.FontData
 - AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-- AssemblyName: UnityEngine.UI
-  ClassName: UnityEngine.UI.Navigation
-- AssemblyName: UnityEngine.UI
-  ClassName: UnityEngine.UI.Slider/SliderEvent
-- AssemblyName: UnityEngine.UI
-  ClassName: UnityEngine.UI.SpriteState
 Assets:
-- Assets/Oculus/VR/Resources/Unlit Transparent Color.shader
-- Assets/Plugins/WebView/Resources/WebViewCanvas.prefab
 - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
 - Assets/Resources/ONSPSettings.asset
+- Assets/Photon/Fusion/Editor/Resources/icons/visible-disabled-icon.png
+- Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/ZomBear.prefab
+- Assets/Oculus/Voice/Resources/voicesdk_texts_en-us.json
+- Assets/Oculus/Interaction/Runtime/Resources/Shaders/DepthOverwrite.shader
+- Assets/Oculus/Voice/Lib/Wit.ai/Resources/wit-ai-title.png
+- Assets/Photon/Fusion/Editor/Resources/icons/visible-enabled-icon.png
+- Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/Hellephant.prefab
+- Assets/Photon/Fusion/Resources/NetworkProjectConfig.fusion
+- Assets/Oculus/VR/Resources/OVRMRCameraFrameLit.shader
+- Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/Boy-Local.prefab
+- Assets/Oculus/VR/Resources/Cubemap Blit.shader
+- Assets/Oculus/VR/Resources/Underlay Impostor.shader
+- Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/Boy.prefab
+- Assets/Oculus/VR/Resources/Underlay Transparent Occluder.shader
+- Assets/Photon/PhotonVoice/Demos/Resources/readme.txt
+- Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/Speaker.prefab
+- Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/Boy-Remote.prefab
+- Assets/Photon/Fusion/Resources/FusionGraphShader.shader
+- Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+- Assets/Photon/Fusion/Scripts/Editor/FusionHub/Resources/FusionHubSkin/fusion-hub-skin-steel.png
+- Assets/Resources/OculusRuntimeSettings.asset
+- Assets/Photon/Fusion/Scripts/Editor/FusionHub/Resources/FusionHubIcons/information.png
+- Assets/Photon/Fusion/Scripts/Editor/FusionHub/Resources/FusionHubSkin/fusion-hub-skin-button-hover.png
 - Assets/Oculus/VR/Resources/OVRMRUnlitTransparent.shader
 - Assets/Oculus/Voice/Lib/Wit.ai/Resources/witai_texts_en-us.json
-- Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Resources/BigAsteroid.prefab
-- Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Resources/My Robot
-  Kyle -done-.prefab
-- Assets/Resources/OVRBuildConfig.asset
-- Assets/Oculus/VR/Resources/OVRMRUnlit.shader
+- Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/Hellephant-Remote.prefab
+- Assets/Photon/Fusion/Scripts/Editor/FusionHub/Resources/FusionHubIcons/photon-cloud-32-dark.png
+- Assets/Photon/Fusion/Scripts/Editor/FusionHub/Resources/FusionHubSkin/fusion-hub-skin-button-active.png
 - Assets/Oculus/Voice/Resources/voicesdk_heroart.png
-- Assets/Oculus/Voice/Resources/voicesdk_texts_en-us.json
-- Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
-- Assets/Oculus/Voice/Lib/Wit.ai/Resources/wit-ai-title.png
-- Assets/TextMesh Pro/Resources/TMP Settings.asset
+- Assets/Resources/Rig.prefab
 - Assets/Oculus/VR/Resources/OVRMRCameraFrame.shader
-- Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Resources/Player Controller.prefab
-- Assets/Oculus/VR/Resources/OVRMRCameraFrameLit.shader
-- Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
-- Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-- Assets/Oculus/VR/Resources/Cubemap Blit.shader
-- Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Resources/SmallAsteroid.prefab
-- Assets/Oculus/VR/Resources/Underlay Impostor.shader
-- Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Resources/Spaceship.prefab
-- Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-- Assets/Oculus/VR/Resources/Underlay Transparent Occluder.shader
+- Assets/Photon/Fusion/Scripts/Editor/FusionHub/Resources/FusionHubIcons/fusion-logo.png
+- Assets/Photon/Fusion/Scripts/Editor/FusionHub/Resources/FusionHubSkin/fusion-hub-skin-sand.png
+- Assets/Oculus/Interaction/Runtime/Resources/Shaders/UnderlayTransparentOccluderImposter.shader
+- Assets/Photon/Fusion/Scripts/Editor/FusionHub/Resources/FusionHubIcons/community.png
+- Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/ZomBunny.prefab
+- Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/ZomBear-Remote.prefab
 - Assets/XRI/Settings/Resources/InteractionLayerSettings.asset
-- Assets/Plugins/WebView/Resources/Partner.asset
+- Assets/Photon/PhotonVoice/Demos/Resources/CAD-GXL2200-Condenser-vs-Audigy5rx-Sound-Test.mp3
 - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-- Assets/Oculus/Voice/Lib/Wit.ai/Resources/continue-with-fb.png
-- Assets/Resources/OVRPlatformToolSettings.asset
-- Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
-- Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+- Assets/Photon/PhotonVoice/Demos/Resources/music_zapsplat_atmospheric_tension.mp3
 - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+- Assets/Photon/Fusion/Scripts/Editor/FusionHub/Resources/FusionHubIcons/fusion-icon.png
+- Assets/Photon/Fusion/Editor/Resources/ComponentHeaderGraphics/Fonts/Oswald-Header.ttf
+- Assets/Oculus/VR/Resources/Unlit Transparent Color.shader
+- Assets/Photon/Fusion/Editor/Resources/icons/input-disabled-icon.png
+- Assets/Photon/Fusion/Scripts/Editor/FusionHub/Resources/FusionHubSkin/fusion-hub-skin-window.png
+- Assets/Resources/OVRBuildConfig.asset
+- Assets/Scripts/PUN/Resources/Network Player.prefab
+- Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+- Assets/Photon/Fusion/Scripts/Editor/FusionHub/Resources/FusionHubSkin/fusion-hub-skin-button.png
+- Assets/Photon/Fusion/Editor/Resources/icons/networked-property-icon.png
+- Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+- Assets/Photon/Fusion/Scripts/Editor/FusionHub/Resources/FusionHubSkin/FusionHubSkin.guiskin
+- Assets/Oculus/Interaction/Runtime/Resources/Shaders/Imposter_AlphaBlended.shader
+- Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+- Assets/Oculus/Interaction/Runtime/Resources/Shaders/Imposter_Opaque.shader
+- Assets/Photon/Fusion/Scripts/Editor/FusionHub/Resources/FusionHubIcons/samples.png
+- Assets/Photon/Fusion/Editor/Resources/Assembly-CSharp.xml
+- Assets/Resources/OVRPlatformToolSettings.asset
+- Assets/Photon/Fusion/Editor/Resources/icons/input-enabled-icon.png
+- Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/Hellephant-Local.prefab
+- Assets/Resources/OculusPlatformSettings.asset
+- Assets/Oculus/Interaction/Runtime/Resources/Shaders/Imposter_AlphaCutout.shader
+- Assets/Oculus/Interaction/Runtime/Resources/Shaders/Imposter_AlphaToMask.shader
+- Assets/Photon/Fusion/Resources/PhotonAppSettings.asset
+- Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/ZomBunny-Remote.prefab
+- Assets/Oculus/Interaction/Runtime/Resources/Shaders/UIOverlay.shader
+- Assets/Photon/Fusion/Editor/Resources/icons/correct-icon.png
+- Assets/Oculus/VR/Resources/OVRMRUnlit.shader
+- Assets/Photon/Fusion/Editor/Resources/ComponentHeaderGraphics/Fonts/OFL.txt
+- Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+- Assets/TextMesh Pro/Resources/TMP Settings.asset
+- Assets/Photon/Fusion/Scripts/Editor/FusionHub/Resources/FusionHubSkin/fusion-hub-skin-box.png
+- Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/ZomBear-Local.prefab
+- Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Resources/ZomBunny-Local.prefab
+- Assets/Resources/Temp/Capsule.prefab
+- Assets/Photon/Fusion/Scripts/Editor/FusionHub/Resources/FusionHubIcons/documentation.png
+- Assets/Oculus/Interaction/Runtime/Resources/Shaders/Imposter_Underlay.shader
+- Assets/Oculus/Interaction/Runtime/Resources/Shaders/Imposter_Underlay_AA.shader
+- Assets/Photon/PhotonVoice/Demos/DemoVoiceProximityChat/Resources/Character.prefab
+- Assets/Oculus/Voice/Lib/Wit.ai/Resources/continue-with-fb.png
 - Assets/Oculus/Voice/Lib/Wit.ai/Resources/witai.png
+- Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+- Assets/Photon/Fusion/Resources/ConfigAssetsFolder.txt
 - Assets/Oculus/VR/Resources/Texture2D Blit.shader
 Dependencies:
-- C:/Users/vr_admin/Documents/2465104m/Social-Vr/SocialVR/OVRAssetBundles/OVRMasterBundle/asset_shader0
-- C:/Users/vr_admin/Documents/2465104m/Social-Vr/SocialVR/OVRAssetBundles/OVRMasterBundle/asset_ttf0
+- C:/Users/faraj/OneDrive/Desktop/Project/Social-Vr/SocialVR/OVRAssetBundles/OVRMasterBundle/asset_mat0
+- C:/Users/faraj/OneDrive/Desktop/Project/Social-Vr/SocialVR/OVRAssetBundles/OVRMasterBundle/asset_shader0
+- C:/Users/faraj/OneDrive/Desktop/Project/Social-Vr/SocialVR/OVRAssetBundles/OVRMasterBundle/asset_ttf0

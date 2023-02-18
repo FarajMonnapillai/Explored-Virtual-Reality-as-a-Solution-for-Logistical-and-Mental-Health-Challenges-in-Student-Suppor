@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2797915919
+CRC: 1188739491
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c2ed418b558e7f134b4af512a0552ae2
+    Hash: 58e9e9a1164cbfb38e79f74637a4c9a6
   TypeTreeHash:
     serializedVersion: 2
     Hash: b0363f7088f9761414f730641bf9a24b
@@ -13,8 +13,6 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/Photon/PhotonVoice/Icons/voice-0128.png
 - Packages/com.unity.inputsystem/InputSystem/Editor/Icons/TrackedPoseDriver@4x.png
-- Packages/com.unity.render-pipelines.core/Editor/Volume/Icons/VolumeProfileAsset.png
-- Packages/com.unity.render-pipelines.core/Editor/Volume/Icons/Volume.png
-- Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputAction.png
 Dependencies: []

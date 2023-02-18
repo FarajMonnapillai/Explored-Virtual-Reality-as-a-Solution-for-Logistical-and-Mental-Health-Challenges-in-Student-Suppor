@@ -109,11 +109,11 @@ MonoBehaviour:
       viewFlags: 3
       subMeshInclusionFlags: 2047
       highQualityFlags: 0
-  _activeView: 1
-  _activeManifestation: 2
+  _activeView: -1
+  _activeManifestation: -1
   _activeSubMeshes: 2047
   _activeSubMeshesIncludeUntyped: 1
-  _activeHighQuality: 0
+  _activeHighQuality: -1
   _bodyTracking: {fileID: 0}
   _facePoseBehavior: {fileID: 0}
   _eyePoseBehavior: {fileID: 0}
@@ -174,7 +174,7 @@ MonoBehaviour:
   _isLocal: 1
   networkCon: {fileID: 0}
   startBool: 0
-  mainCam: {fileID: 0}
+  mainCam: {fileID: 4556844188376065350}
   avatarBytes: 
 --- !u!114 &6266662687100088245
 MonoBehaviour:

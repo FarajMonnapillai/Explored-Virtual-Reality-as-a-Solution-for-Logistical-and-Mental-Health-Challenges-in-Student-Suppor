@@ -1,49 +1,46 @@
 ManifestFileVersion: 0
-CRC: 2830228673
+CRC: 3142075562
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: asset_resources
       Dependencies:
-        Dependency_0: asset_shader0
-        Dependency_1: asset_ttf0
-    Info_1:
-      Name: scene_samplescene
-      Dependencies:
         Dependency_0: asset_mat0
-        Dependency_1: asset_prefab0
-        Dependency_2: asset_asset0
-    Info_2:
-      Name: asset_mat0
-      Dependencies:
-        Dependency_0: asset_psd0
         Dependency_1: asset_shader0
-    Info_3:
-      Name: asset_inputactions0
-      Dependencies: {}
-    Info_4:
-      Name: asset_psd0
-      Dependencies: {}
-    Info_5:
-      Name: asset_shader0
-      Dependencies: {}
-    Info_6:
-      Name: asset_png0
-      Dependencies: {}
-    Info_7:
-      Name: asset_prefab0
+        Dependency_2: asset_ttf0
+    Info_1:
+      Name: scene_avatar testing
       Dependencies:
         Dependency_0: asset_resources
         Dependency_1: asset_mat0
-        Dependency_2: asset_inputactions0
-        Dependency_3: asset_fbx0
-    Info_8:
-      Name: asset_asset0
-      Dependencies: {}
-    Info_9:
-      Name: asset_fbx0
+        Dependency_2: asset_prefab0
+        Dependency_3: asset_inputactions0
+    Info_2:
+      Name: asset_mat0
       Dependencies:
         Dependency_0: asset_shader0
-    Info_10:
+    Info_3:
+      Name: asset_asset0
+      Dependencies:
+        Dependency_0: asset_mat0
+        Dependency_1: asset_shader0
+    Info_4:
+      Name: asset_prefab0
+      Dependencies:
+        Dependency_0: asset_asset0
+        Dependency_1: asset_shader0
+    Info_5:
+      Name: asset_png0
+      Dependencies: {}
+    Info_6:
+      Name: asset_inputactions0
+      Dependencies: {}
+    Info_7:
+      Name: asset_shader0
+      Dependencies: {}
+    Info_8:
+      Name: asset_psd0
+      Dependencies: {}
+    Info_9:
       Name: asset_ttf0
       Dependencies: {}

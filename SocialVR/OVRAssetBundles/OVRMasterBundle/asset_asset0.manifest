@@ -1,41 +1,34 @@
 ManifestFileVersion: 0
-CRC: 4170268523
+CRC: 3583436488
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2501625f36cbd3f9eba2e5342f883647
+    Hash: 4b38d7becb973b855008748023b898db
   TypeTreeHash:
     serializedVersion: 2
-    Hash: c839d1afb590a8e816cfe08fc25cb117
+    Hash: 6f1a2b4e0bd4e3d5040e31f18f6fa579
 HashAppended: 0
 ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 899c54efeace73346a0a16faa3afe726, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 97c23e3b12dc18c42a140437e53d3951, type: 3}
+  Script: {fileID: 11500000, guid: 3861555276e1a07489d3c0971e091e46, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers:
-- AssemblyName: Unity.RenderPipelines.Core.Runtime
-  ClassName: UnityEngine.Rendering.BoolParameter
-- AssemblyName: Unity.RenderPipelines.Core.Runtime
-  ClassName: UnityEngine.Rendering.ClampedFloatParameter
-- AssemblyName: Unity.RenderPipelines.Core.Runtime
-  ClassName: UnityEngine.Rendering.ClampedIntParameter
-- AssemblyName: Unity.RenderPipelines.Core.Runtime
-  ClassName: UnityEngine.Rendering.ColorParameter
-- AssemblyName: Unity.RenderPipelines.Core.Runtime
-  ClassName: UnityEngine.Rendering.MinFloatParameter
-- AssemblyName: Unity.RenderPipelines.Core.Runtime
-  ClassName: UnityEngine.Rendering.TextureParameter
-- AssemblyName: Unity.RenderPipelines.Core.Runtime
-  ClassName: UnityEngine.Rendering.Vector2Parameter
-- AssemblyName: Unity.RenderPipelines.Universal.Runtime
-  ClassName: UnityEngine.Rendering.Universal.TonemappingModeParameter
+- AssemblyName: Oculus.AvatarSDK2
+  ClassName: Oculus.Avatar2.OvrAvatarMaterialExtensionConfig
 Assets:
-- Assets/Settings/SampleSceneProfile.asset
-Dependencies: []
+- Assets/Oculus/Avatar2/Example/Common/Shaders/Configurations/Horizon/HorizonTexturedConfiguration.asset
+- Assets/Oculus/Avatar2/Example/Common/Shaders/Configurations/Horizon/HorizonHairConfiguration.asset
+- Assets/Oculus/Avatar2/Example/Common/Shaders/Configurations/Horizon/HorizonSubMeshConfiguration.asset
+- Assets/Oculus/Avatar2/Example/Common/Shaders/Configurations/Horizon/HorizonLeftEyeConfiguration.asset
+- Assets/Oculus/Avatar2/Example/Common/Shaders/Configurations/Horizon/HorizonSolidConfiguration.asset
+- Assets/Oculus/Avatar2/Example/Common/Shaders/Configurations/Horizon/HorizonVertexConfiguration.asset
+- Assets/Oculus/Avatar2/Example/Common/Shaders/Configurations/Horizon/HorizonRightEyeConfiguration.asset
+- Assets/Oculus/Avatar2/Example/Common/Shaders/Configurations/Horizon/HorizonSkinConfiguration.asset
+Dependencies:
+- C:/Users/faraj/OneDrive/Desktop/Project/Social-Vr/SocialVR/OVRAssetBundles/OVRMasterBundle/asset_mat0
+- C:/Users/faraj/OneDrive/Desktop/Project/Social-Vr/SocialVR/OVRAssetBundles/OVRMasterBundle/asset_shader0

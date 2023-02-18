@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3645486614
+CRC: 1004812153
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0c12646f387b341acee8fda67a902cf1
+    Hash: 13d4616219234340827046b31ac0188c
   TypeTreeHash:
     serializedVersion: 2
     Hash: 538d26e2b59c9fed27467efb10686737
@@ -28,5 +28,4 @@ SerializeReferenceClassIdentifiers:
   ClassName: UnityEngine.InputSystem.InputControlScheme/DeviceRequirement
 Assets:
 - Assets/Samples/XR Interaction Toolkit/2.0.4/Starter Assets/XRI Default Input Actions.inputactions
-- Assets/PlayerControls.inputactions
 Dependencies: []

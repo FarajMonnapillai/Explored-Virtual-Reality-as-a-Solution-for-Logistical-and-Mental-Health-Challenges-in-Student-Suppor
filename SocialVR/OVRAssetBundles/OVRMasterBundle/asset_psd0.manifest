@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4029437603
+CRC: 2209739777
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7965c8efc30af0a7516f28b45af96fe6
+    Hash: 60f3b9cdcc10954c1f49ec9737c78ab3
   TypeTreeHash:
     serializedVersion: 2
     Hash: b0363f7088f9761414f730641bf9a24b
@@ -13,7 +13,6 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Prefabs/Teleport/TeleportMarker.psd
 - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd
 - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd
 Dependencies: []
