@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Lobby.unity
     guid: fb1439a7774cb452282f4a4075fa5007
   - enabled: 0
@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Room 3 Box.unity
     guid: 2eb9ba3d0e04843bfa82a0a3cf285b28
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Avatar Testing.unity
     guid: 2b251b22ccea34d6095d00ae8b3a446d
   m_configObjects:
