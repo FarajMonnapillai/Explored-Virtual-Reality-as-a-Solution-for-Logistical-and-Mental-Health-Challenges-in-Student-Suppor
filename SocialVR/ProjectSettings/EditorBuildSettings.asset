@@ -12,11 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Done/Room 1 Day Done.unity
     guid: ff9953015a5490443946025661ba17d2
   - enabled: 1
-    path: Assets/Scenes/Done/Room 2 Night main.unity
-    guid: 24e8a58eab452af4587be9fe17bd6ca5
+    path: Assets/Scenes/Done/Room 1 Day Done 1.unity
+    guid: b1a9d14918e4c1441a24e536f1c11174
   - enabled: 1
-    path: Assets/Scenes/Done/Room 3 Box.unity
-    guid: 3abc12b0a2af61b43ac35f346fe6c450
+    path: Assets/Scenes/Done/Room 1 Day Done 2.unity
+    guid: d2ff7f53a58282340b6ccaf575a4512f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9af3bdcb4feba264392bafbb00bf8825,
       type: 2}
