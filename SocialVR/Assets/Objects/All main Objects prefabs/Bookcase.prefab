@@ -30,8 +30,8 @@ Transform:
   m_GameObject: {fileID: 5545972930422087545}
   m_LocalRotation: {x: 0.00011317246, y: -0.7071068, z: -0.7071067, w: -0.00011314219}
   m_LocalPosition: {x: 0.11647265, y: 0, z: -0.14146413}
-  m_LocalScale: {x: 50.24983, y: 50.24983, z: 50.24983}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 40, y: 40, z: 40}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5545972930421850973}
   m_RootOrder: 0
@@ -243,7 +243,6 @@ GameObject:
   - component: {fileID: -7342383481196329024}
   - component: {fileID: 6099606853073882732}
   - component: {fileID: 2833118599180264741}
-  - component: {fileID: 8287187500573593375}
   m_Layer: 0
   m_Name: Bookcase
   m_TagString: Untagged
@@ -437,16 +436,3 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
---- !u!65 &8287187500573593375
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5545972930422087549}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.862944, y: 3.9431002, z: 0.6384393}
-  m_Center: {x: 0.11255804, y: 1.9921994, z: -0.14462416}
