@@ -1575,7 +1575,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral08AAE7186C2602C0A8C88A3E00A89B0B334CE638
 IL2CPP_EXTERN_C String_t* _stringLiteral0C036ADB6AA5CA1349A9600C5F0559C6EF354F34;
 IL2CPP_EXTERN_C String_t* _stringLiteral0E6EC890269AE3A2E5CF7CEB67069FD2E96B6D1D;
 IL2CPP_EXTERN_C String_t* _stringLiteral11B4CB6A71122BE7CCE10E7363E942673B28E84E;
-IL2CPP_EXTERN_C String_t* _stringLiteral12316CA5E779D0CE0469C9868F6BEE4611BAD3D1;
 IL2CPP_EXTERN_C String_t* _stringLiteral126C27EBBA7FB9D77EB1A44E51BF06EBA9C3FC63;
 IL2CPP_EXTERN_C String_t* _stringLiteral12E781C6303EBD173BD2692DB4B70F1A245208B3;
 IL2CPP_EXTERN_C String_t* _stringLiteral138036CF00DC7AA638E8C59DE658B2B707E5188E;
@@ -1644,7 +1643,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral78841A8E401EE2D001B5A9876665EA410358CD3A
 IL2CPP_EXTERN_C String_t* _stringLiteral7AC3F2C544F8DC78956192E3DB9553AD597A3EB5;
 IL2CPP_EXTERN_C String_t* _stringLiteral7ACA34FD81900767B6FAD748BAAEF3F03C87EF79;
 IL2CPP_EXTERN_C String_t* _stringLiteral7B3F14DD378FB78A91E09F98B359C1CA37EF1E1D;
-IL2CPP_EXTERN_C String_t* _stringLiteral7BB935D8F727685561CB0F2CEEBBFA0BB39EF631;
 IL2CPP_EXTERN_C String_t* _stringLiteral7BD70782CE960CD1DDFB14D58765716292966B8D;
 IL2CPP_EXTERN_C String_t* _stringLiteral7CB8F65B4308DE94BCCE7FAC92C567BE214B25E3;
 IL2CPP_EXTERN_C String_t* _stringLiteral7D76B639496729B185F1CFC2E325E44CEF266FF7;
@@ -1707,7 +1705,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralDF19425FF2B6A11DEDC2D151795512E67EFFCC2B
 IL2CPP_EXTERN_C String_t* _stringLiteralDF94361AE62C8E8418A75AE9F66772AC8DE7EB3E;
 IL2CPP_EXTERN_C String_t* _stringLiteralE1921D3070489B1532E810684C2992B44215A052;
 IL2CPP_EXTERN_C String_t* _stringLiteralE2507A855B9DECF6337D435465AA063BAC67B8F2;
-IL2CPP_EXTERN_C String_t* _stringLiteralE366655DADB980E75900B05E91A283C7B2FAD7F7;
 IL2CPP_EXTERN_C String_t* _stringLiteralE3DED7AD792CAB8AB55C93E9D0CECB88FBF6FE40;
 IL2CPP_EXTERN_C String_t* _stringLiteralE3E87DB4DDC926FB64C006F4326C0661CCC9B60E;
 IL2CPP_EXTERN_C String_t* _stringLiteralE7EEBB8188DD359C08C83FD615DA23AB64CBC892;
@@ -14485,8 +14482,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRBaseInteractable_OnSelectEntered_m548EC86DEEF771E952DFC75BAE8EA5C27E441C5C (XRBaseInteractable_tC2C966C710AE6AC232E248B1BCF323386110D0F6* __this, SelectEnterEventArgs_t9220B1E6A9BB5A847C0476949ACE0182430BB938* ___0_args, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRGrabInteractable__ctor_mF1FA77294880EFA9C7C840025B207B80327B5E2E (XRGrabInteractable_t8F7EA04527E7074002690EA93ACEAEFEBD79A772* __this, const RuntimeMethod* method) ;
-// System.Void Photon.Pun.MonoBehaviourPunCallbacks::OnJoinedLobby()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviourPunCallbacks_OnJoinedLobby_mC8B9CB6380D91FE80BCBBD5CD886B88F7FDD23C7 (MonoBehaviourPunCallbacks_t0B3C6A2FD0A09450A8505ACD42A647F3BCE6D783* __this, const RuntimeMethod* method) ;
 // T System.Collections.Generic.List`1<DefaultRoom>::get_Item(System.Int32)
 inline DefaultRoom_tFF18BF3ADCC8CD80FFAFEF7CE30ECA4AFDDA24A0* List_1_get_Item_m8CB76DEC2DA88020BCD7FA7B3668FD67544AD002 (List_1_tFDF50E8D35689561F5CB00106DD668B1C46B6B71* __this, int32_t ___0_index, const RuntimeMethod* method)
 {
@@ -24577,78 +24572,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultRoom__ctor_m961F7A1A891892DF5D1B5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void NetworkManager::ConnectToServer()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkManager_ConnectToServer_mD638416C1113EA41DE4B071A5C87A4FB91EB86EB (NetworkManager_t34FC479255EC74DE917E6E400B1430EBE2CCA7CB* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE366655DADB980E75900B05E91A283C7B2FAD7F7);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// PhotonNetwork.ConnectUsingSettings();
-		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
-		bool L_0;
-		L_0 = PhotonNetwork_ConnectUsingSettings_m5062DDA82806820AE9358F849B0533B82230E540(NULL);
-		// Debug.Log("Try Connect to server...");
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralE366655DADB980E75900B05E91A283C7B2FAD7F7, NULL);
-		// }
-		return;
-	}
-}
-// System.Void NetworkManager::OnConnectedToMaster()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkManager_OnConnectedToMaster_m24D76ADE5E0AC364B8FB462736DAD45F6FA4E7E3 (NetworkManager_t34FC479255EC74DE917E6E400B1430EBE2CCA7CB* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7BB935D8F727685561CB0F2CEEBBFA0BB39EF631);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Debug.Log("Connected to server.");
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral7BB935D8F727685561CB0F2CEEBBFA0BB39EF631, NULL);
-		// base.OnConnectedToMaster();
-		MonoBehaviourPunCallbacks_OnConnectedToMaster_m8F8226A0CC5E06EDE926F7B5227683BBE7F0E7DB(__this, NULL);
-		// PhotonNetwork.JoinLobby();
-		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
-		bool L_0;
-		L_0 = PhotonNetwork_JoinLobby_m1963DA1D3B6EDFADCC45C75B121188EF6B6B4803(NULL);
-		// }
-		return;
-	}
-}
-// System.Void NetworkManager::OnJoinedLobby()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkManager_OnJoinedLobby_m4F2B419D67C5510BF4D0586FD9A74957779636BC (NetworkManager_t34FC479255EC74DE917E6E400B1430EBE2CCA7CB* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral12316CA5E779D0CE0469C9868F6BEE4611BAD3D1);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// base.OnJoinedLobby();
-		MonoBehaviourPunCallbacks_OnJoinedLobby_mC8B9CB6380D91FE80BCBBD5CD886B88F7FDD23C7(__this, NULL);
-		// Debug.Log("We joined the lobby");
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral12316CA5E779D0CE0469C9868F6BEE4611BAD3D1, NULL);
-		// roomUI.SetActive(true);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___roomUI_6;
-		NullCheck(L_0);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
-		// }
-		return;
-	}
-}
 // System.Void NetworkManager::InitiliazRoom(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkManager_InitiliazRoom_m7A20770DD11F64CE7CC6EFC582B7C63415201235 (NetworkManager_t34FC479255EC74DE917E6E400B1430EBE2CCA7CB* __this, int32_t ___0_defaultRoomIndex, const RuntimeMethod* method) 
 {

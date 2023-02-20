@@ -19,25 +19,6 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     
     public GameObject roomUI;
 
-    public void ConnectToServer()
-    {
-        PhotonNetwork.ConnectUsingSettings();
-        Debug.Log("Try Connect to server...");
-    }
-    public override void OnConnectedToMaster()
-    {
-        Debug.Log("Connected to server.");
-        base.OnConnectedToMaster();
-        PhotonNetwork.JoinLobby();
-    }
-
-    public override void OnJoinedLobby()
-    {
-        base.OnJoinedLobby();
-        Debug.Log("We joined the lobby");
-        roomUI.SetActive(true);
-    }
-
     public void InitiliazRoom(int defaultRoomIndex)
     {
         DefaultRoom roomSettings = defaultRooms[defaultRoomIndex];
