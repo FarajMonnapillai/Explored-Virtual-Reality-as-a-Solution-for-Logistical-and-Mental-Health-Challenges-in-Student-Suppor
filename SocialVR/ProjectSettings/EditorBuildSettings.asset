@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Done/Lobby.unity
     guid: eb46c25ddef4ead49b505b58be00a861
@@ -16,10 +13,10 @@ EditorBuildSettings:
     guid: b1a9d14918e4c1441a24e536f1c11174
   - enabled: 1
     path: Assets/Scenes/Done/Room 1 Day Done 2.unity
-    guid: a250c430bc9270a42aebf9a90950203a
+    guid: b931b64121fb03a45af5d8437a48b6f8
   - enabled: 1
     path: Assets/Scenes/Done/Room 1 Day Done 3.unity
-    guid: 141564c7e49d8ba4c82f7df0d294ecf6
+    guid: e137277a77c333a45aa9dd659ffb596f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9af3bdcb4feba264392bafbb00bf8825,
       type: 2}
