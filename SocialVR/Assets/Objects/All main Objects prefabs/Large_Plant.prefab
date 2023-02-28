@@ -28,7 +28,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2298488487913773812}
   m_RootOrder: 0
@@ -150,8 +150,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0747542, y: 1.9630122, z: 0.7801342}
-  m_Center: {x: 0.041774392, y: 0.9959922, z: 0.0043973923}
+  m_Size: {x: 1.0747542, y: 1.6121094, z: 0.7801342}
+  m_Center: {x: 0.041774392, y: 0.8205408, z: 0.0043973923}
 --- !u!114 &-1127007303401578171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,6 +172,7 @@ MonoBehaviour:
   observableSearch: 2
   ObservedComponents:
   - {fileID: 6811939189813473741}
+  - {fileID: 5333998105382860178}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -360,7 +361,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2298488487913773812}
   m_RootOrder: 2
@@ -430,17 +431,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: c085e05b7ebd9074eaaa0da62b1293c5,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.6013703
+      value: 1.9999999
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c085e05b7ebd9074eaaa0da62b1293c5,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 4.1628966
+      value: 3.2005413
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c085e05b7ebd9074eaaa0da62b1293c5,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3811
+      value: 1.061825
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c085e05b7ebd9074eaaa0da62b1293c5,
         type: 3}
@@ -491,6 +492,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c085e05b7ebd9074eaaa0da62b1293c5,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c085e05b7ebd9074eaaa0da62b1293c5,
         type: 3}

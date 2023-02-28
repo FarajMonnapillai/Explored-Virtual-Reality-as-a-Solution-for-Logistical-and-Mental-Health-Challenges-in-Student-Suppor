@@ -13,10 +13,10 @@ EditorBuildSettings:
     guid: b1a9d14918e4c1441a24e536f1c11174
   - enabled: 1
     path: Assets/Scenes/Done/Room 1 Day Done 2.unity
-    guid: 879bf9292e47b5644a88c0573a15cb22
+    guid: 7c1b999c11cc5754cb9e24e3b40495f2
   - enabled: 1
     path: Assets/Scenes/Done/Room 1 Day Done 3.unity
-    guid: 8b5a8470d00e86e478eeb531ee5b7d5d
+    guid: 4e48953464c5c6549ab4a20fccd4a1b5
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9af3bdcb4feba264392bafbb00bf8825,
       type: 2}
