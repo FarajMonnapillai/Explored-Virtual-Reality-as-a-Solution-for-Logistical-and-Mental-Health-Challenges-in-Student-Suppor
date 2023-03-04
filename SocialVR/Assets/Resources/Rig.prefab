@@ -122,14 +122,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _creationInfo:
-    features: 1398
+    features: 4094
     renderFilters:
       lodFlags: 31
       manifestationFlags: 2
       viewFlags: 3
       subMeshInclusionFlags: 2047
       highQualityFlags: 0
-  _activeView: 1
+  _activeView: 2
   _activeManifestation: -1
   _activeSubMeshes: 2047
   _activeSubMeshesIncludeUntyped: 1
