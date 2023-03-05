@@ -1608,7 +1608,6 @@ IL2CPP_EXTERN_C RuntimeClass* XRDirectInteractor_t1901BC018A818AE3059663EDCC68ED
 IL2CPP_EXTERN_C RuntimeClass* XRGrabInteractable_t8F7EA04527E7074002690EA93ACEAEFEBD79A772_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral033579EC8D0117A4537FD03D9BB53510D041EB23;
 IL2CPP_EXTERN_C String_t* _stringLiteral047B3F3A5713C4B341DAC643DC51392B3E671766;
-IL2CPP_EXTERN_C String_t* _stringLiteral0629C4D538D96B21C8DE8167E7CCA4BE5E36DC5E;
 IL2CPP_EXTERN_C String_t* _stringLiteral0872CCBAE9079C4994471CF8B38902505CE956D8;
 IL2CPP_EXTERN_C String_t* _stringLiteral08AAE7186C2602C0A8C88A3E00A89B0B334CE638;
 IL2CPP_EXTERN_C String_t* _stringLiteral0C036ADB6AA5CA1349A9600C5F0559C6EF354F34;
@@ -24810,32 +24809,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkPlayer__ctor_m4FBED16D8B80CE3F3B2
 // System.Void NetworkPlayerSpawner::OnJoinedRoom()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkPlayerSpawner_OnJoinedRoom_mFC2B69AD9ECE01AF7714DC870F0CA335B46C605F (NetworkPlayerSpawner_t1696AC41E19750BAE24DCA6F65B071BF438DC1D0* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0629C4D538D96B21C8DE8167E7CCA4BE5E36DC5E);
-		s_Il2CppMethodInitialized = true;
-	}
 	{
 		// base.OnJoinedRoom();
 		MonoBehaviourPunCallbacks_OnJoinedRoom_m817D94FDDAF24D66A92DC9FAB480FC53272A8EF5(__this, NULL);
-		// spawnedPlayerPrefab = PhotonNetwork.Instantiate("Network Player", transform.position, transform.rotation);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
-		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		NullCheck(L_0);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
-		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
-		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		NullCheck(L_2);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3;
-		L_3 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_2, NULL);
-		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
-		L_4 = PhotonNetwork_Instantiate_mD5714F5AC4C17B75AFD65676226351C91B60AF0D(_stringLiteral0629C4D538D96B21C8DE8167E7CCA4BE5E36DC5E, L_1, L_3, (uint8_t)0, (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)NULL, NULL);
-		__this->___spawnedPlayerPrefab_5 = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___spawnedPlayerPrefab_5), (void*)L_4);
 		// }
 		return;
 	}

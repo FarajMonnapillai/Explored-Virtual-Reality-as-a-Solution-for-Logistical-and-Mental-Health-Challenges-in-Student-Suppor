@@ -129,7 +129,7 @@ MonoBehaviour:
       viewFlags: 3
       subMeshInclusionFlags: 2047
       highQualityFlags: 0
-  _activeView: 2
+  _activeView: -1
   _activeManifestation: -1
   _activeSubMeshes: 2047
   _activeSubMeshesIncludeUntyped: 1
