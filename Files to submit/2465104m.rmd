@@ -1,0 +1,383 @@
+# Timelog
+
+* Virtual Reality as a Solution for Logistical and Mental Health Challenges in Student Support
+* Faraj Ahamed Monnapillai Ahamed Nagoor
+* 2465104M
+* Julie Williamson
+
+## Guidance
+
+* This file contains the time log for your project. It will be submitted along with your final dissertation.
+* **YOU MUST KEEP THIS UP TO DATE AND UNDER VERSION CONTROL.**
+* This timelog should be filled out honestly, regularly (daily) and accurately. It is for *your* benefit.
+* Follow the structure provided, grouping time by weeks.  Quantise time to the half hour.
+
+
+
+## Week 1 - 16-22 Nov
+
+### 20 Oct 2022
+* *0.5 hour* meeting with supervisor 
+
+## 20 Oct 2022
+* *2 hours* Research for topic
+
+## 21 Oct 2022
+* *1 hours* Research for topic
+
+## 22 Oct 2022
+* *1 hours* Research for topic
+
+## Week 2 - 23-29 OCT
+
+### 23 Oct 2022
+* *4 hours* Looking at previous papers for ideas
+
+## 24 Oct 2022
+* *1 hour* Looking at Hall of fame papers for ideas
+
+## 27 Oct 2022
+* *0.5 hour* meeting with supervisor
+
+## 29 Oct 2022
+* *1 hour* Looking at Hall of fame papers for ideas
+
+## Week 3 - 30 OCT - 5 NOV
+
+### 30 Oct 2022
+* *2 hours* Reading up on the dissertation Writing and Evalustion Guidance
+
+## 3 Nov 2022
+* *0.5 hour* meeting with supervisor
+* *5 hours* Setting up VR, Unity and GitHub
+
+## 4 Nov 2022
+* *2 hour* Learning how to set up unity for VR
+
+## Week 4 - 6 - 12 NOV
+
+### 7 Nov 2022
+* *6 hours* watching videos and reading documents on how to use unity and VR
+* *1 hour* Trying basic stuff on Unity
+
+## 8 Nov 2022
+* *2 hours* Testing and debugging
+
+## 10 Nov 2022
+* *0.5 hour* meeting with supervisor
+* *2 hour* Worked on Feature list
+
+## Week 5 - 13 - 19 NOV
+
+## 16 Nov 2022
+* *2 hour* Reseacrh on Unity
+
+## 17 Nov 2022
+* *0.5 hour* meeting with supervisor
+
+## 19 Nov 2022
+* *2 hour* Setting up unity and VR again due to Corruption
+
+## Week 6 - 20 - 26 NOV
+
+## 20 Nov 2022
+* *2 hour* Recovery
+
+## 24 Nov 2022
+* *0.5 hour* meeting with supervisor
+
+## 26 Nov 2022
+* *2 hour* Reseacrh and testing
+
+## Week 7 - 27 NOV - 3 DEC
+
+## 28 Nov 2022
+* *2 hour* UI and grabbing objects
+
+## 1 Dec 2022
+* *0.5 hour* meeting with supervisor
+
+## 2 Dec 2022
+* *2 hour* UI and grabbing objects
+
+## Week 8 - 4 - 10 DEC
+
+
+## Week 9 - 11 - 17 DEC
+
+## 11 Dec 2022
+* *2 hour* multiplayer research
+
+## 12 Dec 2022
+* *7 hour* multiplayer
+
+## 13 Dec 2022
+* *4 hour* multiplayer testing
+
+## 14 Dec 2022
+* *2 hour* Bugs
+
+## Week 10 - 18 - 24 DEC
+
+## 21 Dec 2022
+* *6 hour* Joining rooms code
+* *2 hour* Display active users in room
+
+## 22 Dec 2022
+* *2 hour* Bug fixes
+* *4 hour* Leaving Room code
+
+## 23 Dec 2022
+* *4 hour* Bug fixes
+* *3 hour* Leaving and joining Room code
+
+## 24 Dec 2022
+* *3 hour* Bug fixes
+
+
+## Week 11 - 25 DEC - 31 DEC
+
+## 25 Dec 2022
+* *5 hour* Searching importing needed enviroment assests
+* *3 hour* editing Enviroment start screen
+
+## 26 Dec 2022
+* *7 hour* Editing objects to fit enviroment
+* *3 hour* Leaving and joining Room code
+
+## 27 Dec 2022
+* *3 hour* Adding component to objects
+* *2 hour* Editing and updateing object spawn menu
+
+## 28 Dec 2022
+* *3 hour* Assigning objects to menu buttons
+
+## 29 Dec 2022
+* *2 hour* Edits to spawn object
+
+## 30 Dec 2022
+* *3 hour* placing objects in room and editing room
+
+## Week 12 - 1 - 7 JAN
+
+## 3 Dec 2022
+* *3 hour* Research
+
+## 5 Dec 2022
+* *1 hour* Research
+* *2 hour* Started writing
+
+## Week 13 - 8 - 14 JAN
+
+## 9 Jan 2022
+* *2 hour* Fixing Bugs
+
+## 12 Jan 2022
+* *0.5 hour* meeting with supervisor
+
+## 13 Jan 2022
+* *2 hour* Fixing Bugs
+
+## Week 14 - 15 - 21 JAN
+
+## 15 Jan 2022
+* *2 hour* Listing room menu
+
+## 16 Jan 2022
+* *3 hour* Listing room menu & bugs
+
+## 19 Jan 2022
+* *0.5 hour* meeting with supervisor
+
+## 21 Jan 2022
+* *3 hour* Research on Avatar SDKs
+
+## Week 15 - 22 - 28 JAN
+
+## 23 Jan 2022
+* *3 hour* Testing Avatar SDKs 1
+
+## 24 Jan 2022
+* *4 hour* Testing Avatar SDKs 2
+
+## 26 Jan 2022
+* *0.5 hour* meeting with supervisor
+* *6 hour* Implementing Avatar SDKs 2
+
+## 27 Jan 2022
+* *2 hour* Implementing Avatar SDKs 2
+* *2 hour* Bugs
+
+
+## Week 16 - 29 JAN - 4 FEB
+
+## 28 Jan 2022
+* *4 hour* Fixing multiplayer
+* *2 hour* Bugs
+
+## 29 Jan 2022
+* *3 hour* Fixing multiplayer
+
+## 30 Jan 2022
+* *4 hour* Fixing multiplayer and bugs
+
+## 2 Feb 2022
+* *0.5 hour* meeting with supervisor
+
+## 3 Feb 2022
+* *2 hour* Reseacrh on Voice
+* *3 hour* Implementing Voice
+
+## 4 Feb 2022
+* *3 hour* Audio Volume control and Voice
+
+## Week 17 - 5 - 11 FEB
+
+## 7 Feb 2022
+* *4 hour* Delete object spawn and change to object toggle
+* *3 hour* Wrting up
+
+## 8 Feb 2022
+* *2 hour* object toggle
+
+## 9 Feb 2022
+* *0.5 hour* meeting with supervisor
+
+## 10 Feb 2022
+* *1 hour* Changing object placement
+
+## Week 18 - 12 - 18 FEB
+
+## 12 Feb 2022
+* *2 hour* Bugs
+* *3 hour* Wrting up
+
+## 15 Feb 2022
+* *7 hour* figuring out how to integrate Avatar with multiplayer PUN 
+
+## 16 Feb 2022
+* *0.5 hour* meeting with supervisor
+* *3 hour* Wrting up
+
+## 18 Feb 2022
+* *4 hour* Switch from macOS to windows due to limits
+* *4 hour* Working on avatar
+
+## Week 19 - 19 - 25 FEB
+
+## 19 Feb 2022
+* *4 hour* Ray interactors with avatar
+* *6 hour* Bugs, ui REDESIGN, Testing
+
+## 20 Feb 2022
+* *2 hour* Pitch control script
+* *1 hour* Pitch control
+
+## 21 Feb 2022
+* *2 hour* bugs
+
+## 24 Feb 2022
+* *0.5 hour* meeting with supervisor
+* *3 hour* Wrting up
+
+## Week 20 - 26 FEB - 4 MAR
+
+## 2 Mar 2022
+* *0.5 hour* meeting with supervisor
+* *3 hour* Wrting up
+
+## 5 Mar 2022
+* *2 hour* Writing up question for user testing
+* *3 hour* Wrting up
+
+## 6 Mar 2022
+* *2 hour* Making User consent form
+* *3 hour* Wrting up
+
+## Week 21 - 5 - 11 MAR
+
+## 7 Mar 2022
+* *4 hour* Pilot testing
+* *3 hour* Wrting up
+
+## 9 Mar 2022
+* *3 hour* User testing 1
+* *0.5 hour* meeting with supervisor
+* *3 hour* Wrting up
+
+## 11 Mar 2022
+* *2 hour* User testing 2
+
+## Week 22 - 12 - 18 MAR
+
+## 13 Mar 2022
+* *4 hour* User testing 3
+
+## 16 Mar 2022
+* *0.5 hour* meeting with supervisor
+* *4 hour* User testing 4
+* *3 hour* Wrting up
+
+## Week 23 - 19 - 25 MAR
+
+## 20 Mar 2022
+* *3 hour* Wrting up
+
+## 21 Mar 2022
+* *3 hour* Wrting up
+
+## 22 Mar 2022
+* *2 hour* Wrting up
+
+## 24 Mar 2022
+* *6 hour* User testing 5
+* *0.5 hour* meeting with supervisor
+* *3 hour* Wrting up
+
+## 25 Mar 2022
+* *7 hour* Wrting up
+
+## Week 24 - 26 MAR - 1 APR
+
+## 26 Mar 2022
+* *6 hour* Wrting up
+
+## 27 Mar 2022
+* *7 hour* Wrting up
+
+## 28 Mar 2022
+* *8 hour* Wrting up
+
+## 29 Mar 2022
+* *7 hour* Wrting up
+
+## 30 Mar 2022
+* *5 hour* Wrting up
+
+## Week 25 - 2 - 8 APR
+
+## 2 Apr 2022
+* *9 hour* Wrting up
+
+## 3 Apr 2022
+* *8 hour* Wrting up
+
+## 4 Apr 2022
+* *8 hour* Wrting up
+
+## 5 Apr 2022
+* *7 hour* Wrting up
+
+## 6 Apr 2022
+* *6 hour* Wrting up
+
+## 7 Apr 2022
+* *9 hour* Wrting up
+
+## 8 Apr 2022
+* *9 hour* Wrting up
+
+## Week 26 - 9 - 15 APR
+## 9 Apr 2022
+* *6 hour* Wrting up and writing presentation script
+* *4 hour* Record presentation
