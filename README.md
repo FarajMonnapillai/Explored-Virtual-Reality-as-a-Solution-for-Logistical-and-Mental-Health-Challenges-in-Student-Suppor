@@ -13,9 +13,11 @@ Navigate to the location where you extracted the project files and select the pr
 
 Unity will now open the project.
 
-Import the following external assets:
+Import the following external assets (import all when importing):
 - Meta Avatars SDK: https://developer.oculus.com/downloads/package/meta-avatars-sdk/
 - Oculus Integration: https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022
 - Photon Voice 2: https://assetstore.unity.com/packages/tools/audio/photon-voice-2-130518
+
+
 
 Once all the necessary assets are imported, you can run the VR project by selecting the scene you want to run and clicking on the "Play" button. Make sure you have a VR headset connected to your computer, Unity will detect it and automatically run the project in VR mode.
